@@ -7,10 +7,11 @@ export function weekNumber(date: Date): number {
 }
 
 export function hoursSince(date: string): number {
-  const created = new Date(date);
-  const now = new Date();
-  const diff = now.getTime() - created.getTime();
-  return diff / (1000 * 60 * 60);
+  return diffInMillis(date) / (1000 * 60 * 60);
+}
+
+export function daysSince(date: string): number {
+  return diffInMillis(date) / (1000 * 60 * 60 * 24);
 }
 
 export function capitalize(str: string): string {
@@ -27,4 +28,8 @@ export async function handleProcessError(error: unknown) {
     console.log('🫣 Unhandled error');
     throw error;
   }
+}
+
+function diffInMillis(date: string): number {
+  return new Date().getTime() - new Date(date).getTime();
 }

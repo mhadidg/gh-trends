@@ -1,6 +1,6 @@
 import { franc } from 'franc';
 import { logInfo, logWarn } from '../utils/logging';
-import { hoursSince } from '../utils/common';
+import { daysSince, hoursSince } from '../utils/common';
 import { GithubRepo } from '../clients/github.gql';
 
 export interface ScoredRepo extends GithubRepo {
@@ -14,6 +14,12 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
   return repos
     .filter(repo => {
       const repoName = repo.nameWithOwner;
+
+      // Catch scam repos (mostly crypto wallet drainers)
+      if (daysSince(repo.owner.createdAt) < 30 && repo.owner.__typename === 'User') {
+        logWarn('score', `repo with fresh owner (likely scam), skipping: ${repoName}`);
+        return false;
+      }
 
       // Apply minimum stars filter
       if (repo.stargazerCount < minStars) {
