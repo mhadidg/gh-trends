@@ -26,6 +26,9 @@ export class GitHubPublisher extends Publisher {
       );
     }
 
+    const limit = parseInt(process.env.RELEASE_TOP_N || '20');
+    repos = repos.slice(0, limit);
+
     const content = this.render(repos);
     const client = new GitHubClient(process.env.GITHUB_TOKEN);
     const result = await client.createRelease(repo, {

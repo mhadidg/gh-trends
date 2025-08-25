@@ -8,7 +8,6 @@ export interface ScoredRepo extends GithubRepo {
 }
 
 export function rank(repos: GithubRepo[]): ScoredRepo[] {
-  const limit = parseInt(process.env.RELEASE_TOP_N || '20');
   const minStars = parseInt(process.env.RELEASE_MIN_STARS || '50');
 
   return repos
@@ -45,6 +44,5 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
       return true;
     })
     .map(repo => ({ ...repo, score: repo.stargazerCount / hoursSince(repo.createdAt) }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit);
+    .sort((a, b) => b.score - a.score);
 }

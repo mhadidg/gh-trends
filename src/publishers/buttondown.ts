@@ -15,6 +15,9 @@ export class ButtondownPublisher extends Publisher {
   }
 
   async publish(repos: ScoredRepo[]): Promise<string> {
+    const limit = parseInt(process.env.RELEASE_TOP_N || '20');
+    repos = repos.slice(0, limit);
+
     const content = this.render(repos);
     const client = new ButtondownClient(process.env.BUTTONDOWN_API_KEY);
     const result = await client.sendEmail({
