@@ -1,9 +1,9 @@
 import { TaggedError } from '../utils/logging';
 import { weekNumber } from '../utils/common';
 import { Publisher } from '../types/publisher';
-import { GitHubClient } from '../clients/github';
-import { ScoredRepository } from '../types/repository';
 import { render } from '../pipeline/render';
+import { GitHubClient } from '../clients/github';
+import { ScoredRepo } from '../pipeline/rank';
 
 export class GitHubPublisher extends Publisher {
   readonly name = 'github-releases';
@@ -12,11 +12,11 @@ export class GitHubPublisher extends Publisher {
     return process.env.GITHUB_RELEASES_ENABLED === 'true';
   }
 
-  render(repos: ScoredRepository[]): string {
+  render(repos: ScoredRepo[]): string {
     return render('release.md.hbs', repos);
   }
 
-  async publish(repos: ScoredRepository[]): Promise<string> {
+  async publish(repos: ScoredRepo[]): Promise<string> {
     const repo = process.env.GITHUB_RELEASES_REPO;
 
     if (!repo) {

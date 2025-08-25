@@ -1,13 +1,13 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { render } from '../../src/pipeline/render';
-import { ScoredRepository } from '../../src/types/repository';
 import { mockRepos } from '../../src/mocks/repos';
+import { ScoredRepo } from '../../src/pipeline/rank';
 
 describe('render.ts', () => {
   const template = 'release.md.hbs';
   const mockDate = new Date('2025-08-15T10:00:00.000Z'); // friday, Week 33
 
-  const mockScoredRepos: ScoredRepository[] = mockRepos.map((repo, index) => ({
+  const mockScoredRepos: ScoredRepo[] = mockRepos.map((repo, index) => ({
     ...repo, // spread the original props
     score: 0.9 - index * 0.1,
   }));
@@ -63,7 +63,7 @@ describe('render.ts', () => {
     });
 
     it('should handle special chars in descriptions', () => {
-      const specialCharRepo: ScoredRepository = {
+      const specialCharRepo: ScoredRepo = {
         ...mockScoredRepos[0]!,
         description: 'Tool with "quotes" and <tags> & special chars',
       };
@@ -74,7 +74,7 @@ describe('render.ts', () => {
     });
 
     it('should handle unicode chars in descriptions', () => {
-      const unicodeRepo: ScoredRepository = {
+      const unicodeRepo: ScoredRepo = {
         ...mockScoredRepos[0]!,
         description: 'A project with emojis 🚀 and unicode chars 你好',
       };

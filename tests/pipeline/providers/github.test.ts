@@ -1,16 +1,16 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { HttpError, TaggedError } from '../../../src/utils/logging';
 import { GitHubPublisher } from '../../../src/publishers/github';
-import { GitHubClient } from '../../../src/clients/github';
-import { ScoredRepository } from '../../../src/types/repository';
 import { mockRepos } from '../../../src/mocks/repos';
+import { ScoredRepo } from '../../../src/pipeline/rank';
+import { GitHubClient } from '../../../src/clients/github';
 
 describe('gh-release.ts', () => {
   const mockFetch = vi.fn();
   let instance: GitHubPublisher;
 
   const content = 'Hello world';
-  const repos: ScoredRepository[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
+  const repos: ScoredRepo[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
 
   beforeEach(() => {
     instance = new GitHubPublisher();

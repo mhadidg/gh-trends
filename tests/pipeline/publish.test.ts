@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import type { ScoredRepository } from '../../src/types/repository';
 import { publishAll } from '../../src/pipeline/publish';
 import { mockRepos } from '../../src/mocks/repos';
+import { ScoredRepo } from '../../src/pipeline/rank';
 
 const publisher01 = {
   name: 'publisher-01',
@@ -22,7 +22,7 @@ const publisher02 = {
 const pubs = [publisher01, publisher02];
 
 describe('publish.ts', () => {
-  const repos: ScoredRepository[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
+  const repos: ScoredRepo[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
 
   beforeEach(async () => {
     vi.clearAllMocks();

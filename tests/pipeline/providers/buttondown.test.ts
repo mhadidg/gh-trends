@@ -3,14 +3,14 @@ import { HttpError } from '../../../src/utils/logging';
 import { ButtondownPublisher } from '../../../src/publishers/buttondown';
 import { ButtondownClient } from '../../../src/clients/buttondown';
 import { mockRepos } from '../../../src/mocks/repos';
-import { ScoredRepository } from '../../../src/types/repository';
+import { ScoredRepo } from '../../../src/pipeline/rank';
 
 describe('buttondown.ts', () => {
   const mockFetch = vi.fn();
   let instance: ButtondownPublisher;
 
   const content = 'hello world';
-  const repos: ScoredRepository[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
+  const repos: ScoredRepo[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
 
   beforeEach(() => {
     instance = new ButtondownPublisher();

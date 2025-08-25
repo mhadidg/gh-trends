@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import path from 'node:path';
 import Handlebars from 'handlebars';
-import { ScoredRepository } from '../types/repository.js';
+import { ScoredRepo } from './rank';
 
 Handlebars.registerHelper('formatNumber', (num: number) => num.toLocaleString());
 Handlebars.registerHelper('truncate', (str: string, len: number) => {
@@ -11,7 +11,7 @@ Handlebars.registerHelper('truncate', (str: string, len: number) => {
 });
 
 // TODO: fix HTML entities are not decoded (e.g., &amp;)
-export function render(templateName: string, repos: ScoredRepository[]): string {
+export function render(templateName: string, repos: ScoredRepo[]): string {
   // Read template file from src; not compiled in dist/
   const absolutePath = path.join(process.cwd(), 'src', 'templates', templateName);
   const templateSource = readFileSync(absolutePath, 'utf-8');

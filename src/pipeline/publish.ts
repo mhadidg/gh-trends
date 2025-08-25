@@ -1,9 +1,9 @@
-import { ScoredRepository } from '../types/repository';
 import { ButtondownPublisher } from '../publishers/buttondown';
 import { GitHubPublisher } from '../publishers/github';
 import { RSSPublisher } from '../publishers/rss';
 import { logInfo } from '../utils/logging';
 import { Publisher } from '../types/publisher';
+import { ScoredRepo } from './rank';
 
 const publishers = [
   // Executes in order
@@ -13,7 +13,7 @@ const publishers = [
 ];
 
 export async function publishAll(
-  repos: ScoredRepository[],
+  repos: ScoredRepo[],
   // Don't use below argument in production code
   // Enables injecting custom publishers for testing
   pubs: Publisher[] = publishers

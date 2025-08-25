@@ -1,80 +1,119 @@
-import { Repository } from '../types/repository';
+import { GithubRepo } from '../clients/github.gql';
 
-export const mockRepos: Repository[] = [
+export const mockRepos: GithubRepo[] = [
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3ODk=',
     nameWithOwner: 'example/awesome-project',
     url: 'https://github.com/example/awesome-project',
     description: 'An awesome new project that does amazing things',
-    primaryLanguage: 'TypeScript',
+    primaryLanguage: {
+      name: 'TypeScript',
+    },
     createdAt: '2024-12-15T10:30:00Z',
     stargazerCount: 1250,
+    owner: {
+      __typename: 'Organization',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTA=',
     nameWithOwner: 'dev/cool-tool',
     url: 'https://github.com/dev/cool-tool',
     description: 'A cool CLI tool for developers',
-    primaryLanguage: 'Go',
+    primaryLanguage: {
+      name: 'Go',
+    },
     createdAt: '2024-12-14T15:45:00Z',
     stargazerCount: 890,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTE=',
     nameWithOwner: 'startup/ml-framework',
     url: 'https://github.com/startup/ml-framework',
     description: 'Next-gen machine learning framework',
-    primaryLanguage: 'Python',
+    primaryLanguage: {
+      name: 'Python',
+    },
     createdAt: '2024-12-13T08:20:00Z',
     stargazerCount: 2100,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTI=',
     nameWithOwner: 'team/web-component',
     url: 'https://github.com/team/web-component',
     description: 'Reusable web components library',
-    primaryLanguage: 'JavaScript',
+    primaryLanguage: {
+      name: 'JavaScript',
+    },
     createdAt: '2024-12-12T12:00:00Z',
     stargazerCount: 675,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTM=',
     nameWithOwner: 'org/data-viz',
     url: 'https://github.com/org/data-viz',
     description: 'Beautiful data visualization library',
-    primaryLanguage: 'JavaScript',
+    primaryLanguage: {
+      name: 'JavaScript',
+    },
     createdAt: '2024-12-11T16:30:00Z',
     stargazerCount: 1450,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTQ=',
-    nameWithOwner: 'devs/api-client',
+    nameWithOwner: 'scam/repo',
     url: 'https://github.com/devs/api-client',
-    description: 'Universal API client with type safety',
-    primaryLanguage: 'TypeScript',
+    description: 'Owner created just today; 99% fake stars',
+    primaryLanguage: {
+      name: 'TypeScript',
+    },
     createdAt: '2024-12-10T09:15:00Z',
     stargazerCount: 720,
+    owner: {
+      __typename: 'User',
+      createdAt: new Date().toISOString(),
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTU=',
     nameWithOwner: 'company/mobile-app',
     url: 'https://github.com/company/mobile-app',
     description: 'Cross-platform mobile development kit',
-    primaryLanguage: 'Dart',
+    primaryLanguage: {
+      name: 'Dart',
+    },
     createdAt: '2024-12-09T14:45:00Z',
     stargazerCount: 980,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTY=',
     nameWithOwner: 'community/game-engine',
     url: 'https://github.com/community/game-engine',
     description: 'Lightweight 2D game engine',
-    primaryLanguage: 'C++',
+    primaryLanguage: {
+      name: 'C++',
+    },
     createdAt: '2024-12-08T11:20:00Z',
     stargazerCount: 1800,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTc=',
     nameWithOwner: 'makers/design-system',
     url: 'https://github.com/makers/design-system',
     description:
@@ -83,14 +122,23 @@ export const mockRepos: Repository[] = [
     primaryLanguage: null,
     createdAt: '2024-12-07T13:10:00Z',
     stargazerCount: 540,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
   {
-    id: 'MDEwOlJlcG9zaXRvcnkxMjM0NTY3OTg=',
     nameWithOwner: 'builders/deployment-tool',
     url: 'https://github.com/builders/deployment-tool',
     description: null,
-    primaryLanguage: 'Rust',
+    primaryLanguage: {
+      name: 'Rust',
+    },
     createdAt: '2024-12-06T17:25:00Z',
     stargazerCount: 1,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
   },
 ];

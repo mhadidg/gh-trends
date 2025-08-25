@@ -1,7 +1,7 @@
 import { Publisher } from '../types/publisher';
 import { ButtondownClient } from '../clients/buttondown';
-import { ScoredRepository } from '../types/repository';
 import { render } from '../pipeline/render';
+import { ScoredRepo } from '../pipeline/rank';
 
 export class ButtondownPublisher extends Publisher {
   readonly name = 'buttondown';
@@ -10,11 +10,11 @@ export class ButtondownPublisher extends Publisher {
     return process.env.SEND_ENABLED === 'true';
   }
 
-  render(repos: ScoredRepository[]): string {
+  render(repos: ScoredRepo[]): string {
     return render('release.md.hbs', repos);
   }
 
-  async publish(repos: ScoredRepository[]): Promise<string> {
+  async publish(repos: ScoredRepo[]): Promise<string> {
     const content = this.render(repos);
     const client = new ButtondownClient(process.env.BUTTONDOWN_API_KEY);
     const result = await client.sendEmail({

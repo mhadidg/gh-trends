@@ -14,7 +14,7 @@
     "dev": "NODE_ENV=development tsx src/run.ts",
     "dev:release:gh": "USE_MOCK_REPOS=false GITHUB_RELEASES_ENABLED=true npm run dev",
     "dev:release:rss": "USE_MOCK_REPOS=false RSS_ENABLED=true npm run dev",
-    "preview": "NODE_ENV=development tsx src/preview.ts",
+    "preview": "TEMPLATE_NAME=release.md.hbs NODE_ENV=development tsx src/preview.ts",
     "preview:live": "USE_MOCK_REPOS=false npm run preview",
     "start": "NODE_ENV=production node dist/run.js",
     "test": "vitest",
@@ -49,8 +49,7 @@
     "dotenv-flow": "^4.1.0",
     "fast-xml-parser": "^5.2.5",
     "franc": "^6.2.0",
-    "handlebars": "^4.7.8",
-    "zod": "^4.0.17"
+    "handlebars": "^4.7.8"
   },
   "lint-staged": {
     "src/**/*.{ts,js}": [

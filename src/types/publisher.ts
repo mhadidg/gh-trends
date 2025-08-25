@@ -1,11 +1,11 @@
 import { weekNumber } from '../utils/common';
-import { ScoredRepository } from './repository';
+import { ScoredRepo } from '../pipeline/rank';
 
 export abstract class Publisher {
   abstract readonly name: string;
   abstract enabled(): boolean;
-  render?(repos: ScoredRepository[]): string;
-  abstract publish(repos: ScoredRepository[]): Promise<string>;
+  render?(repos: ScoredRepo[]): string;
+  abstract publish(repos: ScoredRepo[]): Promise<string>;
 
   subject(): string {
     const now = new Date();

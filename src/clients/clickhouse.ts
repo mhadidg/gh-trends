@@ -11,7 +11,7 @@ export interface ClickHouseRepo {
 }
 
 export class ClickHouseClient {
-  private readonly baseUrl = 'https://play.clickhouse.com/?user=play';
+  static readonly baseUrl = 'https://play.clickhouse.com/?user=play';
 
   async getTrendingRepos(days: number, limit: number): Promise<ClickHouseRepo[]> {
     const sql = this.trendingReposQuery(days, limit);
@@ -20,7 +20,7 @@ export class ClickHouseClient {
   }
 
   private async query(sql: string): Promise<ClickHouseResponse> {
-    const response = await fetch(this.baseUrl, {
+    const response = await fetch(ClickHouseClient.baseUrl, {
       method: 'POST',
       body: sql,
     });

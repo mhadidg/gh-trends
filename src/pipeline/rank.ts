@@ -1,9 +1,13 @@
 import { franc } from 'franc';
-import { Repository, ScoredRepository } from '../types/repository';
 import { logInfo, logWarn } from '../utils/logging';
 import { hoursSince } from '../utils/common';
+import { GithubRepo } from '../clients/github.gql';
 
-export function rank(repos: Repository[]): ScoredRepository[] {
+export interface ScoredRepo extends GithubRepo {
+  score: number;
+}
+
+export function rank(repos: GithubRepo[]): ScoredRepo[] {
   const limit = parseInt(process.env.RELEASE_TOP_N || '20');
   const minStars = parseInt(process.env.RELEASE_MIN_STARS || '50');
 

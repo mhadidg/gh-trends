@@ -1,8 +1,8 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { XMLParser, XMLBuilder } from 'fast-xml-parser';
 import { Publisher } from '../types/publisher';
-import { ScoredRepository } from '../types/repository';
 import { logInfo } from '../utils/logging';
+import { ScoredRepo } from '../pipeline/rank';
 
 interface RSSItem {
   title: string;
@@ -29,7 +29,7 @@ export class RSSPublisher extends Publisher {
     return process.env.RSS_ENABLED === 'true';
   }
 
-  async publish(repos: ScoredRepository[]): Promise<string> {
+  async publish(repos: ScoredRepo[]): Promise<string> {
     const existingItems = this.loadExistingItems();
     const newItems = this.createRSSItems(repos);
 
@@ -74,7 +74,7 @@ export class RSSPublisher extends Publisher {
     }
   }
 
-  private createRSSItems(repos: ScoredRepository[]): RSSItem[] {
+  private createRSSItems(repos: ScoredRepo[]): RSSItem[] {
     const now = new Date();
 
     return repos.map(repo => ({

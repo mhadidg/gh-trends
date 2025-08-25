@@ -1,6 +1,9 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { scan } from '../../src/pipeline/scan';
 import { HttpError } from '../../src/utils/logging';
+import { GitHubErrorItem, GitHubGraphQLClient, GithubRepo } from '../../src/clients/github.gql';
+import { mockRepos } from '../../src/mocks/repos';
+import { ClickHouseClient } from '../../src/clients/clickhouse';
 
 describe('scan.ts', () => {
   const mockFetch = vi.fn();
@@ -15,7 +18,7 @@ describe('scan.ts', () => {
     vi.resetAllMocks();
   });
 
-  describe('Mocking', () => {
+  describe('mocking', () => {
     it('should return mock data in test', async () => {
       await scan();
 
@@ -39,7 +42,7 @@ describe('scan.ts', () => {
     });
   });
 
-  describe('ClickHouse API', () => {
+  describe('clickhouse-api', () => {
     beforeEach(() => {
       vi.stubEnv('USE_MOCK_REPOS', 'false');
       vi.stubEnv('GITHUB_TOKEN', 'ghp_valid_token_123');
@@ -49,7 +52,6 @@ describe('scan.ts', () => {
       vi.stubEnv('FETCH_WINDOW_DAYS', '7');
       vi.stubEnv('RELEASE_TOP_N', '10');
 
-      // Mock ClickHouse response
       mockFetch.mockResolvedValueOnce({
         ok: true,
         json: vi.fn().mockResolvedValue({ data: [], statistics: [] }),
@@ -59,14 +61,13 @@ describe('scan.ts', () => {
 
       const [url, options] = mockFetch.mock.calls[0] as Parameters<typeof fetch>;
 
-      expect(url).toBe('https://play.clickhouse.com/?user=play');
+      expect(url).toBe(ClickHouseClient.baseUrl);
       expect(options!.method).toBe('POST');
-      expect(options!.body).toEqual(expect.stringContaining('INTERVAL 7 DAY'));
-      expect(options!.body).toEqual(expect.stringContaining('30 AS LIMIT_N')); // topN * 3
+      expect(options!.body).toContain('INTERVAL 7 DAY');
+      expect(options!.body).toContain('30 AS LIMIT_N'); // topN * 3
     });
 
     it('should handle empty results', async () => {
-      // Mock ClickHouse response with empty data
       mockFetch.mockResolvedValue({
         ok: true,
         json: vi.fn().mockResolvedValue({ data: [], statistics: [] }),
@@ -104,7 +105,7 @@ describe('scan.ts', () => {
     });
   });
 
-  describe('GitHub API', () => {
+  describe('github-api', () => {
     beforeEach(() => {
       vi.stubEnv('USE_MOCK_REPOS', 'false');
       vi.stubEnv('GITHUB_TOKEN', 'ghp_valid_token_123');
@@ -127,7 +128,7 @@ describe('scan.ts', () => {
     });
 
     it('should make well-formed request', async () => {
-      // Mock ClickHouse response first
+      // Mock ClickHouse API first
       mockFetch
         .mockResolvedValueOnce({
           ok: true,
@@ -137,28 +138,20 @@ describe('scan.ts', () => {
             statistics: { rows_read: 1000 },
           }),
         })
-        // Then mock GitHub API response
+        // Then mock GitHub API
         .mockResolvedValueOnce({
           ok: true,
-          // Should be a valid response; schema is validated
-          // Validates schema parsing implicitly
-          json: vi.fn().mockResolvedValue({
-            id: 123,
-            full_name: 'test/repo',
-            html_url: 'https://github.com/test/repo',
-            description: 'Test repo',
-            language: 'TypeScript',
-            created_at: '2024-12-15T10:30:00Z',
-            stargazers_count: 100,
-          }),
+          json: vi.fn().mockResolvedValue({}),
         });
 
       await scan();
 
       expect(mockFetch).toHaveBeenNthCalledWith(
         2, // second call for GitHub API
-        'https://api.github.com/repos/test/repo',
+        GitHubGraphQLClient.endpoint,
         expect.objectContaining({
+          method: 'POST',
+          body: expect.stringContaining('repository(owner: \\"test\\", name: \\"repo\\")'),
           headers: expect.objectContaining({
             Authorization: 'Bearer ghp_valid_token_123',
             Accept: 'application/vnd.github+json',
@@ -168,26 +161,27 @@ describe('scan.ts', () => {
     });
 
     it('should handle missing optional fields', async () => {
-      // Mock ClickHouse response
+      // Mock ClickHouse API
       mockFetch
         .mockResolvedValueOnce({
           ok: true,
           json: vi.fn().mockResolvedValue({
+            // At least one result is required to trigger GitHub API
             data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
             statistics: { rows_read: 1000 },
           }),
         })
-        // Mock GitHub API response
+        // Then mock GitHub API
         .mockResolvedValueOnce({
           ok: true,
           json: vi.fn().mockResolvedValue({
-            id: 123,
-            full_name: 'test/repo',
-            html_url: 'https://github.com/test/repo',
-            created_at: '2024-12-15T10:30:00Z',
-            description: null, // optional
-            language: null, // optional
-            stargazers_count: 100,
+            data: {
+              r0: {
+                ...mockRepos[0],
+                description: null, // optional
+                primaryLanguage: null, // optional
+              },
+            } as Record<string, GithubRepo>,
           }),
         });
 
@@ -199,7 +193,7 @@ describe('scan.ts', () => {
     });
 
     it('should enrich ClickHouse result', async () => {
-      // Mock ClickHouse response
+      // Mock ClickHouse API
       mockFetch
         .mockResolvedValueOnce({
           ok: true,
@@ -211,30 +205,26 @@ describe('scan.ts', () => {
             ],
           }),
         })
-        // Mock first GitHub API response
+        // Then mock GitHub API
         .mockResolvedValueOnce({
           ok: true,
           json: vi.fn().mockResolvedValue({
-            id: 123,
-            full_name: 'owner1/repo1',
-            html_url: 'https://github.com/owner1/repo1',
-            description: 'First repo',
-            language: 'JavaScript',
-            created_at: '2024-12-15T10:30:00Z',
-            stargazers_count: 150,
-          }),
-        })
-        // Mock second GitHub API response
-        .mockResolvedValueOnce({
-          ok: true,
-          json: vi.fn().mockResolvedValue({
-            id: 456,
-            full_name: 'owner2/repo2',
-            html_url: 'https://github.com/owner2/repo2',
-            description: 'Second repo',
-            language: 'Python',
-            created_at: '2024-12-14T10:30:00Z',
-            stargazers_count: 200,
+            data: {
+              r0: {
+                ...mockRepos[0],
+                nameWithOwner: 'owner1/repo1',
+                description: 'first repo',
+                stargazerCount: 150,
+                primaryLanguage: { name: 'JavaScript' },
+              },
+              r1: {
+                ...mockRepos[0],
+                nameWithOwner: 'owner2/repo2',
+                description: 'second repo',
+                stargazerCount: 200,
+                primaryLanguage: { name: 'Python' },
+              },
+            } as Record<string, GithubRepo>,
           }),
         });
 
@@ -243,19 +233,21 @@ describe('scan.ts', () => {
       expect(result).toHaveLength(2);
       expect(result[0]).toMatchObject({
         nameWithOwner: 'owner1/repo1',
-        stargazerCount: 150, // From ClickHouse API
-        primaryLanguage: 'JavaScript', // From GitHub API
+        description: 'first repo',
+        stargazerCount: 150,
+        primaryLanguage: { name: 'JavaScript' },
       });
 
       expect(result[1]).toMatchObject({
         nameWithOwner: 'owner2/repo2',
-        stargazerCount: 200, // From ClickHouse API
-        primaryLanguage: 'Python', // From GitHub API
+        description: 'second repo',
+        stargazerCount: 200,
+        primaryLanguage: { name: 'Python' },
       });
     });
 
-    it('should skip no longer exist repos', async () => {
-      // Mock ClickHouse response
+    it('should handle no longer exist repos', async () => {
+      // Mock ClickHouse API
       mockFetch
         .mockResolvedValueOnce({
           ok: true,
@@ -267,89 +259,45 @@ describe('scan.ts', () => {
             ],
           }),
         })
-        // First GitHub API call succeeds
+        // Then mock GitHub API
         .mockResolvedValueOnce({
           ok: true,
           json: vi.fn().mockResolvedValue({
-            id: 123,
-            full_name: 'owner1/repo1',
-            html_url: 'https://github.com/owner1/repo1',
-            description: 'First repo',
-            language: 'JavaScript',
-            created_at: '2024-12-15T10:30:00Z',
-            stargazers_count: 100,
+            data: {
+              r0: {
+                ...mockRepos[0],
+                nameWithOwner: 'owner1/repo1',
+                description: null, // optional
+                primaryLanguage: null, // optional
+              },
+            } as Record<string, GithubRepo>,
+            errors: [
+              {
+                type: 'NOT_FOUND',
+                message: 'Could not resolve repo deleted/repo',
+              },
+            ] as GitHubErrorItem[],
           }),
-        })
-        // Second GitHub API call returns 404
-        .mockResolvedValueOnce({
-          ok: false,
-          status: 404,
         });
 
       const result = await scan();
 
-      expect(result).toHaveLength(1); // Only the first repo
+      expect(result).toHaveLength(1);
       expect(result[0]!.nameWithOwner).toBe('owner1/repo1');
     });
 
-    it('should skip no longer public repos', async () => {
-      // Mock ClickHouse response
-      mockFetch
-        .mockResolvedValueOnce({
-          ok: true,
-          json: vi.fn().mockResolvedValue({
-            data: [{ repo_name: 'private/repo', appeared_at: '2025-08-16 18:48:25' }],
-            statistics: { rows_read: 1000 },
-          }),
-        })
-        // GitHub API call returns 403 (private repo)
-        .mockResolvedValueOnce({
-          ok: false,
-          status: 403,
-        });
-
-      const result = await scan();
-
-      expect(result).toHaveLength(0); // Repo was skipped
-    });
-
-    it('should throw on malformed response', async () => {
-      // Mock ClickHouse response
-      mockFetch
-        .mockResolvedValueOnce({
-          ok: true,
-          json: vi.fn().mockResolvedValue({
-            data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
-            statistics: { rows_read: 1000 },
-          }),
-        })
-        // Mock GitHub API response
-        .mockResolvedValueOnce({
-          ok: true,
-          json: vi.fn().mockResolvedValue({
-            id: 123,
-            full_name: 'test/repo',
-            html_url: 'https://github.com/test/repo',
-            created_at: null, // required, null not allowed
-            description: null, // optional
-            language: null, // optional
-          }),
-        });
-
-      await expect(scan()).rejects.toThrow('expected string');
-    });
-
     it('should throw on JSON parsing errors', async () => {
-      // Mock ClickHouse response first
+      // Mock ClickHouse API first
       mockFetch
         .mockResolvedValueOnce({
           ok: true,
+          // At least one result is required to trigger GitHub API
           json: vi.fn().mockResolvedValue({
             data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
             statistics: { rows_read: 1000 },
           }),
         })
-        // Then mock GitHub API JSON parsing error
+        // Then mock GitHub API
         .mockResolvedValueOnce({
           ok: true,
           json: vi.fn().mockRejectedValue(new Error('invalid JSON')),
@@ -359,34 +307,37 @@ describe('scan.ts', () => {
     });
 
     it('should throw on network errors', async () => {
-      // Mock ClickHouse response first
+      // Mock ClickHouse API first
       mockFetch
         .mockResolvedValueOnce({
           ok: true,
+          // At least one result is required to trigger GitHub API
           json: vi.fn().mockResolvedValue({
             data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
             statistics: { rows_read: 1000 },
           }),
         })
-        // Then mock GitHub API network error
+        // Then mock GitHub API
         .mockRejectedValue(new Error('network error'));
 
       await expect(scan()).rejects.toThrow('network error');
     });
 
     it('should throw on 5xx HTTP error', async () => {
-      // Mock ClickHouse response
+      // Mock ClickHouse API
       mockFetch
         .mockResolvedValueOnce({
           ok: true,
+          // At least one result is required to trigger GitHub API
           json: vi.fn().mockResolvedValue({
             data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
             statistics: { rows_read: 1000 },
           }),
         })
-        // Mock GitHub API error
+        // Then mock GitHub API
         .mockResolvedValueOnce({
           ok: false,
+          text: vi.fn().mockResolvedValue('internal server error'),
           status: 500,
         });
 

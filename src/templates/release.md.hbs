@@ -5,7 +5,7 @@ _(just fresh repos; created within the past week)_
 | Repo | Stars | Language | Description |
 |------|-------|----------|-------------|
 {{#each repos}}
-| [{{nameWithOwner}}]({{url}}) | {{formatNumber stargazerCount}} | {{#if primaryLanguage}}{{primaryLanguage}}{{else}}-{{/if}} | {{#if description}}{{truncate description 100}}{{else}}(no description){{/if}} |
+| [{{nameWithOwner}}]({{url}}) | {{formatNumber stargazerCount}} | {{#if primaryLanguage.name}}{{primaryLanguage.name}}{{else}}-{{/if}} | {{#if description}}{{truncate description 100}}{{else}}(no description){{/if}} |
 {{/each}}
 {{else}}
 ## 💔 A quiet week on GitHub

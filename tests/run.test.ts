@@ -1,8 +1,11 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { main, run } from '../src/run';
 import { HttpError, TaggedError } from '../src/utils/logging';
-import { GitHubRepoResponse } from '../src/clients/github';
-import { ClickHouseResponse } from '../src/clients/clickhouse';
+import { ClickHouseClient, ClickHouseResponse } from '../src/clients/clickhouse';
+import { mockRepos } from '../src/mocks/repos';
+import { GitHubGraphQLClient } from '../src/clients/github.gql';
+import { GitHubClient } from '../src/clients/github';
+import { ButtondownClient } from '../src/clients/buttondown';
 
 describe('run.ts', () => {
   let realFetch: typeof fetch;
@@ -17,15 +20,15 @@ describe('run.ts', () => {
         const url = typeof input === 'string' ? input : input.toString();
 
         // Sending email via Buttondown
-        if (url.includes('api.buttondown.email')) {
+        if (url.includes(ButtondownClient.baseUrl)) {
           return new Response(JSON.stringify({ id: 'test-123', status: 'scheduled' }), {
             status: 200,
             headers: { 'Content-Type': 'application/json' },
           });
         }
 
-        // Query ClickHouse playground
-        if (url.includes('play.clickhouse.com')) {
+        // Querying ClickHouse playground
+        if (url.includes(ClickHouseClient.baseUrl)) {
           const response = {
             data: [{ repo_name: 'repo', appeared_at: '' }],
             statistics: { rows_read: 2 },
@@ -38,16 +41,11 @@ describe('run.ts', () => {
         }
 
         // Fetching GitHub repository details
-        if (url.includes('api.github.com/repos') && !url.includes('/releases')) {
+        if (url.includes(GitHubGraphQLClient.endpoint)) {
           const response = {
-            id: 'repo-123',
-            full_name: 'test/repo',
-            html_url: 'https://github.com/test/repo',
-            description: 'A test repository',
-            language: null,
-            created_at: new Date().toString(),
-            stargazers_count: 42,
-          } as GitHubRepoResponse;
+            r0: mockRepos[0],
+            r1: mockRepos[1],
+          };
 
           return new Response(JSON.stringify(response), {
             status: 200,
@@ -56,7 +54,7 @@ describe('run.ts', () => {
         }
 
         // Creating a GitHub release
-        if (url.includes('api.github.com/repos') && url.includes('/releases')) {
+        if (url.includes(GitHubClient.baseUrl) && url.includes('/releases')) {
           return new Response(JSON.stringify({ id: 12345 }), {
             status: 201,
             headers: { 'Content-Type': 'application/json' },
@@ -91,9 +89,9 @@ describe('run.ts', () => {
     it('should logs HTTP errors', async () => {
       const logSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
 
-      vi.spyOn(global, 'fetch').mockImplementationOnce(async () => {
-        throw new HttpError('tag', 'message', new Response(null, { status: 500 }));
-      });
+      vi.spyOn(global, 'fetch').mockRejectedValue(
+        new HttpError('tag', 'message', new Response(null, { status: 500 }))
+      );
 
       await expect(run()).resolves.not.toThrow();
 
@@ -103,9 +101,7 @@ describe('run.ts', () => {
     it('should logs tagged errors', async () => {
       const logSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
 
-      vi.spyOn(global, 'fetch').mockImplementationOnce(async () => {
-        throw new TaggedError('tag', 'message');
-      });
+      vi.spyOn(global, 'fetch').mockRejectedValue(new TaggedError('tag', 'message'));
 
       await expect(run()).resolves.not.toThrow();
 
@@ -113,9 +109,7 @@ describe('run.ts', () => {
     });
 
     it('should throw unhandled errors', async () => {
-      vi.spyOn(global, 'fetch').mockImplementationOnce(async () => {
-        throw new Error('message');
-      });
+      vi.spyOn(global, 'fetch').mockRejectedValue(new Error('message'));
 
       await expect(run()).rejects.toThrow('message');
     });
