@@ -5,8 +5,43 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Curated list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Aug 2025 12:48:09 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 Aug 2025 22:49:11 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>bravenewxyz/agent-c</title>
+      <link>https://github.com/bravenewxyz/agent-c</link>
+      <description>Ultra-lightweight AI Agent</description>
+      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
+      <guid isPermaLink="false">bravenewxyz/agent-c</guid>
+    </item>
+    <item>
+      <title>schlae/cm5-reveng</title>
+      <link>https://github.com/schlae/cm5-reveng</link>
+      <description>Reverse engineered Raspberry Pi Compute Module 5</description>
+      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
+      <guid isPermaLink="false">schlae/cm5-reveng</guid>
+    </item>
+    <item>
+      <title>printz-labs/pumpfun-sniper</title>
+      <link>https://github.com/printz-labs/pumpfun-sniper</link>
+      <description>pumpufun sniper bot (pump.fun sniper bot) source code</description>
+      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
+      <guid isPermaLink="false">printz-labs/pumpfun-sniper</guid>
+    </item>
+    <item>
+      <title>hku-mars/LIV_handhold_2</title>
+      <link>https://github.com/hku-mars/LIV_handhold_2</link>
+      <description>LIV-Eye: A Low-Cost LiDAR-Inertial-Visual Fusion 3D Sensor for Robotics and Embodied AI.</description>
+      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
+      <guid isPermaLink="false">hku-mars/LIV_handhold_2</guid>
+    </item>
+    <item>
+      <title>pi0/shiki-image</title>
+      <link>https://github.com/pi0/shiki-image</link>
+      <description>Convert code snippets into images. Powered by shiki and takumi. Super fast 🚀</description>
+      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
+      <guid isPermaLink="false">pi0/shiki-image</guid>
+    </item>
     <item>
       <title>30phyndrismu8ij/Ethereum-BOT</title>
       <link>https://github.com/30phyndrismu8ij/Ethereum-BOT</link>
