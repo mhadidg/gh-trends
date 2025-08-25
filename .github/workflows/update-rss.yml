@@ -1,9 +1,9 @@
 name: Update RSS feed
 
 on:
-#  schedule:
-    # Run every hour at minute 5
-    # - cron: '5 * * * *'
+  schedule:
+  # Every hour at minute 5
+  - cron: '5 * * * *'
   workflow_dispatch: # Allow manual triggering
 
 permissions:
