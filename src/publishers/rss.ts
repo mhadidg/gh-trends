@@ -39,6 +39,11 @@ export class RSSPublisher extends Publisher {
     const addedCount = filteredItems.length - existingItems.length;
     logInfo('rss', `feed updated: received ${newItems.length}, added ${addedCount}`);
 
+    if (addedCount === 0) {
+      logInfo('rss', 'no new items to add, skipping write');
+      return 'rss-no-update';
+    }
+
     this.writeRSSFeed(filteredItems);
 
     return `rss-${Date.now()}`;
@@ -115,7 +120,7 @@ export class RSSPublisher extends Publisher {
         channel: {
           title: 'GitHub trends',
           link: 'https://github.com/mhadidg/gh-trends',
-          description: 'Curated list of trending GitHub repositories',
+          description: 'Automatically compiled list of trending GitHub repositories',
           language: 'en-us',
           lastBuildDate: new Date().toUTCString(),
           generator: 'gh-trends-newsletter',
