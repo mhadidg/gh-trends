@@ -25,20 +25,20 @@ describe('buttondown.ts', () => {
   });
 
   describe('enabled', () => {
-    it('should return false when SEND_ENABLED is false', async () => {
-      vi.stubEnv('SEND_ENABLED', 'false');
+    it('should return false when BUTTONDOWN_ENABLED is false', async () => {
+      vi.stubEnv('BUTTONDOWN_ENABLED', 'false');
 
       expect(instance.enabled()).toBe(false);
     });
 
-    it('should return false when SEND_ENABLED is undefined', async () => {
-      vi.stubEnv('SEND_ENABLED', undefined);
+    it('should return false when BUTTONDOWN_ENABLED is undefined', async () => {
+      vi.stubEnv('BUTTONDOWN_ENABLED', undefined);
 
       expect(instance.enabled()).toBe(false);
     });
 
-    it('should return true when SEND_ENABLED is true', async () => {
-      vi.stubEnv('SEND_ENABLED', 'true');
+    it('should return true when BUTTONDOWN_ENABLED is true', async () => {
+      vi.stubEnv('BUTTONDOWN_ENABLED', 'true');
 
       expect(instance.enabled()).toBe(true);
     });

@@ -7,7 +7,7 @@ export class ButtondownPublisher extends Publisher {
   readonly name = 'buttondown';
 
   enabled(): boolean {
-    return process.env.SEND_ENABLED === 'true';
+    return process.env.BUTTONDOWN_ENABLED === 'true';
   }
 
   render(repos: ScoredRepo[]): string {

@@ -49,7 +49,7 @@ describe('scan.ts', () => {
     });
 
     it('should make well-formed request', async () => {
-      vi.stubEnv('FETCH_WINDOW_DAYS', '7');
+      vi.stubEnv('SCAN_WINDOW_DAYS', '7');
       vi.stubEnv('SCAN_LIMIT', '10');
 
       mockFetch.mockResolvedValueOnce({

@@ -30,6 +30,6 @@ jobs:
       run: npm run start
       env:
         USE_MOCK_REPOS: false
-        SEND_ENABLED: true
+        BUTTONDOWN_ENABLED: true
         BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
