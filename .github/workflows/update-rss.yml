@@ -44,6 +44,25 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
         git add feed/rss.xml
-        git diff --staged --quiet || git commit -m "Update RSS feed" -m "[skip ci]"
-        git push
+
+        # Nothing to commit? Exit early.
+        if git diff --staged --quiet; then
+          echo "No changes to commit. Skipping."
+          exit 0
+        fi
+
+        last_subject="$(git log -1 --pretty=%s || true)"
+        last_author="$(git log -1 --pretty=%an || true)"
+
+        if [ "$last_subject" = "Update RSS feed" ] && [ "$last_author" = "github-actions[bot]" ]; then
+          echo "Amending previous commit."
+          git commit --amend --no-edit
+          # Safer option than -f; won't overwrite if newer commits were added to the remote
+          git push --force-with-lease
+        else
+          echo "Creating a new commit."
+          git commit -m "Update RSS feed" -m "[skip ci]"
+          git push
+        fi
