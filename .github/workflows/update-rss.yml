@@ -2,8 +2,9 @@ name: Update RSS feed
 
 on:
   schedule:
-  # Every hour at minute 5
-  - cron: '5 * * * *'
+  # Schedules events can be delayed during periods of high loads. Set uncommon schedule.
+  # NOTE: ClickHouse updates Github events every hour at 00:00
+  - cron: '27 * * * *'
   workflow_dispatch: # Allow manual triggering
 
 permissions:
