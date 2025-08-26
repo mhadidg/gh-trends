@@ -9,9 +9,9 @@ import { handleProcessError } from './utils/common';
 
 async function preview() {
   const window = parseInt(process.env.FETCH_WINDOW_DAYS || '7');
-  const topn = parseInt(process.env.RELEASE_TOP_N || '10');
+  const limit = parseInt(process.env.SCAN_LIMIT || '100');
 
-  console.log(`📡 Scanning the GitHub universe (window: ${window}, top-n: ${topn})`);
+  console.log(`📡 Scanning the GitHub universe (window: ${window}, limit: ${limit})`);
   const repos = await scan();
   logInfo('scan', `${repos.length} trending repos discovered`);
   console.log('');

@@ -14,8 +14,7 @@ export async function scan(): Promise<GithubRepo[]> {
   const github = new GitHubGraphQLClient(process.env.GITHUB_TOKEN);
 
   const dayAgo = parseInt(process.env.FETCH_WINDOW_DAYS || '7');
-  const maxRepos = parseInt(process.env.RELEASE_TOP_N || '20');
-  const limit = maxRepos * 3; // account for filtering
+  const limit = parseInt(process.env.SCAN_LIMIT || '100');
 
   const repos = await clickhouse.getTrendingRepos(dayAgo, limit);
   logInfo('clickhouse', `fetched ${repos.length} repos`);
