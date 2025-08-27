@@ -31,23 +31,23 @@ describe('render.ts', () => {
     it('should render release with single repo', () => {
       const content = render(template, [mockScoredRepos[0]!]);
 
-      expect(content).toContain('example/awesome-project');
+      expect(content).toContain(mockScoredRepos[0]!.nameWithOwner);
     });
 
     it('should render release with multiple repos', () => {
       const content = render(template, [mockScoredRepos[0]!, mockScoredRepos[1]!]);
 
-      expect(content).toContain('example/awesome-project');
-      expect(content).toContain('dev/cool-tool');
+      expect(content).toContain(mockScoredRepos[0]!.nameWithOwner);
+      expect(content).toContain(mockScoredRepos[1]!.nameWithOwner);
     });
 
     it('should include key information', () => {
       const content = render(template, [mockScoredRepos[0]!]);
 
-      expect(content).toContain('example/awesome-project');
-      expect(content).toContain('An awesome new project that does amazing things');
-      expect(content).toContain('https://github.com/example/awesome-project');
-      expect(content).toContain('1,250');
+      expect(content).toContain(mockScoredRepos[0]!.nameWithOwner);
+      expect(content).toContain(mockScoredRepos[0]!.description);
+      expect(content).toContain(mockScoredRepos[0]!.url);
+      expect(content).toContain(mockScoredRepos[0]!.stargazerCount.toLocaleString());
     });
 
     it('should handle repos with null optionals', () => {

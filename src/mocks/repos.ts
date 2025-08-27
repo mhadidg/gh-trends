@@ -1,144 +1,174 @@
 import { GithubRepo } from '../clients/github.gql';
 
+function toClickhouse(isoDate: string): string {
+  return isoDate.slice(0, 19).replace('T', ' ');
+}
+
+function daysAgo(days: number): string {
+  return new Date(new Date().getTime() - days * 24 * 60 * 60 * 1000).toISOString();
+}
+
 export const mockRepos: GithubRepo[] = [
   {
-    nameWithOwner: 'example/awesome-project',
-    url: 'https://github.com/example/awesome-project',
-    description: 'An awesome new project that does amazing things',
-    primaryLanguage: {
-      name: 'TypeScript',
-    },
-    createdAt: '2024-12-15T10:30:00Z',
+    nameWithOwner: 'rising/fast',
+    url: 'https://github.com/owner/repo',
+    description: '[some description]',
+    primaryLanguage: { name: 'TypeScript' },
+    createdAt: daysAgo(5),
     stargazerCount: 1250,
     owner: {
       __typename: 'Organization',
       createdAt: '2020-01-01T00:00:00Z',
     },
+    clickhouse: {
+      repoName: 'rising/fast',
+      firstSeenAt: toClickhouse(daysAgo(5)),
+      starsWithin: 1250,
+      starsBefore: 0,
+    },
   },
   {
-    nameWithOwner: 'dev/cool-tool',
-    url: 'https://github.com/dev/cool-tool',
-    description: 'A cool CLI tool for developers',
-    primaryLanguage: {
-      name: 'Go',
-    },
-    createdAt: '2024-12-14T15:45:00Z',
+    nameWithOwner: 'hidden/gem',
+    url: 'https://github.com/owner/repo',
+    description: '[some description]',
+    primaryLanguage: { name: 'Go' },
+    createdAt: daysAgo(90), // was under development for a while
     stargazerCount: 890,
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
     },
+    clickhouse: {
+      repoName: 'hidden/gem',
+      firstSeenAt: toClickhouse(daysAgo(90)),
+      starsWithin: 800,
+      starsBefore: 90, // had some stars before the window
+    },
   },
   {
-    nameWithOwner: 'startup/ml-framework',
-    url: 'https://github.com/startup/ml-framework',
-    description: 'Next-gen machine learning framework',
-    primaryLanguage: {
-      name: 'Python',
-    },
-    createdAt: '2024-12-13T08:20:00Z',
-    stargazerCount: 2100,
+    nameWithOwner: 'cutoff/edge',
+    url: 'https://github.com/owner/repo',
+    description: '[some description]',
+    primaryLanguage: { name: 'Python' },
+    createdAt: daysAgo(9), // just outside the default 7-day window
+    stargazerCount: 1050,
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
     },
+    clickhouse: {
+      repoName: 'cutoff/edge',
+      firstSeenAt: toClickhouse(daysAgo(9)),
+      starsWithin: 1000,
+      starsBefore: 50, // wasn't that popular in a week before
+    },
   },
   {
-    nameWithOwner: 'team/web-component',
-    url: 'https://github.com/team/web-component',
-    description: 'Reusable web components library',
-    primaryLanguage: {
-      name: 'JavaScript',
-    },
-    createdAt: '2024-12-12T12:00:00Z',
-    stargazerCount: 675,
+    nameWithOwner: 'no/desc',
+    url: 'https://github.com/owner/repo',
+    description: null, // no description
+    primaryLanguage: { name: 'JavaScript' },
+    createdAt: daysAgo(1),
+    stargazerCount: 500,
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
     },
+    clickhouse: {
+      repoName: 'no/desc',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: 500,
+      starsBefore: 0,
+    },
   },
   {
-    nameWithOwner: 'org/data-viz',
-    url: 'https://github.com/org/data-viz',
-    description: 'Beautiful data visualization library',
-    primaryLanguage: {
-      name: 'JavaScript',
-    },
-    createdAt: '2024-12-11T16:30:00Z',
-    stargazerCount: 1450,
+    nameWithOwner: 'no/lang',
+    url: 'https://github.com/owner/repo',
+    description: '[some description]',
+    primaryLanguage: null, // no primary language
+    createdAt: daysAgo(1),
+    stargazerCount: 500,
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
     },
-  },
-  {
-    nameWithOwner: 'scam/repo',
-    url: 'https://github.com/devs/api-client',
-    description: 'Owner created just today; 99% fake stars',
-    primaryLanguage: {
-      name: 'TypeScript',
-    },
-    createdAt: '2024-12-10T09:15:00Z',
-    stargazerCount: 720,
-    owner: {
-      __typename: 'User',
-      createdAt: new Date().toISOString(),
+    clickhouse: {
+      repoName: 'no/lang',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: 500,
+      starsBefore: 0,
     },
   },
   {
-    nameWithOwner: 'company/mobile-app',
-    url: 'https://github.com/company/mobile-app',
-    description: 'Cross-platform mobile development kit',
-    primaryLanguage: {
-      name: 'Dart',
-    },
-    createdAt: '2024-12-09T14:45:00Z',
-    stargazerCount: 980,
-    owner: {
-      __typename: 'User',
-      createdAt: '2020-01-01T00:00:00Z',
-    },
-  },
-  {
-    nameWithOwner: 'community/game-engine',
-    url: 'https://github.com/community/game-engine',
-    description: 'Lightweight 2D game engine',
-    primaryLanguage: {
-      name: 'C++',
-    },
-    createdAt: '2024-12-08T11:20:00Z',
-    stargazerCount: 1800,
-    owner: {
-      __typename: 'User',
-      createdAt: '2020-01-01T00:00:00Z',
-    },
-  },
-  {
-    nameWithOwner: 'makers/design-system',
-    url: 'https://github.com/makers/design-system',
-    description:
-      'Example of very long description that might need to be truncated in certain displays or ' +
-      'contexts to ensure that the layout remains clean and user-friendly',
+    nameWithOwner: 'bad/malware',
+    url: 'https://github.com/owner/repo',
+    description: '[some description]',
     primaryLanguage: null,
-    createdAt: '2024-12-07T13:10:00Z',
-    stargazerCount: 540,
+    createdAt: daysAgo(1),
+    stargazerCount: 500,
     owner: {
       __typename: 'User',
-      createdAt: '2020-01-01T00:00:00Z',
+      createdAt: daysAgo(3), // fresh owner with fake stars
+    },
+    clickhouse: {
+      repoName: 'bad/malware',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: 500,
+      starsBefore: 0,
     },
   },
   {
-    nameWithOwner: 'builders/deployment-tool',
-    url: 'https://github.com/builders/deployment-tool',
-    description: null,
-    primaryLanguage: {
-      name: 'Rust',
+    nameWithOwner: 'new/org',
+    url: 'https://github.com/owner/repo',
+    description: '[some description]',
+    primaryLanguage: null,
+    createdAt: daysAgo(1),
+    stargazerCount: 500,
+    owner: {
+      __typename: 'Organization',
+      createdAt: daysAgo(3), // fresh org, but it's ok
     },
-    createdAt: '2024-12-06T17:25:00Z',
-    stargazerCount: 1,
+    clickhouse: {
+      repoName: 'new/org',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: 500,
+      starsBefore: 0,
+    },
+  },
+  {
+    nameWithOwner: 'chinese/repo',
+    url: 'https://github.com/owner/repo',
+    description: '这是一个杰作，如果你是中国人的话，你就能欣赏它。', // Chinese description
+    primaryLanguage: null,
+    createdAt: daysAgo(1),
+    stargazerCount: 500,
     owner: {
       __typename: 'User',
       createdAt: '2020-01-01T00:00:00Z',
+    },
+    clickhouse: {
+      repoName: 'chinese/repo',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: 500,
+      starsBefore: 0,
+    },
+  },
+  {
+    nameWithOwner: 'low/stars',
+    url: 'https://github.com/owner/repo',
+    description: '[some description]',
+    primaryLanguage: null,
+    createdAt: daysAgo(1),
+    stargazerCount: 3, // below the default 50-star threshold
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
+    clickhouse: {
+      repoName: 'low/stars',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: 3,
+      starsBefore: 0,
     },
   },
 ];
