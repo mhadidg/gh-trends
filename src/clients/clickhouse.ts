@@ -6,15 +6,21 @@ export interface ClickHouseResponse {
 }
 
 export interface ClickHouseRepo {
-  repo_name: string;
-  appeared_at: string;
+  repoName: string; // e.g, "owner/repo"
+  starsBefore: number;
+  starsWithin: number;
+  firstSeenAt: string; // e.g, 2025-07-20 00:48:54
 }
 
 export class ClickHouseClient {
   static readonly baseUrl = 'https://play.clickhouse.com/?user=play';
 
-  async getTrendingRepos(days: number, limit: number): Promise<ClickHouseRepo[]> {
-    const sql = this.trendingReposQuery(days, limit);
+  async getTrendingRepos(windowInDays: number, limit: number): Promise<ClickHouseRepo[]> {
+    // Enables re-running the query for historical release windows
+    const evalDateStr = process.env.SCAN_EVAL_DATE || new Date().toISOString();
+    const evalDate = new Date(evalDateStr);
+
+    const sql = this.trendingReposQuery(evalDate, windowInDays, limit);
     const result = await this.query(sql);
     return result.data;
   }
@@ -38,24 +44,29 @@ export class ClickHouseClient {
     };
   }
 
-  private trendingReposQuery(days: number, limit: number): string {
+  private trendingReposQuery(evalDate: Date, window: number, limit: number): string {
+    // Clickhouse expects 2000-01-01 00:00:00 format; ISO is 2000-01-01T00:00:00.000Z
+    const evalDateStr = evalDate.toISOString().slice(0, 19).replace('T', ' ');
+
+    // Minimum repo star growth rate within the interval window for inclusion
+    const growthRate = parseFloat(process.env.SCAN_MIN_GROWTH_RATE || '3.0');
+
     return `
       WITH
-          now() AS t_now,
-          t_now - INTERVAL ${days} DAY AS cutoff,
-          ${limit} AS LIMIT_N
+          '${evalDateStr}'::timestamp AS END_DATE,
+          END_DATE - INTERVAL ${window} DAY AS START_DATE,
+          ${limit} AS LIMIT_N,
+          ${growthRate} AS MIN_GROWTH_RATE
       SELECT
-          repo_name,
-          countIf(event_type = 'WatchEvent') AS stars,
-          greatest(
-              maxIf(created_at, event_type = 'PublicEvent'), /* repo made public, was private */
-              maxIf(created_at, event_type = 'CreateEvent' AND ref_type = 'repository')
-          ) AS appeared_at
+          repo_name as repoName,
+          countIf(event_type = 'WatchEvent' AND created_at < START_DATE) AS starsBefore,
+          countIf(event_type = 'WatchEvent' AND created_at >= START_DATE) AS starsWithin,
+          minIf(created_at, event_type = 'WatchEvent') AS firstSeenAt
       FROM github_events
-      WHERE created_at >= cutoff
-      GROUP BY repo_name
-      HAVING appeared_at >= cutoff
-      ORDER BY stars DESC, appeared_at DESC
+      WHERE event_type = 'WatchEvent' AND created_at <= END_DATE
+      GROUP BY repoName
+      HAVING starsWithin / starsBefore > MIN_GROWTH_RATE
+      ORDER BY starsWithin DESC
       LIMIT LIMIT_N
       FORMAT JSON
     `;

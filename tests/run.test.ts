@@ -30,7 +30,7 @@ describe('run.ts', () => {
         // Querying ClickHouse playground
         if (url.includes(ClickHouseClient.baseUrl)) {
           const response = {
-            data: [{ repo_name: 'repo', appeared_at: '' }],
+            data: [{ repoName: 'repo' }],
             statistics: { rows_read: 2 },
           } as ClickHouseResponse;
 

@@ -134,7 +134,7 @@ describe('scan.ts', () => {
           ok: true,
           // At least one result is required to trigger GitHub API
           json: vi.fn().mockResolvedValue({
-            data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
+            data: [{ repoName: 'test/repo' }],
             statistics: { rows_read: 1000 },
           }),
         })
@@ -167,7 +167,7 @@ describe('scan.ts', () => {
           ok: true,
           json: vi.fn().mockResolvedValue({
             // At least one result is required to trigger GitHub API
-            data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
+            data: [{ repoName: 'test/repo' }],
             statistics: { rows_read: 1000 },
           }),
         })
@@ -199,10 +199,7 @@ describe('scan.ts', () => {
           ok: true,
           json: vi.fn().mockResolvedValue({
             statistics: { rows_read: 1000 },
-            data: [
-              { repo_name: 'owner1/repo1', appeared_at: '2025-08-16 18:48:25' },
-              { repo_name: 'owner2/repo2', appeared_at: '2025-08-16 18:48:25' },
-            ],
+            data: [{ repoName: 'owner1/repo1' }, { repoName: 'owner2/repo2' }],
           }),
         })
         // Then mock GitHub API
@@ -253,10 +250,7 @@ describe('scan.ts', () => {
           ok: true,
           json: vi.fn().mockResolvedValue({
             statistics: { rows_read: 1000 },
-            data: [
-              { repo_name: 'owner1/repo1', appeared_at: '2025-08-16 18:48:25' },
-              { repo_name: 'deleted/repo', appeared_at: '2025-08-16 18:48:25' },
-            ],
+            data: [{ repoName: 'owner1/repo1' }, { repoName: 'deleted/repo' }],
           }),
         })
         // Then mock GitHub API
@@ -293,7 +287,7 @@ describe('scan.ts', () => {
           ok: true,
           // At least one result is required to trigger GitHub API
           json: vi.fn().mockResolvedValue({
-            data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
+            data: [{ repoName: 'test/repo' }],
             statistics: { rows_read: 1000 },
           }),
         })
@@ -313,7 +307,7 @@ describe('scan.ts', () => {
           ok: true,
           // At least one result is required to trigger GitHub API
           json: vi.fn().mockResolvedValue({
-            data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
+            data: [{ repoName: 'test/repo' }],
             statistics: { rows_read: 1000 },
           }),
         })
@@ -330,7 +324,7 @@ describe('scan.ts', () => {
           ok: true,
           // At least one result is required to trigger GitHub API
           json: vi.fn().mockResolvedValue({
-            data: [{ repo_name: 'test/repo', appeared_at: '2025-08-16 18:48:25' }],
+            data: [{ repoName: 'test/repo' }],
             statistics: { rows_read: 1000 },
           }),
         })

@@ -19,6 +19,6 @@ export async function scan(): Promise<GithubRepo[]> {
   const repos = await clickhouse.getTrendingRepos(dayAgo, limit);
   logInfo('clickhouse', `fetched ${repos.length} repos`);
 
-  const repoNames = repos.map(repo => repo.repo_name);
+  const repoNames = repos.map(repo => repo.repoName);
   return await github.getRepos(repoNames);
 }
