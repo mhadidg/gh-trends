@@ -1,10 +1,12 @@
 import { HttpError, logWarn, TaggedError } from '../utils/logging';
+import { ClickHouseRepo } from './clickhouse';
 
 export type GithubRepo = {
   nameWithOwner: string;
   url: string;
   description: string | null;
   createdAt: string; // repo createdAt
+  clickhouse: ClickHouseRepo; // not part of GraphQL response
   stargazerCount: number;
   primaryLanguage: { name: string } | null;
   owner: {
@@ -27,8 +29,8 @@ export class GitHubGraphQLClient {
     this.token = token;
   }
 
-  async getRepos(fullNames: string[]): Promise<GithubRepo[]> {
-    if (fullNames.length === 0) return [];
+  async getRepos(repos: ClickHouseRepo[]): Promise<GithubRepo[]> {
+    if (repos.length === 0) return [];
 
     // Build aliases: r0, r1, ...
     const fields = (owner: string, name: string, i: number) => `
@@ -47,9 +49,9 @@ export class GitHubGraphQLClient {
       }
     `;
 
-    const parts = fullNames.map((full, i) => {
-      const [owner, name] = full.split('/');
-      if (!owner || !name) throw new TaggedError('github', `Invalid repo: ${full}`);
+    const parts = repos.map((repo, i) => {
+      const [owner, name] = repo.repoName.split('/');
+      if (!owner || !name) throw new TaggedError('github', `Invalid repo: ${repo.repoName}`);
       return fields(owner, name, i);
     });
 
@@ -82,9 +84,9 @@ export class GitHubGraphQLClient {
 
     const data = json.data || {};
     const nodes: GithubRepo[] = [];
-    for (let i = 0; i < fullNames.length; i++) {
+    for (let i = 0; i < repos.length; i++) {
       const node = data[`r${i}`];
-      if (node) nodes.push(node);
+      if (node) nodes.push({ ...node, clickhouse: repos[i] });
     }
 
     return nodes;

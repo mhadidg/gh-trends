@@ -1,6 +1,6 @@
 import { franc } from 'franc';
 import { logInfo, logWarn } from '../utils/logging';
-import { daysSince, hoursSince } from '../utils/common';
+import { clamp, daysSince, hoursSince } from '../utils/common';
 import { GithubRepo } from '../clients/github.gql';
 
 export interface ScoredRepo extends GithubRepo {
@@ -16,7 +16,7 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
 
       // Catch scam repos (mostly crypto wallet drainers)
       if (daysSince(repo.owner.createdAt) < 30 && repo.owner.__typename === 'User') {
-        logWarn('score', `repo with fresh owner (likely scam), skipping: ${repoName}`);
+        logWarn('score', `presumably malware (fresh owner), skipping: ${repoName}`);
         return false;
       }
 
@@ -28,7 +28,7 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
 
       // High-quality repo with no desc? Happy to take the risks
       if (repo.description === null || repo.description.trim() === '') {
-        logWarn('score', `empty description, skipping: ${repoName}`);
+        logWarn('score', `presumably low quality (empty desc), skipping: ${repoName}`);
         return false;
       }
 
@@ -43,6 +43,10 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
 
       return true;
     })
-    .map(repo => ({ ...repo, score: repo.stargazerCount / hoursSince(repo.createdAt) }))
+    .map(function (repo) {
+      const maxHours = parseInt(process.env.SCAN_WINDOW_DAYS || '7') * 24;
+      const hoursSinceFirstSeen = clamp(hoursSince(repo.clickhouse.firstSeenAt), 1, maxHours);
+      return { ...repo, score: repo.clickhouse.starsWithin / hoursSinceFirstSeen };
+    })
     .sort((a, b) => b.score - a.score);
 }
