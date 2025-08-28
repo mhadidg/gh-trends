@@ -40,19 +40,22 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
         }
       }
 
-      // High-quality repo with no desc? Happy to take the risks
-      if (repo.description === null || repo.description.trim() === '') {
-        logWarn('score', `presumably low quality (empty desc), skipping: ${repoName}`);
-        return false;
+      if (process.env.RELEASE_EMPTY_DESC === 'false') {
+        if (repo.description === null || repo.description.trim() === '') {
+          logWarn('score', `presumably low quality (empty desc), skipping: ${repoName}`);
+          return false;
+        }
       }
 
-      const lang = franc(repo.description);
-      // NOTE: I'd rather filter by English only, but lang detection is flawed,
-      // especially for short text (3-5 words). Chinese is the biggest non-English
-      // spoken language on GitHub, so let's just block it (with love).
-      if (lang === 'cmn') {
-        logWarn('score', `Chinese repo, skipping: ${repoName}`);
-        return false;
+      if (repo.description) {
+        const lang = franc(repo.description);
+        // NOTE: I'd rather filter by English only, but lang detection is flawed,
+        // especially for short text (3-5 words). Chinese is the biggest non-English
+        // spoken language on GitHub, so let's just block it (with love).
+        if (lang === 'cmn') {
+          logWarn('score', `Chinese repo, skipping: ${repoName}`);
+          return false;
+        }
       }
 
       return true;
