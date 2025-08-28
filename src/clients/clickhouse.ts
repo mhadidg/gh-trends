@@ -7,8 +7,8 @@ export interface ClickHouseResponse {
 
 export interface ClickHouseRepo {
   repoName: string; // e.g, "owner/repo"
-  starsBefore: number;
-  starsWithin: number;
+  starsBefore: string; // stars count before the scan window
+  starsWithin: string; // stars count within the scan window
   firstSeenAt: string; // e.g, 2025-07-20 00:48:54
 }
 

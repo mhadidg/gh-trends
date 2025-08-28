@@ -23,8 +23,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'rising/fast',
       firstSeenAt: toClickhouse(daysAgo(5)),
-      starsWithin: 1250,
-      starsBefore: 0,
+      starsWithin: '1250',
+      starsBefore: '0',
     },
   },
   {
@@ -41,8 +41,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'hidden/gem',
       firstSeenAt: toClickhouse(daysAgo(90)),
-      starsWithin: 800,
-      starsBefore: 90, // had some stars before the window
+      starsWithin: '800',
+      starsBefore: '90', // had some stars before the window
     },
   },
   {
@@ -59,8 +59,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'cutoff/edge',
       firstSeenAt: toClickhouse(daysAgo(9)),
-      starsWithin: 1000,
-      starsBefore: 50, // wasn't that popular in a week before
+      starsWithin: '1000',
+      starsBefore: '50', // wasn't that popular in a week before
     },
   },
   {
@@ -77,8 +77,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'no/desc',
       firstSeenAt: toClickhouse(daysAgo(1)),
-      starsWithin: 500,
-      starsBefore: 0,
+      starsWithin: '500',
+      starsBefore: '0',
     },
   },
   {
@@ -95,8 +95,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'no/lang',
       firstSeenAt: toClickhouse(daysAgo(1)),
-      starsWithin: 500,
-      starsBefore: 0,
+      starsWithin: '500',
+      starsBefore: '0',
     },
   },
   {
@@ -113,8 +113,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'bad/malware',
       firstSeenAt: toClickhouse(daysAgo(1)),
-      starsWithin: 500,
-      starsBefore: 0,
+      starsWithin: '500',
+      starsBefore: '0',
     },
   },
   {
@@ -131,8 +131,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'new/org',
       firstSeenAt: toClickhouse(daysAgo(1)),
-      starsWithin: 500,
-      starsBefore: 0,
+      starsWithin: '500',
+      starsBefore: '0',
     },
   },
   {
@@ -149,8 +149,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'chinese/repo',
       firstSeenAt: toClickhouse(daysAgo(1)),
-      starsWithin: 500,
-      starsBefore: 0,
+      starsWithin: '500',
+      starsBefore: '0',
     },
   },
   {
@@ -167,8 +167,8 @@ export const mockRepos: GithubRepo[] = [
     clickhouse: {
       repoName: 'low/stars',
       firstSeenAt: toClickhouse(daysAgo(1)),
-      starsWithin: 3,
-      starsBefore: 0,
+      starsWithin: '3',
+      starsBefore: '0',
     },
   },
 ];

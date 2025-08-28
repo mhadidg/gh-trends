@@ -46,7 +46,7 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
     .map(function (repo) {
       const maxHours = parseInt(process.env.SCAN_WINDOW_DAYS || '7') * 24;
       const hoursSinceFirstSeen = clamp(hoursSince(repo.clickhouse.firstSeenAt), 1, maxHours);
-      return { ...repo, score: repo.clickhouse.starsWithin / hoursSinceFirstSeen };
+      return { ...repo, score: parseInt(repo.clickhouse.starsWithin) / hoursSinceFirstSeen };
     })
     .sort((a, b) => b.score - a.score);
 }
