@@ -12,8 +12,8 @@ export const mockRepos: GithubRepo[] = [
   {
     nameWithOwner: 'rising/fast',
     url: 'https://github.com/owner/repo',
-    description: '[some description]',
-    primaryLanguage: { name: 'TypeScript' },
+    description: '[description]',
+    primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(5),
     stargazerCount: 1250,
     owner: {
@@ -30,8 +30,8 @@ export const mockRepos: GithubRepo[] = [
   {
     nameWithOwner: 'hidden/gem',
     url: 'https://github.com/owner/repo',
-    description: '[some description]',
-    primaryLanguage: { name: 'Go' },
+    description: '[description]',
+    primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(90), // was under development for a while
     stargazerCount: 890,
     owner: {
@@ -48,8 +48,8 @@ export const mockRepos: GithubRepo[] = [
   {
     nameWithOwner: 'cutoff/edge',
     url: 'https://github.com/owner/repo',
-    description: '[some description]',
-    primaryLanguage: { name: 'Python' },
+    description: '[description]',
+    primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(9), // just outside the default 7-day window
     stargazerCount: 1050,
     owner: {
@@ -67,7 +67,7 @@ export const mockRepos: GithubRepo[] = [
     nameWithOwner: 'no/desc',
     url: 'https://github.com/owner/repo',
     description: null, // no description
-    primaryLanguage: { name: 'JavaScript' },
+    primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
     owner: {
@@ -84,7 +84,7 @@ export const mockRepos: GithubRepo[] = [
   {
     nameWithOwner: 'no/lang',
     url: 'https://github.com/owner/repo',
-    description: '[some description]',
+    description: '[description]',
     primaryLanguage: null, // no primary language
     createdAt: daysAgo(1),
     stargazerCount: 500,
@@ -102,8 +102,8 @@ export const mockRepos: GithubRepo[] = [
   {
     nameWithOwner: 'bad/malware',
     url: 'https://github.com/owner/repo',
-    description: '[some description]',
-    primaryLanguage: null,
+    description: '[description]',
+    primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
     owner: {
@@ -120,8 +120,8 @@ export const mockRepos: GithubRepo[] = [
   {
     nameWithOwner: 'new/org',
     url: 'https://github.com/owner/repo',
-    description: '[some description]',
-    primaryLanguage: null,
+    description: '[description]',
+    primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
     owner: {
@@ -139,7 +139,7 @@ export const mockRepos: GithubRepo[] = [
     nameWithOwner: 'chinese/repo',
     url: 'https://github.com/owner/repo',
     description: '这是一个杰作，如果你是中国人的话，你就能欣赏它。', // Chinese description
-    primaryLanguage: null,
+    primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 500,
     owner: {
@@ -156,8 +156,8 @@ export const mockRepos: GithubRepo[] = [
   {
     nameWithOwner: 'low/stars',
     url: 'https://github.com/owner/repo',
-    description: '[some description]',
-    primaryLanguage: null,
+    description: '[description]',
+    primaryLanguage: { name: '[lang]' },
     createdAt: daysAgo(1),
     stargazerCount: 3, // below the default 50-star threshold
     owner: {
@@ -168,6 +168,24 @@ export const mockRepos: GithubRepo[] = [
       repoName: 'low/stars',
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '3',
+      starsBefore: '0',
+    },
+  },
+  {
+    nameWithOwner: 'renamed/repo',
+    url: 'https://github.com/owner/repo',
+    description: '[description]',
+    primaryLanguage: { name: '[lang]' },
+    createdAt: daysAgo(180),
+    stargazerCount: 3000, // was very popular for a while
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
+    clickhouse: {
+      repoName: 'renamed/repo',
+      firstSeenAt: toClickhouse(daysAgo(3)),
+      starsWithin: '300', // inconsistent stars between CH and GH
       starsBefore: '0',
     },
   },

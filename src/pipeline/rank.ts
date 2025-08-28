@@ -26,6 +26,20 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
         return false;
       }
 
+      // Only applicable when eval date is unset/today
+      if (!process.env.SCAN_EVAL_DATE) {
+        const clickhouseTotalStars =
+          parseInt(repo.clickhouse.starsBefore) + parseInt(repo.clickhouse.starsWithin);
+
+        // NOTE: Clickhouse samples events, so the actual star count (as per
+        // Github) is likely 2x the reported from Clickhouse. However, if the
+        // ratio is >3x, it's almost certainly a renamed repo.
+        if (Math.round(repo.stargazerCount / clickhouseTotalStars) > 3) {
+          logWarn('score', `presumably renamed old repo, skipping: ${repoName}`);
+          return false;
+        }
+      }
+
       // High-quality repo with no desc? Happy to take the risks
       if (repo.description === null || repo.description.trim() === '') {
         logWarn('score', `presumably low quality (empty desc), skipping: ${repoName}`);
