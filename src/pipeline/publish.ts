@@ -3,11 +3,13 @@ import { GitHubPublisher } from '../publishers/github';
 import { RSSPublisher } from '../publishers/rss';
 import { logInfo } from '../utils/logging';
 import { Publisher } from '../types/publisher';
+import { ResendPublisher } from '../publishers/resend';
 import { ScoredRepo } from './rank';
 
 const publishers = [
   // Executes in order
   new ButtondownPublisher(),
+  new ResendPublisher(),
   new GitHubPublisher(),
   new RSSPublisher(),
 ];
