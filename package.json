@@ -9,14 +9,14 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
-    "build:watch": "tsc --watch",
+    "clean": "rm -rf dist coverage",
+    "build": "npm run clean && tsc -p tsconfig.build.json",
+    "start": "npm run build && NODE_ENV=production node dist/run.js",
     "dev": "NODE_ENV=development tsx src/run.ts",
     "dev:release:gh": "USE_MOCK_REPOS=false GITHUB_RELEASES_ENABLED=true npm run dev",
     "dev:release:rss": "USE_MOCK_REPOS=false RSS_ENABLED=true npm run dev",
-    "preview": "TEMPLATE_NAME=release.md.hbs NODE_ENV=development tsx src/preview.ts",
+    "preview": "NODE_ENV=development tsx src/preview.ts",
     "preview:live": "USE_MOCK_REPOS=false npm run preview",
-    "start": "NODE_ENV=production node dist/run.js",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "typecheck": "tsc --noEmit",
@@ -24,7 +24,6 @@
     "lint:fix": "eslint src --ext .ts,.js --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "clean": "rm -rf dist coverage",
     "prepare": "husky"
   },
   "devDependencies": {

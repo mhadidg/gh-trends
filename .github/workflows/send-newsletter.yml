@@ -23,9 +23,6 @@ jobs:
     - name: Install deps
       run: npm ci
 
-    - name: Build project
-      run: npm run build
-
     - name: Send newsletter
       run: npm run start
       env:
