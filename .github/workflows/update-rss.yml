@@ -58,7 +58,10 @@ jobs:
         last_subject="$(git log -1 --pretty=%s || true)"
         last_author="$(git log -1 --pretty=%an || true)"
 
-        if [ "$last_subject" = "Update RSS feed" ] && [ "$last_author" = "github-actions[bot]" ]; then
+        # Safeguard against wiping out git history with force pushes
+        commit_count="$(git rev-list --count HEAD)"
+
+        if [ "$last_subject" = "Update RSS feed" ] && [ "$last_author" = "github-actions[bot]" ] && [ "$commit_count" -gt 100 ]; then
           echo "Amending previous commit."
           git commit --amend --no-edit
           # Safer option than -f; won't overwrite if newer commits were added to the remote
