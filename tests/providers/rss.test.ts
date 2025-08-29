@@ -3,9 +3,9 @@ import { join } from 'path';
 import { tmpdir } from 'os';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { XMLParser, XMLBuilder } from 'fast-xml-parser';
-import { RSSPublisher } from '../../../src/publishers/rss';
-import { mockRepos } from '../../../src/mocks/repos';
-import { ScoredRepo } from '../../../src/pipeline/rank';
+import { RSSPublisher } from '../../src/publishers/rss';
+import { mockRepos } from '../../src/mocks/repos';
+import { ScoredRepo } from '../../src/pipeline/rank';
 
 describe('rss.ts', () => {
   let instance: RSSPublisher;

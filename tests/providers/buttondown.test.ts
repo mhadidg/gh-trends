@@ -1,9 +1,9 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { HttpError } from '../../../src/utils/logging';
-import { ButtondownPublisher } from '../../../src/publishers/buttondown';
-import { ButtondownClient } from '../../../src/clients/buttondown';
-import { mockRepos } from '../../../src/mocks/repos';
-import { ScoredRepo } from '../../../src/pipeline/rank';
+import { HttpError } from '../../src/utils/logging';
+import { ButtondownPublisher } from '../../src/publishers/buttondown';
+import { ButtondownClient } from '../../src/clients/buttondown';
+import { mockRepos } from '../../src/mocks/repos';
+import { ScoredRepo } from '../../src/pipeline/rank';
 
 describe('buttondown.ts', () => {
   const mockFetch = vi.fn();
