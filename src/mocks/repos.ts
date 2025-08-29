@@ -82,6 +82,24 @@ export const mockRepos: GithubRepo[] = [
     },
   },
   {
+    nameWithOwner: 'long/desc',
+    url: 'https://github.com/owner/repo',
+    description: 'abc '.repeat(100), // long description
+    primaryLanguage: { name: '[lang]' },
+    createdAt: daysAgo(1),
+    stargazerCount: 500,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
+    clickhouse: {
+      repoName: 'no/desc',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: '500',
+      starsBefore: '0',
+    },
+  },
+  {
     nameWithOwner: 'no/lang',
     url: 'https://github.com/owner/repo',
     description: '[description]',
