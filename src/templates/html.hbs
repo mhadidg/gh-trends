@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Trends Newsletter</title>
+  <style>
+    /* Mobile stacking for Gmail apps */
+    @media only screen and (max-width: 600px) {
+      .stack-column {
+        display: block !important;
+        width: 100% !important;
+      }
+
+      .text-right {
+        text-align: left !important;
+      }
+    }
+  </style>
+</head>
+<body style="Margin:0;padding:0;background-color:#ffffff;">
+<center style="width:100%;background-color:#ffffff;">
+  <!-- Outer wrapper to center content -->
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;background-color:#ffffff;">
+    <tr>
+      <td align="center">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="580" style="border-collapse:collapse;width:580px;max-width:580px;">
+          <tr>
+            <td style="padding:24px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;line-height:1.6;color:#24292e;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                <tr>
+                  <td style="padding:0 0 48px 0;">
+                    <h1 style="Margin:0 0 8px 0;font-size:32px;font-weight:700;color:#0366d6;letter-spacing:-0.5px;">
+                      GitHub Trends
+                    </h1>
+                    <p style="Margin:0;color:#6a737d;font-size:16px;">
+                      Your weekly dose of the hottest repositories on GitHub this week
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              {{#if repos.length}}
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                  <tr>
+                    <td style="padding:0 0 40px 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                        <tr>
+                          <td style="padding:0 0 12px 0;border-bottom:1px solid #e1e4e8;">
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                              <tr>
+                                <td class="stack-column" valign="baseline" style="padding:0;vertical-align:baseline;">
+                                  <h2 style="Margin:0;font-size:20px;font-weight:600;color:#24292e;">
+                                    🚀 Fresh trends
+                                  </h2>
+                                </td>
+                                <td class="stack-column" align="right" valign="middle" style="padding:0 0 0 12px;vertical-align:middle;">
+                                  <span style="font-size:14px;color:#6a737d;font-style:italic;display:inline-block;">
+                                    x3 star growth over the past week
+                                  </span>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                        {{#each repos}}
+                          <tr>
+                            <td style="padding:16px 0;{{#unless @last}}border-bottom:1px solid #f0f0f0;{{/unless}}">
+                              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                                <tr>
+                                  <td class="stack-column" valign="top" style="padding:0 0 12px 0;vertical-align:top;">
+                                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                                      <tr>
+                                        <td valign="middle" style="padding:0;vertical-align:middle;">
+                                          <div style="font-size:18px;font-weight:600;line-height:1;">
+                                            <a href="{{url}}" style="color:#0366d6;text-decoration:none;">{{nameWithOwner}}</a>
+                                          </div>
+                                        </td>
+                                        {{#if primaryLanguage.name}}
+                                          <td valign="middle" style="padding-left:12px;vertical-align:middle;">
+                                            <span style="font-size:13px;color:#0366d6;background:#f1f8ff;padding:2px 8px;border-radius:12px;font-weight:500;display:inline-block;line-height:1;">
+                                              {{primaryLanguage.name}}
+                                            </span>
+                                          </td>
+                                        {{/if}}
+                                      </tr>
+                                    </table>
+                                  </td>
+
+                                  <td class="stack-column text-right" valign="top" align="right" style="padding:0 0 12px 0;text-align:right;vertical-align:top;color:#6a737d;font-size:14px;">
+                                    <span style="display:inline-block;line-height:1;">⭐&nbsp;
+                                      {{formatNumber stargazerCount}}
+                                    </span>
+                                  </td>
+                                </tr>
+                              </table>
+
+                              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                                <tr>
+                                  <td style="padding:0;color:#586069;font-size:15px;line-height:1.5;">
+                                    {{#if description}}{{truncate description 100}}{{else}}(no description){{/if}}
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        {{/each}}
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              {{else}}
+                <!-- Empty state -->
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                  <tr>
+                    <td align="center" style="padding:60px 20px;text-align:center;color:#6a737d;">
+                      <div style="font-size:48px;line-height:1;margin:0 0 16px 0;">💔</div>
+                      <h2 style="Margin:0 0 8px 0;font-size:24px;font-weight:600;color:#24292e;">
+                        A quiet week on GitHub
+                      </h2>
+                      <p style="Margin:0;">
+                        It's either an unusually calm week… or a bug in disguise 🤔
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              {{/if}}
+
+              <!-- Footer -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+                <tr>
+                  <td
+                    style="padding-top:48px;border-top:1px solid #e1e4e8;text-align:center;color:#6a737d;font-size:14px;">
+                    <p style="Margin:8px 0;">
+                      <strong>Generated on {{date}}</strong> •
+                      <a href="https://github.com/mhadidg/gh-trends" style="color:#0366d6;text-decoration:none;">
+                        View more trends
+                      </a>
+                    </p>
+                    <p style="Margin:8px 0;">
+                      You're receiving this because you subscribed to GitHub Trends.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</body>
+</html>

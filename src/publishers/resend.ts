@@ -12,7 +12,7 @@ export class ResendPublisher extends Publisher {
   }
 
   render(repos: ScoredRepo[]): string {
-    return render('release.md.hbs', repos);
+    return render('html.hbs', repos);
   }
 
   async publish(repos: ScoredRepo[]): Promise<string> {

@@ -4,7 +4,7 @@ import { mockRepos } from '../../src/mocks/repos';
 import { ScoredRepo } from '../../src/pipeline/rank';
 
 describe('render.ts', () => {
-  const template = 'release.md.hbs';
+  const template = 'markdown.hbs';
   const mockDate = new Date('2025-08-15T10:00:00.000Z'); // friday, Week 33
 
   const mockScoredRepos: ScoredRepo[] = mockRepos.map((repo, index) => ({

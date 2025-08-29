@@ -13,7 +13,7 @@ export class GitHubPublisher extends Publisher {
   }
 
   render(repos: ScoredRepo[]): string {
-    return render('release.md.hbs', repos);
+    return render('markdown.hbs', repos);
   }
 
   async publish(repos: ScoredRepo[]): Promise<string> {
