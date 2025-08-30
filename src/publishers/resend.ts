@@ -27,9 +27,6 @@ export class ResendPublisher extends Publisher {
       throw new TaggedError('config', 'RESEND_AUDIENCE_ID required when RESEND_ENABLED=true');
     }
 
-    const limit = parseInt(process.env.RELEASE_TOP_N || '20');
-    repos = repos.slice(0, limit);
-
     const content = this.render(repos);
     const client = new ResendClient(process.env.RESEND_API_KEY);
 

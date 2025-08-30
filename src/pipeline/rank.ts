@@ -9,6 +9,7 @@ export interface ScoredRepo extends GithubRepo {
 
 export function rank(repos: GithubRepo[]): ScoredRepo[] {
   const minStars = parseInt(process.env.RELEASE_MIN_STARS || '50');
+  const limit = parseInt(process.env.RELEASE_TOP_N || '20');
 
   return repos
     .filter(repo => {
@@ -65,5 +66,6 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
       const hoursSinceFirstSeen = clamp(hoursSince(repo.clickhouse.firstSeenAt), 1, maxHours);
       return { ...repo, score: parseInt(repo.clickhouse.starsWithin) / hoursSinceFirstSeen };
     })
-    .sort((a, b) => b.score - a.score);
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit);
 }
