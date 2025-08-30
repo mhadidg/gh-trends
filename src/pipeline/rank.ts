@@ -14,12 +14,6 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
     .filter(repo => {
       const repoName = repo.nameWithOwner;
 
-      // Catch scam repos (mostly crypto wallet drainers)
-      if (daysSince(repo.owner.createdAt) < 30 && repo.owner.__typename === 'User') {
-        logWarn('score', `presumably malware (fresh owner), skipping: ${repoName}`);
-        return false;
-      }
-
       // Apply minimum stars filter
       if (repo.stargazerCount < minStars) {
         logInfo('score', `${repo.stargazerCount} star(s) only, skipping: ${repoName}`);
@@ -56,6 +50,12 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
           logWarn('score', `Chinese repo, skipping: ${repoName}`);
           return false;
         }
+      }
+
+      // Catch malware repos (mostly crypto wallet drainers)
+      if (daysSince(repo.owner.createdAt) < 30 && repo.owner.__typename === 'User') {
+        logWarn('score', `presumably malware (fresh owner), skipping: ${repoName}`);
+        return false;
       }
 
       return true;
