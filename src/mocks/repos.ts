@@ -172,6 +172,24 @@ export const mockRepos: GithubRepo[] = [
     },
   },
   {
+    nameWithOwner: 'chinese/mixed',
+    url: 'https://github.com/owner/repo',
+    description: '带有一些English文本的中文描述', // Chinese description with English words
+    primaryLanguage: { name: '[lang]' },
+    createdAt: daysAgo(1),
+    stargazerCount: 500,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z',
+    },
+    clickhouse: {
+      repoName: 'chinese/repo',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: '500',
+      starsBefore: '0',
+    },
+  },
+  {
     nameWithOwner: 'low/stars',
     url: 'https://github.com/owner/repo',
     description: '[description]',
