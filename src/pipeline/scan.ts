@@ -5,7 +5,7 @@ import { mockRepos } from '../mocks/repos';
 
 export async function scan(): Promise<GithubRepo[]> {
   if (process.env.USE_MOCK_REPOS !== 'false') {
-    logInfo('scan', 'using mock repos');
+    logInfo('scan', 'skipping real APIs; using mock repos');
     return mockRepos;
   }
 
@@ -18,6 +18,15 @@ export async function scan(): Promise<GithubRepo[]> {
 
   const repos = await clickhouse.getTrendingRepos(dayAgo, limit);
   logInfo('clickhouse', `fetched ${repos.length} repos`);
+
+  if (repos.length === 0) {
+    logInfo('scan', 'no repos found from clickhouse');
+    return [];
+  }
+
+  const totalStarsWithin = repos.reduce((sum, repo) => sum + parseInt(repo.starsWithin), 0);
+  const avgStarsWithin = totalStarsWithin / repos.length;
+  logInfo('scan', `average stars within window: ${avgStarsWithin.toFixed(2)}`);
 
   const enrichedRepos = await github.getRepos(repos);
   const missing = repos.length - enrichedRepos.length;
