@@ -50,3 +50,6 @@ temp/
 
 # Claude code
 .claude/*.local.json
+
+# Private dir for testing
+releases/
