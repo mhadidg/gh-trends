@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "target": "ES2015",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": ["ES2015", "DOM"],
     //
     "strict": true,
     "noUncheckedIndexedAccess": true,
