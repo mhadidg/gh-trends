@@ -55,6 +55,12 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
         return false;
       }
 
+      // Catch pirated KMS activators (often malware)
+      if (/kms/i.test(repoName) && repo.stargazerCount < 5000) {
+        logWarn('score', `presumably pirated KMS activator, skipping: ${repoName}`);
+        return false;
+      }
+
       return true;
     })
     .map(function (repo) {

@@ -136,6 +136,24 @@ export const mockRepos: GithubRepo[] = [
     },
   },
   {
+    nameWithOwner: 'kms/activator',
+    url: 'https://github.com/owner/repo',
+    description: '[description]',
+    primaryLanguage: { name: '[lang]' },
+    createdAt: daysAgo(1),
+    stargazerCount: 500,
+    owner: {
+      __typename: 'User',
+      createdAt: '2020-01-01T00:00:00Z', // passes fresh owner check
+    },
+    clickhouse: {
+      repoName: 'bad/malware',
+      firstSeenAt: toClickhouse(daysAgo(1)),
+      starsWithin: '500',
+      starsBefore: '0',
+    },
+  },
+  {
     nameWithOwner: 'new/org',
     url: 'https://github.com/owner/repo',
     description: '[description]',
