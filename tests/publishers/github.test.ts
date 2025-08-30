@@ -154,5 +154,39 @@ describe('gh-release.ts', () => {
 
       await expect(instance.publish(repos)).rejects.toThrow('network down');
     });
+
+    describe('issueNumber', () => {
+      let instance: GitHubPublisher;
+
+      beforeEach(() => {
+        instance = new GitHubPublisher();
+        vi.useFakeTimers();
+      });
+
+      afterEach(() => {
+        vi.useRealTimers();
+      });
+
+      it('increments the issue number in the subject after one week', () => {
+        // Freeze time (any date works; we just compare relative change).
+        const start = new Date('2025-07-21T00:00:00Z');
+        vi.setSystemTime(start);
+
+        const first = instance.subject(); // should be "GitHub trends #1"
+        console.log(first);
+        const firstNum = Number(first.match(/(\d+)$/)![1]);
+
+        expect(firstNum).toBe(1);
+
+        // Advance exactly one week
+        const weekInMillis = 7 * 24 * 60 * 60 * 1000;
+        vi.setSystemTime(new Date(start.getTime() + weekInMillis));
+
+        const second = instance.subject(); // should be "GitHub trends #2"
+        const secondNum = Number(second.match(/(\d+)$/)![1]);
+
+        expect(secondNum).toBe(2);
+      });
+    });
   });
 });

@@ -8,6 +8,9 @@ import { ScoredRepo } from '../pipeline/rank';
 export class GitHubPublisher extends Publisher {
   readonly name = 'github-releases';
 
+  // The date of the very first issue; happen to be my birthday!
+  readonly epoch = '2025-07-21';
+
   enabled(): boolean {
     return process.env.GITHUB_RELEASES_ENABLED === 'true';
   }
@@ -42,10 +45,30 @@ export class GitHubPublisher extends Publisher {
     return result.id;
   }
 
+  subject(): string {
+    return `GitHub trends #${this.issueNumber()}`;
+  }
+
   private releaseTag(): string {
     const now = new Date();
     const year = now.getFullYear();
     const week = weekNumber(now);
     return `release-${year}-W${week.toString().padStart(2, '0')}`;
+  }
+
+  private issueNumber(): number {
+    const start = new Date(this.epoch);
+    const now = new Date();
+
+    // Calculate weeks since start
+    const MillisInWeek = 1000 * 60 * 60 * 24 * 7;
+    const diffInMillis = now.getTime() - start.getTime();
+
+    if (diffInMillis < 0) {
+      throw new Error('Release date is in the future. Cannot calculate issue number.');
+    }
+
+    const weeksPassed = Math.floor(diffInMillis / MillisInWeek);
+    return weeksPassed + 1;
   }
 }

@@ -11,6 +11,6 @@ export abstract class Publisher {
     const now = new Date();
     const year = now.getFullYear();
     const week = weekNumber(now);
-    return `GitHub Trends — ${year}-W${week.toString().padStart(2, '0')}`;
+    return `GitHub Trends - ${year}-W${week.toString().padStart(2, '0')}`;
   }
 }
