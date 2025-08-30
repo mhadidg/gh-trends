@@ -22,12 +22,6 @@ describe('render.ts', () => {
   });
 
   describe('markdown', () => {
-    it('should handle empty repos array', () => {
-      const content = render(template, []);
-
-      expect(content).toContain('quiet week on GitHub');
-    });
-
     it('should render release with single repo', () => {
       const content = render(template, [mockScoredRepos[0]!]);
 

@@ -27,6 +27,13 @@ export async function publishAll(
     return [];
   }
 
+  if (repos.length === 0) {
+    logInfo('publish', 'no repositories to publish, skipping publication');
+    return [];
+  }
+
+  logInfo('publish', `starting publication via ${enabledPubs.map(p => p.name).join(', ')}`);
+
   // Run all publishers in parallel
   // Promise.allSettled always resolve, even if some promises reject
   const results = await Promise.allSettled(

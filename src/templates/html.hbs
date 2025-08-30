@@ -35,13 +35,11 @@
                       GitHub Trends
                     </h1>
                     <p style="Margin:0;color:#6a737d;font-size:16px;">
-                      Your weekly dose of the hottest repositories on GitHub this week
+                      Your weekly dose of the hottest repositories on GitHub
                     </p>
                   </td>
                 </tr>
               </table>
-
-              {{#if repos.length}}
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
                   <tr>
                     <td style="padding:0 0 40px 0;">
@@ -52,7 +50,7 @@
                               <tr>
                                 <td class="stack-column" valign="baseline" style="padding:0;vertical-align:baseline;">
                                   <h2 style="Margin:0;font-size:20px;font-weight:600;color:#24292e;">
-                                    🚀 Fresh trends
+                                    🔥 fresh trends
                                   </h2>
                                 </td>
                                 <td class="stack-column" align="right" valign="middle" style="padding:0 0 0 12px;vertical-align:middle;">
@@ -65,7 +63,6 @@
                           </td>
                         </tr>
                       </table>
-
                       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
                         {{#each repos}}
                           <tr>
@@ -113,23 +110,6 @@
                     </td>
                   </tr>
                 </table>
-              {{else}}
-                <!-- Empty state -->
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
-                  <tr>
-                    <td align="center" style="padding:60px 20px;text-align:center;color:#6a737d;">
-                      <div style="font-size:48px;line-height:1;margin:0 0 16px 0;">💔</div>
-                      <h2 style="Margin:0 0 8px 0;font-size:24px;font-weight:600;color:#24292e;">
-                        A quiet week on GitHub
-                      </h2>
-                      <p style="Margin:0;">
-                        It's either an unusually calm week… or a bug in disguise 🤔
-                      </p>
-                    </td>
-                  </tr>
-                </table>
-              {{/if}}
-
               <!-- Footer -->
               <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
                 <tr>
