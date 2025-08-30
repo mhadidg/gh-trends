@@ -22,6 +22,10 @@ describe('render.ts', () => {
   });
 
   describe('markdown', () => {
+    beforeEach(() => {
+      vi.stubEnv('RELEASE_TRUNCATE_DESC', '0');
+    });
+
     it('should render release with single repo', () => {
       const content = render(template, [mockScoredRepos[0]!]);
 

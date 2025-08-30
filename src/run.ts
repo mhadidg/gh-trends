@@ -12,8 +12,8 @@ export async function run(): Promise<void> {
 }
 
 export async function main(): Promise<void> {
-  const window = parseInt(process.env.SCAN_WINDOW_DAYS || '7');
-  const limit = parseInt(process.env.SCAN_LIMIT || '10');
+  const window = parseInt(process.env.SCAN_WINDOW_DAYS!);
+  const limit = parseInt(process.env.SCAN_LIMIT!);
 
   console.log(`📡 Scanning the GitHub universe (window: ${window}, limit: ${limit})`);
   const repos = await scan();

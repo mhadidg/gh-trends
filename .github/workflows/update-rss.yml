@@ -36,6 +36,9 @@ jobs:
         RSS_ENABLED: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Copy .env file
+      run: cp .env.example .env
+
     - name: Commit RSS feed updates
       env:
         # Skip git hooks

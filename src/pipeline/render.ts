@@ -23,6 +23,6 @@ export function render(templateName: string, repos: ScoredRepo[]): string {
   const now = new Date();
   const date = now.toISOString().split('T')[0];
 
-  const descLimit = parseInt(process.env.RELEASE_TRUNCATE_DESC || '0');
+  const descLimit = parseInt(process.env.RELEASE_TRUNCATE_DESC!);
   return template({ repos, date, descLimit });
 }

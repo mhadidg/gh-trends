@@ -8,8 +8,8 @@ import { logError, logInfo, TaggedError } from './utils/logging';
 import { handleProcessError } from './utils/common';
 
 async function preview() {
-  const window = parseInt(process.env.SCAN_WINDOW_DAYS || '7');
-  const limit = parseInt(process.env.SCAN_LIMIT || '100');
+  const window = parseInt(process.env.SCAN_WINDOW_DAYS!);
+  const limit = parseInt(process.env.SCAN_LIMIT!);
 
   console.log(`📡 Scanning the GitHub universe (window: ${window}, limit: ${limit})`);
   const repos = await scan();

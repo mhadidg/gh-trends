@@ -49,7 +49,7 @@ export class ClickHouseClient {
     const evalDateStr = evalDate.toISOString().slice(0, 19).replace('T', ' ');
 
     // Minimum repo star growth rate within the interval window for inclusion
-    const growthRate = parseFloat(process.env.SCAN_MIN_GROWTH_RATE || '3.0');
+    const growthRate = parseFloat(process.env.SCAN_MIN_GROWTH_RATE!);
 
     return `
       WITH
