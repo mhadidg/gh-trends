@@ -113,7 +113,7 @@ describe('gh-release.ts', () => {
       const [, options] = mockFetch.mock.calls[0]!;
       const parsedBody = JSON.parse(options.body as string);
       expect(parsedBody).toEqual({
-        tag_name: expect.stringMatching(/^release-\d{4}-W\d{2}$/), // e.g. release-2025-W33
+        tag_name: expect.stringMatching(/^week-\d{2}$/), // e.g. week-01
         name: instance.subject(),
         body: content,
         draft: false,

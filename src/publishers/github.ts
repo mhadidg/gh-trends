@@ -1,5 +1,4 @@
 import { TaggedError } from '../utils/logging';
-import { weekNumber } from '../utils/common';
 import { Publisher } from '../types/publisher';
 import { render } from '../pipeline/render';
 import { GitHubClient } from '../clients/github';
@@ -47,10 +46,7 @@ export class GitHubPublisher extends Publisher {
   }
 
   private releaseTag(): string {
-    const now = new Date();
-    const year = now.getFullYear();
-    const week = weekNumber(now);
-    return `release-${year}-W${week.toString().padStart(2, '0')}`;
+    return `week-${this.issueNumber().toString().padStart(2, '0')}`;
   }
 
   private issueNumber(): number {
