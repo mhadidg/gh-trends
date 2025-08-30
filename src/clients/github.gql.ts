@@ -1,4 +1,4 @@
-import { HttpError, logWarn, TaggedError } from '../utils/logging';
+import { HttpError, TaggedError } from '../utils/logging';
 import { ClickHouseRepo } from './clickhouse';
 
 export type GithubRepo = {
@@ -81,9 +81,7 @@ export class GitHubGraphQLClient {
       if (json.errors?.length) {
         // Repo deleted or made private (was public before)
         const types = new Set(json.errors.map((e: GitHubErrorItem) => e.type));
-        if (types.size === 1 && types.has('NOT_FOUND')) {
-          json.errors.forEach((e: GitHubErrorItem) => logWarn('github', e.message));
-        } else {
+        if (!(types.size === 1 && types.has('NOT_FOUND'))) {
           throw new TaggedError('github', `GraphQL errors: ${JSON.stringify(json.errors)}`);
         }
       }

@@ -19,5 +19,11 @@ export async function scan(): Promise<GithubRepo[]> {
   const repos = await clickhouse.getTrendingRepos(dayAgo, limit);
   logInfo('clickhouse', `fetched ${repos.length} repos`);
 
-  return await github.getRepos(repos);
+  const enrichedRepos = await github.getRepos(repos);
+  const missing = repos.length - enrichedRepos.length;
+  if (missing > 0) {
+    logInfo('github', `out of ${repos.length} repos, ${missing} are no longer exist`);
+  }
+
+  return enrichedRepos;
 }
