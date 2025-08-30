@@ -75,6 +75,7 @@ describe('run.ts', () => {
   describe('Pipeline execution', () => {
     beforeEach(async () => {
       vi.stubEnv('NODE_ENV', 'production');
+      vi.stubEnv('RELEASE_TOP_N', '10');
       vi.stubEnv('BUTTONDOWN_ENABLED', 'true');
       vi.stubEnv('BUTTONDOWN_API_KEY', 'bd_live_key_123');
       vi.stubEnv('GITHUB_RELEASES_ENABLED', 'true');
