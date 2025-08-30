@@ -3,6 +3,9 @@ import path from 'node:path';
 import Handlebars from 'handlebars';
 import { ScoredRepo } from './rank';
 
+Handlebars.registerHelper('lt', (a, b) => a < b);
+Handlebars.registerHelper('gte', (a, b) => a >= b);
+Handlebars.registerHelper('and', (a, b) => a && b);
 Handlebars.registerHelper('formatNumber', (num: number) => num.toLocaleString());
 Handlebars.registerHelper('truncate', (str: string, len: number) => {
   if (len <= 0) return str;

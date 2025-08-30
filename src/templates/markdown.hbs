@@ -1,10 +1,39 @@
-### 🚀 Fresh trends
-_(just fresh repos; created within the past week)_
+<div align="center">
 
-| Repo | Stars | Language | Description |
-|------|-------|----------|-------------|
+## 🔥 Weekly GitHub trends
+*Repositories with over 3x star growth over the past week*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## 🥇 **Tier 1**
+
 {{#each repos}}
-| [{{nameWithOwner}}]({{url}}) | {{formatNumber stargazerCount}} | {{#if primaryLanguage.name}}{{primaryLanguage.name}}{{else}}-{{/if}} | {{#if description}}{{truncate description ../descLimit}}{{else}}(no description){{/if}} |
+{{#if (lt @index 10)}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
 {{/each}}
 
+</td>
+<td width="50%" valign="top">
+
+## 🥈 **Tier 2**
+
+{{#each repos}}
+{{#if (and (gte @index 10) (lt @index 20))}}
+**[{{nameWithOwner}}]({{url}})** {{#if primaryLanguage.name}}`{{primaryLanguage.name}}`{{/if}} `⭐ {{formatNumber stargazerCount}}`
+{{#if description}}*{{truncate description ../descLimit}}*{{else}}*(no description)*{{/if}}
+
+{{/if}}
+{{/each}}
+
+</td>
+</tr>
+</table>
+
 *Generated on {{date}} • [View more trends](https://github.com/mhadidg/gh-trends)*
+
+</div>
