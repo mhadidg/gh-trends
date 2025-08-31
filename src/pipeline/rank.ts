@@ -3,6 +3,7 @@ import { GithubRepo } from '../clients/github.gql';
 import { logWarn } from '../utils/logging';
 
 const BLOCKLIST_KEYWORDS = [/aimbot/i, /kms/i];
+const BLOCKLIST_USERS = ['ox1nec'];
 
 export interface ScoredRepo extends GithubRepo {
   score: number;
@@ -63,6 +64,12 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
           logWarn('score', `blocklisted keyword in repo name, skipping: ${repoName}`);
           return false;
         }
+      }
+
+      // Catch blocklisted users
+      if (BLOCKLIST_USERS.includes(repo.nameWithOwner.split('/')[0]!)) {
+        logWarn('score', `blocklisted user, skipping: ${repoName}`);
+        return false;
       }
 
       return true;
