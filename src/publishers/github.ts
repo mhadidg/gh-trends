@@ -51,7 +51,8 @@ export class GitHubPublisher extends Publisher {
 
   private issueNumber(): number {
     const start = new Date(this.epoch);
-    const now = new Date();
+    const evalDateStr = process.env.SCAN_EVAL_DATE || new Date().toISOString();
+    const now = new Date(evalDateStr);
 
     // Calculate weeks since start
     const MillisInWeek = 1000 * 60 * 60 * 24 * 7;
