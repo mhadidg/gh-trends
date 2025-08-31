@@ -3,317 +3,324 @@
   <channel>
     <title>GitHub trends</title>
     <link>https://github.com/mhadidg/gh-trends</link>
-    <description>Curated list of trending GitHub repositories</description>
+    <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 04:32:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 Aug 2025 21:10:08 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
     <item>
-      <title>Loon0x00/Loon4Mac</title>
-      <link>https://github.com/Loon0x00/Loon4Mac</link>
-      <description>Loon for Mac</description>
-      <pubDate>Tue, 26 Aug 2025 04:32:02 GMT</pubDate>
-      <guid isPermaLink="false">Loon0x00/Loon4Mac</guid>
+      <title>run-llama/semtools</title>
+      <link>https://github.com/run-llama/semtools</link>
+      <description>Semantic search and document parsing tools for the command line</description>
+      <pubDate>Sun, 31 Aug 2025 21:10:08 GMT</pubDate>
+      <guid isPermaLink="false">run-llama/semtools</guid>
     </item>
     <item>
-      <title>OpenAlign/AlignLab</title>
-      <link>https://github.com/OpenAlign/AlignLab</link>
-      <description>The everything tool for model alignment </description>
-      <pubDate>Tue, 26 Aug 2025 04:32:02 GMT</pubDate>
-      <guid isPermaLink="false">OpenAlign/AlignLab</guid>
+      <title>High-Logic/Genie</title>
+      <link>https://github.com/High-Logic/Genie</link>
+      <description>GPT-SoVITS ONNX Inference Engine &amp; Model Converter</description>
+      <pubDate>Sun, 31 Aug 2025 21:10:08 GMT</pubDate>
+      <guid isPermaLink="false">High-Logic/Genie</guid>
     </item>
     <item>
-      <title>HeCheng0625/Diffusion-Speech-Tokenizer</title>
-      <link>https://github.com/HeCheng0625/Diffusion-Speech-Tokenizer</link>
-      <description>This repository contains a series of works on diffusion-based speech tokenizers, including the official implementation of the paper: &quot;TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling&quot; https://hecheng0625.github.io/assets/pdf/Arxiv_TaDiCodec.pdf</description>
-      <pubDate>Tue, 26 Aug 2025 03:14:58 GMT</pubDate>
-      <guid isPermaLink="false">HeCheng0625/Diffusion-Speech-Tokenizer</guid>
+      <title>rasbt/reasoning-from-scratch</title>
+      <link>https://github.com/rasbt/reasoning-from-scratch</link>
+      <description>Implement a reasoning LLM in PyTorch from scratch, step by step</description>
+      <pubDate>Sun, 31 Aug 2025 21:10:08 GMT</pubDate>
+      <guid isPermaLink="false">rasbt/reasoning-from-scratch</guid>
     </item>
     <item>
-      <title>antgroup/Research-Venus</title>
-      <link>https://github.com/antgroup/Research-Venus</link>
-      <description>Deep Research</description>
-      <pubDate>Tue, 26 Aug 2025 02:04:41 GMT</pubDate>
-      <guid isPermaLink="false">antgroup/Research-Venus</guid>
+      <title>google-deepmind/limit</title>
+      <link>https://github.com/google-deepmind/limit</link>
+      <description>On the Theoretical Limitations of Embedding-Based Retrieval</description>
+      <pubDate>Sun, 31 Aug 2025 21:10:08 GMT</pubDate>
+      <guid isPermaLink="false">google-deepmind/limit</guid>
     </item>
     <item>
-      <title>llpplplp/AugmentInjector</title>
-      <link>https://github.com/llpplplp/AugmentInjector</link>
-      <description>AugmentInjector 拦截API防止封号 Token登录无感换号 余额监控</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">llpplplp/AugmentInjector</guid>
+      <title>QuentinFuxa/WhisperLiveKit</title>
+      <link>https://github.com/QuentinFuxa/WhisperLiveKit</link>
+      <description>Real-time &amp; local speech-to-text, translation, and speaker diarization. With server &amp; web UI.</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:38 GMT</pubDate>
+      <guid isPermaLink="false">QuentinFuxa/WhisperLiveKit</guid>
     </item>
     <item>
-      <title>SONICMAN69/Bebop-PS2-English</title>
-      <link>https://github.com/SONICMAN69/Bebop-PS2-English</link>
-      <description>A full (fanmade) English translation for Cowboy Bebop - Tsuioku no Serenade for the PlayStation 2</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">SONICMAN69/Bebop-PS2-English</guid>
+      <title>trueadm/ripple</title>
+      <link>https://github.com/trueadm/ripple</link>
+      <description>the elegant UI framework for the web</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:38 GMT</pubDate>
+      <guid isPermaLink="false">trueadm/ripple</guid>
     </item>
     <item>
-      <title>balavenkatesh3322/awesome-AI-toolkit</title>
-      <link>https://github.com/balavenkatesh3322/awesome-AI-toolkit</link>
-      <description>A curated, comprehensive collection of open-source AI tools, frameworks, datasets, courses, and seminal papers.</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">balavenkatesh3322/awesome-AI-toolkit</guid>
+      <title>control-theory/gonzo</title>
+      <link>https://github.com/control-theory/gonzo</link>
+      <description>Gonzo! The Go based TUI log analysis tool</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:38 GMT</pubDate>
+      <guid isPermaLink="false">control-theory/gonzo</guid>
     </item>
     <item>
-      <title>allenai/asta-paper-finder</title>
-      <link>https://github.com/allenai/asta-paper-finder</link>
-      <description>frozen-in-time version of our  Paper Finder agent for reproducing evaluation results</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">allenai/asta-paper-finder</guid>
+      <title>hotheadhacker/seedbox-lite</title>
+      <link>https://github.com/hotheadhacker/seedbox-lite</link>
+      <description>A light-weight torrent media center at one place.</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:06 GMT</pubDate>
+      <guid isPermaLink="false">hotheadhacker/seedbox-lite</guid>
     </item>
     <item>
-      <title>RevenueCat/slide-to-unlock</title>
-      <link>https://github.com/RevenueCat/slide-to-unlock</link>
-      <description>➡️ Fully customizable slide to unlock UI component for Jetpack Compose and KMP.</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">RevenueCat/slide-to-unlock</guid>
+      <title>Tencent/Youtu-agent</title>
+      <link>https://github.com/Tencent/Youtu-agent</link>
+      <description>A simple yet powerful agent framework that delivers with open-source models</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:06 GMT</pubDate>
+      <guid isPermaLink="false">Tencent/Youtu-agent</guid>
     </item>
     <item>
-      <title>AshenOneme/DiT-Based-Microstructures-Design</title>
-      <link>https://github.com/AshenOneme/DiT-Based-Microstructures-Design</link>
-      <description>This repository contains the code related to the article &quot;Latent Diffusion–Driven Inverse Design of Damping Microstructures with Multiaxial Nonlinear Mechanical Targets&quot;</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">AshenOneme/DiT-Based-Microstructures-Design</guid>
+      <title>elixir-lang/expert</title>
+      <link>https://github.com/elixir-lang/expert</link>
+      <description>Official Elixir Language Server Protocol implementation</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:06 GMT</pubDate>
+      <guid isPermaLink="false">elixir-lang/expert</guid>
     </item>
     <item>
-      <title>dahlia/optique</title>
-      <link>https://github.com/dahlia/optique</link>
-      <description>Type-safe combinatorial CLI parser for TypeScript</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">dahlia/optique</guid>
+      <title>dinoki-ai/osaurus</title>
+      <link>https://github.com/dinoki-ai/osaurus</link>
+      <description>Native, Apple Silicon–only local LLM server. Similar to Ollama, but built on Apple&apos;s MLX for maximum performance on M‑series chips. SwiftUI app + SwiftNIO server with OpenAI‑compatible endpoints.</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:06 GMT</pubDate>
+      <guid isPermaLink="false">dinoki-ai/osaurus</guid>
     </item>
     <item>
-      <title>call518/MCP-PostgreSQL-Ops</title>
-      <link>https://github.com/call518/MCP-PostgreSQL-Ops</link>
-      <description>Professional MCP server for PostgreSQL operations &amp; monitoring: 30+ extension-independent tools for performance analysis, table bloat detection, autovacuum monitoring, schema introspection, and database management. Supports PostgreSQL 12-17.</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">call518/MCP-PostgreSQL-Ops</guid>
+      <title>MaliosDark/wifi-3d-fusion</title>
+      <link>https://github.com/MaliosDark/wifi-3d-fusion</link>
+      <description>WiFi-3D-Fusion is an open-source research project that leverages WiFi CSI signals and deep learning to estimate 3D human pose, fusing wireless sensing with computer vision techniques for next-generation spatial awareness.</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:06 GMT</pubDate>
+      <guid isPermaLink="false">MaliosDark/wifi-3d-fusion</guid>
     </item>
     <item>
-      <title>jina-ai/mlx-retrieval</title>
-      <link>https://github.com/jina-ai/mlx-retrieval</link>
-      <description>Train embedding and reranker models for retrieval tasks on Apple Silicon with MLX</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">jina-ai/mlx-retrieval</guid>
+      <title>NVlabs/Jet-Nemotron</title>
+      <link>https://github.com/NVlabs/Jet-Nemotron</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 31 Aug 2025 21:09:06 GMT</pubDate>
+      <guid isPermaLink="false">NVlabs/Jet-Nemotron</guid>
     </item>
     <item>
-      <title>leeguooooo/claude-code-usage-bar</title>
-      <link>https://github.com/leeguooooo/claude-code-usage-bar</link>
-      <description>Real‑time statusline for Claude Code: token usage, remaining budget, burn rate, and depletion time</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">leeguooooo/claude-code-usage-bar</guid>
-    </item>
-    <item>
-      <title>iamsrikanthnani/pluely</title>
-      <link>https://github.com/iamsrikanthnani/pluely</link>
-      <description>The Open Source Alternative to Cluely - A lightning-fast, privacy-first AI assistant that works seamlessly during meetings, interviews, and conversations without anyone knowing. Built with Tauri for native performance, just 10MB. Completely undetectable in video calls, screen shares, and recordings.</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">iamsrikanthnani/pluely</guid>
-    </item>
-    <item>
-      <title>philippb/claude-homeassistant</title>
-      <link>https://github.com/philippb/claude-homeassistant</link>
-      <description>Allows to program your home automations in plain english via Claude Code on your computer.</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">philippb/claude-homeassistant</guid>
-    </item>
-    <item>
-      <title>google-gemini/veo-3-gemini-api-quickstart</title>
-      <link>https://github.com/google-gemini/veo-3-gemini-api-quickstart</link>
-      <description>Veo 3 Gemini API Quickstart</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">google-gemini/veo-3-gemini-api-quickstart</guid>
-    </item>
-    <item>
-      <title>techspence/AppLockerInspector</title>
-      <link>https://github.com/techspence/AppLockerInspector</link>
-      <description>Audits an AppLocker policy XML and reports weak/misconfigured/risky settings, including actual ACL checks.</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">techspence/AppLockerInspector</guid>
-    </item>
-    <item>
-      <title>aim-uofa/Tinker</title>
-      <link>https://github.com/aim-uofa/Tinker</link>
-      <description>One-shot and Few-shot 3D Editing without Per-Scene Optimization</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">aim-uofa/Tinker</guid>
-    </item>
-    <item>
-      <title>JetAstra/SDAR</title>
-      <link>https://github.com/JetAstra/SDAR</link>
-      <description>SDAR (Synergy of Diffusion and AutoRegression), a large diffusion language model（1.7B, 4B, 8B, 30B）</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">JetAstra/SDAR</guid>
-    </item>
-    <item>
-      <title>NVlabs/LongSplat</title>
-      <link>https://github.com/NVlabs/LongSplat</link>
-      <description>[ICCV 2025] LongSplat: Robust Unposed 3D Gaussian Splatting for Casual Long Videos</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">NVlabs/LongSplat</guid>
-    </item>
-    <item>
-      <title>NASA-IMPACT/Surya</title>
-      <link>https://github.com/NASA-IMPACT/Surya</link>
-      <description>Implementation of the Surya Foundation Model and Downstream Tasks for Heliophysics</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">NASA-IMPACT/Surya</guid>
-    </item>
-    <item>
-      <title>heroui-inc/heroui-native</title>
-      <link>https://github.com/heroui-inc/heroui-native</link>
-      <description>📱Beautiful, fast and modern React Native UI library</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">heroui-inc/heroui-native</guid>
-    </item>
-    <item>
-      <title>SalesforceAIResearch/MCP-Universe</title>
-      <link>https://github.com/SalesforceAIResearch/MCP-Universe</link>
-      <description>MCP-Universe is a comprehensive framework designed for developing, testing, and benchmarking AI agents</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">SalesforceAIResearch/MCP-Universe</guid>
-    </item>
-    <item>
-      <title>Kunbyte-AI/OmniTry</title>
-      <link>https://github.com/Kunbyte-AI/OmniTry</link>
-      <description>Official Repository of &quot;OmniTry: Virtual Try-On Anything without Masks&quot;</description>
-      <pubDate>Mon, 25 Aug 2025 23:25:25 GMT</pubDate>
-      <guid isPermaLink="false">Kunbyte-AI/OmniTry</guid>
-    </item>
-    <item>
-      <title>bravenewxyz/agent-c</title>
-      <link>https://github.com/bravenewxyz/agent-c</link>
-      <description>Ultra-lightweight AI Agent</description>
-      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
-      <guid isPermaLink="false">bravenewxyz/agent-c</guid>
-    </item>
-    <item>
-      <title>schlae/cm5-reveng</title>
-      <link>https://github.com/schlae/cm5-reveng</link>
-      <description>Reverse engineered Raspberry Pi Compute Module 5</description>
-      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
-      <guid isPermaLink="false">schlae/cm5-reveng</guid>
-    </item>
-    <item>
-      <title>printz-labs/pumpfun-sniper</title>
-      <link>https://github.com/printz-labs/pumpfun-sniper</link>
-      <description>pumpufun sniper bot (pump.fun sniper bot) source code</description>
-      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
-      <guid isPermaLink="false">printz-labs/pumpfun-sniper</guid>
-    </item>
-    <item>
-      <title>hku-mars/LIV_handhold_2</title>
-      <link>https://github.com/hku-mars/LIV_handhold_2</link>
-      <description>LIV-Eye: A Low-Cost LiDAR-Inertial-Visual Fusion 3D Sensor for Robotics and Embodied AI.</description>
-      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
-      <guid isPermaLink="false">hku-mars/LIV_handhold_2</guid>
-    </item>
-    <item>
-      <title>pi0/shiki-image</title>
-      <link>https://github.com/pi0/shiki-image</link>
-      <description>Convert code snippets into images. Powered by shiki and takumi. Super fast 🚀</description>
-      <pubDate>Mon, 25 Aug 2025 22:49:11 GMT</pubDate>
-      <guid isPermaLink="false">pi0/shiki-image</guid>
-    </item>
-    <item>
-      <title>karpathy/rendergit</title>
-      <link>https://github.com/karpathy/rendergit</link>
-      <description>Render any git repo into a single static HTML page for humans or LLMs</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">karpathy/rendergit</guid>
-    </item>
-    <item>
-      <title>ENDESGA/PEP</title>
-      <link>https://github.com/ENDESGA/PEP</link>
-      <description>Prediction-Encoded Pixels - designed to compress pixel art as much as possible (by sacrificing a bit of time)</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">ENDESGA/PEP</guid>
-    </item>
-    <item>
-      <title>vercel/streamdown</title>
-      <link>https://github.com/vercel/streamdown</link>
-      <description>A drop-in replacement for react-markdown, designed for AI-powered streaming.</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">vercel/streamdown</guid>
+      <title>spinel-coop/rv</title>
+      <link>https://github.com/spinel-coop/rv</link>
+      <description>💎💨 Next-gen very fast Ruby tooling</description>
+      <pubDate>Sun, 31 Aug 2025 21:08:20 GMT</pubDate>
+      <guid isPermaLink="false">spinel-coop/rv</guid>
     </item>
     <item>
       <title>shuding/nstr</title>
       <link>https://github.com/shuding/nstr</link>
       <description>number → string, but looks good</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
+      <pubDate>Sun, 31 Aug 2025 21:08:20 GMT</pubDate>
       <guid isPermaLink="false">shuding/nstr</guid>
+    </item>
+    <item>
+      <title>renzorlive/vimmaster</title>
+      <link>https://github.com/renzorlive/vimmaster</link>
+      <description>VIM Master: in-browser game that teaches core Vim motions and editing commands through short, focused levels. No installs required—just open `index.html` and start practicing.</description>
+      <pubDate>Sun, 31 Aug 2025 21:08:20 GMT</pubDate>
+      <guid isPermaLink="false">renzorlive/vimmaster</guid>
+    </item>
+    <item>
+      <title>kane50613/takumi</title>
+      <link>https://github.com/kane50613/takumi</link>
+      <description>Render your React components to images. Available for Rust, Node.js, and WebAssembly.</description>
+      <pubDate>Sun, 31 Aug 2025 21:08:20 GMT</pubDate>
+      <guid isPermaLink="false">kane50613/takumi</guid>
+    </item>
+    <item>
+      <title>heroui-inc/heroui-native</title>
+      <link>https://github.com/heroui-inc/heroui-native</link>
+      <description>📱Beautiful, fast and modern React Native UI library</description>
+      <pubDate>Sun, 31 Aug 2025 21:08:20 GMT</pubDate>
+      <guid isPermaLink="false">heroui-inc/heroui-native</guid>
+    </item>
+    <item>
+      <title>getAsterisk/opcode</title>
+      <link>https://github.com/getAsterisk/opcode</link>
+      <description>A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.</description>
+      <pubDate>Sun, 31 Aug 2025 21:08:20 GMT</pubDate>
+      <guid isPermaLink="false">getAsterisk/opcode</guid>
+    </item>
+    <item>
+      <title>Growth-Kinetics/DiffMem</title>
+      <link>https://github.com/Growth-Kinetics/DiffMem</link>
+      <description>Git Based Memory Storage for Conversational AI Agent</description>
+      <pubDate>Sun, 31 Aug 2025 21:08:20 GMT</pubDate>
+      <guid isPermaLink="false">Growth-Kinetics/DiffMem</guid>
+    </item>
+    <item>
+      <title>Agent-on-the-Fly/Memento</title>
+      <link>https://github.com/Agent-on-the-Fly/Memento</link>
+      <description>Official Code of Memento: Fine-tuning LLM Agents without Fine-tuning LLMs</description>
+      <pubDate>Sun, 31 Aug 2025 21:08:20 GMT</pubDate>
+      <guid isPermaLink="false">Agent-on-the-Fly/Memento</guid>
+    </item>
+    <item>
+      <title>growchief/growchief</title>
+      <link>https://github.com/growchief/growchief</link>
+      <description>The Ultimate all-in social media automation (outreach) tool 🤖</description>
+      <pubDate>Sun, 31 Aug 2025 21:05:48 GMT</pubDate>
+      <guid isPermaLink="false">growchief/growchief</guid>
+    </item>
+    <item>
+      <title>microsoft/VibeVoice</title>
+      <link>https://github.com/microsoft/VibeVoice</link>
+      <description>Frontier Open-Source Text-to-Speech</description>
+      <pubDate>Sun, 31 Aug 2025 21:05:48 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/VibeVoice</guid>
+    </item>
+    <item>
+      <title>HKUDS/DeepCode</title>
+      <link>https://github.com/HKUDS/DeepCode</link>
+      <description>&quot;DeepCode: Open Agentic Coding (Paper2Code &amp; Text2Web &amp; Text2Backend)&quot;</description>
+      <pubDate>Sun, 31 Aug 2025 21:05:12 GMT</pubDate>
+      <guid isPermaLink="false">HKUDS/DeepCode</guid>
+    </item>
+    <item>
+      <title>ghuntley/how-to-build-a-coding-agent</title>
+      <link>https://github.com/ghuntley/how-to-build-a-coding-agent</link>
+      <description>A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Windsurf or OpenCode.</description>
+      <pubDate>Sun, 31 Aug 2025 21:05:12 GMT</pubDate>
+      <guid isPermaLink="false">ghuntley/how-to-build-a-coding-agent</guid>
+    </item>
+    <item>
+      <title>microsoft/lets-learn-mcp-python</title>
+      <link>https://github.com/microsoft/lets-learn-mcp-python</link>
+      <description>MCP Python Tutorial</description>
+      <pubDate>Sun, 31 Aug 2025 21:05:12 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/lets-learn-mcp-python</guid>
+    </item>
+    <item>
+      <title>openai/agents.md</title>
+      <link>https://github.com/openai/agents.md</link>
+      <description>AGENTS.md — a simple, open format for guiding coding agents</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">openai/agents.md</guid>
+    </item>
+    <item>
+      <title>bgreenwell/doxx</title>
+      <link>https://github.com/bgreenwell/doxx</link>
+      <description>Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">bgreenwell/doxx</guid>
+    </item>
+    <item>
+      <title>OneRedOak/claude-code-workflows</title>
+      <link>https://github.com/OneRedOak/claude-code-workflows</link>
+      <description>The best workflows and configurations I&apos;ve developed, having heavily used Claude Code since the day of it&apos;s release. Workflows are based off applied learnings from our AI-native startup.</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">OneRedOak/claude-code-workflows</guid>
+    </item>
+    <item>
+      <title>panphora/overtype</title>
+      <link>https://github.com/panphora/overtype</link>
+      <description>The markdown editor that&apos;s just a textarea https://overtype.dev</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">panphora/overtype</guid>
+    </item>
+    <item>
+      <title>automazeio/ccpm</title>
+      <link>https://github.com/automazeio/ccpm</link>
+      <description>Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">automazeio/ccpm</guid>
+    </item>
+    <item>
+      <title>vercel/streamdown</title>
+      <link>https://github.com/vercel/streamdown</link>
+      <description>A drop-in replacement for react-markdown, designed for AI-powered streaming.</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">vercel/streamdown</guid>
+    </item>
+    <item>
+      <title>firecrawl/open-lovable</title>
+      <link>https://github.com/firecrawl/open-lovable</link>
+      <description>🔥 Clone and recreate any website as a modern React app in seconds</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">firecrawl/open-lovable</guid>
+    </item>
+    <item>
+      <title>epicenter-so/epicenter</title>
+      <link>https://github.com/epicenter-so/epicenter</link>
+      <description>Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">epicenter-so/epicenter</guid>
+    </item>
+    <item>
+      <title>shiyu-coder/Kronos</title>
+      <link>https://github.com/shiyu-coder/Kronos</link>
+      <description>Kronos: A Foundation Model for the Language of Financial Markets</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">shiyu-coder/Kronos</guid>
+    </item>
+    <item>
+      <title>karpathy/rendergit</title>
+      <link>https://github.com/karpathy/rendergit</link>
+      <description>Render any git repo into a single static HTML page for humans or LLMs</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">karpathy/rendergit</guid>
+    </item>
+    <item>
+      <title>minitap-ai/mobile-use</title>
+      <link>https://github.com/minitap-ai/mobile-use</link>
+      <description>AI agents can now use real Android and iOS apps, just like a human.</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">minitap-ai/mobile-use</guid>
+    </item>
+    <item>
+      <title>Sumanth077/ai-engineering-toolkit</title>
+      <link>https://github.com/Sumanth077/ai-engineering-toolkit</link>
+      <description>A curated list of 100+ libraries and frameworks for AI engineers building with LLMs</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">Sumanth077/ai-engineering-toolkit</guid>
+    </item>
+    <item>
+      <title>scottpetrovic/mesh2motion-app</title>
+      <link>https://github.com/scottpetrovic/mesh2motion-app</link>
+      <description>Import a 3D Model and automatically assign and export animations</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">scottpetrovic/mesh2motion-app</guid>
+    </item>
+    <item>
+      <title>opactorai/Claudable</title>
+      <link>https://github.com/opactorai/Claudable</link>
+      <description>Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">opactorai/Claudable</guid>
     </item>
     <item>
       <title>NiladriHazra/Open-Fiesta</title>
       <link>https://github.com/NiladriHazra/Open-Fiesta</link>
       <description>An open-source version to use all the Models for free</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
       <guid isPermaLink="false">NiladriHazra/Open-Fiesta</guid>
     </item>
     <item>
-      <title>martianlantern/ThinkMesh</title>
-      <link>https://github.com/martianlantern/ThinkMesh</link>
-      <description>Parallel thinking for LLMs. Confidence‑gated, strategy‑driven, offline‑friendly</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">martianlantern/ThinkMesh</guid>
+      <title>zedless-editor/zedless</title>
+      <link>https://github.com/zedless-editor/zedless</link>
+      <description>(WIP) Zed fork focused on privacy and being local-first</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">zedless-editor/zedless</guid>
     </item>
     <item>
-      <title>tobi/try</title>
-      <link>https://github.com/tobi/try</link>
-      <description>fresh directories for every vibe</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">tobi/try</guid>
+      <title>ByteDance-Seed/seed-oss</title>
+      <link>https://github.com/ByteDance-Seed/seed-oss</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">ByteDance-Seed/seed-oss</guid>
     </item>
     <item>
-      <title>auv-sh/av</title>
-      <link>https://github.com/auv-sh/av</link>
-      <description>An extremely fast movie  manager, written in Rust.</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">auv-sh/av</guid>
+      <title>tiny-tpu-v2/tiny-tpu</title>
+      <link>https://github.com/tiny-tpu-v2/tiny-tpu</link>
+      <description>A minimal tensor processing unit (TPU), inspired by Google&apos;s TPU V2 and V1</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
+      <guid isPermaLink="false">tiny-tpu-v2/tiny-tpu</guid>
     </item>
     <item>
       <title>MeiGen-AI/InfiniteTalk</title>
       <link>https://github.com/MeiGen-AI/InfiniteTalk</link>
-      <description>​​Unlimited-length talking video generation​​ that supports image-to-video and video-to-video generation</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
+      <description>Unlimited-length talking video generation that supports image-to-video and video-to-video generation</description>
+      <pubDate>Sun, 31 Aug 2025 21:04:10 GMT</pubDate>
       <guid isPermaLink="false">MeiGen-AI/InfiniteTalk</guid>
-    </item>
-    <item>
-      <title>2x7EQ13/CreateProcessAsPPL</title>
-      <link>https://github.com/2x7EQ13/CreateProcessAsPPL</link>
-      <description>This is the loader that supports running a program with Protected Process Light (PPL) protection functionality.</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">2x7EQ13/CreateProcessAsPPL</guid>
-    </item>
-    <item>
-      <title>synacktiv/GroupPolicyBackdoor</title>
-      <link>https://github.com/synacktiv/GroupPolicyBackdoor</link>
-      <description>Group Policy Objects manipulation and exploitation framework</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">synacktiv/GroupPolicyBackdoor</guid>
-    </item>
-    <item>
-      <title>PurinNyova/Image-Detection-Bypass-Utility</title>
-      <link>https://github.com/PurinNyova/Image-Detection-Bypass-Utility</link>
-      <description>Attempts to bypass AI Image detection by employing various methods such as: Noise Injection, FFT Smoothing, FFT Matching, Pixel Perturbation, Camera Simulation, and more.</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">PurinNyova/Image-Detection-Bypass-Utility</guid>
-    </item>
-    <item>
-      <title>sito-sikino/avatar-ui-core</title>
-      <link>https://github.com/sito-sikino/avatar-ui-core</link>
-      <description>Classic terminal-style UI core. A project foundation extensible from chat UIs to CLI integration.</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">sito-sikino/avatar-ui-core</guid>
-    </item>
-    <item>
-      <title>3DTopia/4DNeX</title>
-      <link>https://github.com/3DTopia/4DNeX</link>
-      <description>4DNeX: Feed-Forward 4D Generative Modeling Made Easy</description>
-      <pubDate>Mon, 25 Aug 2025 12:48:09 GMT</pubDate>
-      <guid isPermaLink="false">3DTopia/4DNeX</guid>
     </item>
   </channel>
 </rss>
