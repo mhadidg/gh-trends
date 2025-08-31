@@ -29,14 +29,14 @@ jobs:
     - name: Install deps
       run: npm ci
 
+    - name: Copy .env file
+      run: cp .env.example .env
+
     - name: Update RSS feed
       run: npm run start
       env:
         RSS_ENABLED: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Copy .env file
-      run: cp .env.example .env
 
     - name: Commit RSS feed updates
       env:
