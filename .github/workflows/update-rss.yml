@@ -32,7 +32,6 @@ jobs:
     - name: Update RSS feed
       run: npm run start
       env:
-        USE_MOCK_REPOS: false
         RSS_ENABLED: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
