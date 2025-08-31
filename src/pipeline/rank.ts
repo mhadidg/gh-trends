@@ -2,6 +2,8 @@ import { clamp, daysSince, hoursSince } from '../utils/common';
 import { GithubRepo } from '../clients/github.gql';
 import { logWarn } from '../utils/logging';
 
+const BLOCKLIST_KEYWORDS = [/aimbot/i, /kms/i];
+
 export interface ScoredRepo extends GithubRepo {
   score: number;
 }
@@ -55,10 +57,12 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
         return false;
       }
 
-      // Catch pirated KMS activators (often malware)
-      if (/kms/i.test(repoName) && repo.stargazerCount < 5000) {
-        logWarn('score', `presumably pirated KMS activator, skipping: ${repoName}`);
-        return false;
+      // Catch blocklisted keywords
+      for (const pattern of BLOCKLIST_KEYWORDS) {
+        if (pattern.test(repoName) || (repo.description && pattern.test(repo.description))) {
+          logWarn('score', `blocklisted keyword in repo name, skipping: ${repoName}`);
+          return false;
+        }
       }
 
       return true;
