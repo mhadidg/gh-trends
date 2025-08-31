@@ -29,7 +29,8 @@ jobs:
     - name: Send newsletter
       run: npm run start
       env:
-        USE_MOCK_REPOS: false
-        BUTTONDOWN_ENABLED: true
-        BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        RESEND_ENABLED: true
+        RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
+        RESEND_FROM: ${{ secrets.RESEND_FROM }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
