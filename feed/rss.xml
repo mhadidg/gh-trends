@@ -5,8 +5,36 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Aug 2025 22:25:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 02:13:06 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>0xalberto/jupiter-arbitrage-bot</title>
+      <link>https://github.com/0xalberto/jupiter-arbitrage-bot</link>
+      <description>jupiter arbitrage bot : A high-performance, fully automated arbitrage bot built on Solana, leveraging the power of Jupiter Aggregator v6 for real-time profitable trading between decentralized exchanges. solana-jupiter-arbitrage-bot solana-jupiter-arbitrage-bot solana-jupiter-arbitrage-bot solana-jupiter-arbitrage-bot</description>
+      <pubDate>Tue, 02 Sep 2025 02:13:06 GMT</pubDate>
+      <guid isPermaLink="false">0xalberto/jupiter-arbitrage-bot</guid>
+    </item>
+    <item>
+      <title>0xalberto/solana-crash-game</title>
+      <link>https://github.com/0xalberto/solana-crash-game</link>
+      <description>🚀 Rocket Crash Game – Web3 Blockchain Betting | A crash game where players bet, cash out, and win before the rocket crashes! Featuring provably fair on-chain gameplay, decentralized betting, instant payouts, and NFT rewards. Built with Rust, Anchor, and React for a fast, low-fee, and immersive crypto gaming experience.</description>
+      <pubDate>Tue, 02 Sep 2025 02:13:06 GMT</pubDate>
+      <guid isPermaLink="false">0xalberto/solana-crash-game</guid>
+    </item>
+    <item>
+      <title>0xalberto/solana-raydium-pumpfun-sniper-Rust</title>
+      <link>https://github.com/0xalberto/solana-raydium-pumpfun-sniper-Rust</link>
+      <description>solana raydium sniper/pumpfun sniper: this solana raydium sniper/pumpfun sniper is written in Rust⚡. In addtion to these solana raydium snipe bot(raydium sniping bot) and pumpfun snipe bot(pumpfun sniping bot), it has raydium bundler, pumpfun bundler, copy trading bot, raydium/pumpfun volume bot more.</description>
+      <pubDate>Tue, 02 Sep 2025 02:13:06 GMT</pubDate>
+      <guid isPermaLink="false">0xalberto/solana-raydium-pumpfun-sniper-Rust</guid>
+    </item>
+    <item>
+      <title>bytedance/USO</title>
+      <link>https://github.com/bytedance/USO</link>
+      <description>🔥🔥 Open-sourced unified customization model</description>
+      <pubDate>Mon, 01 Sep 2025 02:28:40 GMT</pubDate>
+      <guid isPermaLink="false">bytedance/USO</guid>
+    </item>
     <item>
       <title>JimmyLv/awesome-nano-banana</title>
       <link>https://github.com/JimmyLv/awesome-nano-banana</link>
