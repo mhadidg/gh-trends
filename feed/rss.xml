@@ -5,8 +5,57 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Sep 2025 02:13:06 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 01:59:26 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>the-litte-book-of/linear-algebra</title>
+      <link>https://github.com/the-litte-book-of/linear-algebra</link>
+      <description>There is hardly any theory which is more elementary than linear algebra, in spite of the fact that generations of professors and textbook writers have obscured its simplicity by preposterous calculations with matrices. —Jean Dieudonne</description>
+      <pubDate>Wed, 03 Sep 2025 01:59:26 GMT</pubDate>
+      <guid isPermaLink="false">the-litte-book-of/linear-algebra</guid>
+    </item>
+    <item>
+      <title>Danau5tin/multi-agent-coding-system</title>
+      <link>https://github.com/Danau5tin/multi-agent-coding-system</link>
+      <description>Now #12 on Stanford&apos;s Terminal Bench leaderboard. Orchestrator, explorer &amp; coder agents working together with intelligent context sharing.</description>
+      <pubDate>Wed, 03 Sep 2025 01:59:26 GMT</pubDate>
+      <guid isPermaLink="false">Danau5tin/multi-agent-coding-system</guid>
+    </item>
+    <item>
+      <title>crafter-station/elements</title>
+      <link>https://github.com/crafter-station/elements</link>
+      <description>full-stack shadcn/ui components</description>
+      <pubDate>Wed, 03 Sep 2025 01:59:26 GMT</pubDate>
+      <guid isPermaLink="false">crafter-station/elements</guid>
+    </item>
+    <item>
+      <title>Tencent-Hunyuan/HunyuanWorld-Voyager</title>
+      <link>https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager</link>
+      <description>Voyager is an interactive RGBD video generation model conditioned on camera trajectory, and supports real-time 3D reconstruction.</description>
+      <pubDate>Tue, 02 Sep 2025 13:01:42 GMT</pubDate>
+      <guid isPermaLink="false">Tencent-Hunyuan/HunyuanWorld-Voyager</guid>
+    </item>
+    <item>
+      <title>TencentCloudADP/youtu-agent</title>
+      <link>https://github.com/TencentCloudADP/youtu-agent</link>
+      <description>A simple yet powerful agent framework that delivers with open-source models</description>
+      <pubDate>Tue, 02 Sep 2025 13:01:42 GMT</pubDate>
+      <guid isPermaLink="false">TencentCloudADP/youtu-agent</guid>
+    </item>
+    <item>
+      <title>TibixDev/winboat</title>
+      <link>https://github.com/TibixDev/winboat</link>
+      <description>Run Windows apps on 🐧 Linux with ✨ seamless integration</description>
+      <pubDate>Tue, 02 Sep 2025 13:01:42 GMT</pubDate>
+      <guid isPermaLink="false">TibixDev/winboat</guid>
+    </item>
+    <item>
+      <title>Tencent-Hunyuan/Hunyuan-MT</title>
+      <link>https://github.com/Tencent-Hunyuan/Hunyuan-MT</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 02 Sep 2025 13:01:42 GMT</pubDate>
+      <guid isPermaLink="false">Tencent-Hunyuan/Hunyuan-MT</guid>
+    </item>
     <item>
       <title>bytedance/USO</title>
       <link>https://github.com/bytedance/USO</link>
