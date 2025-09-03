@@ -1,15 +1,20 @@
-# GitHub Trends Newsletter
+<div align="center">
 
-Weekly newsletter featuring *fresh* trending GitHub projects. The top 20 picks only. All running on GitHub
-Actions; serverless, zero operational cost, and fully automated.
+# Github trends
 
-[![CI](https://github.com/mhadidg/gh-trends-newsletter/workflows/CI/badge.svg)](https://github.com/mhadidg/gh-trends-newsletter/actions)
+[![CI](https://github.com/mhadidg/gh-trends/workflows/CI/badge.svg)](https://github.com/mhadidg/gh-trends/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen)](https://nodejs.org/)
 
+Weekly newsletter featuring *fresh* trending Github projects. The top 20 picks *every week*.
+
+✉️ Email newsletter | 🔔 GitHub inbox notifications | 📶 RSS feed
+
+</div>
+
 ![Email newsletter example](.github/assets/email-newsletter.png)
 
-I documented my motive in a [blog post](https://mhadidg.com/posts/automating-github-trends-newsletter/). If your curious
+I wrote about my motive in a [blog post](https://hadid.dev/posts/github-trends/). If you're curious
 about the technical details, the post covers that too.
 
 ## How to subscribe
@@ -20,45 +25,42 @@ You can subscribe via one of the these channels:
 - Email newsletter
 - RSS feed (individual repo feeds)
 
-### Github notifications (recommended)
+### Github notifications <img src="https://img.shields.io/badge/-Recommended-brightgreen" valign="middle">
 
-**Cadence**: Weekly (every Monday)
+*Cadence*: weekly (every Monday)
 
 The recommend channel is *Github release*:
 
-- Click `Watch` dropdown
-- Select `Custom`
-- Check `Releases`
+- Click **Watch** 👀
+- Select **Custom**
+- Check **Releases**
 
 That's it. You will get notified of new releases. Here's an example.
 
-<p align="center">
-
-![GitHub release notification example](.github/assets/gh-release-notif.png)
-
-</p>
+![Github release notification example](.github/assets/gh-release-notif.png)
 
 ### Email newsletter
 
-**Cadence**: Weekly (every Monday)
+*Cadence*: weekly (every Monday)
 
 Subscribe [here](https://forms.gle/dbPQMaD1jamqfMg29).
 
 > [!NOTE]
-> I'm using *Google Forms* for now. That's a bit amateur-ish and super encouraging, I know. I might work on a fancy
-> subscription page in the future.
+> I'm using *Google Forms* for now. That's a bit amateur-ish and not super encouraging, I know. A fancy
+> subscription page is on my TODO list.
 
 ### RSS feed
 
-**Cadence**: Daily (twice daily)
-
-You can add it to your RSS reader of choice.
+*Cadence*: twice daily (roughly at 00:00 and 12:00)
 
 ```
 https://raw.githubusercontent.com/mhadidg/gh-trends/refs/heads/main/feed/rss.xml
 ```
 
 ## Quick setup
+
+Everything is running on Github Actions; serverless, zero operational cost (except for the email bit), and fully
+automated.
 
 ```bash
 # Install deps
@@ -73,7 +75,19 @@ npm run dev
 # Preview release (with mock data)
 TEMPLATE_NAME=markdown.hbs npm run preview
 
-# Or preview release with real data (calling ClickHouse/GitHub API)
+# Or preview release with real data (calling ClickHouse/Github API)
 TEMPLATE_NAME=markdown.hbs npm run preview:live
 
 ```
+
+### Sending email
+
+The project supports sending via either *Resend* or *Buttondown* (you can do both, but I wouldn't recommend). Both have
+free tier more than enough for personal or team-wide use.
+
+You will need to setup tokens (with few more vars for *Resend*) to send an email. Those should be configured as
+*Secrets* under the forked repo:
+
+- Settings
+- Secrets and variables
+- Actions
