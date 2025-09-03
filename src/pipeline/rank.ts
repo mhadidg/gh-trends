@@ -3,7 +3,7 @@ import { GithubRepo } from '../clients/github.gql';
 import { logWarn } from '../utils/logging';
 
 const BLOCKLIST_KEYWORDS = [/aimbot/i, /kms/i];
-const BLOCKLIST_USERS = ['ox1nec', '0xalberto'];
+const BLOCKLIST_USERS = ['ox1nec', '0xalberto', 'kinexbt'];
 
 export interface ScoredRepo extends GithubRepo {
   score: number;
