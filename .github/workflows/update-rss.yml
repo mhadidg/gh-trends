@@ -12,13 +12,16 @@ permissions:
 
 jobs:
   update-rss:
+    # Disable on forks; require clear intent
+    if: github.repository == 'mhadidg/gh-trends'
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0 # full history for amend commits; one by default
+        # Full history for amend commits
+        fetch-depth: 0 # one by default
 
     - name: Setup Node
       uses: actions/setup-node@v4
