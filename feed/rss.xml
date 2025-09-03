@@ -5,8 +5,22 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Sep 2025 01:59:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Sep 2025 12:58:56 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>infocodiste/SniperBot</title>
+      <link>https://github.com/infocodiste/SniperBot</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 03 Sep 2025 12:58:56 GMT</pubDate>
+      <guid isPermaLink="false">infocodiste/SniperBot</guid>
+    </item>
+    <item>
+      <title>Adembc/lazyssh</title>
+      <link>https://github.com/Adembc/lazyssh</link>
+      <description>A terminal-based SSH manager inspired by lazydocker and k9s - Written in go</description>
+      <pubDate>Wed, 03 Sep 2025 12:58:56 GMT</pubDate>
+      <guid isPermaLink="false">Adembc/lazyssh</guid>
+    </item>
     <item>
       <title>the-litte-book-of/linear-algebra</title>
       <link>https://github.com/the-litte-book-of/linear-algebra</link>
