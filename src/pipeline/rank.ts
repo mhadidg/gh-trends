@@ -13,7 +13,7 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
   const minStars = parseInt(process.env.RELEASE_MIN_STARS!);
   const limit = parseInt(process.env.RELEASE_TOP_N!);
 
-  return repos
+  const ranked = repos
     .filter(repo => {
       const repoName = repo.nameWithOwner;
 
@@ -79,6 +79,11 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
       const hoursSinceFirstSeen = clamp(hoursSince(repo.clickhouse.firstSeenAt), 1, maxHours);
       return { ...repo, score: parseInt(repo.clickhouse.starsWithin) / hoursSinceFirstSeen };
     })
-    .sort((a, b) => b.score - a.score)
-    .slice(0, limit);
+    .sort((a, b) => b.score - a.score);
+
+  for (const repo of ranked.slice(limit, limit + 10)) {
+    logWarn('score', `missed the cut: ${repo.nameWithOwner} (score: ${repo.score.toFixed(2)})`);
+  }
+
+  return ranked.slice(0, limit);
 }
