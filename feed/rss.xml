@@ -5,8 +5,85 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Sep 2025 12:58:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Sep 2025 12:52:35 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>Adam-CAD/CADAM</title>
+      <link>https://github.com/Adam-CAD/CADAM</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 06 Sep 2025 12:52:35 GMT</pubDate>
+      <guid isPermaLink="false">Adam-CAD/CADAM</guid>
+    </item>
+    <item>
+      <title>Nainish-Rai/NextTube</title>
+      <link>https://github.com/Nainish-Rai/NextTube</link>
+      <description>A youtube-alternative frontend made using Reactjs</description>
+      <pubDate>Sat, 06 Sep 2025 12:52:35 GMT</pubDate>
+      <guid isPermaLink="false">Nainish-Rai/NextTube</guid>
+    </item>
+    <item>
+      <title>thepower/PowerHub</title>
+      <link>https://github.com/thepower/PowerHub</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 06 Sep 2025 12:52:35 GMT</pubDate>
+      <guid isPermaLink="false">thepower/PowerHub</guid>
+    </item>
+    <item>
+      <title>modelcontextprotocol/php-sdk</title>
+      <link>https://github.com/modelcontextprotocol/php-sdk</link>
+      <description>The official PHP SDK for Model Context Protocol servers and clients. Maintained in collaboration with The PHP Foundation.</description>
+      <pubDate>Sat, 06 Sep 2025 01:59:27 GMT</pubDate>
+      <guid isPermaLink="false">modelcontextprotocol/php-sdk</guid>
+    </item>
+    <item>
+      <title>basecamp/once-campfire</title>
+      <link>https://github.com/basecamp/once-campfire</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 05 Sep 2025 02:04:54 GMT</pubDate>
+      <guid isPermaLink="false">basecamp/once-campfire</guid>
+    </item>
+    <item>
+      <title>basecamp/lexxy</title>
+      <link>https://github.com/basecamp/lexxy</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 05 Sep 2025 02:04:54 GMT</pubDate>
+      <guid isPermaLink="false">basecamp/lexxy</guid>
+    </item>
+    <item>
+      <title>docker/cagent</title>
+      <link>https://github.com/docker/cagent</link>
+      <description>Agent Builder and Runtime by Docker Engineering</description>
+      <pubDate>Thu, 04 Sep 2025 12:57:04 GMT</pubDate>
+      <guid isPermaLink="false">docker/cagent</guid>
+    </item>
+    <item>
+      <title>PicoTrex/Awesome-Nano-Banana-images</title>
+      <link>https://github.com/PicoTrex/Awesome-Nano-Banana-images</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 04 Sep 2025 12:57:04 GMT</pubDate>
+      <guid isPermaLink="false">PicoTrex/Awesome-Nano-Banana-images</guid>
+    </item>
+    <item>
+      <title>GWUDCAP/cc-sessions</title>
+      <link>https://github.com/GWUDCAP/cc-sessions</link>
+      <description>An opinionated extension set for Claude Code (hooks, subagents, commands, task/git management infrastructure)</description>
+      <pubDate>Thu, 04 Sep 2025 12:57:04 GMT</pubDate>
+      <guid isPermaLink="false">GWUDCAP/cc-sessions</guid>
+    </item>
+    <item>
+      <title>microsoft/BASIC-M6502</title>
+      <link>https://github.com/microsoft/BASIC-M6502</link>
+      <description>Microsoft BASIC for 6502 Microprocessor - Version 1.1</description>
+      <pubDate>Thu, 04 Sep 2025 02:00:01 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/BASIC-M6502</guid>
+    </item>
+    <item>
+      <title>github/spec-kit</title>
+      <link>https://github.com/github/spec-kit</link>
+      <description>💫 Toolkit to help you get started with Spec-Driven Development</description>
+      <pubDate>Thu, 04 Sep 2025 02:00:01 GMT</pubDate>
+      <guid isPermaLink="false">github/spec-kit</guid>
+    </item>
     <item>
       <title>infocodiste/SniperBot</title>
       <link>https://github.com/infocodiste/SniperBot</link>
