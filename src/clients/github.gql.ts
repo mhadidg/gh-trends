@@ -1,4 +1,4 @@
-import { HttpError, TaggedError } from '../utils/logging';
+import { HttpError, logInfo, TaggedError } from '../utils/logging';
 import { ClickHouseRepo } from './clickhouse';
 
 export type GithubRepo = {
@@ -72,6 +72,11 @@ export class GitHubGraphQLClient {
           Accept: 'application/vnd.github+json',
         },
       });
+
+      // Safe access to skip the headers part in testing mocks
+      const limit = response.headers?.get('X-RateLimit-Limit');
+      const remaining = response.headers?.get('X-RateLimit-Remaining');
+      logInfo('github', `rate limit: ${remaining}/${limit} requests remaining`);
 
       if (!response.ok) {
         throw new HttpError('github', 'fetching repos with GraphQL failed', response);
