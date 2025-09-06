@@ -4,7 +4,7 @@ import { ScoredRepo } from '../pipeline/rank';
 export abstract class Publisher {
   abstract readonly name: string;
   abstract enabled(): boolean;
-  render?(repos: ScoredRepo[]): string;
+  render?(repos: ScoredRepo[]): string | object;
   abstract publish(repos: ScoredRepo[]): Promise<string>;
 
   subject(): string {

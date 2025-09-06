@@ -11,8 +11,11 @@ export class ResendPublisher extends Publisher {
     return process.env.RESEND_ENABLED === 'true';
   }
 
-  render(repos: ScoredRepo[]): string {
-    return render('html.hbs', repos);
+  render(repos: ScoredRepo[]) {
+    return {
+      html: render('html.hbs', repos),
+      text: render('text.hbs', repos),
+    };
   }
 
   async publish(repos: ScoredRepo[]): Promise<string> {
@@ -35,7 +38,8 @@ export class ResendPublisher extends Publisher {
       audience_id: audienceId,
       subject: this.subject(),
       name: this.subject(),
-      html: content,
+      html: content.html,
+      text: content.text,
     });
 
     return result.id;
