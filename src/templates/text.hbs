@@ -7,7 +7,7 @@ Your weekly dose of the hottest repositories on GitHub
 ---
 {{#each repos}}
 
-{{nameWithOwner}}{{#if primaryLanguage.name}}- {{primaryLanguage.name}}{{/if}} ★ {{formatNumber stargazerCount}}
+{{nameWithOwner}}{{#if primaryLanguage.name}} - {{primaryLanguage.name}}{{/if}} ★ {{formatNumber stargazerCount}}
 {{url}}
 {{#if description}}{{truncate description ../descLimit}}{{else}}(no description){{/if}}
 {{/each}}
