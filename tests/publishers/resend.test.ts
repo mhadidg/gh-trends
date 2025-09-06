@@ -10,8 +10,11 @@ describe('resend.ts', () => {
   const mockFetch = vi.fn();
   let instance: ResendPublisher;
 
-  const content = 'hello world';
   const repos: ScoredRepo[] = mockRepos.map(repo => ({ ...repo, score: 0 }));
+  const content = {
+    html: '<p>Hello world</p>',
+    text: 'Hello world',
+  };
 
   beforeEach(() => {
     instance = new ResendPublisher();
@@ -155,7 +158,8 @@ describe('resend.ts', () => {
         audience_id: audienceId,
         subject: instance.subject(),
         name: instance.subject(),
-        html: content,
+        html: content.html,
+        text: content.text,
       });
 
       // 2nd request: send

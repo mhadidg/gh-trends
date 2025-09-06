@@ -73,10 +73,10 @@ cp .env.example .env
 npm run dev
 
 # Preview release (with mock data)
-TEMPLATE_NAME=markdown.hbs npm run preview
+npm run preview
 
 # Or preview release with real data (calling ClickHouse/Github API)
-TEMPLATE_NAME=markdown.hbs npm run preview:live
+npm run preview:live
 
 ```
 
