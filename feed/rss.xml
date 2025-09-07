@@ -5,8 +5,29 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Sep 2025 12:52:35 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Sep 2025 12:53:34 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>google-gemini/nano-banana-hackathon-kit</title>
+      <link>https://github.com/google-gemini/nano-banana-hackathon-kit</link>
+      <description>🍌 The official starter kit for the Nano Banana Hackathon. Clone this repo to get building fast!</description>
+      <pubDate>Sun, 07 Sep 2025 12:53:34 GMT</pubDate>
+      <guid isPermaLink="false">google-gemini/nano-banana-hackathon-kit</guid>
+    </item>
+    <item>
+      <title>yoavf/absolutelyright</title>
+      <link>https://github.com/yoavf/absolutelyright</link>
+      <description>Claude said I&apos;m absolutely right!</description>
+      <pubDate>Sun, 07 Sep 2025 12:53:34 GMT</pubDate>
+      <guid isPermaLink="false">yoavf/absolutelyright</guid>
+    </item>
+    <item>
+      <title>samhenrigold/LidAngleSensor</title>
+      <link>https://github.com/samhenrigold/LidAngleSensor</link>
+      <description>tfw when you when your lid when uhh angle your lid sensor</description>
+      <pubDate>Sun, 07 Sep 2025 02:13:42 GMT</pubDate>
+      <guid isPermaLink="false">samhenrigold/LidAngleSensor</guid>
+    </item>
     <item>
       <title>Adam-CAD/CADAM</title>
       <link>https://github.com/Adam-CAD/CADAM</link>
