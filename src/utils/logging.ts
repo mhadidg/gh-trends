@@ -42,5 +42,6 @@ export function logError(tag: string, err: TaggedError, metadata?: Record<string
 export async function logHttpError(tag: string, err: HttpError) {
   console.error(`[ERROR] ${tag}: ${err.message} (code: ${err.response.status})`);
   console.error(`  → URL: ${err.response.url}`);
+  console.error(`  → Header: ${JSON.stringify(err.response.headers)}`);
   console.error(`  → Response: ${await err.response.text()}`);
 }
