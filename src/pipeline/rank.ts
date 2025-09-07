@@ -5,6 +5,11 @@ import { logWarn } from '../utils/logging';
 const BLOCKLIST_KEYWORDS = [/aimbot/i, /kms/i];
 const BLOCKLIST_USERS = ['ox1nec', '0xalberto', 'kinexbt'];
 
+const BLOCKLIST_REPOS = [
+  'JimmyLv/awesome-nano-banana', // duplicate
+  'PicoTrex/Awesome-Nano-Banana-images', // duplicate
+];
+
 export interface ScoredRepo extends GithubRepo {
   score: number;
 }
@@ -67,8 +72,14 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
       }
 
       // Catch blocklisted users
-      if (BLOCKLIST_USERS.includes(repo.nameWithOwner.split('/')[0]!)) {
+      if (BLOCKLIST_USERS.includes(repoName.split('/')[0]!)) {
         logWarn('score', `blocklisted user, skipping: ${repoName}`);
+        return false;
+      }
+
+      // Catch blocklisted repos
+      if (BLOCKLIST_REPOS.includes(repoName)) {
+        logWarn('score', `blocklisted repo, skipping: ${repoName}`);
         return false;
       }
 

@@ -31,7 +31,7 @@ export async function scan(): Promise<GithubRepo[]> {
   const enrichedRepos = await github.getRepos(repos);
   const missing = repos.length - enrichedRepos.length;
   if (missing > 0) {
-    logInfo('github', `out of ${repos.length} repos, ${missing} are no longer exist`);
+    logInfo('github', `out of ${repos.length} repos, ${missing} no longer exist`);
   }
 
   return enrichedRepos;
