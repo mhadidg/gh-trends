@@ -69,14 +69,17 @@ npm install
 # Copy default config
 cp .env.example .env
 
-# Run locally (with mock data)
-npm run dev
-
-# Preview release (with mock data)
-npm run preview
-
-# Or preview release with real data (calling ClickHouse/Github API)
+# Run locally (list repos in terminal)
 npm run preview:live
+
+# Show me more please
+RELEASE_TOP_N=40 npm run preview:live
+
+# Can I got back in time? Sure
+SCAN_EVAL_DATE=2025-01-01 npm run preview:live
+
+# Expand the scan window (default is 7 days)
+SCAN_DAYS=30 npm run preview:live
 
 ```
 
