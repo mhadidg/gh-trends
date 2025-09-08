@@ -69,14 +69,11 @@ npm install
 # Copy default config
 cp .env.example .env
 
-# Run locally (with mock data)
-npm run dev
-
-# Preview release (with mock data)
-npm run preview
-
-# Or preview release with real data (calling ClickHouse/Github API)
+# Preview locally
 npm run preview:live
+
+# Show me more please
+RELEASE_TOP_N=40 npm run preview:live
 
 ```
 
