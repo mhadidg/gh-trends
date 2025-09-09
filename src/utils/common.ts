@@ -22,6 +22,12 @@ export function clamp(value: number, min: number, max: number): number {
   return Math.max(min, Math.min(max, value));
 }
 
+export function median(arr: number[]): number {
+  const sorted = [...arr].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted[mid] as number;
+}
+
 export async function handleProcessError(error: unknown) {
   if (error instanceof HttpError) {
     await logHttpError(error.tag, error);

@@ -13,6 +13,11 @@ export type GithubRepo = {
     __typename: 'User' | 'Organization';
     createdAt: string; // owner createdAt
   };
+  stargazers: {
+    nodes: {
+      createdAt: string; // stargazer createdAt
+    }[];
+  };
 };
 
 export type GitHubErrorItem = {
@@ -20,10 +25,16 @@ export type GitHubErrorItem = {
   message: string;
 };
 
+// Externally defined to override in tests
+export const config = {
+  batchSize: 20, // max repos per request
+  waitInMillis: 30_000, // wait time on rate limit
+  maxRetries: 3, // max retries on rate limit
+};
+
 export class GitHubGraphQLClient {
   public static readonly endpoint = 'https://api.github.com/graphql';
   private readonly token: string;
-  private readonly batchSize = 100; // max items per request
 
   constructor(token?: string) {
     if (!token) throw new TaggedError('config', 'GITHUB_TOKEN required');
@@ -49,15 +60,21 @@ export class GitHubGraphQLClient {
           ... on User { createdAt }
           ... on Organization { createdAt }
         }
+        stargazers(first: 50, orderBy: { field: STARRED_AT, direction: DESC }) {
+          nodes {
+            createdAt
+          }
+        }
       }
     `;
 
-    for (let start = 0; start < repos.length; start += this.batchSize) {
-      const batch = repos.slice(start, start + this.batchSize);
+    let attempt = 0;
+    for (let start = 0; start < repos.length; ) {
+      const batch = repos.slice(start, start + config.batchSize);
 
       const parts = batch.map((repo, i) => {
         const [owner, name] = repo.repoName.split('/');
-        if (!owner || !name) throw new TaggedError('github', `Invalid repo: ${repo.repoName}`);
+        if (!owner || !name) throw new TaggedError('github', `invalid repo: ${repo.repoName}`);
         return fields(owner, name, i);
       });
 
@@ -73,12 +90,28 @@ export class GitHubGraphQLClient {
         },
       });
 
-      // Safe access to skip the headers part in testing mocks
-      const limit = response.headers?.get('X-RateLimit-Limit');
-      const remaining = response.headers?.get('X-RateLimit-Remaining');
-      logInfo('github', `rate limit: ${remaining}/${limit} requests remaining`);
+      if (response.status === 403) {
+        const json = await response.json();
+        if (json.message?.includes('secondary rate limit')) {
+          attempt += 1;
+          if (attempt > config.maxRetries) {
+            throw new TaggedError('github', 'secondary rate limit hit, too many retries');
+          }
+
+          logInfo('github', 'secondary rate limit hit, waiting a bit to retry...');
+          await new Promise(resolve => setTimeout(resolve, config.waitInMillis));
+          continue;
+        }
+      }
 
       if (!response.ok) {
+        // Safe access to skip the headers part in testing mocks
+        const limit = response.headers?.get('X-RateLimit-Limit');
+        const remaining = response.headers?.get('X-RateLimit-Remaining');
+        if (limit && remaining) {
+          logInfo('github', `rate limit: ${remaining}/${limit} requests remaining`);
+        }
+
         throw new HttpError('github', 'fetching repos with GraphQL failed', response);
       }
 
@@ -96,6 +129,9 @@ export class GitHubGraphQLClient {
         const node = data[`r${i}`];
         if (node) all.push({ ...node, clickhouse: batch[i] });
       }
+
+      start += config.batchSize;
+      logInfo('github', `fetched ${start}/${repos.length} repos so far`);
     }
 
     return all;

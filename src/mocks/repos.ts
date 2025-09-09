@@ -26,6 +26,9 @@ export const mockRepos: GithubRepo[] = [
       starsWithin: '1250',
       starsBefore: '0',
     },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
+    },
   },
   {
     nameWithOwner: 'hidden/gem',
@@ -43,6 +46,9 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(90)),
       starsWithin: '800',
       starsBefore: '90', // had some stars before the window
+    },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
     },
   },
   {
@@ -62,6 +68,9 @@ export const mockRepos: GithubRepo[] = [
       starsWithin: '1000',
       starsBefore: '50', // wasn't that popular in a week before
     },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
+    },
   },
   {
     nameWithOwner: 'no/desc',
@@ -79,6 +88,9 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+    },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
     },
   },
   {
@@ -98,6 +110,9 @@ export const mockRepos: GithubRepo[] = [
       starsWithin: '500',
       starsBefore: '0',
     },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
+    },
   },
   {
     nameWithOwner: 'no/lang',
@@ -115,6 +130,9 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+    },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
     },
   },
   {
@@ -134,6 +152,9 @@ export const mockRepos: GithubRepo[] = [
       starsWithin: '500',
       starsBefore: '0',
     },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
+    },
   },
   {
     nameWithOwner: 'blocklist/kms', // "kms" is a blocklisted keyword
@@ -151,6 +172,9 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+    },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
     },
   },
   {
@@ -170,6 +194,9 @@ export const mockRepos: GithubRepo[] = [
       starsWithin: '500',
       starsBefore: '0',
     },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
+    },
   },
   {
     nameWithOwner: 'ox1nec/blocklisted', // "ox1nec" user is blocklisted
@@ -187,6 +214,9 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+    },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
     },
   },
   {
@@ -206,6 +236,9 @@ export const mockRepos: GithubRepo[] = [
       starsWithin: '500',
       starsBefore: '0',
     },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
+    },
   },
   {
     nameWithOwner: 'chinese/repo',
@@ -223,6 +256,9 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(1)),
       starsWithin: '500',
       starsBefore: '0',
+    },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
     },
   },
   {
@@ -242,6 +278,9 @@ export const mockRepos: GithubRepo[] = [
       starsWithin: '500',
       starsBefore: '0',
     },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
+    },
   },
   {
     nameWithOwner: 'low/stars',
@@ -260,6 +299,9 @@ export const mockRepos: GithubRepo[] = [
       starsWithin: '3',
       starsBefore: '0',
     },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
+    },
   },
   {
     nameWithOwner: 'renamed/repo',
@@ -277,6 +319,9 @@ export const mockRepos: GithubRepo[] = [
       firstSeenAt: toClickhouse(daysAgo(3)),
       starsWithin: '300', // inconsistent stars between CH and GH
       starsBefore: '0',
+    },
+    stargazers: {
+      nodes: [{ createdAt: daysAgo(1000) }],
     },
   },
 ];

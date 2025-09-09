@@ -1,7 +1,12 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { scan } from '../../src/pipeline/scan';
 import { HttpError } from '../../src/utils/logging';
-import { GitHubErrorItem, GitHubGraphQLClient, GithubRepo } from '../../src/clients/github.gql';
+import {
+  config,
+  GitHubErrorItem,
+  GitHubGraphQLClient,
+  GithubRepo,
+} from '../../src/clients/github.gql';
 import { mockRepos } from '../../src/mocks/repos';
 import { ClickHouseClient } from '../../src/clients/clickhouse';
 
@@ -336,6 +341,71 @@ describe('scan.ts', () => {
         });
 
       await expect(scan()).rejects.toThrowError(HttpError);
+    });
+
+    it('should retry on secondary rate limit', async () => {
+      vi.spyOn(config, 'maxRetries', 'get').mockReturnValue(1);
+      vi.spyOn(config, 'waitInMillis', 'get').mockReturnValue(0);
+
+      // Mock ClickHouse API
+      mockFetch
+        .mockResolvedValueOnce({
+          ok: true,
+          // At least one result is required to trigger GitHub API
+          json: vi.fn().mockResolvedValue({
+            data: [{ repoName: 'test/repo' }],
+            statistics: { rows_read: 1000 },
+          }),
+        })
+        // Then mock GitHub API
+        .mockResolvedValueOnce({
+          ok: false,
+          status: 403,
+          json: vi.fn().mockResolvedValue({ message: 'secondary rate limit' }),
+        })
+        // Second attempt succeeds
+        .mockResolvedValueOnce({
+          ok: true,
+          status: 200,
+          json: vi.fn().mockResolvedValue({
+            data: {
+              r0: {
+                ...mockRepos[0],
+                nameWithOwner: 'test/repo',
+              },
+            } as Record<string, GithubRepo>,
+          }),
+        });
+
+      const result = await scan();
+
+      expect(result).toHaveLength(1);
+      expect(result[0]!.nameWithOwner).toBe('test/repo');
+    });
+
+    it('should throw after max retries', async () => {
+      vi.spyOn(config, 'maxRetries', 'get').mockReturnValue(4);
+      vi.spyOn(config, 'waitInMillis', 'get').mockReturnValue(0);
+
+      // Mock ClickHouse API
+      mockFetch
+        .mockResolvedValueOnce({
+          ok: true,
+          // At least one result is required to trigger GitHub API
+          json: vi.fn().mockResolvedValue({
+            data: [{ repoName: 'test/repo' }],
+            statistics: { rows_read: 1000 },
+          }),
+        })
+        // Then mock GitHub API
+        .mockResolvedValue({
+          ok: false,
+          status: 403,
+          json: vi.fn().mockResolvedValue({ message: 'secondary rate limit' }),
+        });
+
+      await expect(scan()).rejects.toThrowError('secondary rate limit');
+      expect(mockFetch).toHaveBeenCalledTimes(1 + 1 + 4); // 1 CH + 1 initial + 4 retries
     });
   });
 });

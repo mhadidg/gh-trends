@@ -1,4 +1,4 @@
-import { clamp, daysSince, hoursSince } from '../utils/common';
+import { clamp, daysSince, hoursSince, median } from '../utils/common';
 import { GithubRepo } from '../clients/github.gql';
 import { logWarn } from '../utils/logging';
 
@@ -97,7 +97,19 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
     .map(function (repo) {
       const maxHours = parseInt(process.env.SCAN_WINDOW_DAYS!) * 24;
       const hoursSinceFirstSeen = clamp(hoursSince(repo.clickhouse.firstSeenAt), 1, maxHours);
-      return { ...repo, score: parseInt(repo.clickhouse.starsWithin) / hoursSinceFirstSeen };
+      const starsPerHour = parseInt(repo.clickhouse.starsWithin) / hoursSinceFirstSeen;
+
+      // Reward repos with senior stargazers
+      // Also, penalize repos with fake stars (fresh users)
+      const stargazersAge = repo.stargazers.nodes.map(u => Math.round(daysSince(u.createdAt)));
+      const medianStargazersAge = median(stargazersAge)!;
+
+      // Adjust for eval date if set (historical scans)
+      const evalDate = process.env.SCAN_EVAL_DATE;
+      const daysSinceEval = evalDate ? daysSince(evalDate) : 0;
+
+      const score = starsPerHour * ((medianStargazersAge - daysSinceEval) / 365);
+      return { ...repo, score };
     })
     .sort((a, b) => b.score - a.score);
 
