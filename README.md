@@ -75,7 +75,7 @@ npm run preview:live
 # Show me more please
 RELEASE_TOP_N=40 npm run preview:live
 
-# Can I got back in time? Sure
+# Want to go back in time? Sure
 SCAN_EVAL_DATE=2025-01-01 npm run preview:live
 
 # Expand the scan window (default is 7 days)
