@@ -27,8 +27,10 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
         return false;
       }
 
+      // Catch renamed repos
       // Only applicable when eval date is unset/today
-      if (!process.env.SCAN_EVAL_DATE) {
+      const evalDate = process.env.SCAN_EVAL_DATE;
+      if (!evalDate) {
         const clickhouseTotalStars =
           parseInt(repo.clickhouse.starsBefore) + parseInt(repo.clickhouse.starsWithin);
 
@@ -48,6 +50,8 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
         }
       }
 
+      // Filter out CJK repos (Chinese, Japanese, Korean)
+      // Detect English only is hard (esp. for short descriptions)
       if (repo.description) {
         const desc = repo.description.trim();
 
@@ -58,7 +62,12 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
       }
 
       // Catch malware repos (mostly crypto wallet drainers)
-      if (daysSince(repo.owner.createdAt) < 30 && repo.owner.__typename === 'User') {
+      // Adjust for eval date if set (historical scans)
+      const daysSinceEval = evalDate ? daysSince(evalDate) : 0;
+      if (
+        repo.owner.__typename === 'User' &&
+        daysSince(repo.owner.createdAt) - daysSinceEval < 30
+      ) {
         logWarn('score', `presumably malware (fresh owner), skipping: ${repoName}`);
         return false;
       }
