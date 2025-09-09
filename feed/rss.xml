@@ -5,8 +5,29 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Sep 2025 02:14:09 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 13:03:09 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>the-ora/browser</title>
+      <link>https://github.com/the-ora/browser</link>
+      <description>Less noise, more browsing.</description>
+      <pubDate>Tue, 09 Sep 2025 13:03:09 GMT</pubDate>
+      <guid isPermaLink="false">the-ora/browser</guid>
+    </item>
+    <item>
+      <title>Julien-cpsn/desktop-tui</title>
+      <link>https://github.com/Julien-cpsn/desktop-tui</link>
+      <description>A desktop environment without graphics</description>
+      <pubDate>Tue, 09 Sep 2025 02:09:35 GMT</pubDate>
+      <guid isPermaLink="false">Julien-cpsn/desktop-tui</guid>
+    </item>
+    <item>
+      <title>yassa9/qwen600</title>
+      <link>https://github.com/yassa9/qwen600</link>
+      <description>Static suckless single batch CUDA-only qwen3-0.6B mini inference engine</description>
+      <pubDate>Tue, 09 Sep 2025 02:09:35 GMT</pubDate>
+      <guid isPermaLink="false">yassa9/qwen600</guid>
+    </item>
     <item>
       <title>BeaconBay/ck</title>
       <link>https://github.com/BeaconBay/ck</link>
@@ -167,41 +188,6 @@
       <description>full-stack shadcn/ui components</description>
       <pubDate>Wed, 03 Sep 2025 01:59:26 GMT</pubDate>
       <guid isPermaLink="false">crafter-station/elements</guid>
-    </item>
-    <item>
-      <title>Tencent-Hunyuan/HunyuanWorld-Voyager</title>
-      <link>https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager</link>
-      <description>Voyager is an interactive RGBD video generation model conditioned on camera trajectory, and supports real-time 3D reconstruction.</description>
-      <pubDate>Tue, 02 Sep 2025 13:01:42 GMT</pubDate>
-      <guid isPermaLink="false">Tencent-Hunyuan/HunyuanWorld-Voyager</guid>
-    </item>
-    <item>
-      <title>TencentCloudADP/youtu-agent</title>
-      <link>https://github.com/TencentCloudADP/youtu-agent</link>
-      <description>A simple yet powerful agent framework that delivers with open-source models</description>
-      <pubDate>Tue, 02 Sep 2025 13:01:42 GMT</pubDate>
-      <guid isPermaLink="false">TencentCloudADP/youtu-agent</guid>
-    </item>
-    <item>
-      <title>TibixDev/winboat</title>
-      <link>https://github.com/TibixDev/winboat</link>
-      <description>Run Windows apps on 🐧 Linux with ✨ seamless integration</description>
-      <pubDate>Tue, 02 Sep 2025 13:01:42 GMT</pubDate>
-      <guid isPermaLink="false">TibixDev/winboat</guid>
-    </item>
-    <item>
-      <title>Tencent-Hunyuan/Hunyuan-MT</title>
-      <link>https://github.com/Tencent-Hunyuan/Hunyuan-MT</link>
-      <description>(no description)</description>
-      <pubDate>Tue, 02 Sep 2025 13:01:42 GMT</pubDate>
-      <guid isPermaLink="false">Tencent-Hunyuan/Hunyuan-MT</guid>
-    </item>
-    <item>
-      <title>bytedance/USO</title>
-      <link>https://github.com/bytedance/USO</link>
-      <description>🔥🔥 Open-sourced unified customization model</description>
-      <pubDate>Mon, 01 Sep 2025 02:28:40 GMT</pubDate>
-      <guid isPermaLink="false">bytedance/USO</guid>
     </item>
   </channel>
 </rss>
