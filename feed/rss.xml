@@ -5,8 +5,225 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Sep 2025 13:03:09 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 02:13:19 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>dbrant/ftape</title>
+      <link>https://github.com/dbrant/ftape</link>
+      <description>Further (?) development of the old ftape driver for Linux.</description>
+      <pubDate>Sun, 14 Sep 2025 02:13:19 GMT</pubDate>
+      <guid isPermaLink="false">dbrant/ftape</guid>
+    </item>
+    <item>
+      <title>songtianlun/awesome-prompts</title>
+      <link>https://github.com/songtianlun/awesome-prompts</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 14 Sep 2025 02:13:19 GMT</pubDate>
+      <guid isPermaLink="false">songtianlun/awesome-prompts</guid>
+    </item>
+    <item>
+      <title>kgcrom/cluefin</title>
+      <link>https://github.com/kgcrom/cluefin</link>
+      <description>Your financial investment assistant</description>
+      <pubDate>Sun, 14 Sep 2025 02:13:19 GMT</pubDate>
+      <guid isPermaLink="false">kgcrom/cluefin</guid>
+    </item>
+    <item>
+      <title>byJoey/cfnew</title>
+      <link>https://github.com/byJoey/cfnew</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 14 Sep 2025 02:13:19 GMT</pubDate>
+      <guid isPermaLink="false">byJoey/cfnew</guid>
+    </item>
+    <item>
+      <title>me-shaon/laravel-request-analytics</title>
+      <link>https://github.com/me-shaon/laravel-request-analytics</link>
+      <description>Simple request data analytics package for Laravel projects</description>
+      <pubDate>Sun, 14 Sep 2025 02:13:19 GMT</pubDate>
+      <guid isPermaLink="false">me-shaon/laravel-request-analytics</guid>
+    </item>
+    <item>
+      <title>pham-tuan-binh/bouija</title>
+      <link>https://github.com/pham-tuan-binh/bouija</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 14 Sep 2025 02:13:19 GMT</pubDate>
+      <guid isPermaLink="false">pham-tuan-binh/bouija</guid>
+    </item>
+    <item>
+      <title>jonace-mpelule/the-express-boilerplate</title>
+      <link>https://github.com/jonace-mpelule/the-express-boilerplate</link>
+      <description>Hey Devs! 👋🏽. Build express backends 10x faster with this boilerplate (Express, Prisma, PostgresQL, Docker), easily customizable ⚡️ . More code and boilerplate will be added. Feel free to clone or contribute!</description>
+      <pubDate>Sun, 14 Sep 2025 02:13:19 GMT</pubDate>
+      <guid isPermaLink="false">jonace-mpelule/the-express-boilerplate</guid>
+    </item>
+    <item>
+      <title>OHF-Voice/linux-voice-assistant</title>
+      <link>https://github.com/OHF-Voice/linux-voice-assistant</link>
+      <description>Voice satellite for Home Assistant using the ESPHome protocol</description>
+      <pubDate>Sat, 13 Sep 2025 12:53:32 GMT</pubDate>
+      <guid isPermaLink="false">OHF-Voice/linux-voice-assistant</guid>
+    </item>
+    <item>
+      <title>divyamakkar0/JAXformer</title>
+      <link>https://github.com/divyamakkar0/JAXformer</link>
+      <description>This is a zero-to-one guide on scaling modern transformers with n-dimensional parallelism.</description>
+      <pubDate>Sat, 13 Sep 2025 12:53:32 GMT</pubDate>
+      <guid isPermaLink="false">divyamakkar0/JAXformer</guid>
+    </item>
+    <item>
+      <title>lingdojo/kanadojo</title>
+      <link>https://github.com/lingdojo/kanadojo</link>
+      <description>Fun, minimalist, aesthetic platform for learning and practicing Japanese online.</description>
+      <pubDate>Sat, 13 Sep 2025 12:53:32 GMT</pubDate>
+      <guid isPermaLink="false">lingdojo/kanadojo</guid>
+    </item>
+    <item>
+      <title>scholtz/qrcode-reader-vue3</title>
+      <link>https://github.com/scholtz/qrcode-reader-vue3</link>
+      <description>A set of Vue.js components for detecting and decoding QR codes.</description>
+      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
+      <guid isPermaLink="false">scholtz/qrcode-reader-vue3</guid>
+    </item>
+    <item>
+      <title>buildzaku/zaku</title>
+      <link>https://github.com/buildzaku/zaku</link>
+      <description>Zaku app for macOS, Linux and Windows.</description>
+      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
+      <guid isPermaLink="false">buildzaku/zaku</guid>
+    </item>
+    <item>
+      <title>scholtz/vote-coin-demo</title>
+      <link>https://github.com/scholtz/vote-coin-demo</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
+      <guid isPermaLink="false">scholtz/vote-coin-demo</guid>
+    </item>
+    <item>
+      <title>klpod221/kerminal</title>
+      <link>https://github.com/klpod221/kerminal</link>
+      <description>// Modern Terminal with SSH, Tunneling &amp; Cross-Device Sync</description>
+      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
+      <guid isPermaLink="false">klpod221/kerminal</guid>
+    </item>
+    <item>
+      <title>emarpiee/Retroma</title>
+      <link>https://github.com/emarpiee/Retroma</link>
+      <description>Retroma is an Obsidian theme that blends nostalgic, classic design with an intelligent color scheme algorithm.</description>
+      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
+      <guid isPermaLink="false">emarpiee/Retroma</guid>
+    </item>
+    <item>
+      <title>vercel-labs/dev3000</title>
+      <link>https://github.com/vercel-labs/dev3000</link>
+      <description>Captures your web app&apos;s complete development timeline - server logs, browser events, console messages, network requests, and automatic screenshots - in a unified, timestamped feed for AI debugging.</description>
+      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
+      <guid isPermaLink="false">vercel-labs/dev3000</guid>
+    </item>
+    <item>
+      <title>MoralisWeb3/moralis-analytics-js</title>
+      <link>https://github.com/MoralisWeb3/moralis-analytics-js</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
+      <guid isPermaLink="false">MoralisWeb3/moralis-analytics-js</guid>
+    </item>
+    <item>
+      <title>water-rs/waterui</title>
+      <link>https://github.com/water-rs/waterui</link>
+      <description>Bring your app to all plaform, once for all.</description>
+      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
+      <guid isPermaLink="false">water-rs/waterui</guid>
+    </item>
+    <item>
+      <title>scholtz/vue-web-nfc-demo</title>
+      <link>https://github.com/scholtz/vue-web-nfc-demo</link>
+      <description>A very messy example web app demoing Chrome&apos;s new Web NFC feature using Vue 3</description>
+      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
+      <guid isPermaLink="false">scholtz/vue-web-nfc-demo</guid>
+    </item>
+    <item>
+      <title>scholtz/covid-sk</title>
+      <link>https://github.com/scholtz/covid-sk</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
+      <guid isPermaLink="false">scholtz/covid-sk</guid>
+    </item>
+    <item>
+      <title>github/spec-kit</title>
+      <link>https://github.com/github/spec-kit</link>
+      <description>💫 Toolkit to help you get started with Spec-Driven Development</description>
+      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
+      <guid isPermaLink="false">github/spec-kit</guid>
+    </item>
+    <item>
+      <title>software-mansion-labs/react-native-enriched</title>
+      <link>https://github.com/software-mansion-labs/react-native-enriched</link>
+      <description>Rich text input component for React Native.</description>
+      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
+      <guid isPermaLink="false">software-mansion-labs/react-native-enriched</guid>
+    </item>
+    <item>
+      <title>100thCoin/AccuracyCoin</title>
+      <link>https://github.com/100thCoin/AccuracyCoin</link>
+      <description>A large collection of NES accuracy tests on a single NROM cartridge.</description>
+      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
+      <guid isPermaLink="false">100thCoin/AccuracyCoin</guid>
+    </item>
+    <item>
+      <title>d-kimuson/claude-code-viewer</title>
+      <link>https://github.com/d-kimuson/claude-code-viewer</link>
+      <description>A full-featured web-based Claude Code client that provides complete interactive functionality for managing Claude Code projects</description>
+      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
+      <guid isPermaLink="false">d-kimuson/claude-code-viewer</guid>
+    </item>
+    <item>
+      <title>basketballguy999/Quantum-Mechanics-Concise-Book</title>
+      <link>https://github.com/basketballguy999/Quantum-Mechanics-Concise-Book</link>
+      <description>A concise text on quantum mechanics, intended for a general mathematical audience including CS, engineering, math, and physics undergrads, as well as anyone interested in a concise intro/overview of QM. Prerequisites: linear algebra, calculus, high school physics</description>
+      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
+      <guid isPermaLink="false">basketballguy999/Quantum-Mechanics-Concise-Book</guid>
+    </item>
+    <item>
+      <title>Hardocs/desktop-app</title>
+      <link>https://github.com/Hardocs/desktop-app</link>
+      <description>Hardocs desktop app presenting current docs editing functionalities.</description>
+      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
+      <guid isPermaLink="false">Hardocs/desktop-app</guid>
+    </item>
+    <item>
+      <title>NVlabs/UniversalDeepResearch</title>
+      <link>https://github.com/NVlabs/UniversalDeepResearch</link>
+      <description>Code to accompany the Universal Deep Research paper (https://arxiv.org/abs/2509.00244)</description>
+      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
+      <guid isPermaLink="false">NVlabs/UniversalDeepResearch</guid>
+    </item>
+    <item>
+      <title>m-damien/VisualStoryWriting</title>
+      <link>https://github.com/m-damien/VisualStoryWriting</link>
+      <description>🧙‍♂️ Writing by manipulating visual representations of stories</description>
+      <pubDate>Thu, 11 Sep 2025 02:09:15 GMT</pubDate>
+      <guid isPermaLink="false">m-damien/VisualStoryWriting</guid>
+    </item>
+    <item>
+      <title>basecamp/activerecord-tenanted</title>
+      <link>https://github.com/basecamp/activerecord-tenanted</link>
+      <description>Enable a Rails application to have separate sqlite database files for each tenant.</description>
+      <pubDate>Thu, 11 Sep 2025 02:09:15 GMT</pubDate>
+      <guid isPermaLink="false">basecamp/activerecord-tenanted</guid>
+    </item>
+    <item>
+      <title>cryxnet/DeepMCPAgent</title>
+      <link>https://github.com/cryxnet/DeepMCPAgent</link>
+      <description>Model-agnostic plug-n-play LangChain/LangGraph agents powered entirely by MCP tools over HTTP/SSE.</description>
+      <pubDate>Thu, 11 Sep 2025 02:09:15 GMT</pubDate>
+      <guid isPermaLink="false">cryxnet/DeepMCPAgent</guid>
+    </item>
+    <item>
+      <title>X-Square-Robot/wall-x</title>
+      <link>https://github.com/X-Square-Robot/wall-x</link>
+      <description>Building General-Purpose Robots Based on Embodied Foundation Model</description>
+      <pubDate>Thu, 11 Sep 2025 02:09:15 GMT</pubDate>
+      <guid isPermaLink="false">X-Square-Robot/wall-x</guid>
+    </item>
     <item>
       <title>the-ora/browser</title>
       <link>https://github.com/the-ora/browser</link>
@@ -76,118 +293,6 @@
       <description>tfw when you when your lid when uhh angle your lid sensor</description>
       <pubDate>Sun, 07 Sep 2025 02:13:42 GMT</pubDate>
       <guid isPermaLink="false">samhenrigold/LidAngleSensor</guid>
-    </item>
-    <item>
-      <title>Adam-CAD/CADAM</title>
-      <link>https://github.com/Adam-CAD/CADAM</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 06 Sep 2025 12:52:35 GMT</pubDate>
-      <guid isPermaLink="false">Adam-CAD/CADAM</guid>
-    </item>
-    <item>
-      <title>Nainish-Rai/NextTube</title>
-      <link>https://github.com/Nainish-Rai/NextTube</link>
-      <description>A youtube-alternative frontend made using Reactjs</description>
-      <pubDate>Sat, 06 Sep 2025 12:52:35 GMT</pubDate>
-      <guid isPermaLink="false">Nainish-Rai/NextTube</guid>
-    </item>
-    <item>
-      <title>thepower/PowerHub</title>
-      <link>https://github.com/thepower/PowerHub</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 06 Sep 2025 12:52:35 GMT</pubDate>
-      <guid isPermaLink="false">thepower/PowerHub</guid>
-    </item>
-    <item>
-      <title>modelcontextprotocol/php-sdk</title>
-      <link>https://github.com/modelcontextprotocol/php-sdk</link>
-      <description>The official PHP SDK for Model Context Protocol servers and clients. Maintained in collaboration with The PHP Foundation.</description>
-      <pubDate>Sat, 06 Sep 2025 01:59:27 GMT</pubDate>
-      <guid isPermaLink="false">modelcontextprotocol/php-sdk</guid>
-    </item>
-    <item>
-      <title>basecamp/once-campfire</title>
-      <link>https://github.com/basecamp/once-campfire</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 05 Sep 2025 02:04:54 GMT</pubDate>
-      <guid isPermaLink="false">basecamp/once-campfire</guid>
-    </item>
-    <item>
-      <title>basecamp/lexxy</title>
-      <link>https://github.com/basecamp/lexxy</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 05 Sep 2025 02:04:54 GMT</pubDate>
-      <guid isPermaLink="false">basecamp/lexxy</guid>
-    </item>
-    <item>
-      <title>docker/cagent</title>
-      <link>https://github.com/docker/cagent</link>
-      <description>Agent Builder and Runtime by Docker Engineering</description>
-      <pubDate>Thu, 04 Sep 2025 12:57:04 GMT</pubDate>
-      <guid isPermaLink="false">docker/cagent</guid>
-    </item>
-    <item>
-      <title>PicoTrex/Awesome-Nano-Banana-images</title>
-      <link>https://github.com/PicoTrex/Awesome-Nano-Banana-images</link>
-      <description>(no description)</description>
-      <pubDate>Thu, 04 Sep 2025 12:57:04 GMT</pubDate>
-      <guid isPermaLink="false">PicoTrex/Awesome-Nano-Banana-images</guid>
-    </item>
-    <item>
-      <title>GWUDCAP/cc-sessions</title>
-      <link>https://github.com/GWUDCAP/cc-sessions</link>
-      <description>An opinionated extension set for Claude Code (hooks, subagents, commands, task/git management infrastructure)</description>
-      <pubDate>Thu, 04 Sep 2025 12:57:04 GMT</pubDate>
-      <guid isPermaLink="false">GWUDCAP/cc-sessions</guid>
-    </item>
-    <item>
-      <title>microsoft/BASIC-M6502</title>
-      <link>https://github.com/microsoft/BASIC-M6502</link>
-      <description>Microsoft BASIC for 6502 Microprocessor - Version 1.1</description>
-      <pubDate>Thu, 04 Sep 2025 02:00:01 GMT</pubDate>
-      <guid isPermaLink="false">microsoft/BASIC-M6502</guid>
-    </item>
-    <item>
-      <title>github/spec-kit</title>
-      <link>https://github.com/github/spec-kit</link>
-      <description>💫 Toolkit to help you get started with Spec-Driven Development</description>
-      <pubDate>Thu, 04 Sep 2025 02:00:01 GMT</pubDate>
-      <guid isPermaLink="false">github/spec-kit</guid>
-    </item>
-    <item>
-      <title>infocodiste/SniperBot</title>
-      <link>https://github.com/infocodiste/SniperBot</link>
-      <description>(no description)</description>
-      <pubDate>Wed, 03 Sep 2025 12:58:56 GMT</pubDate>
-      <guid isPermaLink="false">infocodiste/SniperBot</guid>
-    </item>
-    <item>
-      <title>Adembc/lazyssh</title>
-      <link>https://github.com/Adembc/lazyssh</link>
-      <description>A terminal-based SSH manager inspired by lazydocker and k9s - Written in go</description>
-      <pubDate>Wed, 03 Sep 2025 12:58:56 GMT</pubDate>
-      <guid isPermaLink="false">Adembc/lazyssh</guid>
-    </item>
-    <item>
-      <title>the-litte-book-of/linear-algebra</title>
-      <link>https://github.com/the-litte-book-of/linear-algebra</link>
-      <description>There is hardly any theory which is more elementary than linear algebra, in spite of the fact that generations of professors and textbook writers have obscured its simplicity by preposterous calculations with matrices. —Jean Dieudonne</description>
-      <pubDate>Wed, 03 Sep 2025 01:59:26 GMT</pubDate>
-      <guid isPermaLink="false">the-litte-book-of/linear-algebra</guid>
-    </item>
-    <item>
-      <title>Danau5tin/multi-agent-coding-system</title>
-      <link>https://github.com/Danau5tin/multi-agent-coding-system</link>
-      <description>Now #12 on Stanford&apos;s Terminal Bench leaderboard. Orchestrator, explorer &amp; coder agents working together with intelligent context sharing.</description>
-      <pubDate>Wed, 03 Sep 2025 01:59:26 GMT</pubDate>
-      <guid isPermaLink="false">Danau5tin/multi-agent-coding-system</guid>
-    </item>
-    <item>
-      <title>crafter-station/elements</title>
-      <link>https://github.com/crafter-station/elements</link>
-      <description>full-stack shadcn/ui components</description>
-      <pubDate>Wed, 03 Sep 2025 01:59:26 GMT</pubDate>
-      <guid isPermaLink="false">crafter-station/elements</guid>
     </item>
   </channel>
 </rss>
