@@ -41,7 +41,8 @@ export class ClickHouseClient {
     }
 
     const json = await response.json();
-    logInfo('clickhouse', `number of rows inspected: ${json.statistics.rows_read}`);
+    const rowsRead = json.statistics.rows_read.toLocaleString();
+    logInfo('clickhouse', `number of rows inspected: ${rowsRead}`);
 
     return {
       data: json.data,

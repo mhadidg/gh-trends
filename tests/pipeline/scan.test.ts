@@ -59,7 +59,7 @@ describe('scan.ts', () => {
 
       mockFetch.mockResolvedValueOnce({
         ok: true,
-        json: vi.fn().mockResolvedValue({ data: [], statistics: [] }),
+        json: vi.fn().mockResolvedValue({ data: [], statistics: { rows_read: 0 } }),
       });
 
       await scan();
@@ -75,7 +75,7 @@ describe('scan.ts', () => {
     it('should handle empty results', async () => {
       mockFetch.mockResolvedValue({
         ok: true,
-        json: vi.fn().mockResolvedValue({ data: [], statistics: [] }),
+        json: vi.fn().mockResolvedValue({ data: [], statistics: { rows_read: 0 } }),
       });
 
       const result = await scan();
