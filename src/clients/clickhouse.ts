@@ -13,10 +13,10 @@ export interface ClickHouseRepo {
 }
 
 export class ClickHouseClient {
-  static readonly baseUrl = 'https://play.clickhouse.com/?user=play';
+  static readonly baseUrl = 'https://sql-clickhouse.clickhouse.com';
 
   async getTrendingRepos(windowInDays: number, limit: number): Promise<ClickHouseRepo[]> {
-    // Enables re-running the query for historical release windows
+    // Enables querying historical windows, where now is eval date
     const evalDateStr = process.env.SCAN_EVAL_DATE || new Date().toISOString();
     const evalDate = new Date(evalDateStr);
 
@@ -29,6 +29,11 @@ export class ClickHouseClient {
     const response = await fetch(ClickHouseClient.baseUrl, {
       method: 'POST',
       body: sql,
+      headers: {
+        'X-ClickHouse-User': 'demo',
+        'X-ClickHouse-Key': '',
+        Accept: 'application/json',
+      },
     });
 
     if (!response.ok) {
@@ -45,7 +50,7 @@ export class ClickHouseClient {
   }
 
   private trendingReposQuery(evalDate: Date, window: number, limit: number): string {
-    // Clickhouse expects 2000-01-01 00:00:00 format; ISO is 2000-01-01T00:00:00.000Z
+    // ClickHouse expects 2000-01-01 00:00:00 format; ISO is 2000-01-01T00:00:00.000Z
     const evalDateStr = evalDate.toISOString().slice(0, 19).replace('T', ' ');
 
     // Minimum repo star growth rate within the interval window for inclusion
@@ -62,7 +67,7 @@ export class ClickHouseClient {
           countIf(event_type = 'WatchEvent' AND created_at < START_DATE) AS starsBefore,
           countIf(event_type = 'WatchEvent' AND created_at >= START_DATE) AS starsWithin,
           minIf(created_at, event_type = 'WatchEvent') AS firstSeenAt
-      FROM github_events
+      FROM github.events
       WHERE event_type = 'WatchEvent' AND created_at <= END_DATE
       GROUP BY repoName
       HAVING starsWithin / starsBefore > MIN_GROWTH_RATE
