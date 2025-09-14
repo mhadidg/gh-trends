@@ -8,6 +8,7 @@ const BLOCKLIST_USERS = ['ox1nec', '0xalberto', 'kinexbt'];
 const BLOCKLIST_REPOS = [
   'JimmyLv/awesome-nano-banana', // duplicate
   'PicoTrex/Awesome-Nano-Banana-images', // duplicate
+  'byJoey/cfnew', // Chinese
 ];
 
 export interface ScoredRepo extends GithubRepo {
