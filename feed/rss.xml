@@ -5,8 +5,155 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Sep 2025 02:13:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 02:15:35 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>theNetworkChuck/docker-mcp-tutorial</title>
+      <link>https://github.com/theNetworkChuck/docker-mcp-tutorial</link>
+      <description>Complete tutorial materials for building MCP servers with Docker - from NetworkChuck&apos;s video</description>
+      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
+      <guid isPermaLink="false">theNetworkChuck/docker-mcp-tutorial</guid>
+    </item>
+    <item>
+      <title>luis22d/ZeroTrace-Stealer-13-2026</title>
+      <link>https://github.com/luis22d/ZeroTrace-Stealer-13-2026</link>
+      <description>ZeroTrace Is Designed To Steal Data/Information Alot Of Stuff From Client And Send To Server.</description>
+      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
+      <guid isPermaLink="false">luis22d/ZeroTrace-Stealer-13-2026</guid>
+    </item>
+    <item>
+      <title>BICLab/SpikingBrain-7B</title>
+      <link>https://github.com/BICLab/SpikingBrain-7B</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
+      <guid isPermaLink="false">BICLab/SpikingBrain-7B</guid>
+    </item>
+    <item>
+      <title>mmulet/term.everything</title>
+      <link>https://github.com/mmulet/term.everything</link>
+      <description>Run any GUI app in the terminal❗</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">mmulet/term.everything</guid>
+    </item>
+    <item>
+      <title>plutov/oq</title>
+      <link>https://github.com/plutov/oq</link>
+      <description>Terminal OpenAPI Spec viewer</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">plutov/oq</guid>
+    </item>
+    <item>
+      <title>SaltyAom/elden-github</title>
+      <link>https://github.com/SaltyAom/elden-github</link>
+      <description>Elden Ring experience for GitHub</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">SaltyAom/elden-github</guid>
+    </item>
+    <item>
+      <title>reshaped-ui/reshaped</title>
+      <link>https://github.com/reshaped-ui/reshaped</link>
+      <description>Professionally crafted React &amp; Figma components for building beautiful products or starting your own design system</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">reshaped-ui/reshaped</guid>
+    </item>
+    <item>
+      <title>p2r3/bareiron</title>
+      <link>https://github.com/p2r3/bareiron</link>
+      <description>Minimalist Minecraft server for memory-restrictive embedded systems</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">p2r3/bareiron</guid>
+    </item>
+    <item>
+      <title>CaptainCrouton89/.claude</title>
+      <link>https://github.com/CaptainCrouton89/.claude</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">CaptainCrouton89/.claude</guid>
+    </item>
+    <item>
+      <title>JHDev2006/Super-Mario-Bros.-Remastered-Public</title>
+      <link>https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">JHDev2006/Super-Mario-Bros.-Remastered-Public</guid>
+    </item>
+    <item>
+      <title>sentient-agi/ROMA</title>
+      <link>https://github.com/sentient-agi/ROMA</link>
+      <description>Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">sentient-agi/ROMA</guid>
+    </item>
+    <item>
+      <title>mnh-jansson/m18-protocol</title>
+      <link>https://github.com/mnh-jansson/m18-protocol</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">mnh-jansson/m18-protocol</guid>
+    </item>
+    <item>
+      <title>CodebuffAI/codebuff</title>
+      <link>https://github.com/CodebuffAI/codebuff</link>
+      <description>Generate code from the terminal!</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">CodebuffAI/codebuff</guid>
+    </item>
+    <item>
+      <title>ScriptedAlchemy/devtools-debugger-mcp</title>
+      <link>https://github.com/ScriptedAlchemy/devtools-debugger-mcp</link>
+      <description>An MCP server exposing full Chrome DevTools Protocol debugging: breakpoints, step/run, call stacks, eval, and source maps.</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">ScriptedAlchemy/devtools-debugger-mcp</guid>
+    </item>
+    <item>
+      <title>MoonshotAI/checkpoint-engine</title>
+      <link>https://github.com/MoonshotAI/checkpoint-engine</link>
+      <description>Checkpoint-engine is a simple middleware to update model weights in LLM inference engines</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">MoonshotAI/checkpoint-engine</guid>
+    </item>
+    <item>
+      <title>ntdevlabs/nano11</title>
+      <link>https://github.com/ntdevlabs/nano11</link>
+      <description>Script to build possibly the most trimmed-down Windows 11 experience.</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">ntdevlabs/nano11</guid>
+    </item>
+    <item>
+      <title>thinking-machines-lab/batch_invariant_ops</title>
+      <link>https://github.com/thinking-machines-lab/batch_invariant_ops</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">thinking-machines-lab/batch_invariant_ops</guid>
+    </item>
+    <item>
+      <title>ClashConnectRules/Clash</title>
+      <link>https://github.com/ClashConnectRules/Clash</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">ClashConnectRules/Clash</guid>
+    </item>
+    <item>
+      <title>whyisdifficult/jiratui</title>
+      <link>https://github.com/whyisdifficult/jiratui</link>
+      <description>A Textual User Interface for interacting with Atlassian Jira from your shell</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">whyisdifficult/jiratui</guid>
+    </item>
+    <item>
+      <title>iannuttall/fartscroll-lid</title>
+      <link>https://github.com/iannuttall/fartscroll-lid</link>
+      <description>A hilarious macOS app that plays fart sounds as you open and close your MacBook lid</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">iannuttall/fartscroll-lid</guid>
+    </item>
+    <item>
+      <title>ivebotunac/PrimoAgent</title>
+      <link>https://github.com/ivebotunac/PrimoAgent</link>
+      <description>PrimoAgent: Multi-Agent Stock Analysis</description>
+      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
+      <guid isPermaLink="false">ivebotunac/PrimoAgent</guid>
+    </item>
     <item>
       <title>lingdojo/kanadojo</title>
       <link>https://github.com/lingdojo/kanadojo</link>
@@ -181,55 +328,6 @@
       <description>Static suckless single batch CUDA-only qwen3-0.6B mini inference engine</description>
       <pubDate>Tue, 09 Sep 2025 02:09:35 GMT</pubDate>
       <guid isPermaLink="false">yassa9/qwen600</guid>
-    </item>
-    <item>
-      <title>BeaconBay/ck</title>
-      <link>https://github.com/BeaconBay/ck</link>
-      <description>Semantic grep tool for use by AI and humans!</description>
-      <pubDate>Mon, 08 Sep 2025 02:14:09 GMT</pubDate>
-      <guid isPermaLink="false">BeaconBay/ck</guid>
-    </item>
-    <item>
-      <title>ccheshirecat/flint</title>
-      <link>https://github.com/ccheshirecat/flint</link>
-      <description>Lightweight tool for managing linux virtual machines</description>
-      <pubDate>Mon, 08 Sep 2025 02:14:09 GMT</pubDate>
-      <guid isPermaLink="false">ccheshirecat/flint</guid>
-    </item>
-    <item>
-      <title>little-book-of/linear-algebra</title>
-      <link>https://github.com/little-book-of/linear-algebra</link>
-      <description>There is hardly any theory which is more elementary than linear algebra, in spite of the fact that generations of professors and textbook writers have obscured its simplicity by preposterous calculations with matrices. —Jean Dieudonne</description>
-      <pubDate>Mon, 08 Sep 2025 02:14:09 GMT</pubDate>
-      <guid isPermaLink="false">little-book-of/linear-algebra</guid>
-    </item>
-    <item>
-      <title>Varietyz/Disciplined-AI-Software-Development</title>
-      <link>https://github.com/Varietyz/Disciplined-AI-Software-Development</link>
-      <description>This methodology provides a structured approach for collaborating with AI systems on software development projects. It addresses common issues like code bloat, architectural drift, and context dilution through systematic constraints and validation checkpoints.</description>
-      <pubDate>Mon, 08 Sep 2025 02:14:09 GMT</pubDate>
-      <guid isPermaLink="false">Varietyz/Disciplined-AI-Software-Development</guid>
-    </item>
-    <item>
-      <title>google-gemini/nano-banana-hackathon-kit</title>
-      <link>https://github.com/google-gemini/nano-banana-hackathon-kit</link>
-      <description>🍌 The official starter kit for the Nano Banana Hackathon. Clone this repo to get building fast!</description>
-      <pubDate>Sun, 07 Sep 2025 12:53:34 GMT</pubDate>
-      <guid isPermaLink="false">google-gemini/nano-banana-hackathon-kit</guid>
-    </item>
-    <item>
-      <title>yoavf/absolutelyright</title>
-      <link>https://github.com/yoavf/absolutelyright</link>
-      <description>Claude said I&apos;m absolutely right!</description>
-      <pubDate>Sun, 07 Sep 2025 12:53:34 GMT</pubDate>
-      <guid isPermaLink="false">yoavf/absolutelyright</guid>
-    </item>
-    <item>
-      <title>samhenrigold/LidAngleSensor</title>
-      <link>https://github.com/samhenrigold/LidAngleSensor</link>
-      <description>tfw when you when your lid when uhh angle your lid sensor</description>
-      <pubDate>Sun, 07 Sep 2025 02:13:42 GMT</pubDate>
-      <guid isPermaLink="false">samhenrigold/LidAngleSensor</guid>
     </item>
   </channel>
 </rss>
