@@ -28,6 +28,7 @@ export type GitHubErrorItem = {
 // Externally defined to override in tests
 export const config = {
   batchSize: 20, // max repos per request
+  batchDecStep: 5, // decrease batch size on 502
   waitInMillis: 30_000, // wait time on rate limit
   maxRetries: 3, // max retries on rate limit
 };
@@ -102,6 +103,22 @@ export class GitHubGraphQLClient {
           await new Promise(resolve => setTimeout(resolve, config.waitInMillis));
           continue;
         }
+      }
+
+      // Sometimes we get "Bad Gateway" on large payloads
+      if (response.status === 502) {
+        attempt += 1;
+        if (attempt > config.maxRetries) {
+          throw new TaggedError('github', 'bad gateway (502), too many retries');
+        }
+
+        // Make the payload smaller on next attempt
+        if (config.batchSize > config.batchDecStep) {
+          config.batchSize -= config.batchDecStep;
+        }
+
+        logInfo('github', `bad gateway (502), decreasing batch size to ${config.batchSize}`);
+        continue;
       }
 
       if (!response.ok) {

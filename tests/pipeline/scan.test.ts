@@ -383,8 +383,69 @@ describe('scan.ts', () => {
       expect(result[0]!.nameWithOwner).toBe('test/repo');
     });
 
-    it('should throw after max retries', async () => {
-      vi.spyOn(config, 'maxRetries', 'get').mockReturnValue(4);
+    it('should retry on bad gateway errors', async () => {
+      vi.spyOn(config, 'maxRetries', 'get').mockReturnValue(1);
+      vi.spyOn(config, 'batchDecStep', 'get').mockReturnValue(1);
+
+      vi.spyOn(config, 'batchSize', 'get').mockReturnValue(2);
+      vi.spyOn(config, 'batchSize', 'set').mockImplementation(() => {
+        vi.spyOn(config, 'batchSize', 'get').mockReturnValue(
+          config.batchSize - config.batchDecStep
+        );
+      });
+
+      // ClickHouse API returns 2 results to trigger batch size of 2, but GitHub returns 502
+      mockFetch
+        .mockResolvedValueOnce({
+          ok: true,
+          // At least one result is required to trigger GitHub API
+          json: vi.fn().mockResolvedValue({
+            data: [{ repoName: 'test/repo1' }, { repoName: 'test/repo2' }],
+            statistics: { rows_read: 1000 },
+          }),
+        })
+        // Then mock GitHub API
+        .mockResolvedValueOnce({
+          ok: false,
+          status: 502,
+          text: vi.fn().mockResolvedValue('bad gateway'),
+        })
+        // Second attempt with smaller batch (1) succeeds
+        .mockResolvedValueOnce({
+          ok: true,
+          status: 200,
+          json: vi.fn().mockResolvedValue({
+            data: {
+              r0: {
+                ...mockRepos[0],
+                nameWithOwner: 'test/repo1',
+              },
+            } as Record<string, GithubRepo>,
+          }),
+        })
+        // The second, and last, batch also succeeds
+        .mockResolvedValueOnce({
+          ok: true,
+          status: 200,
+          json: vi.fn().mockResolvedValue({
+            data: {
+              r0: {
+                ...mockRepos[1],
+                nameWithOwner: 'test/repo2',
+              },
+            } as Record<string, GithubRepo>,
+          }),
+        });
+
+      const result = await scan();
+
+      expect(result).toHaveLength(2);
+      expect(result[0]!.nameWithOwner).toBe('test/repo1');
+      expect(result[1]!.nameWithOwner).toBe('test/repo2');
+    });
+
+    it('should throw after max retries (rate limit)', async () => {
+      vi.spyOn(config, 'maxRetries', 'get').mockReturnValue(3);
       vi.spyOn(config, 'waitInMillis', 'get').mockReturnValue(0);
 
       // Mock ClickHouse API
@@ -405,7 +466,44 @@ describe('scan.ts', () => {
         });
 
       await expect(scan()).rejects.toThrowError('secondary rate limit');
-      expect(mockFetch).toHaveBeenCalledTimes(1 + 1 + 4); // 1 CH + 1 initial + 4 retries
+      expect(mockFetch).toHaveBeenCalledTimes(1 + 1 + 3); // 1 CH + 1 initial + 3 retries
+    });
+
+    it('should throw after max retries (bad gateway)', async () => {
+      vi.spyOn(config, 'maxRetries', 'get').mockReturnValue(3);
+      vi.spyOn(config, 'batchDecStep', 'get').mockReturnValue(1);
+
+      vi.spyOn(config, 'batchSize', 'get').mockReturnValue(3);
+      vi.spyOn(config, 'batchSize', 'set').mockImplementation(() => {
+        vi.spyOn(config, 'batchSize', 'get').mockReturnValue(
+          config.batchSize - config.batchDecStep
+        );
+      });
+
+      // Mock ClickHouse API
+      mockFetch
+        .mockResolvedValueOnce({
+          ok: true,
+          // At least one result is required to trigger GitHub API
+          json: vi.fn().mockResolvedValue({
+            data: [
+              { repoName: 'test/repo1' },
+              { repoName: 'test/repo2' },
+              { repoName: 'test/repo3' },
+            ],
+            statistics: { rows_read: 1000 },
+          }),
+        })
+        // Then mock GitHub API
+        .mockResolvedValue({
+          ok: false,
+          status: 502,
+          text: vi.fn().mockResolvedValue('bad gateway'),
+        });
+
+      await expect(scan()).rejects.toThrowError('bad gateway');
+      expect(mockFetch).toHaveBeenCalledTimes(1 + 1 + 3); // 1 CH + 1 initial + 3 retries
+      expect(config.batchSize).toBe(1);
     });
   });
 });
