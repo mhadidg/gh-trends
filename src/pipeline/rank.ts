@@ -36,16 +36,17 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
 
         // NOTE: Clickhouse samples events, so the actual star count (as per
         // Github) is likely 2x the reported from Clickhouse. However, if the
-        // ratio is >3x, it's almost certainly a renamed repo.
-        if (Math.round(repo.stargazerCount / clickhouseTotalStars) > 3) {
-          logWarn('score', `presumably renamed old repo, skipping: ${repoName}`);
+        // ratio is >5x, it's almost certainly a renamed repo.
+        const starGapFactor = Math.round(repo.stargazerCount / clickhouseTotalStars);
+        if (starGapFactor > 5) {
+          logWarn('score', `renamed old repo (x${starGapFactor} gap), skipping: ${repoName}`);
           return false;
         }
       }
 
       if (process.env.RELEASE_EMPTY_DESC === 'false') {
         if (repo.description === null || repo.description.trim() === '') {
-          logWarn('score', `presumably low quality (empty desc), skipping: ${repoName}`);
+          logWarn('score', `empty description, skipping: ${repoName}`);
           return false;
         }
       }
@@ -68,7 +69,7 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
         repo.owner.__typename === 'User' &&
         daysSince(repo.owner.createdAt) - daysSinceEval < 30
       ) {
-        logWarn('score', `presumably malware (fresh owner), skipping: ${repoName}`);
+        logWarn('score', `malware repo (fresh owner), skipping: ${repoName}`);
         return false;
       }
 
