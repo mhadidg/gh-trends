@@ -1,6 +1,6 @@
 import { clamp, daysSince, hoursSince, median } from '../utils/common';
 import { GithubRepo } from '../clients/github.gql';
-import { logWarn } from '../utils/logging';
+import { logInfo, logWarn } from '../utils/logging';
 
 const BLOCKLIST_KEYWORDS = [/aimbot/i, /kms/i];
 const BLOCKLIST_USERS = ['ox1nec', '0xalberto', 'kinexbt'];
@@ -114,8 +114,9 @@ export function rank(repos: GithubRepo[]): ScoredRepo[] {
     })
     .sort((a, b) => b.score - a.score);
 
-  for (const repo of ranked.slice(limit, limit + 10)) {
-    logWarn('score', `missed the cut: ${repo.nameWithOwner} (score: ${repo.score.toFixed(2)})`);
+  const top5Missed = ranked.slice(limit, limit + 5).map(repo => repo.nameWithOwner);
+  if (top5Missed.length > 0) {
+    logInfo('score', `missed the cut: ${top5Missed.join(', ')}`);
   }
 
   return ranked.slice(0, limit);
