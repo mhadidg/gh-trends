@@ -35,9 +35,10 @@ The recommend channel is *Github release*:
 - Select **Custom**
 - Check **Releases**
 
-That's it. You will get notified of new releases. Here's an example.
+That's it. You will [get notified](https://github.com/notifications) once a new release is published.
 
-![Github release notification example](.github/assets/gh-release-notif.png)
+> [!NOTE]
+> If you watch releases only, you won't show up among the repo's watchers.
 
 ### Email newsletter
 
@@ -59,8 +60,9 @@ https://raw.githubusercontent.com/mhadidg/gh-trends/refs/heads/main/feed/rss.xml
 
 ## Quick setup
 
-Everything is running on Github Actions; serverless, zero operational cost (except for the email bit), and fully
-automated.
+Everything is running on Github Actions: serverless, zero operational cost, and fully automated.
+
+Here's how to run it locally:
 
 ```bash
 # Install deps
@@ -85,12 +87,10 @@ SCAN_DAYS=30 npm run preview:live
 
 ### Sending email
 
-The project supports sending via either *Resend* or *Buttondown* (you can do both, but I wouldn't recommend). Both have
-free tier more than enough for personal or team-wide use.
+Once configured, newsletter emails can be delivered through *Resend* or *Buttondown*. Both have free tier more than
+enough for personal or team-wide use.
 
-You will need to setup tokens (with few more vars for *Resend*) to send an email. Those should be configured as
-*Secrets* under the forked repo:
+You will need to setup secrets (via env vars, see `.env.example`) to send emails. Those should be configured as
+*Secrets* under the forked repo: 
 
-- Settings
-- Secrets and variables
-- Actions
+*Settings* > *Secrets and variables* > *Actions*.
