@@ -5,8 +5,148 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Sep 2025 13:01:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 20 Sep 2025 01:58:52 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>0xcomp/cryptotracker</title>
+      <link>https://github.com/0xcomp/cryptotracker</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 19 Sep 2025 19:49:48 GMT</pubDate>
+      <guid isPermaLink="false">0xcomp/cryptotracker</guid>
+    </item>
+    <item>
+      <title>XiaomiMiMo/MiMo-Audio</title>
+      <link>https://github.com/XiaomiMiMo/MiMo-Audio</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 19 Sep 2025 19:49:48 GMT</pubDate>
+      <guid isPermaLink="false">XiaomiMiMo/MiMo-Audio</guid>
+    </item>
+    <item>
+      <title>Alibaba-NLP/DeepResearch</title>
+      <link>https://github.com/Alibaba-NLP/DeepResearch</link>
+      <description>Tongyi Deep Research, the Leading Open-source Deep Research Agent</description>
+      <pubDate>Fri, 19 Sep 2025 19:49:48 GMT</pubDate>
+      <guid isPermaLink="false">Alibaba-NLP/DeepResearch</guid>
+    </item>
+    <item>
+      <title>pingooio/pingoo</title>
+      <link>https://github.com/pingooio/pingoo</link>
+      <description>The fast and secure Load Balancer / API Gateway / Reverse Proxy with built-in service discovery, GeoIP, WAF, bot protection and much more - https://pingoo.io</description>
+      <pubDate>Fri, 19 Sep 2025 19:49:48 GMT</pubDate>
+      <guid isPermaLink="false">pingooio/pingoo</guid>
+    </item>
+    <item>
+      <title>XTXMarkets/ternfs</title>
+      <link>https://github.com/XTXMarkets/ternfs</link>
+      <description>A distributed file system</description>
+      <pubDate>Fri, 19 Sep 2025 02:10:26 GMT</pubDate>
+      <guid isPermaLink="false">XTXMarkets/ternfs</guid>
+    </item>
+    <item>
+      <title>matmadness/HumanShaders</title>
+      <link>https://github.com/matmadness/HumanShaders</link>
+      <description>A set of shaders for Godot to create realistic humanoid characters</description>
+      <pubDate>Fri, 19 Sep 2025 02:10:26 GMT</pubDate>
+      <guid isPermaLink="false">matmadness/HumanShaders</guid>
+    </item>
+    <item>
+      <title>subnetmarco/pgmcp</title>
+      <link>https://github.com/subnetmarco/pgmcp</link>
+      <description>An MCP server to query any Postgres database in natural language.</description>
+      <pubDate>Fri, 19 Sep 2025 02:10:26 GMT</pubDate>
+      <guid isPermaLink="false">subnetmarco/pgmcp</guid>
+    </item>
+    <item>
+      <title>comfy-deploy/comfydeploy</title>
+      <link>https://github.com/comfy-deploy/comfydeploy</link>
+      <description>ComfyDeployed</description>
+      <pubDate>Thu, 18 Sep 2025 13:00:47 GMT</pubDate>
+      <guid isPermaLink="false">comfy-deploy/comfydeploy</guid>
+    </item>
+    <item>
+      <title>stateless-me/uuidv47</title>
+      <link>https://github.com/stateless-me/uuidv47</link>
+      <description>⚡ UUIDv47 = v4 privacy + v7 performance</description>
+      <pubDate>Thu, 18 Sep 2025 02:00:57 GMT</pubDate>
+      <guid isPermaLink="false">stateless-me/uuidv47</guid>
+    </item>
+    <item>
+      <title>facebookresearch/map-anything</title>
+      <link>https://github.com/facebookresearch/map-anything</link>
+      <description>MapAnything: Universal Feed-Forward Metric 3D Reconstruction</description>
+      <pubDate>Thu, 18 Sep 2025 02:00:57 GMT</pubDate>
+      <guid isPermaLink="false">facebookresearch/map-anything</guid>
+    </item>
+    <item>
+      <title>get-convex/chef</title>
+      <link>https://github.com/get-convex/chef</link>
+      <description>The only AI app builder that knows backend</description>
+      <pubDate>Thu, 18 Sep 2025 02:00:57 GMT</pubDate>
+      <guid isPermaLink="false">get-convex/chef</guid>
+    </item>
+    <item>
+      <title>QwenLM/Qwen3-ASR-Toolkit</title>
+      <link>https://github.com/QwenLM/Qwen3-ASR-Toolkit</link>
+      <description>Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support.</description>
+      <pubDate>Thu, 18 Sep 2025 02:00:57 GMT</pubDate>
+      <guid isPermaLink="false">QwenLM/Qwen3-ASR-Toolkit</guid>
+    </item>
+    <item>
+      <title>torvalds/GuitarPedal</title>
+      <link>https://github.com/torvalds/GuitarPedal</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
+      <guid isPermaLink="false">torvalds/GuitarPedal</guid>
+    </item>
+    <item>
+      <title>google-agentic-commerce/AP2</title>
+      <link>https://github.com/google-agentic-commerce/AP2</link>
+      <description>Building a Secure and Interoperable Future for AI-Driven Payments.</description>
+      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
+      <guid isPermaLink="false">google-agentic-commerce/AP2</guid>
+    </item>
+    <item>
+      <title>Zephkek/Asus-ROG-Aml-Deep-Dive</title>
+      <link>https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive</link>
+      <description>A deep dive into the ACPI.sys DPC latency problems on Asus ROG laptops</description>
+      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
+      <guid isPermaLink="false">Zephkek/Asus-ROG-Aml-Deep-Dive</guid>
+    </item>
+    <item>
+      <title>yangzhou24/OmniWorld</title>
+      <link>https://github.com/yangzhou24/OmniWorld</link>
+      <description>OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling</description>
+      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
+      <guid isPermaLink="false">yangzhou24/OmniWorld</guid>
+    </item>
+    <item>
+      <title>danielroe/provenance-action</title>
+      <link>https://github.com/danielroe/provenance-action</link>
+      <description>GitHub Action that detects dependency provenance downgrades from lockfile changes (npm/pnpm/yarn).</description>
+      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
+      <guid isPermaLink="false">danielroe/provenance-action</guid>
+    </item>
+    <item>
+      <title>unitreerobotics/unifolm-world-model-action</title>
+      <link>https://github.com/unitreerobotics/unifolm-world-model-action</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
+      <guid isPermaLink="false">unitreerobotics/unifolm-world-model-action</guid>
+    </item>
+    <item>
+      <title>OpenBMB/VoxCPM</title>
+      <link>https://github.com/OpenBMB/VoxCPM</link>
+      <description>VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning</description>
+      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
+      <guid isPermaLink="false">OpenBMB/VoxCPM</guid>
+    </item>
+    <item>
+      <title>Michael-A-Kuykendall/shimmy</title>
+      <link>https://github.com/Michael-A-Kuykendall/shimmy</link>
+      <description>⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever.</description>
+      <pubDate>Tue, 16 Sep 2025 02:01:30 GMT</pubDate>
+      <guid isPermaLink="false">Michael-A-Kuykendall/shimmy</guid>
+    </item>
     <item>
       <title>tekaratzas/RustGPT</title>
       <link>https://github.com/tekaratzas/RustGPT</link>
@@ -174,174 +314,6 @@
       <description>Fun, minimalist, aesthetic platform for learning and practicing Japanese online.</description>
       <pubDate>Sat, 13 Sep 2025 12:53:32 GMT</pubDate>
       <guid isPermaLink="false">lingdojo/kanadojo</guid>
-    </item>
-    <item>
-      <title>scholtz/qrcode-reader-vue3</title>
-      <link>https://github.com/scholtz/qrcode-reader-vue3</link>
-      <description>A set of Vue.js components for detecting and decoding QR codes.</description>
-      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
-      <guid isPermaLink="false">scholtz/qrcode-reader-vue3</guid>
-    </item>
-    <item>
-      <title>buildzaku/zaku</title>
-      <link>https://github.com/buildzaku/zaku</link>
-      <description>Zaku app for macOS, Linux and Windows.</description>
-      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
-      <guid isPermaLink="false">buildzaku/zaku</guid>
-    </item>
-    <item>
-      <title>scholtz/vote-coin-demo</title>
-      <link>https://github.com/scholtz/vote-coin-demo</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
-      <guid isPermaLink="false">scholtz/vote-coin-demo</guid>
-    </item>
-    <item>
-      <title>klpod221/kerminal</title>
-      <link>https://github.com/klpod221/kerminal</link>
-      <description>// Modern Terminal with SSH, Tunneling &amp; Cross-Device Sync</description>
-      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
-      <guid isPermaLink="false">klpod221/kerminal</guid>
-    </item>
-    <item>
-      <title>emarpiee/Retroma</title>
-      <link>https://github.com/emarpiee/Retroma</link>
-      <description>Retroma is an Obsidian theme that blends nostalgic, classic design with an intelligent color scheme algorithm.</description>
-      <pubDate>Sat, 13 Sep 2025 01:54:42 GMT</pubDate>
-      <guid isPermaLink="false">emarpiee/Retroma</guid>
-    </item>
-    <item>
-      <title>vercel-labs/dev3000</title>
-      <link>https://github.com/vercel-labs/dev3000</link>
-      <description>Captures your web app&apos;s complete development timeline - server logs, browser events, console messages, network requests, and automatic screenshots - in a unified, timestamped feed for AI debugging.</description>
-      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/dev3000</guid>
-    </item>
-    <item>
-      <title>MoralisWeb3/moralis-analytics-js</title>
-      <link>https://github.com/MoralisWeb3/moralis-analytics-js</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
-      <guid isPermaLink="false">MoralisWeb3/moralis-analytics-js</guid>
-    </item>
-    <item>
-      <title>water-rs/waterui</title>
-      <link>https://github.com/water-rs/waterui</link>
-      <description>Bring your app to all plaform, once for all.</description>
-      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
-      <guid isPermaLink="false">water-rs/waterui</guid>
-    </item>
-    <item>
-      <title>scholtz/vue-web-nfc-demo</title>
-      <link>https://github.com/scholtz/vue-web-nfc-demo</link>
-      <description>A very messy example web app demoing Chrome&apos;s new Web NFC feature using Vue 3</description>
-      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
-      <guid isPermaLink="false">scholtz/vue-web-nfc-demo</guid>
-    </item>
-    <item>
-      <title>scholtz/covid-sk</title>
-      <link>https://github.com/scholtz/covid-sk</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 12 Sep 2025 01:59:28 GMT</pubDate>
-      <guid isPermaLink="false">scholtz/covid-sk</guid>
-    </item>
-    <item>
-      <title>github/spec-kit</title>
-      <link>https://github.com/github/spec-kit</link>
-      <description>💫 Toolkit to help you get started with Spec-Driven Development</description>
-      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
-      <guid isPermaLink="false">github/spec-kit</guid>
-    </item>
-    <item>
-      <title>software-mansion-labs/react-native-enriched</title>
-      <link>https://github.com/software-mansion-labs/react-native-enriched</link>
-      <description>Rich text input component for React Native.</description>
-      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
-      <guid isPermaLink="false">software-mansion-labs/react-native-enriched</guid>
-    </item>
-    <item>
-      <title>100thCoin/AccuracyCoin</title>
-      <link>https://github.com/100thCoin/AccuracyCoin</link>
-      <description>A large collection of NES accuracy tests on a single NROM cartridge.</description>
-      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
-      <guid isPermaLink="false">100thCoin/AccuracyCoin</guid>
-    </item>
-    <item>
-      <title>d-kimuson/claude-code-viewer</title>
-      <link>https://github.com/d-kimuson/claude-code-viewer</link>
-      <description>A full-featured web-based Claude Code client that provides complete interactive functionality for managing Claude Code projects</description>
-      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
-      <guid isPermaLink="false">d-kimuson/claude-code-viewer</guid>
-    </item>
-    <item>
-      <title>basketballguy999/Quantum-Mechanics-Concise-Book</title>
-      <link>https://github.com/basketballguy999/Quantum-Mechanics-Concise-Book</link>
-      <description>A concise text on quantum mechanics, intended for a general mathematical audience including CS, engineering, math, and physics undergrads, as well as anyone interested in a concise intro/overview of QM. Prerequisites: linear algebra, calculus, high school physics</description>
-      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
-      <guid isPermaLink="false">basketballguy999/Quantum-Mechanics-Concise-Book</guid>
-    </item>
-    <item>
-      <title>Hardocs/desktop-app</title>
-      <link>https://github.com/Hardocs/desktop-app</link>
-      <description>Hardocs desktop app presenting current docs editing functionalities.</description>
-      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
-      <guid isPermaLink="false">Hardocs/desktop-app</guid>
-    </item>
-    <item>
-      <title>NVlabs/UniversalDeepResearch</title>
-      <link>https://github.com/NVlabs/UniversalDeepResearch</link>
-      <description>Code to accompany the Universal Deep Research paper (https://arxiv.org/abs/2509.00244)</description>
-      <pubDate>Thu, 11 Sep 2025 12:58:29 GMT</pubDate>
-      <guid isPermaLink="false">NVlabs/UniversalDeepResearch</guid>
-    </item>
-    <item>
-      <title>m-damien/VisualStoryWriting</title>
-      <link>https://github.com/m-damien/VisualStoryWriting</link>
-      <description>🧙‍♂️ Writing by manipulating visual representations of stories</description>
-      <pubDate>Thu, 11 Sep 2025 02:09:15 GMT</pubDate>
-      <guid isPermaLink="false">m-damien/VisualStoryWriting</guid>
-    </item>
-    <item>
-      <title>basecamp/activerecord-tenanted</title>
-      <link>https://github.com/basecamp/activerecord-tenanted</link>
-      <description>Enable a Rails application to have separate sqlite database files for each tenant.</description>
-      <pubDate>Thu, 11 Sep 2025 02:09:15 GMT</pubDate>
-      <guid isPermaLink="false">basecamp/activerecord-tenanted</guid>
-    </item>
-    <item>
-      <title>cryxnet/DeepMCPAgent</title>
-      <link>https://github.com/cryxnet/DeepMCPAgent</link>
-      <description>Model-agnostic plug-n-play LangChain/LangGraph agents powered entirely by MCP tools over HTTP/SSE.</description>
-      <pubDate>Thu, 11 Sep 2025 02:09:15 GMT</pubDate>
-      <guid isPermaLink="false">cryxnet/DeepMCPAgent</guid>
-    </item>
-    <item>
-      <title>X-Square-Robot/wall-x</title>
-      <link>https://github.com/X-Square-Robot/wall-x</link>
-      <description>Building General-Purpose Robots Based on Embodied Foundation Model</description>
-      <pubDate>Thu, 11 Sep 2025 02:09:15 GMT</pubDate>
-      <guid isPermaLink="false">X-Square-Robot/wall-x</guid>
-    </item>
-    <item>
-      <title>the-ora/browser</title>
-      <link>https://github.com/the-ora/browser</link>
-      <description>Less noise, more browsing.</description>
-      <pubDate>Tue, 09 Sep 2025 13:03:09 GMT</pubDate>
-      <guid isPermaLink="false">the-ora/browser</guid>
-    </item>
-    <item>
-      <title>Julien-cpsn/desktop-tui</title>
-      <link>https://github.com/Julien-cpsn/desktop-tui</link>
-      <description>A desktop environment without graphics</description>
-      <pubDate>Tue, 09 Sep 2025 02:09:35 GMT</pubDate>
-      <guid isPermaLink="false">Julien-cpsn/desktop-tui</guid>
-    </item>
-    <item>
-      <title>yassa9/qwen600</title>
-      <link>https://github.com/yassa9/qwen600</link>
-      <description>Static suckless single batch CUDA-only qwen3-0.6B mini inference engine</description>
-      <pubDate>Tue, 09 Sep 2025 02:09:35 GMT</pubDate>
-      <guid isPermaLink="false">yassa9/qwen600</guid>
     </item>
   </channel>
 </rss>
