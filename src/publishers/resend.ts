@@ -20,12 +20,11 @@ export class ResendPublisher extends Publisher {
 
   async publish(repos: ScoredRepo[]): Promise<string> {
     const from = process.env.RESEND_FROM;
-    const audienceId = process.env.RESEND_AUDIENCE_ID;
-
     if (!from) {
       throw new TaggedError('config', 'RESEND_FROM required when RESEND_ENABLED=true');
     }
 
+    const audienceId = process.env.RESEND_AUDIENCE_ID;
     if (!audienceId) {
       throw new TaggedError('config', 'RESEND_AUDIENCE_ID required when RESEND_ENABLED=true');
     }
@@ -33,6 +32,7 @@ export class ResendPublisher extends Publisher {
     const content = this.render(repos);
     const client = new ResendClient(process.env.RESEND_API_KEY);
 
+    const replyTo = process.env.RESEND_REPLY_TO;
     const result = await client.sendEmail({
       from,
       audience_id: audienceId,
@@ -40,6 +40,7 @@ export class ResendPublisher extends Publisher {
       name: this.subject(),
       html: content.html,
       text: content.text,
+      ...(replyTo && { reply_to: replyTo }),
     });
 
     return result.id;

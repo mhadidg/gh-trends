@@ -7,6 +7,7 @@ export interface ResendEmailPayload {
   name?: string;
   html?: string;
   text?: string;
+  reply_to?: string;
 }
 
 export class ResendClient {
