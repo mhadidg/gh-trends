@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { HttpError, TaggedError } from '../../src/utils/logging';
 import { GitHubPublisher } from '../../src/publishers/github';
 import { mockRepos } from '../../src/mocks/repos';
-import { ScoredRepo } from '../../src/pipeline/rank';
+import { ScoredRepo } from '../../src/pipeline/select';
 import { GitHubClient } from '../../src/clients/github';
 
 describe('gh-release.ts', () => {

@@ -2,7 +2,7 @@ import { TaggedError } from '../utils/logging';
 import { Publisher } from '../types/publisher';
 import { render } from '../pipeline/render';
 import { GitHubClient } from '../clients/github';
-import { ScoredRepo } from '../pipeline/rank';
+import { ScoredRepo } from '../pipeline/select';
 
 export class GitHubPublisher extends Publisher {
   readonly name = 'github-releases';

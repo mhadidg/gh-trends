@@ -3,7 +3,7 @@ import { HttpError } from '../../src/utils/logging';
 import { ButtondownPublisher } from '../../src/publishers/buttondown';
 import { ButtondownClient } from '../../src/clients/buttondown';
 import { mockRepos } from '../../src/mocks/repos';
-import { ScoredRepo } from '../../src/pipeline/rank';
+import { ScoredRepo } from '../../src/pipeline/select';
 
 describe('buttondown.ts', () => {
   const mockFetch = vi.fn();

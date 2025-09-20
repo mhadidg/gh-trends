@@ -5,7 +5,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { XMLParser, XMLBuilder } from 'fast-xml-parser';
 import { RSSPublisher } from '../../src/publishers/rss';
 import { mockRepos } from '../../src/mocks/repos';
-import { ScoredRepo } from '../../src/pipeline/rank';
+import { ScoredRepo } from '../../src/pipeline/select';
 
 describe('rss.ts', () => {
   let instance: RSSPublisher;

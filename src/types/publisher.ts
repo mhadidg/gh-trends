@@ -1,5 +1,5 @@
 import { weekNumber } from '../utils/common';
-import { ScoredRepo } from '../pipeline/rank';
+import { ScoredRepo } from '../pipeline/select';
 
 export abstract class Publisher {
   abstract readonly name: string;

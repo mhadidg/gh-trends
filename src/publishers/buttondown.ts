@@ -1,7 +1,7 @@
 import { Publisher } from '../types/publisher';
 import { ButtondownClient } from '../clients/buttondown';
 import { render } from '../pipeline/render';
-import { ScoredRepo } from '../pipeline/rank';
+import { ScoredRepo } from '../pipeline/select';
 
 export class ButtondownPublisher extends Publisher {
   readonly name = 'buttondown';

@@ -4,7 +4,7 @@ import { HttpError } from '../../src/utils/logging';
 import { ResendPublisher } from '../../src/publishers/resend';
 import { ResendClient } from '../../src/clients/resend';
 import { mockRepos } from '../../src/mocks/repos';
-import { ScoredRepo } from '../../src/pipeline/rank';
+import { ScoredRepo } from '../../src/pipeline/select';
 
 describe('resend.ts', () => {
   const mockFetch = vi.fn();

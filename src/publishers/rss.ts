@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { XMLParser, XMLBuilder } from 'fast-xml-parser';
 import { Publisher } from '../types/publisher';
 import { logInfo } from '../utils/logging';
-import { ScoredRepo } from '../pipeline/rank';
+import { ScoredRepo } from '../pipeline/select';
 
 interface RSSItem {
   title: string;

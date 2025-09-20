@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { render } from '../../src/pipeline/render';
 import { mockRepos } from '../../src/mocks/repos';
-import { ScoredRepo } from '../../src/pipeline/rank';
+import { ScoredRepo } from '../../src/pipeline/select';
 
 describe('render.ts', () => {
   const template = 'markdown.hbs';

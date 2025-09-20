@@ -4,7 +4,7 @@ import { RSSPublisher } from '../publishers/rss';
 import { logInfo } from '../utils/logging';
 import { Publisher } from '../types/publisher';
 import { ResendPublisher } from '../publishers/resend';
-import { ScoredRepo } from './rank';
+import { ScoredRepo } from './select';
 
 const publishers = [
   // Executes in order

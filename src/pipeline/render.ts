@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import path from 'node:path';
 import Handlebars from 'handlebars';
-import { ScoredRepo } from './rank';
+import { ScoredRepo } from './select';
 
 Handlebars.registerHelper('lt', (a, b) => a < b);
 Handlebars.registerHelper('gte', (a, b) => a >= b);

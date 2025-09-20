@@ -2,7 +2,7 @@ import { Publisher } from '../types/publisher';
 import { ResendClient } from '../clients/resend';
 import { TaggedError } from '../utils/logging';
 import { render } from '../pipeline/render';
-import { ScoredRepo } from '../pipeline/rank';
+import { ScoredRepo } from '../pipeline/select';
 
 export class ResendPublisher extends Publisher {
   readonly name = 'resend';

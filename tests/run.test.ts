@@ -19,19 +19,15 @@ describe('run.ts', () => {
       async (input: RequestInfo | URL, init?: RequestInit) => {
         const url = typeof input === 'string' ? input : input.toString();
 
-        // Sending email via Buttondown
-        if (url.includes(ButtondownClient.baseUrl)) {
-          return new Response(JSON.stringify({ id: 'test-123', status: 'scheduled' }), {
-            status: 200,
-            headers: { 'Content-Type': 'application/json' },
-          });
-        }
-
-        // Querying ClickHouse playground
+        // Scan: querying ClickHouse
         if (url.includes(ClickHouseClient.baseUrl)) {
           const response = {
-            data: [{ repoName: 'repo' }],
             statistics: { rows_read: 2 },
+            data: [
+              { repoName: mockRepos[0]!.nameWithOwner },
+              { repoName: mockRepos[1]!.nameWithOwner },
+              { repoName: mockRepos[2]!.nameWithOwner },
+            ],
           } as ClickHouseResponse;
 
           return new Response(JSON.stringify(response), {
@@ -40,11 +36,14 @@ describe('run.ts', () => {
           });
         }
 
-        // Fetching GitHub repository details
+        // Scan: fetching repos details
         if (url.includes(GitHubGraphQLClient.endpoint)) {
           const response = {
-            r0: mockRepos[0],
-            r1: mockRepos[1],
+            data: {
+              r0: mockRepos[0],
+              r1: mockRepos[1],
+              r2: mockRepos[2],
+            },
           };
 
           return new Response(JSON.stringify(response), {
@@ -53,10 +52,18 @@ describe('run.ts', () => {
           });
         }
 
-        // Creating a GitHub release
+        // Publish: GitHub release
         if (url.includes(GitHubClient.baseUrl) && url.includes('/releases')) {
-          return new Response(JSON.stringify({ id: 12345 }), {
+          return new Response(JSON.stringify({ id: 'test-gh-id' }), {
             status: 201,
+            headers: { 'Content-Type': 'application/json' },
+          });
+        }
+
+        // Publish: sending email via Buttondown
+        if (url.includes(ButtondownClient.baseUrl)) {
+          return new Response(JSON.stringify({ id: 'test-buttondown-id', status: 'scheduled' }), {
+            status: 200,
             headers: { 'Content-Type': 'application/json' },
           });
         }
@@ -74,7 +81,7 @@ describe('run.ts', () => {
 
   describe('Pipeline execution', () => {
     beforeEach(async () => {
-      vi.stubEnv('NODE_ENV', 'production');
+      vi.stubEnv('USE_MOCK_REPOS', 'false');
       vi.stubEnv('RELEASE_TOP_N', '10');
       vi.stubEnv('BUTTONDOWN_ENABLED', 'true');
       vi.stubEnv('BUTTONDOWN_API_KEY', 'bd_live_key_123');

@@ -2,10 +2,11 @@
 
 import 'dotenv-flow/config';
 import { scan } from './pipeline/scan';
-import { rank } from './pipeline/rank';
+import { select } from './pipeline/select';
 import { publishAll } from './pipeline/publish';
 import { logInfo } from './utils/logging';
 import { handleProcessError } from './utils/common';
+import { filter } from './pipeline/filter';
 
 export async function run(): Promise<void> {
   await main().catch(handleProcessError);
@@ -18,14 +19,16 @@ export async function main(): Promise<void> {
   console.log(`📡 Scanning the GitHub universe (window: ${window}, limit: ${limit})`);
   const repos = await scan();
   logInfo('scan', `${repos.length} trending repos discovered`);
-  console.log('');
 
-  console.log('🏆 Scoring to select the best');
-  const scoredRepos = rank(repos);
+  console.log('\n', `🧐 Inspecting to filter out bad stuff`);
+  const filteredRepos = filter(repos);
+  logInfo(`filter`, `${filteredRepos.length} repos remain after filtering`);
+
+  console.log('\n', '🏆 Ranking to select the best');
+  const scoredRepos = select(filteredRepos);
   logInfo('score', `${scoredRepos.length} repos selected`);
-  console.log('');
 
-  console.log('📮 Publishing to all enabled channels');
+  console.log('\n', '📮 Publishing to all enabled channels');
   const messageIds = await publishAll(scoredRepos);
   logInfo('publish', `published release (IDs: ${messageIds.join(', ')})`);
 }
