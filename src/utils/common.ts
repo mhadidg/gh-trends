@@ -32,7 +32,7 @@ export async function handleProcessError(error: unknown) {
   if (error instanceof HttpError) {
     await logHttpError(error.tag, error);
   } else if (error instanceof TaggedError) {
-    logError(error.tag, error);
+    logError(error);
   } else {
     console.log('');
     console.log('🫣 Unhandled error');

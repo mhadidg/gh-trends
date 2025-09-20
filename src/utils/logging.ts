@@ -30,8 +30,8 @@ export function logWarn(tag: string, message: string) {
   console.warn(`[WARN] ${tag}: ${message}`);
 }
 
-export function logError(tag: string, err: TaggedError, metadata?: Record<string, unknown>) {
-  console.error(`[Error] ${tag}: ${err.message}`);
+export function logError(err: TaggedError, metadata?: Record<string, unknown>) {
+  console.error(`[Error] ${err.tag}: ${err.message}`);
   if (metadata) {
     Object.entries(metadata).forEach(([key, value]) => {
       console.error(`  → ${capitalize(key)}: ${value}`);
