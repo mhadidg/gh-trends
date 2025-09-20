@@ -34,4 +34,5 @@ jobs:
         RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
         RESEND_AUDIENCE_ID: ${{ secrets.RESEND_AUDIENCE_ID }}
         RESEND_FROM: ${{ secrets.RESEND_FROM }}
+        RESEND_REPLY_TO: ${{ secrets.RESEND_REPLY_TO }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
