@@ -5,8 +5,57 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Sep 2025 01:58:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 02:16:54 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>AHS12/thoth-blueprint</title>
+      <link>https://github.com/AHS12/thoth-blueprint</link>
+      <description>Free visual database design tool with drag-and-move editing, multi-format export, and migration generation for popular frameworks.</description>
+      <pubDate>Mon, 22 Sep 2025 02:16:54 GMT</pubDate>
+      <guid isPermaLink="false">AHS12/thoth-blueprint</guid>
+    </item>
+    <item>
+      <title>BogdanTheGeek/semihost-ip</title>
+      <link>https://github.com/BogdanTheGeek/semihost-ip</link>
+      <description>Running TCP/IP over SWD lines</description>
+      <pubDate>Mon, 22 Sep 2025 02:16:54 GMT</pubDate>
+      <guid isPermaLink="false">BogdanTheGeek/semihost-ip</guid>
+    </item>
+    <item>
+      <title>RoversX/LaunchNext</title>
+      <link>https://github.com/RoversX/LaunchNext</link>
+      <description>Bring your Launchpad back in MacOS26+ ,highly customizable, powerful, free.</description>
+      <pubDate>Mon, 22 Sep 2025 02:16:54 GMT</pubDate>
+      <guid isPermaLink="false">RoversX/LaunchNext</guid>
+    </item>
+    <item>
+      <title>9technologygroup/patchmon.net</title>
+      <link>https://github.com/9technologygroup/patchmon.net</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 21 Sep 2025 12:55:15 GMT</pubDate>
+      <guid isPermaLink="false">9technologygroup/patchmon.net</guid>
+    </item>
+    <item>
+      <title>rxi/sj.h</title>
+      <link>https://github.com/rxi/sj.h</link>
+      <description>A tiny little JSON parsing library</description>
+      <pubDate>Sun, 21 Sep 2025 02:17:12 GMT</pubDate>
+      <guid isPermaLink="false">rxi/sj.h</guid>
+    </item>
+    <item>
+      <title>barddoo/zedis</title>
+      <link>https://github.com/barddoo/zedis</link>
+      <description>Redis in Zig</description>
+      <pubDate>Sun, 21 Sep 2025 02:17:12 GMT</pubDate>
+      <guid isPermaLink="false">barddoo/zedis</guid>
+    </item>
+    <item>
+      <title>antiwork/mediaconverter</title>
+      <link>https://github.com/antiwork/mediaconverter</link>
+      <description>(no description)</description>
+      <pubDate>Sun, 21 Sep 2025 02:17:12 GMT</pubDate>
+      <guid isPermaLink="false">antiwork/mediaconverter</guid>
+    </item>
     <item>
       <title>0xcomp/cryptotracker</title>
       <link>https://github.com/0xcomp/cryptotracker</link>
@@ -160,160 +209,6 @@
       <description>Titania Programming Language</description>
       <pubDate>Mon, 15 Sep 2025 13:01:41 GMT</pubDate>
       <guid isPermaLink="false">gingerBill/titania</guid>
-    </item>
-    <item>
-      <title>theNetworkChuck/docker-mcp-tutorial</title>
-      <link>https://github.com/theNetworkChuck/docker-mcp-tutorial</link>
-      <description>Complete tutorial materials for building MCP servers with Docker - from NetworkChuck&apos;s video</description>
-      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
-      <guid isPermaLink="false">theNetworkChuck/docker-mcp-tutorial</guid>
-    </item>
-    <item>
-      <title>luis22d/ZeroTrace-Stealer-13-2026</title>
-      <link>https://github.com/luis22d/ZeroTrace-Stealer-13-2026</link>
-      <description>ZeroTrace Is Designed To Steal Data/Information Alot Of Stuff From Client And Send To Server.</description>
-      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
-      <guid isPermaLink="false">luis22d/ZeroTrace-Stealer-13-2026</guid>
-    </item>
-    <item>
-      <title>BICLab/SpikingBrain-7B</title>
-      <link>https://github.com/BICLab/SpikingBrain-7B</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
-      <guid isPermaLink="false">BICLab/SpikingBrain-7B</guid>
-    </item>
-    <item>
-      <title>mmulet/term.everything</title>
-      <link>https://github.com/mmulet/term.everything</link>
-      <description>Run any GUI app in the terminal❗</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">mmulet/term.everything</guid>
-    </item>
-    <item>
-      <title>plutov/oq</title>
-      <link>https://github.com/plutov/oq</link>
-      <description>Terminal OpenAPI Spec viewer</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">plutov/oq</guid>
-    </item>
-    <item>
-      <title>SaltyAom/elden-github</title>
-      <link>https://github.com/SaltyAom/elden-github</link>
-      <description>Elden Ring experience for GitHub</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">SaltyAom/elden-github</guid>
-    </item>
-    <item>
-      <title>reshaped-ui/reshaped</title>
-      <link>https://github.com/reshaped-ui/reshaped</link>
-      <description>Professionally crafted React &amp; Figma components for building beautiful products or starting your own design system</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">reshaped-ui/reshaped</guid>
-    </item>
-    <item>
-      <title>p2r3/bareiron</title>
-      <link>https://github.com/p2r3/bareiron</link>
-      <description>Minimalist Minecraft server for memory-restrictive embedded systems</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">p2r3/bareiron</guid>
-    </item>
-    <item>
-      <title>CaptainCrouton89/.claude</title>
-      <link>https://github.com/CaptainCrouton89/.claude</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">CaptainCrouton89/.claude</guid>
-    </item>
-    <item>
-      <title>JHDev2006/Super-Mario-Bros.-Remastered-Public</title>
-      <link>https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">JHDev2006/Super-Mario-Bros.-Remastered-Public</guid>
-    </item>
-    <item>
-      <title>sentient-agi/ROMA</title>
-      <link>https://github.com/sentient-agi/ROMA</link>
-      <description>Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">sentient-agi/ROMA</guid>
-    </item>
-    <item>
-      <title>mnh-jansson/m18-protocol</title>
-      <link>https://github.com/mnh-jansson/m18-protocol</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">mnh-jansson/m18-protocol</guid>
-    </item>
-    <item>
-      <title>CodebuffAI/codebuff</title>
-      <link>https://github.com/CodebuffAI/codebuff</link>
-      <description>Generate code from the terminal!</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">CodebuffAI/codebuff</guid>
-    </item>
-    <item>
-      <title>ScriptedAlchemy/devtools-debugger-mcp</title>
-      <link>https://github.com/ScriptedAlchemy/devtools-debugger-mcp</link>
-      <description>An MCP server exposing full Chrome DevTools Protocol debugging: breakpoints, step/run, call stacks, eval, and source maps.</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">ScriptedAlchemy/devtools-debugger-mcp</guid>
-    </item>
-    <item>
-      <title>MoonshotAI/checkpoint-engine</title>
-      <link>https://github.com/MoonshotAI/checkpoint-engine</link>
-      <description>Checkpoint-engine is a simple middleware to update model weights in LLM inference engines</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">MoonshotAI/checkpoint-engine</guid>
-    </item>
-    <item>
-      <title>ntdevlabs/nano11</title>
-      <link>https://github.com/ntdevlabs/nano11</link>
-      <description>Script to build possibly the most trimmed-down Windows 11 experience.</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">ntdevlabs/nano11</guid>
-    </item>
-    <item>
-      <title>thinking-machines-lab/batch_invariant_ops</title>
-      <link>https://github.com/thinking-machines-lab/batch_invariant_ops</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">thinking-machines-lab/batch_invariant_ops</guid>
-    </item>
-    <item>
-      <title>ClashConnectRules/Clash</title>
-      <link>https://github.com/ClashConnectRules/Clash</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">ClashConnectRules/Clash</guid>
-    </item>
-    <item>
-      <title>whyisdifficult/jiratui</title>
-      <link>https://github.com/whyisdifficult/jiratui</link>
-      <description>A Textual User Interface for interacting with Atlassian Jira from your shell</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">whyisdifficult/jiratui</guid>
-    </item>
-    <item>
-      <title>iannuttall/fartscroll-lid</title>
-      <link>https://github.com/iannuttall/fartscroll-lid</link>
-      <description>A hilarious macOS app that plays fart sounds as you open and close your MacBook lid</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">iannuttall/fartscroll-lid</guid>
-    </item>
-    <item>
-      <title>ivebotunac/PrimoAgent</title>
-      <link>https://github.com/ivebotunac/PrimoAgent</link>
-      <description>PrimoAgent: Multi-Agent Stock Analysis</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">ivebotunac/PrimoAgent</guid>
-    </item>
-    <item>
-      <title>lingdojo/kanadojo</title>
-      <link>https://github.com/lingdojo/kanadojo</link>
-      <description>Fun, minimalist, aesthetic platform for learning and practicing Japanese online.</description>
-      <pubDate>Sat, 13 Sep 2025 12:53:32 GMT</pubDate>
-      <guid isPermaLink="false">lingdojo/kanadojo</guid>
     </item>
   </channel>
 </rss>
