@@ -5,315 +5,280 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Sep 2025 01:58:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 02:09:56 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
     <item>
-      <title>0xcomp/cryptotracker</title>
-      <link>https://github.com/0xcomp/cryptotracker</link>
+      <title>ksdme/ut</title>
+      <link>https://github.com/ksdme/ut</link>
+      <description>A Rust based utilty toolbox for developers. Inspired from https://it-tools.tech</description>
+      <pubDate>Mon, 06 Oct 2025 02:09:56 GMT</pubDate>
+      <guid isPermaLink="false">ksdme/ut</guid>
+    </item>
+    <item>
+      <title>ludo-technologies/pyscn</title>
+      <link>https://github.com/ludo-technologies/pyscn</link>
+      <description>pyscn - An Intelligent Python Code Quality Analyzer</description>
+      <pubDate>Mon, 06 Oct 2025 02:09:56 GMT</pubDate>
+      <guid isPermaLink="false">ludo-technologies/pyscn</guid>
+    </item>
+    <item>
+      <title>ck-zhang/reddix</title>
+      <link>https://github.com/ck-zhang/reddix</link>
+      <description>Reddix - Reddit, refined for the terminal.</description>
+      <pubDate>Mon, 06 Oct 2025 02:09:56 GMT</pubDate>
+      <guid isPermaLink="false">ck-zhang/reddix</guid>
+    </item>
+    <item>
+      <title>MorDavid/NetworkHound</title>
+      <link>https://github.com/MorDavid/NetworkHound</link>
+      <description>Advanced Active Directory network topology analyzer with SMB validation, multiple authentication methods (password/NTLM/Kerberos), and comprehensive network discovery. Export results as BloodHound‑compatible OpenGraph JSON.</description>
+      <pubDate>Mon, 06 Oct 2025 02:09:56 GMT</pubDate>
+      <guid isPermaLink="false">MorDavid/NetworkHound</guid>
+    </item>
+    <item>
+      <title>glide-browser/glide</title>
+      <link>https://github.com/glide-browser/glide</link>
+      <description>An extensible and keyboard-focused web browser</description>
+      <pubDate>Mon, 06 Oct 2025 02:09:56 GMT</pubDate>
+      <guid isPermaLink="false">glide-browser/glide</guid>
+    </item>
+    <item>
+      <title>theNetworkChuck/n8n-terry-guide</title>
+      <link>https://github.com/theNetworkChuck/n8n-terry-guide</link>
       <description>(no description)</description>
-      <pubDate>Fri, 19 Sep 2025 19:49:48 GMT</pubDate>
-      <guid isPermaLink="false">0xcomp/cryptotracker</guid>
+      <pubDate>Mon, 06 Oct 2025 02:09:56 GMT</pubDate>
+      <guid isPermaLink="false">theNetworkChuck/n8n-terry-guide</guid>
     </item>
     <item>
-      <title>XiaomiMiMo/MiMo-Audio</title>
-      <link>https://github.com/XiaomiMiMo/MiMo-Audio</link>
+      <title>DebarghaG/proofofthought</title>
+      <link>https://github.com/DebarghaG/proofofthought</link>
+      <description>&quot;Proof of thought: Neurosymbolic program synthesis allows robust and interpretable reasoning&quot; published Sys2Reasoning Workshop NeurIPS 2024</description>
+      <pubDate>Sun, 05 Oct 2025 12:54:56 GMT</pubDate>
+      <guid isPermaLink="false">DebarghaG/proofofthought</guid>
+    </item>
+    <item>
+      <title>Esubaalew/run</title>
+      <link>https://github.com/Esubaalew/run</link>
+      <description>Universal multi-language runner and smart REPL written in Rust.</description>
+      <pubDate>Sun, 05 Oct 2025 12:54:56 GMT</pubDate>
+      <guid isPermaLink="false">Esubaalew/run</guid>
+    </item>
+    <item>
+      <title>character-ai/Ovi</title>
+      <link>https://github.com/character-ai/Ovi</link>
       <description>(no description)</description>
-      <pubDate>Fri, 19 Sep 2025 19:49:48 GMT</pubDate>
-      <guid isPermaLink="false">XiaomiMiMo/MiMo-Audio</guid>
+      <pubDate>Sun, 05 Oct 2025 12:54:56 GMT</pubDate>
+      <guid isPermaLink="false">character-ai/Ovi</guid>
     </item>
     <item>
-      <title>Alibaba-NLP/DeepResearch</title>
-      <link>https://github.com/Alibaba-NLP/DeepResearch</link>
-      <description>Tongyi Deep Research, the Leading Open-source Deep Research Agent</description>
-      <pubDate>Fri, 19 Sep 2025 19:49:48 GMT</pubDate>
-      <guid isPermaLink="false">Alibaba-NLP/DeepResearch</guid>
+      <title>NVlabs/LongLive</title>
+      <link>https://github.com/NVlabs/LongLive</link>
+      <description>LongLive: Real-time Interactive Long Video Generation</description>
+      <pubDate>Sun, 05 Oct 2025 12:54:56 GMT</pubDate>
+      <guid isPermaLink="false">NVlabs/LongLive</guid>
     </item>
     <item>
-      <title>pingooio/pingoo</title>
-      <link>https://github.com/pingooio/pingoo</link>
-      <description>The fast and secure Load Balancer / API Gateway / Reverse Proxy with built-in service discovery, GeoIP, WAF, bot protection and much more - https://pingoo.io</description>
-      <pubDate>Fri, 19 Sep 2025 19:49:48 GMT</pubDate>
-      <guid isPermaLink="false">pingooio/pingoo</guid>
+      <title>True3DLabs/WindowMode</title>
+      <link>https://github.com/True3DLabs/WindowMode</link>
+      <description>Turn your screen into a Window into a virtual world</description>
+      <pubDate>Sun, 05 Oct 2025 02:17:29 GMT</pubDate>
+      <guid isPermaLink="false">True3DLabs/WindowMode</guid>
     </item>
     <item>
-      <title>XTXMarkets/ternfs</title>
-      <link>https://github.com/XTXMarkets/ternfs</link>
-      <description>A distributed file system</description>
-      <pubDate>Fri, 19 Sep 2025 02:10:26 GMT</pubDate>
-      <guid isPermaLink="false">XTXMarkets/ternfs</guid>
+      <title>InkboxSoftware/spacegamex64</title>
+      <link>https://github.com/InkboxSoftware/spacegamex64</link>
+      <description>Recreation of a classic arcade game remade as a UEFI application for the x86_64 platform.</description>
+      <pubDate>Sun, 05 Oct 2025 02:17:29 GMT</pubDate>
+      <guid isPermaLink="false">InkboxSoftware/spacegamex64</guid>
     </item>
     <item>
-      <title>matmadness/HumanShaders</title>
-      <link>https://github.com/matmadness/HumanShaders</link>
-      <description>A set of shaders for Godot to create realistic humanoid characters</description>
-      <pubDate>Fri, 19 Sep 2025 02:10:26 GMT</pubDate>
-      <guid isPermaLink="false">matmadness/HumanShaders</guid>
+      <title>midudev/jscamp</title>
+      <link>https://github.com/midudev/jscamp</link>
+      <description>Contenido y ejercicios del JSCamp InfoJobs</description>
+      <pubDate>Sun, 05 Oct 2025 02:17:29 GMT</pubDate>
+      <guid isPermaLink="false">midudev/jscamp</guid>
     </item>
     <item>
-      <title>subnetmarco/pgmcp</title>
-      <link>https://github.com/subnetmarco/pgmcp</link>
-      <description>An MCP server to query any Postgres database in natural language.</description>
-      <pubDate>Fri, 19 Sep 2025 02:10:26 GMT</pubDate>
-      <guid isPermaLink="false">subnetmarco/pgmcp</guid>
-    </item>
-    <item>
-      <title>comfy-deploy/comfydeploy</title>
-      <link>https://github.com/comfy-deploy/comfydeploy</link>
-      <description>ComfyDeployed</description>
-      <pubDate>Thu, 18 Sep 2025 13:00:47 GMT</pubDate>
-      <guid isPermaLink="false">comfy-deploy/comfydeploy</guid>
-    </item>
-    <item>
-      <title>stateless-me/uuidv47</title>
-      <link>https://github.com/stateless-me/uuidv47</link>
-      <description>⚡ UUIDv47 = v4 privacy + v7 performance</description>
-      <pubDate>Thu, 18 Sep 2025 02:00:57 GMT</pubDate>
-      <guid isPermaLink="false">stateless-me/uuidv47</guid>
-    </item>
-    <item>
-      <title>facebookresearch/map-anything</title>
-      <link>https://github.com/facebookresearch/map-anything</link>
-      <description>MapAnything: Universal Feed-Forward Metric 3D Reconstruction</description>
-      <pubDate>Thu, 18 Sep 2025 02:00:57 GMT</pubDate>
-      <guid isPermaLink="false">facebookresearch/map-anything</guid>
-    </item>
-    <item>
-      <title>get-convex/chef</title>
-      <link>https://github.com/get-convex/chef</link>
-      <description>The only AI app builder that knows backend</description>
-      <pubDate>Thu, 18 Sep 2025 02:00:57 GMT</pubDate>
-      <guid isPermaLink="false">get-convex/chef</guid>
-    </item>
-    <item>
-      <title>QwenLM/Qwen3-ASR-Toolkit</title>
-      <link>https://github.com/QwenLM/Qwen3-ASR-Toolkit</link>
-      <description>Official Python toolkit for the Qwen3-ASR API. Parallel high‑throughput calls, robust long‑audio transcription, multi‑sample‑rate support.</description>
-      <pubDate>Thu, 18 Sep 2025 02:00:57 GMT</pubDate>
-      <guid isPermaLink="false">QwenLM/Qwen3-ASR-Toolkit</guid>
-    </item>
-    <item>
-      <title>torvalds/GuitarPedal</title>
-      <link>https://github.com/torvalds/GuitarPedal</link>
+      <title>chiuhans111/fluidglass</title>
+      <link>https://github.com/chiuhans111/fluidglass</link>
       <description>(no description)</description>
-      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
-      <guid isPermaLink="false">torvalds/GuitarPedal</guid>
+      <pubDate>Sun, 05 Oct 2025 02:17:29 GMT</pubDate>
+      <guid isPermaLink="false">chiuhans111/fluidglass</guid>
     </item>
     <item>
-      <title>google-agentic-commerce/AP2</title>
-      <link>https://github.com/google-agentic-commerce/AP2</link>
-      <description>Building a Secure and Interoperable Future for AI-Driven Payments.</description>
-      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
-      <guid isPermaLink="false">google-agentic-commerce/AP2</guid>
+      <title>google/tunix</title>
+      <link>https://github.com/google/tunix</link>
+      <description>A JAX-native LLM Post-Training Library</description>
+      <pubDate>Sat, 04 Oct 2025 12:54:15 GMT</pubDate>
+      <guid isPermaLink="false">google/tunix</guid>
     </item>
     <item>
-      <title>Zephkek/Asus-ROG-Aml-Deep-Dive</title>
-      <link>https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive</link>
-      <description>A deep dive into the ACPI.sys DPC latency problems on Asus ROG laptops</description>
-      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
-      <guid isPermaLink="false">Zephkek/Asus-ROG-Aml-Deep-Dive</guid>
+      <title>future-file-format/F3</title>
+      <link>https://github.com/future-file-format/F3</link>
+      <description>[SIGMOD 2026] F3: The Open-Source Data File Format for the Future</description>
+      <pubDate>Sat, 04 Oct 2025 12:54:15 GMT</pubDate>
+      <guid isPermaLink="false">future-file-format/F3</guid>
     </item>
     <item>
-      <title>yangzhou24/OmniWorld</title>
-      <link>https://github.com/yangzhou24/OmniWorld</link>
-      <description>OmniWorld: A Multi-Domain and Multi-Modal Dataset for 4D World Modeling</description>
-      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
-      <guid isPermaLink="false">yangzhou24/OmniWorld</guid>
+      <title>obsidianmd/obsidian-maps</title>
+      <link>https://github.com/obsidianmd/obsidian-maps</link>
+      <description>Map layout for Obsidian Bases. Display your notes as an interactive map view.</description>
+      <pubDate>Sat, 04 Oct 2025 12:54:15 GMT</pubDate>
+      <guid isPermaLink="false">obsidianmd/obsidian-maps</guid>
     </item>
     <item>
-      <title>danielroe/provenance-action</title>
-      <link>https://github.com/danielroe/provenance-action</link>
-      <description>GitHub Action that detects dependency provenance downgrades from lockfile changes (npm/pnpm/yarn).</description>
-      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
-      <guid isPermaLink="false">danielroe/provenance-action</guid>
-    </item>
-    <item>
-      <title>unitreerobotics/unifolm-world-model-action</title>
-      <link>https://github.com/unitreerobotics/unifolm-world-model-action</link>
+      <title>alibaba/Logics-Parsing</title>
+      <link>https://github.com/alibaba/Logics-Parsing</link>
       <description>(no description)</description>
-      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
-      <guid isPermaLink="false">unitreerobotics/unifolm-world-model-action</guid>
+      <pubDate>Sat, 04 Oct 2025 12:54:15 GMT</pubDate>
+      <guid isPermaLink="false">alibaba/Logics-Parsing</guid>
     </item>
     <item>
-      <title>OpenBMB/VoxCPM</title>
-      <link>https://github.com/OpenBMB/VoxCPM</link>
-      <description>VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning</description>
-      <pubDate>Wed, 17 Sep 2025 13:01:36 GMT</pubDate>
-      <guid isPermaLink="false">OpenBMB/VoxCPM</guid>
+      <title>chr15m/minimal-pwa</title>
+      <link>https://github.com/chr15m/minimal-pwa</link>
+      <description>Minimal files + config for a PWA</description>
+      <pubDate>Sat, 04 Oct 2025 12:54:15 GMT</pubDate>
+      <guid isPermaLink="false">chr15m/minimal-pwa</guid>
     </item>
     <item>
-      <title>Michael-A-Kuykendall/shimmy</title>
-      <link>https://github.com/Michael-A-Kuykendall/shimmy</link>
-      <description>⚡ Python-free Rust inference server — OpenAI-API compatible. GGUF + SafeTensors, hot model swap, auto-discovery, single binary. FREE now, FREE forever.</description>
-      <pubDate>Tue, 16 Sep 2025 02:01:30 GMT</pubDate>
-      <guid isPermaLink="false">Michael-A-Kuykendall/shimmy</guid>
+      <title>neuphonic/neutts-air</title>
+      <link>https://github.com/neuphonic/neutts-air</link>
+      <description>On-device TTS model by Neuphonic</description>
+      <pubDate>Fri, 03 Oct 2025 12:58:51 GMT</pubDate>
+      <guid isPermaLink="false">neuphonic/neutts-air</guid>
     </item>
     <item>
-      <title>tekaratzas/RustGPT</title>
-      <link>https://github.com/tekaratzas/RustGPT</link>
-      <description>An transformer based LLM. Written completely in Rust</description>
-      <pubDate>Mon, 15 Sep 2025 13:01:41 GMT</pubDate>
-      <guid isPermaLink="false">tekaratzas/RustGPT</guid>
+      <title>cjpais/Handy</title>
+      <link>https://github.com/cjpais/Handy</link>
+      <description>A free, open source, and extensible speech-to-text application that works completely offline.</description>
+      <pubDate>Fri, 03 Oct 2025 12:58:51 GMT</pubDate>
+      <guid isPermaLink="false">cjpais/Handy</guid>
     </item>
     <item>
-      <title>gingerBill/titania</title>
-      <link>https://github.com/gingerBill/titania</link>
-      <description>Titania Programming Language</description>
-      <pubDate>Mon, 15 Sep 2025 13:01:41 GMT</pubDate>
-      <guid isPermaLink="false">gingerBill/titania</guid>
-    </item>
-    <item>
-      <title>theNetworkChuck/docker-mcp-tutorial</title>
-      <link>https://github.com/theNetworkChuck/docker-mcp-tutorial</link>
-      <description>Complete tutorial materials for building MCP servers with Docker - from NetworkChuck&apos;s video</description>
-      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
-      <guid isPermaLink="false">theNetworkChuck/docker-mcp-tutorial</guid>
-    </item>
-    <item>
-      <title>luis22d/ZeroTrace-Stealer-13-2026</title>
-      <link>https://github.com/luis22d/ZeroTrace-Stealer-13-2026</link>
-      <description>ZeroTrace Is Designed To Steal Data/Information Alot Of Stuff From Client And Send To Server.</description>
-      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
-      <guid isPermaLink="false">luis22d/ZeroTrace-Stealer-13-2026</guid>
-    </item>
-    <item>
-      <title>BICLab/SpikingBrain-7B</title>
-      <link>https://github.com/BICLab/SpikingBrain-7B</link>
+      <title>Kelsidavis/System7</title>
+      <link>https://github.com/Kelsidavis/System7</link>
       <description>(no description)</description>
-      <pubDate>Mon, 15 Sep 2025 02:15:35 GMT</pubDate>
-      <guid isPermaLink="false">BICLab/SpikingBrain-7B</guid>
+      <pubDate>Fri, 03 Oct 2025 12:58:51 GMT</pubDate>
+      <guid isPermaLink="false">Kelsidavis/System7</guid>
     </item>
     <item>
-      <title>mmulet/term.everything</title>
-      <link>https://github.com/mmulet/term.everything</link>
-      <description>Run any GUI app in the terminal❗</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">mmulet/term.everything</guid>
-    </item>
-    <item>
-      <title>plutov/oq</title>
-      <link>https://github.com/plutov/oq</link>
-      <description>Terminal OpenAPI Spec viewer</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">plutov/oq</guid>
-    </item>
-    <item>
-      <title>SaltyAom/elden-github</title>
-      <link>https://github.com/SaltyAom/elden-github</link>
-      <description>Elden Ring experience for GitHub</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">SaltyAom/elden-github</guid>
-    </item>
-    <item>
-      <title>reshaped-ui/reshaped</title>
-      <link>https://github.com/reshaped-ui/reshaped</link>
-      <description>Professionally crafted React &amp; Figma components for building beautiful products or starting your own design system</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">reshaped-ui/reshaped</guid>
-    </item>
-    <item>
-      <title>p2r3/bareiron</title>
-      <link>https://github.com/p2r3/bareiron</link>
-      <description>Minimalist Minecraft server for memory-restrictive embedded systems</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">p2r3/bareiron</guid>
-    </item>
-    <item>
-      <title>CaptainCrouton89/.claude</title>
-      <link>https://github.com/CaptainCrouton89/.claude</link>
+      <title>anthropics/claude-agent-sdk-python</title>
+      <link>https://github.com/anthropics/claude-agent-sdk-python</link>
       <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">CaptainCrouton89/.claude</guid>
+      <pubDate>Thu, 02 Oct 2025 12:59:19 GMT</pubDate>
+      <guid isPermaLink="false">anthropics/claude-agent-sdk-python</guid>
     </item>
     <item>
-      <title>JHDev2006/Super-Mario-Bros.-Remastered-Public</title>
-      <link>https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public</link>
+      <title>Inception3D/TTT3R</title>
+      <link>https://github.com/Inception3D/TTT3R</link>
+      <description>A simple state update rule to enhance length generalization for CUT3R.</description>
+      <pubDate>Thu, 02 Oct 2025 12:59:19 GMT</pubDate>
+      <guid isPermaLink="false">Inception3D/TTT3R</guid>
+    </item>
+    <item>
+      <title>StanfordBDHG/OpenTSLM</title>
+      <link>https://github.com/StanfordBDHG/OpenTSLM</link>
+      <description>OpenTSLM: Time-Series Language Models for Reasoning over Multivariate Medical Text- and Time-Series Data</description>
+      <pubDate>Thu, 02 Oct 2025 02:01:17 GMT</pubDate>
+      <guid isPermaLink="false">StanfordBDHG/OpenTSLM</guid>
+    </item>
+    <item>
+      <title>microsoft/agent-framework</title>
+      <link>https://github.com/microsoft/agent-framework</link>
+      <description>A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.</description>
+      <pubDate>Thu, 02 Oct 2025 02:01:17 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/agent-framework</guid>
+    </item>
+    <item>
+      <title>thinking-machines-lab/tinker-cookbook</title>
+      <link>https://github.com/thinking-machines-lab/tinker-cookbook</link>
+      <description>Post-training with Tinker</description>
+      <pubDate>Thu, 02 Oct 2025 02:01:17 GMT</pubDate>
+      <guid isPermaLink="false">thinking-machines-lab/tinker-cookbook</guid>
+    </item>
+    <item>
+      <title>pathwaycom/bdh</title>
+      <link>https://github.com/pathwaycom/bdh</link>
+      <description>Baby Dragon Hatchling (BDH) – Architecture and Code</description>
+      <pubDate>Thu, 02 Oct 2025 02:01:17 GMT</pubDate>
+      <guid isPermaLink="false">pathwaycom/bdh</guid>
+    </item>
+    <item>
+      <title>volcengine/MineContext</title>
+      <link>https://github.com/volcengine/MineContext</link>
+      <description>MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse）</description>
+      <pubDate>Thu, 02 Oct 2025 02:01:17 GMT</pubDate>
+      <guid isPermaLink="false">volcengine/MineContext</guid>
+    </item>
+    <item>
+      <title>atuinsh/desktop</title>
+      <link>https://github.com/atuinsh/desktop</link>
+      <description>📖 Runbooks that run</description>
+      <pubDate>Thu, 02 Oct 2025 02:01:17 GMT</pubDate>
+      <guid isPermaLink="false">atuinsh/desktop</guid>
+    </item>
+    <item>
+      <title>ChromeDevTools/chrome-devtools-mcp</title>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <description>Chrome DevTools for coding agents</description>
+      <pubDate>Wed, 01 Oct 2025 13:03:25 GMT</pubDate>
+      <guid isPermaLink="false">ChromeDevTools/chrome-devtools-mcp</guid>
+    </item>
+    <item>
+      <title>sammyuri/craftgpt</title>
+      <link>https://github.com/sammyuri/craftgpt</link>
+      <description>Small language model built in Minecraft.</description>
+      <pubDate>Wed, 01 Oct 2025 02:19:36 GMT</pubDate>
+      <guid isPermaLink="false">sammyuri/craftgpt</guid>
+    </item>
+    <item>
+      <title>agentic-commerce-protocol/agentic-commerce-protocol</title>
+      <link>https://github.com/agentic-commerce-protocol/agentic-commerce-protocol</link>
+      <description>The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and Stripe.</description>
+      <pubDate>Tue, 30 Sep 2025 13:03:09 GMT</pubDate>
+      <guid isPermaLink="false">agentic-commerce-protocol/agentic-commerce-protocol</guid>
+    </item>
+    <item>
+      <title>evanw/miniffi</title>
+      <link>https://github.com/evanw/miniffi</link>
       <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">JHDev2006/Super-Mario-Bros.-Remastered-Public</guid>
+      <pubDate>Tue, 30 Sep 2025 13:03:09 GMT</pubDate>
+      <guid isPermaLink="false">evanw/miniffi</guid>
     </item>
     <item>
-      <title>sentient-agi/ROMA</title>
-      <link>https://github.com/sentient-agi/ROMA</link>
-      <description>Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">sentient-agi/ROMA</guid>
+      <title>mujocolab/mjlab</title>
+      <link>https://github.com/mujocolab/mjlab</link>
+      <description>Isaac Lab API, powered by MuJoCo-Warp, for RL and robotics research.</description>
+      <pubDate>Tue, 30 Sep 2025 13:03:09 GMT</pubDate>
+      <guid isPermaLink="false">mujocolab/mjlab</guid>
     </item>
     <item>
-      <title>mnh-jansson/m18-protocol</title>
-      <link>https://github.com/mnh-jansson/m18-protocol</link>
+      <title>deepseek-ai/DeepSeek-V3.2-Exp</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-V3.2-Exp</link>
       <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">mnh-jansson/m18-protocol</guid>
+      <pubDate>Tue, 30 Sep 2025 02:01:14 GMT</pubDate>
+      <guid isPermaLink="false">deepseek-ai/DeepSeek-V3.2-Exp</guid>
     </item>
     <item>
-      <title>CodebuffAI/codebuff</title>
-      <link>https://github.com/CodebuffAI/codebuff</link>
-      <description>Generate code from the terminal!</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">CodebuffAI/codebuff</guid>
+      <title>juxtopposed/Mystical-Blue-Theme</title>
+      <link>https://github.com/juxtopposed/Mystical-Blue-Theme</link>
+      <description>KDE Plasma 6 Blue Theme</description>
+      <pubDate>Tue, 30 Sep 2025 02:01:14 GMT</pubDate>
+      <guid isPermaLink="false">juxtopposed/Mystical-Blue-Theme</guid>
     </item>
     <item>
-      <title>ScriptedAlchemy/devtools-debugger-mcp</title>
-      <link>https://github.com/ScriptedAlchemy/devtools-debugger-mcp</link>
-      <description>An MCP server exposing full Chrome DevTools Protocol debugging: breakpoints, step/run, call stacks, eval, and source maps.</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">ScriptedAlchemy/devtools-debugger-mcp</guid>
+      <title>folke/sidekick.nvim</title>
+      <link>https://github.com/folke/sidekick.nvim</link>
+      <description>Your Neovim AI sidekick</description>
+      <pubDate>Tue, 30 Sep 2025 02:01:14 GMT</pubDate>
+      <guid isPermaLink="false">folke/sidekick.nvim</guid>
     </item>
     <item>
-      <title>MoonshotAI/checkpoint-engine</title>
-      <link>https://github.com/MoonshotAI/checkpoint-engine</link>
-      <description>Checkpoint-engine is a simple middleware to update model weights in LLM inference engines</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">MoonshotAI/checkpoint-engine</guid>
-    </item>
-    <item>
-      <title>ntdevlabs/nano11</title>
-      <link>https://github.com/ntdevlabs/nano11</link>
-      <description>Script to build possibly the most trimmed-down Windows 11 experience.</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">ntdevlabs/nano11</guid>
-    </item>
-    <item>
-      <title>thinking-machines-lab/batch_invariant_ops</title>
-      <link>https://github.com/thinking-machines-lab/batch_invariant_ops</link>
+      <title>Mega4alik/ollm</title>
+      <link>https://github.com/Mega4alik/ollm</link>
       <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">thinking-machines-lab/batch_invariant_ops</guid>
-    </item>
-    <item>
-      <title>ClashConnectRules/Clash</title>
-      <link>https://github.com/ClashConnectRules/Clash</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">ClashConnectRules/Clash</guid>
-    </item>
-    <item>
-      <title>whyisdifficult/jiratui</title>
-      <link>https://github.com/whyisdifficult/jiratui</link>
-      <description>A Textual User Interface for interacting with Atlassian Jira from your shell</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">whyisdifficult/jiratui</guid>
-    </item>
-    <item>
-      <title>iannuttall/fartscroll-lid</title>
-      <link>https://github.com/iannuttall/fartscroll-lid</link>
-      <description>A hilarious macOS app that plays fart sounds as you open and close your MacBook lid</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">iannuttall/fartscroll-lid</guid>
-    </item>
-    <item>
-      <title>ivebotunac/PrimoAgent</title>
-      <link>https://github.com/ivebotunac/PrimoAgent</link>
-      <description>PrimoAgent: Multi-Agent Stock Analysis</description>
-      <pubDate>Sun, 14 Sep 2025 14:09:18 GMT</pubDate>
-      <guid isPermaLink="false">ivebotunac/PrimoAgent</guid>
-    </item>
-    <item>
-      <title>lingdojo/kanadojo</title>
-      <link>https://github.com/lingdojo/kanadojo</link>
-      <description>Fun, minimalist, aesthetic platform for learning and practicing Japanese online.</description>
-      <pubDate>Sat, 13 Sep 2025 12:53:32 GMT</pubDate>
-      <guid isPermaLink="false">lingdojo/kanadojo</guid>
+      <pubDate>Tue, 30 Sep 2025 02:01:14 GMT</pubDate>
+      <guid isPermaLink="false">Mega4alik/ollm</guid>
     </item>
   </channel>
 </rss>
