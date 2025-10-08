@@ -27,7 +27,7 @@ export type GitHubErrorItem = {
 
 // Externally defined to override in tests
 export const config = {
-  batchSize: 20, // max repos per request
+  batchSize: 10, // max repos per request
   batchDecStep: 5, // decrease batch size on 502
   waitInMillis: 30_000, // wait time on rate limit
   maxRetries: 3, // max retries on rate limit
