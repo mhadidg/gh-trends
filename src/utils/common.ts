@@ -31,8 +31,10 @@ export function median(arr: number[]): number {
 export async function handleProcessError(error: unknown) {
   if (error instanceof HttpError) {
     await logHttpError(error.tag, error);
+    process.exitCode = 1;
   } else if (error instanceof TaggedError) {
     logError(error);
+    process.exitCode = 1;
   } else {
     console.log('');
     console.log('🫣 Unhandled error');
