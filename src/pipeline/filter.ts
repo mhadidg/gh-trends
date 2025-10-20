@@ -9,6 +9,10 @@ export interface ScoredRepo extends GithubRepo {
 export function filter(repos: GithubRepo[]): GithubRepo[] {
   const minStars = parseInt(process.env.RELEASE_MIN_STARS!);
 
+  // Sometimes renamed filter catches non-renamed repos due to aggressive
+  // sampling from Clickhouse; During those periods, we allow renamed repos
+  const allowRenamed = process.env.FILTER_ALLOW_RENAMED === 'true';
+
   return repos.filter(repo => {
     const repoName = repo.nameWithOwner;
 
@@ -17,10 +21,10 @@ export function filter(repos: GithubRepo[]): GithubRepo[] {
       return false;
     }
 
-    // Catch renamed repos
+    // Catch renamed repos based on star gap between Clickhouse and Github
     // Only applicable when eval date is unset/today
     const evalDate = process.env.SCAN_EVAL_DATE;
-    if (!evalDate) {
+    if (!evalDate && !allowRenamed) {
       const clickhouseTotalStars =
         parseInt(repo.clickhouse.starsBefore) + parseInt(repo.clickhouse.starsWithin);
 
