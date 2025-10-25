@@ -60,8 +60,13 @@ export function filter(repos: GithubRepo[]): GithubRepo[] {
 
     // Catch malware repos (mostly crypto wallet drainers)
     // Adjust for eval date if set (historical scans)
+    const filterFreshOwner = process.env.FILTER_FRESH_OWNER === 'true';
     const daysSinceEval = evalDate ? daysSince(evalDate) : 0;
-    if (repo.owner.__typename === 'User' && daysSince(repo.owner.createdAt) - daysSinceEval < 30) {
+    if (
+      filterFreshOwner &&
+      repo.owner.__typename === 'User' &&
+      daysSince(repo.owner.createdAt) - daysSinceEval < 30
+    ) {
       logWarn('filter', `malware repo (fresh owner), skipping: ${repoName}`);
       return false;
     }
