@@ -1,30 +1,32 @@
 import { daysSince } from '../utils/common';
 import { GithubRepo } from '../clients/github.gql';
-import { logWarn } from '../utils/logging';
+import { logInfo, logWarn } from '../utils/logging';
 
 export interface ScoredRepo extends GithubRepo {
   score: number;
 }
 
 export function filter(repos: GithubRepo[]): GithubRepo[] {
-  const minStars = parseInt(process.env.RELEASE_MIN_STARS!);
+  const minStars = parseInt(process.env.FILTER_MIN_STARS!);
 
   // Sometimes renamed filter catches non-renamed repos due to aggressive
-  // sampling from Clickhouse; During those periods, we allow renamed repos
-  const allowRenamed = process.env.FILTER_ALLOW_RENAMED === 'true';
+  // sampling from Clickhouse - or Github?; During those periods, we allow
+  // renamed repos. Ideally, this should always be enabled
+  const filterRenamed = process.env.FILTER_RENAMED === 'true';
 
   return repos.filter(repo => {
     const repoName = repo.nameWithOwner;
 
     // Apply minimum stars filter
     if (repo.stargazerCount < minStars) {
+      logInfo('filter', `too few stars, skipping: ${repoName}`);
       return false;
     }
 
     // Catch renamed repos based on star gap between Clickhouse and Github
     // Only applicable when eval date is unset/today
     const evalDate = process.env.SCAN_EVAL_DATE;
-    if (!evalDate && !allowRenamed) {
+    if (!evalDate && filterRenamed) {
       const clickhouseTotalStars =
         parseInt(repo.clickhouse.starsBefore) + parseInt(repo.clickhouse.starsWithin);
 
@@ -38,7 +40,7 @@ export function filter(repos: GithubRepo[]): GithubRepo[] {
       }
     }
 
-    if (process.env.RELEASE_EMPTY_DESC === 'false') {
+    if (process.env.FILTER_EMPTY_DESC === 'true') {
       if (repo.description === null || repo.description.trim() === '') {
         logWarn('filter', `empty description, skipping: ${repoName}`);
         return false;
