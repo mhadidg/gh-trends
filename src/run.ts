@@ -30,7 +30,7 @@ export async function main(): Promise<void> {
 
   const remainingPercent = (filteredRepos.length / trendingRepos.length) * 100;
   const filteredCount = trendingRepos.length - filteredRepos.length;
-  if (filteredCount > 5 && remainingPercent < 80) {
+  if (filteredCount > 5 && remainingPercent < 50) {
     throw new TaggedError(`filter`, 'too many repos filtered out; aborting');
   }
 
