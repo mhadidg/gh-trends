@@ -5,8 +5,57 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Oct 2025 13:05:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 13:06:23 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>ninehills/PatentWriterAgent</title>
+      <link>https://github.com/ninehills/PatentWriterAgent</link>
+      <description>PatentWriterAgent Demo</description>
+      <pubDate>Wed, 29 Oct 2025 13:06:23 GMT</pubDate>
+      <guid isPermaLink="false">ninehills/PatentWriterAgent</guid>
+    </item>
+    <item>
+      <title>sahaj-b/ghostty-cursor-shaders</title>
+      <link>https://github.com/sahaj-b/ghostty-cursor-shaders</link>
+      <description>My custom cursor shaders for ghostty (trails and ripple/pulse effects)</description>
+      <pubDate>Wed, 29 Oct 2025 13:06:23 GMT</pubDate>
+      <guid isPermaLink="false">sahaj-b/ghostty-cursor-shaders</guid>
+    </item>
+    <item>
+      <title>tinkle-community/nofx</title>
+      <link>https://github.com/tinkle-community/nofx</link>
+      <description>AI-powered Binance futures trading bot with DeepSeek/Qwen, featuring multi-AI competition, Sharpe ratio self-evolution, and real-time dashboard</description>
+      <pubDate>Wed, 29 Oct 2025 02:20:57 GMT</pubDate>
+      <guid isPermaLink="false">tinkle-community/nofx</guid>
+    </item>
+    <item>
+      <title>Soul-AILab/SoulX-Podcast</title>
+      <link>https://github.com/Soul-AILab/SoulX-Podcast</link>
+      <description>SoulX-Podcast is an inference codebase by the Soul AI team for generating high-fidelity podcasts from text.</description>
+      <pubDate>Wed, 29 Oct 2025 02:20:57 GMT</pubDate>
+      <guid isPermaLink="false">Soul-AILab/SoulX-Podcast</guid>
+    </item>
+    <item>
+      <title>Mr-sans-and-InitLoader-s-team/Escape-From-Duckov-Coop-Mod-Preview</title>
+      <link>https://github.com/Mr-sans-and-InitLoader-s-team/Escape-From-Duckov-Coop-Mod-Preview</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 29 Oct 2025 02:20:57 GMT</pubDate>
+      <guid isPermaLink="false">Mr-sans-and-InitLoader-s-team/Escape-From-Duckov-Coop-Mod-Preview</guid>
+    </item>
+    <item>
+      <title>MiniMax-AI/MiniMax-M2</title>
+      <link>https://github.com/MiniMax-AI/MiniMax-M2</link>
+      <description>MiniMax-M2, a Mini model built for Max coding &amp; agentic workflows.</description>
+      <pubDate>Tue, 28 Oct 2025 13:15:18 GMT</pubDate>
+      <guid isPermaLink="false">MiniMax-AI/MiniMax-M2</guid>
+    </item>
+    <item>
+      <title>rolflobker/recall-for-linux</title>
+      <link>https://github.com/rolflobker/recall-for-linux</link>
+      <description>Bring Microsoft Recall to Linux!</description>
+      <pubDate>Tue, 28 Oct 2025 13:15:18 GMT</pubDate>
+      <guid isPermaLink="false">rolflobker/recall-for-linux</guid>
+    </item>
     <item>
       <title>johannschopplich/toon</title>
       <link>https://github.com/johannschopplich/toon</link>
