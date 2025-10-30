@@ -5,8 +5,106 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Oct 2025 13:06:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 12:57:36 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>attogram/bash-screensavers</title>
+      <link>https://github.com/attogram/bash-screensavers</link>
+      <description>Turn your idle shell into a visual playground with this collection of Bash screensav­ers</description>
+      <pubDate>Sat, 01 Nov 2025 12:57:36 GMT</pubDate>
+      <guid isPermaLink="false">attogram/bash-screensavers</guid>
+    </item>
+    <item>
+      <title>numman-ali/openskills</title>
+      <link>https://github.com/numman-ali/openskills</link>
+      <description>Universal skills loader for AI coding agents - npm i -g openskills</description>
+      <pubDate>Sat, 01 Nov 2025 12:57:36 GMT</pubDate>
+      <guid isPermaLink="false">numman-ali/openskills</guid>
+    </item>
+    <item>
+      <title>serkodev/markdown-exit</title>
+      <link>https://github.com/serkodev/markdown-exit</link>
+      <description>Fast, customizable Markdown parser and renderer with full CommonMark support. TypeScript rewrite of markdown-it with enhancements.</description>
+      <pubDate>Sat, 01 Nov 2025 02:20:17 GMT</pubDate>
+      <guid isPermaLink="false">serkodev/markdown-exit</guid>
+    </item>
+    <item>
+      <title>earendil-works/absurd</title>
+      <link>https://github.com/earendil-works/absurd</link>
+      <description>An experiment in durability</description>
+      <pubDate>Sat, 01 Nov 2025 02:20:17 GMT</pubDate>
+      <guid isPermaLink="false">earendil-works/absurd</guid>
+    </item>
+    <item>
+      <title>getyourguide/spmgraph</title>
+      <link>https://github.com/getyourguide/spmgraph</link>
+      <description>A dependency graph management tool for the Swift Package Manager</description>
+      <pubDate>Sat, 01 Nov 2025 02:20:17 GMT</pubDate>
+      <guid isPermaLink="false">getyourguide/spmgraph</guid>
+    </item>
+    <item>
+      <title>Ido-Levi/Hephaestus</title>
+      <link>https://github.com/Ido-Levi/Hephaestus</link>
+      <description>Semi-Structured Agentic Framework. Workflows build themselves as agents discover what needs to be done, not what you predicted upfront.</description>
+      <pubDate>Fri, 31 Oct 2025 13:03:50 GMT</pubDate>
+      <guid isPermaLink="false">Ido-Levi/Hephaestus</guid>
+    </item>
+    <item>
+      <title>CaviraOSS/OpenMemory</title>
+      <link>https://github.com/CaviraOSS/OpenMemory</link>
+      <description>Add long-term memory to any AI in minutes. Self-hosted, open, and framework-free.</description>
+      <pubDate>Fri, 31 Oct 2025 13:03:50 GMT</pubDate>
+      <guid isPermaLink="false">CaviraOSS/OpenMemory</guid>
+    </item>
+    <item>
+      <title>soltia48/suica-viewer</title>
+      <link>https://github.com/soltia48/suica-viewer</link>
+      <description>Suica Viewer is a CLI and GUI tool that reads FeliCa-based transit IC cards, resolving detailed card, balance, and trip history data via a remote authentication server.</description>
+      <pubDate>Fri, 31 Oct 2025 13:03:50 GMT</pubDate>
+      <guid isPermaLink="false">soltia48/suica-viewer</guid>
+    </item>
+    <item>
+      <title>MoonshotAI/Kimi-Linear</title>
+      <link>https://github.com/MoonshotAI/Kimi-Linear</link>
+      <description>(no description)</description>
+      <pubDate>Fri, 31 Oct 2025 02:17:02 GMT</pubDate>
+      <guid isPermaLink="false">MoonshotAI/Kimi-Linear</guid>
+    </item>
+    <item>
+      <title>SimonvBez/CPUSetSetter</title>
+      <link>https://github.com/SimonvBez/CPUSetSetter</link>
+      <description>Make your games and apps run on the right CPU cores - for smoother performance on Dual-CCD AMD 3D V-Cache processors.</description>
+      <pubDate>Fri, 31 Oct 2025 02:17:02 GMT</pubDate>
+      <guid isPermaLink="false">SimonvBez/CPUSetSetter</guid>
+    </item>
+    <item>
+      <title>diet103/claude-code-infrastructure-showcase</title>
+      <link>https://github.com/diet103/claude-code-infrastructure-showcase</link>
+      <description>Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents</description>
+      <pubDate>Thu, 30 Oct 2025 13:06:02 GMT</pubDate>
+      <guid isPermaLink="false">diet103/claude-code-infrastructure-showcase</guid>
+    </item>
+    <item>
+      <title>baaivision/Emu3.5</title>
+      <link>https://github.com/baaivision/Emu3.5</link>
+      <description>Native Multimodal Models are World Learners</description>
+      <pubDate>Thu, 30 Oct 2025 13:06:02 GMT</pubDate>
+      <guid isPermaLink="false">baaivision/Emu3.5</guid>
+    </item>
+    <item>
+      <title>mozilla-spidermonkey/iongraph</title>
+      <link>https://github.com/mozilla-spidermonkey/iongraph</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 30 Oct 2025 13:06:02 GMT</pubDate>
+      <guid isPermaLink="false">mozilla-spidermonkey/iongraph</guid>
+    </item>
+    <item>
+      <title>extropic-ai/thrml</title>
+      <link>https://github.com/extropic-ai/thrml</link>
+      <description>Thermodynamic Hypergraphical Model Library</description>
+      <pubDate>Thu, 30 Oct 2025 02:19:07 GMT</pubDate>
+      <guid isPermaLink="false">extropic-ai/thrml</guid>
+    </item>
     <item>
       <title>ninehills/PatentWriterAgent</title>
       <link>https://github.com/ninehills/PatentWriterAgent</link>
