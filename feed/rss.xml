@@ -5,245 +5,210 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Oct 2025 13:06:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 02:23:27 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
     <item>
-      <title>ninehills/PatentWriterAgent</title>
-      <link>https://github.com/ninehills/PatentWriterAgent</link>
-      <description>PatentWriterAgent Demo</description>
-      <pubDate>Wed, 29 Oct 2025 13:06:23 GMT</pubDate>
-      <guid isPermaLink="false">ninehills/PatentWriterAgent</guid>
-    </item>
-    <item>
-      <title>sahaj-b/ghostty-cursor-shaders</title>
-      <link>https://github.com/sahaj-b/ghostty-cursor-shaders</link>
-      <description>My custom cursor shaders for ghostty (trails and ripple/pulse effects)</description>
-      <pubDate>Wed, 29 Oct 2025 13:06:23 GMT</pubDate>
-      <guid isPermaLink="false">sahaj-b/ghostty-cursor-shaders</guid>
-    </item>
-    <item>
-      <title>tinkle-community/nofx</title>
-      <link>https://github.com/tinkle-community/nofx</link>
-      <description>AI-powered Binance futures trading bot with DeepSeek/Qwen, featuring multi-AI competition, Sharpe ratio self-evolution, and real-time dashboard</description>
-      <pubDate>Wed, 29 Oct 2025 02:20:57 GMT</pubDate>
-      <guid isPermaLink="false">tinkle-community/nofx</guid>
-    </item>
-    <item>
-      <title>Soul-AILab/SoulX-Podcast</title>
-      <link>https://github.com/Soul-AILab/SoulX-Podcast</link>
-      <description>SoulX-Podcast is an inference codebase by the Soul AI team for generating high-fidelity podcasts from text.</description>
-      <pubDate>Wed, 29 Oct 2025 02:20:57 GMT</pubDate>
-      <guid isPermaLink="false">Soul-AILab/SoulX-Podcast</guid>
-    </item>
-    <item>
-      <title>Mr-sans-and-InitLoader-s-team/Escape-From-Duckov-Coop-Mod-Preview</title>
-      <link>https://github.com/Mr-sans-and-InitLoader-s-team/Escape-From-Duckov-Coop-Mod-Preview</link>
+      <title>crowmd/2K-N8NWORKFLOWS</title>
+      <link>https://github.com/crowmd/2K-N8NWORKFLOWS</link>
       <description>(no description)</description>
-      <pubDate>Wed, 29 Oct 2025 02:20:57 GMT</pubDate>
-      <guid isPermaLink="false">Mr-sans-and-InitLoader-s-team/Escape-From-Duckov-Coop-Mod-Preview</guid>
+      <pubDate>Mon, 10 Nov 2025 02:23:27 GMT</pubDate>
+      <guid isPermaLink="false">crowmd/2K-N8NWORKFLOWS</guid>
     </item>
     <item>
-      <title>MiniMax-AI/MiniMax-M2</title>
-      <link>https://github.com/MiniMax-AI/MiniMax-M2</link>
-      <description>MiniMax-M2, a Mini model built for Max coding &amp; agentic workflows.</description>
-      <pubDate>Tue, 28 Oct 2025 13:15:18 GMT</pubDate>
-      <guid isPermaLink="false">MiniMax-AI/MiniMax-M2</guid>
+      <title>zensical/zensical</title>
+      <link>https://github.com/zensical/zensical</link>
+      <description>A modern static site generator by the creators of Material for MkDocs</description>
+      <pubDate>Mon, 10 Nov 2025 02:23:27 GMT</pubDate>
+      <guid isPermaLink="false">zensical/zensical</guid>
     </item>
     <item>
-      <title>rolflobker/recall-for-linux</title>
-      <link>https://github.com/rolflobker/recall-for-linux</link>
-      <description>Bring Microsoft Recall to Linux!</description>
-      <pubDate>Tue, 28 Oct 2025 13:15:18 GMT</pubDate>
-      <guid isPermaLink="false">rolflobker/recall-for-linux</guid>
+      <title>francescopace/espectre</title>
+      <link>https://github.com/francescopace/espectre</link>
+      <description>🛜 ESPectre 👻  - Motion detection system based on Wi-Fi spectre analysis (CSI), with Home Assistant integration.</description>
+      <pubDate>Mon, 10 Nov 2025 02:23:27 GMT</pubDate>
+      <guid isPermaLink="false">francescopace/espectre</guid>
     </item>
     <item>
-      <title>johannschopplich/toon</title>
-      <link>https://github.com/johannschopplich/toon</link>
-      <description>🎒 Token-Oriented Object Notation – JSON for LLMs at half the token cost</description>
-      <pubDate>Mon, 27 Oct 2025 13:05:07 GMT</pubDate>
-      <guid isPermaLink="false">johannschopplich/toon</guid>
+      <title>ad-on-is/rachoon</title>
+      <link>https://github.com/ad-on-is/rachoon</link>
+      <description>🦝 Rachoon — A self-hostable way to handle invoices</description>
+      <pubDate>Mon, 10 Nov 2025 02:23:27 GMT</pubDate>
+      <guid isPermaLink="false">ad-on-is/rachoon</guid>
     </item>
     <item>
-      <title>mayfer/dbpill</title>
-      <link>https://github.com/mayfer/dbpill</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 27 Oct 2025 02:23:50 GMT</pubDate>
-      <guid isPermaLink="false">mayfer/dbpill</guid>
+      <title>gaoxiang12/lightning-lm</title>
+      <link>https://github.com/gaoxiang12/lightning-lm</link>
+      <description>Lidar Localization and Mapping</description>
+      <pubDate>Sun, 09 Nov 2025 12:57:49 GMT</pubDate>
+      <guid isPermaLink="false">gaoxiang12/lightning-lm</guid>
     </item>
     <item>
-      <title>AnasMalas/pcb-edge-usb-c</title>
-      <link>https://github.com/AnasMalas/pcb-edge-usb-c</link>
-      <description>Use your PCB itself as a USB C connector! Including 10 and 14 Pin versions</description>
-      <pubDate>Mon, 27 Oct 2025 02:23:50 GMT</pubDate>
-      <guid isPermaLink="false">AnasMalas/pcb-edge-usb-c</guid>
+      <title>JohnDavidDalton/free-programming-books</title>
+      <link>https://github.com/JohnDavidDalton/free-programming-books</link>
+      <description>:books: Freely available programming books</description>
+      <pubDate>Sun, 09 Nov 2025 02:21:33 GMT</pubDate>
+      <guid isPermaLink="false">JohnDavidDalton/free-programming-books</guid>
     </item>
     <item>
-      <title>meituan-longcat/LongCat-Video</title>
-      <link>https://github.com/meituan-longcat/LongCat-Video</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 27 Oct 2025 02:23:50 GMT</pubDate>
-      <guid isPermaLink="false">meituan-longcat/LongCat-Video</guid>
+      <title>Doriandarko/kimi-writer</title>
+      <link>https://github.com/Doriandarko/kimi-writer</link>
+      <description>AI writing agent powered by kimi-k2-thinking - autonomously creates novels and stories with deep reasoning</description>
+      <pubDate>Sun, 09 Nov 2025 02:21:33 GMT</pubDate>
+      <guid isPermaLink="false">Doriandarko/kimi-writer</guid>
     </item>
     <item>
-      <title>IliasHad/edit-mind</title>
-      <link>https://github.com/IliasHad/edit-mind</link>
-      <description>Desktop app that indexes videos with AI (object detection, face recognition, emotion analysis), enables semantic search through natural language queries, and generates rough cuts</description>
-      <pubDate>Mon, 27 Oct 2025 02:23:50 GMT</pubDate>
-      <guid isPermaLink="false">IliasHad/edit-mind</guid>
+      <title>wesbos/sticker-dream</title>
+      <link>https://github.com/wesbos/sticker-dream</link>
+      <description>voice activated sticker dreamer and printer.</description>
+      <pubDate>Sun, 09 Nov 2025 02:21:33 GMT</pubDate>
+      <guid isPermaLink="false">wesbos/sticker-dream</guid>
     </item>
     <item>
-      <title>swiftlang/swift-android-examples</title>
-      <link>https://github.com/swiftlang/swift-android-examples</link>
-      <description>(no description)</description>
-      <pubDate>Mon, 27 Oct 2025 02:23:50 GMT</pubDate>
-      <guid isPermaLink="false">swiftlang/swift-android-examples</guid>
+      <title>steipete/agent-scripts</title>
+      <link>https://github.com/steipete/agent-scripts</link>
+      <description>Scripts for agents, shared between my repositories.</description>
+      <pubDate>Sun, 09 Nov 2025 02:21:33 GMT</pubDate>
+      <guid isPermaLink="false">steipete/agent-scripts</guid>
     </item>
     <item>
-      <title>RohanAdwankar/oxdraw</title>
-      <link>https://github.com/RohanAdwankar/oxdraw</link>
-      <description>Diagram as Code Tool Written in Rust with Draggable Editing</description>
-      <pubDate>Sun, 26 Oct 2025 12:57:29 GMT</pubDate>
-      <guid isPermaLink="false">RohanAdwankar/oxdraw</guid>
+      <title>google/adk-go</title>
+      <link>https://github.com/google/adk-go</link>
+      <description>An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.</description>
+      <pubDate>Sun, 09 Nov 2025 02:21:33 GMT</pubDate>
+      <guid isPermaLink="false">google/adk-go</guid>
     </item>
     <item>
-      <title>apple/pico-banana-400k</title>
-      <link>https://github.com/apple/pico-banana-400k</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 26 Oct 2025 12:57:29 GMT</pubDate>
-      <guid isPermaLink="false">apple/pico-banana-400k</guid>
+      <title>boku7/venom</title>
+      <link>https://github.com/boku7/venom</link>
+      <description>Venom C2 is a dependency‑free Python3 Command &amp; Control framework for redteam persistence</description>
+      <pubDate>Sun, 09 Nov 2025 02:21:33 GMT</pubDate>
+      <guid isPermaLink="false">boku7/venom</guid>
     </item>
     <item>
-      <title>Bogdanovich77/DeekSeek-OCR---Dockerized-API</title>
-      <link>https://github.com/Bogdanovich77/DeekSeek-OCR---Dockerized-API</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 26 Oct 2025 12:57:29 GMT</pubDate>
-      <guid isPermaLink="false">Bogdanovich77/DeekSeek-OCR---Dockerized-API</guid>
+      <title>getmydia/mydia</title>
+      <link>https://github.com/getmydia/mydia</link>
+      <description>Your personal media companion, built with Phoenix LiveView</description>
+      <pubDate>Sun, 09 Nov 2025 02:21:33 GMT</pubDate>
+      <guid isPermaLink="false">getmydia/mydia</guid>
     </item>
     <item>
-      <title>TimmyOVO/deepseek-ocr.rs</title>
-      <link>https://github.com/TimmyOVO/deepseek-ocr.rs</link>
-      <description>Rust implementation of DeepSeek-OCR with OpenAI-compatible server. &amp; CLI No Python environment needed - just download and run.</description>
-      <pubDate>Sun, 26 Oct 2025 02:18:45 GMT</pubDate>
-      <guid isPermaLink="false">TimmyOVO/deepseek-ocr.rs</guid>
+      <title>Snapchat/Valdi</title>
+      <link>https://github.com/Snapchat/Valdi</link>
+      <description>Valdi is a cross-platform UI framework that delivers native performance without sacrificing developer velocity.</description>
+      <pubDate>Sat, 08 Nov 2025 12:57:15 GMT</pubDate>
+      <guid isPermaLink="false">Snapchat/Valdi</guid>
     </item>
     <item>
-      <title>HKUDS/AI-Trader</title>
-      <link>https://github.com/HKUDS/AI-Trader</link>
-      <description>&quot;AI-Trader: Can AI Beat the Market?&quot;</description>
-      <pubDate>Sun, 26 Oct 2025 02:18:45 GMT</pubDate>
-      <guid isPermaLink="false">HKUDS/AI-Trader</guid>
+      <title>zhao-kun/VibeVoiceFusion</title>
+      <link>https://github.com/zhao-kun/VibeVoiceFusion</link>
+      <description>A complete full-stack voice generation solution with an intuitive user interface, project management, and advanced VRAM optimization features</description>
+      <pubDate>Sat, 08 Nov 2025 12:57:15 GMT</pubDate>
+      <guid isPermaLink="false">zhao-kun/VibeVoiceFusion</guid>
     </item>
     <item>
-      <title>MoonshotAI/kimi-cli</title>
-      <link>https://github.com/MoonshotAI/kimi-cli</link>
-      <description>Kimi CLI is your next CLI agent.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">MoonshotAI/kimi-cli</guid>
+      <title>iagooar/qqqa</title>
+      <link>https://github.com/iagooar/qqqa</link>
+      <description>Fast, stateless LLM for your shell: qq answers; qa runs commands</description>
+      <pubDate>Sat, 08 Nov 2025 02:10:18 GMT</pubDate>
+      <guid isPermaLink="false">iagooar/qqqa</guid>
     </item>
     <item>
-      <title>aidenybai/react-grab</title>
-      <link>https://github.com/aidenybai/react-grab</link>
-      <description>Grab any element on in your app and give it to Cursor, Claude Code, etc</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">aidenybai/react-grab</guid>
+      <title>ldm0/cardinal</title>
+      <link>https://github.com/ldm0/cardinal</link>
+      <description>A fast file searching tool for macOS</description>
+      <pubDate>Sat, 08 Nov 2025 02:10:18 GMT</pubDate>
+      <guid isPermaLink="false">ldm0/cardinal</guid>
     </item>
     <item>
-      <title>anthropics/claude-cookbooks</title>
-      <link>https://github.com/anthropics/claude-cookbooks</link>
-      <description>A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">anthropics/claude-cookbooks</guid>
+      <title>diet103/claude-code-infrastructure-showcase</title>
+      <link>https://github.com/diet103/claude-code-infrastructure-showcase</link>
+      <description>Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents</description>
+      <pubDate>Fri, 07 Nov 2025 13:02:45 GMT</pubDate>
+      <guid isPermaLink="false">diet103/claude-code-infrastructure-showcase</guid>
     </item>
     <item>
-      <title>deta/surf</title>
-      <link>https://github.com/deta/surf</link>
-      <description>Personal AI Notebooks. Organize files &amp; webpages and generate notes from them. Open source, local &amp; open data, open model choice (incl. local).</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">deta/surf</guid>
+      <title>Ripple-TS/ripple</title>
+      <link>https://github.com/Ripple-TS/ripple</link>
+      <description>the elegant TypeScript UI framework</description>
+      <pubDate>Fri, 07 Nov 2025 13:02:45 GMT</pubDate>
+      <guid isPermaLink="false">Ripple-TS/ripple</guid>
     </item>
     <item>
-      <title>vercel/workflow</title>
-      <link>https://github.com/vercel/workflow</link>
-      <description>Workflow DevKit: Build durable, resilient, and observable workflows</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">vercel/workflow</guid>
+      <title>Dicklesworthstone/mcp_agent_mail</title>
+      <link>https://github.com/Dicklesworthstone/mcp_agent_mail</link>
+      <description>Like gmail for your coding agents. Lets various different agents communicate and coordinate with each other.</description>
+      <pubDate>Fri, 07 Nov 2025 13:02:45 GMT</pubDate>
+      <guid isPermaLink="false">Dicklesworthstone/mcp_agent_mail</guid>
     </item>
     <item>
-      <title>anthropic-experimental/sandbox-runtime</title>
-      <link>https://github.com/anthropic-experimental/sandbox-runtime</link>
-      <description>A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">anthropic-experimental/sandbox-runtime</guid>
+      <title>openpcc/openpcc</title>
+      <link>https://github.com/openpcc/openpcc</link>
+      <description>An open-source framework for provably private AI inference</description>
+      <pubDate>Fri, 07 Nov 2025 02:16:25 GMT</pubDate>
+      <guid isPermaLink="false">openpcc/openpcc</guid>
     </item>
     <item>
-      <title>lightly-ai/lightly-studio</title>
-      <link>https://github.com/lightly-ai/lightly-studio</link>
-      <description>Curate, Annotate, and Manage Your Data in LightlyStudio.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">lightly-ai/lightly-studio</guid>
+      <title>sayyadirfanali/Myna</title>
+      <link>https://github.com/sayyadirfanali/Myna</link>
+      <description>monospace typeface designed for symbol-rich programming</description>
+      <pubDate>Fri, 07 Nov 2025 02:16:25 GMT</pubDate>
+      <guid isPermaLink="false">sayyadirfanali/Myna</guid>
     </item>
     <item>
-      <title>sql-hkr/tiny8</title>
-      <link>https://github.com/sql-hkr/tiny8</link>
-      <description>A tiny CPU simulator written in Python</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">sql-hkr/tiny8</guid>
+      <title>nomad/nomad</title>
+      <link>https://github.com/nomad/nomad</link>
+      <description>Make coding delightful</description>
+      <pubDate>Thu, 06 Nov 2025 02:18:43 GMT</pubDate>
+      <guid isPermaLink="false">nomad/nomad</guid>
     </item>
     <item>
-      <title>pguso/ai-agents-from-scratch</title>
-      <link>https://github.com/pguso/ai-agents-from-scratch</link>
-      <description>Demystify AI agents by building them yourself. Local LLMs, no black boxes, real understanding of function calling, memory, and ReAct patterns.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">pguso/ai-agents-from-scratch</guid>
+      <title>penberg/agentfs</title>
+      <link>https://github.com/penberg/agentfs</link>
+      <description>The filesystem for agents</description>
+      <pubDate>Wed, 05 Nov 2025 13:05:07 GMT</pubDate>
+      <guid isPermaLink="false">penberg/agentfs</guid>
     </item>
     <item>
-      <title>bytewreck/DumpGuard</title>
-      <link>https://github.com/bytewreck/DumpGuard</link>
-      <description>Proof-of-Concept tool for extracting NTLMv1 hashes from sessions on modern Windows systems.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">bytewreck/DumpGuard</guid>
+      <title>Snowflake-Labs/pg_lake</title>
+      <link>https://github.com/Snowflake-Labs/pg_lake</link>
+      <description>pg_lake: Postgres with Iceberg and data lake access</description>
+      <pubDate>Wed, 05 Nov 2025 02:18:32 GMT</pubDate>
+      <guid isPermaLink="false">Snowflake-Labs/pg_lake</guid>
     </item>
     <item>
-      <title>ruc-datalab/DeepAnalyze</title>
-      <link>https://github.com/ruc-datalab/DeepAnalyze</link>
-      <description>DeepAnalyze is the first agentic LLM for autonomous data science.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">ruc-datalab/DeepAnalyze</guid>
+      <title>deepnote/deepnote</title>
+      <link>https://github.com/deepnote/deepnote</link>
+      <description>Deepnote is a drop-in replacement for Jupyter with an AI-first design, sleek UI, new blocks, and native data integrations. Use Python, R, and SQL locally in your favorite IDE, then scale to Deepnote cloud for real-time collaboration, Deepnote agent, and deployable data apps. https://deepnote.com/</description>
+      <pubDate>Wed, 05 Nov 2025 02:18:32 GMT</pubDate>
+      <guid isPermaLink="false">deepnote/deepnote</guid>
     </item>
     <item>
-      <title>rdumasia303/deepseek_ocr_app</title>
-      <link>https://github.com/rdumasia303/deepseek_ocr_app</link>
-      <description>A quick vibe coded app for deepseek OCR</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">rdumasia303/deepseek_ocr_app</guid>
+      <title>codykociemba/NoLongerEvil-Thermostat</title>
+      <link>https://github.com/codykociemba/NoLongerEvil-Thermostat</link>
+      <description>Breathe fresh life into your bricked Nest Gen 1 &amp; 2, now with 100% less evil!</description>
+      <pubDate>Wed, 05 Nov 2025 02:18:32 GMT</pubDate>
+      <guid isPermaLink="false">codykociemba/NoLongerEvil-Thermostat</guid>
     </item>
     <item>
-      <title>ValueCell-ai/valuecell</title>
-      <link>https://github.com/ValueCell-ai/valuecell</link>
-      <description>ValueCell is a community-driven, multi-agent platform for financial applications.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">ValueCell-ai/valuecell</guid>
+      <title>liujuntao123/smart-excalidraw-next</title>
+      <link>https://github.com/liujuntao123/smart-excalidraw-next</link>
+      <description>A smart, powerful, and beautiful excalidraw drawing tool.Draw Professional Charts with Natural Language</description>
+      <pubDate>Wed, 05 Nov 2025 02:18:32 GMT</pubDate>
+      <guid isPermaLink="false">liujuntao123/smart-excalidraw-next</guid>
     </item>
     <item>
-      <title>lackeyjb/playwright-skill</title>
-      <link>https://github.com/lackeyjb/playwright-skill</link>
-      <description>Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">lackeyjb/playwright-skill</guid>
+      <title>rxliuli/apps.apple.com</title>
+      <link>https://github.com/rxliuli/apps.apple.com</link>
+      <description>App Store web version</description>
+      <pubDate>Tue, 04 Nov 2025 13:07:54 GMT</pubDate>
+      <guid isPermaLink="false">rxliuli/apps.apple.com</guid>
     </item>
     <item>
-      <title>Tencent-Hunyuan/HunyuanWorld-Mirror</title>
-      <link>https://github.com/Tencent-Hunyuan/HunyuanWorld-Mirror</link>
-      <description>Fast and Universal 3D reconstruction model for versatile tasks</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">Tencent-Hunyuan/HunyuanWorld-Mirror</guid>
-    </item>
-    <item>
-      <title>Katakate/k7</title>
-      <link>https://github.com/Katakate/k7</link>
-      <description>Your own self-hosted infra for lightweight VM sandboxes to safely execute untrusted code. CLI, API, Python SDK. ⭐ Star it if you like it! ⭐</description>
-      <pubDate>Sat, 25 Oct 2025 13:43:54 GMT</pubDate>
-      <guid isPermaLink="false">Katakate/k7</guid>
+      <title>edde746/plezy</title>
+      <link>https://github.com/edde746/plezy</link>
+      <description>Modern cross-platform Plex client built with Flutter</description>
+      <pubDate>Tue, 04 Nov 2025 13:07:54 GMT</pubDate>
+      <guid isPermaLink="false">edde746/plezy</guid>
     </item>
   </channel>
 </rss>
