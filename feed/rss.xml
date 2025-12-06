@@ -5,8 +5,155 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 13:06:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 02:23:39 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>alicankiraz1/Ai-Arastirma-Okumalarim-TR</title>
+      <link>https://github.com/alicankiraz1/Ai-Arastirma-Okumalarim-TR</link>
+      <description>Ai konusunda yayınlanan makale ve araştırmaların Türkçe detaylı-açıklamalı çevirilerine ve Türkçe Ai&apos;a hazırlattığım Derin Araştırma Dökümanlarıma ulaşabilirsiniz.</description>
+      <pubDate>Mon, 08 Dec 2025 02:23:39 GMT</pubDate>
+      <guid isPermaLink="false">alicankiraz1/Ai-Arastirma-Okumalarim-TR</guid>
+    </item>
+    <item>
+      <title>grimthorpe/clbre</title>
+      <link>https://github.com/grimthorpe/clbre</link>
+      <description>A fork of Calibre called Clbre, because the AI is stripped out.</description>
+      <pubDate>Mon, 08 Dec 2025 02:23:39 GMT</pubDate>
+      <guid isPermaLink="false">grimthorpe/clbre</guid>
+    </item>
+    <item>
+      <title>markrai/gitpow</title>
+      <link>https://github.com/markrai/gitpow</link>
+      <description>an open-source, cross-platform git client</description>
+      <pubDate>Mon, 08 Dec 2025 02:23:39 GMT</pubDate>
+      <guid isPermaLink="false">markrai/gitpow</guid>
+    </item>
+    <item>
+      <title>sinelaw/fresh</title>
+      <link>https://github.com/sinelaw/fresh</link>
+      <description>Text editor for your terminal: easy, powerful and fast</description>
+      <pubDate>Mon, 08 Dec 2025 02:23:39 GMT</pubDate>
+      <guid isPermaLink="false">sinelaw/fresh</guid>
+    </item>
+    <item>
+      <title>rs-4/tanstack-ai-demo</title>
+      <link>https://github.com/rs-4/tanstack-ai-demo</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 08 Dec 2025 02:23:39 GMT</pubDate>
+      <guid isPermaLink="false">rs-4/tanstack-ai-demo</guid>
+    </item>
+    <item>
+      <title>zack0x01/CVE-2025-55182-advanced-scanner-</title>
+      <link>https://github.com/zack0x01/CVE-2025-55182-advanced-scanner-</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 08 Dec 2025 02:23:39 GMT</pubDate>
+      <guid isPermaLink="false">zack0x01/CVE-2025-55182-advanced-scanner-</guid>
+    </item>
+    <item>
+      <title>tractordev/apptron</title>
+      <link>https://github.com/tractordev/apptron</link>
+      <description>Local-first development platform</description>
+      <pubDate>Sun, 07 Dec 2025 13:00:06 GMT</pubDate>
+      <guid isPermaLink="false">tractordev/apptron</guid>
+    </item>
+    <item>
+      <title>twostraws/SwiftAgents</title>
+      <link>https://github.com/twostraws/SwiftAgents</link>
+      <description>An AGENTS.md file for Swift and SwiftUI projects.</description>
+      <pubDate>Sun, 07 Dec 2025 02:32:55 GMT</pubDate>
+      <guid isPermaLink="false">twostraws/SwiftAgents</guid>
+    </item>
+    <item>
+      <title>DayuanJiang/next-ai-draw-io</title>
+      <link>https://github.com/DayuanJiang/next-ai-draw-io</link>
+      <description>A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.</description>
+      <pubDate>Sun, 07 Dec 2025 02:32:55 GMT</pubDate>
+      <guid isPermaLink="false">DayuanJiang/next-ai-draw-io</guid>
+    </item>
+    <item>
+      <title>Sean-V-Dev/HMLR-Agentic-AI-Memory-System</title>
+      <link>https://github.com/Sean-V-Dev/HMLR-Agentic-AI-Memory-System</link>
+      <description>Living memory for AI</description>
+      <pubDate>Sun, 07 Dec 2025 02:32:55 GMT</pubDate>
+      <guid isPermaLink="false">Sean-V-Dev/HMLR-Agentic-AI-Memory-System</guid>
+    </item>
+    <item>
+      <title>AnswerDotAI/clipmd</title>
+      <link>https://github.com/AnswerDotAI/clipmd</link>
+      <description>Convert clipboard from HTML to MD</description>
+      <pubDate>Sun, 07 Dec 2025 02:32:55 GMT</pubDate>
+      <guid isPermaLink="false">AnswerDotAI/clipmd</guid>
+    </item>
+    <item>
+      <title>cporter202/automate-for-growth</title>
+      <link>https://github.com/cporter202/automate-for-growth</link>
+      <description>Complete guide to automating content for growth: Sora 2 video generation, brand authority automation, multi-platform posting, bulk content creation, and API integration.</description>
+      <pubDate>Sun, 07 Dec 2025 02:32:55 GMT</pubDate>
+      <guid isPermaLink="false">cporter202/automate-for-growth</guid>
+    </item>
+    <item>
+      <title>emredavut/CVE-2025-55182</title>
+      <link>https://github.com/emredavut/CVE-2025-55182</link>
+      <description>RSC/Next.js RCE Vulnerability Detector &amp; PoC Chrome Extension – CVE-2025-55182 &amp; CVE-2025-66478</description>
+      <pubDate>Sun, 07 Dec 2025 02:32:55 GMT</pubDate>
+      <guid isPermaLink="false">emredavut/CVE-2025-55182</guid>
+    </item>
+    <item>
+      <title>Miziziziz/Steam-And-Itch-Command-Line-Tools-Guide</title>
+      <link>https://github.com/Miziziziz/Steam-And-Itch-Command-Line-Tools-Guide</link>
+      <description>How To Upload To Steam And Itch Using Command Line Tools</description>
+      <pubDate>Sun, 07 Dec 2025 02:32:55 GMT</pubDate>
+      <guid isPermaLink="false">Miziziziz/Steam-And-Itch-Command-Line-Tools-Guide</guid>
+    </item>
+    <item>
+      <title>NVIDIA/TileGym</title>
+      <link>https://github.com/NVIDIA/TileGym</link>
+      <description>Helpful kernel tutorials and examples for tile-based GPU programming</description>
+      <pubDate>Sat, 06 Dec 2025 13:01:10 GMT</pubDate>
+      <guid isPermaLink="false">NVIDIA/TileGym</guid>
+    </item>
+    <item>
+      <title>Alibaba-Quark/LiveAvatar</title>
+      <link>https://github.com/Alibaba-Quark/LiveAvatar</link>
+      <description>Implementation of &quot;Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length&quot;</description>
+      <pubDate>Sat, 06 Dec 2025 13:01:10 GMT</pubDate>
+      <guid isPermaLink="false">Alibaba-Quark/LiveAvatar</guid>
+    </item>
+    <item>
+      <title>crowmd/GoogleMapAIagent</title>
+      <link>https://github.com/crowmd/GoogleMapAIagent</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">crowmd/GoogleMapAIagent</guid>
+    </item>
+    <item>
+      <title>lachlan2k/React2Shell-CVE-2025-55182-original-poc</title>
+      <link>https://github.com/lachlan2k/React2Shell-CVE-2025-55182-original-poc</link>
+      <description>Original Proof-of-Concept&apos;s for React2Shell CVE-2025-55182</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">lachlan2k/React2Shell-CVE-2025-55182-original-poc</guid>
+    </item>
+    <item>
+      <title>guhcostan/mac-cleaner-cli</title>
+      <link>https://github.com/guhcostan/mac-cleaner-cli</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">guhcostan/mac-cleaner-cli</guid>
+    </item>
+    <item>
+      <title>YouMind-OpenLab/awesome-nano-banana-pro-prompts</title>
+      <link>https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts</link>
+      <description>🍌 500+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">YouMind-OpenLab/awesome-nano-banana-pro-prompts</guid>
+    </item>
+    <item>
+      <title>mrknow001/RSC_Detector</title>
+      <link>https://github.com/mrknow001/RSC_Detector</link>
+      <description>Supports RSC fingerprinting and exploitation of the React component vulnerability CVE-2025-55182.</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">mrknow001/RSC_Detector</guid>
+    </item>
     <item>
       <title>NVIDIA/cutile-python</title>
       <link>https://github.com/NVIDIA/cutile-python</link>
@@ -174,69 +321,6 @@
       <description>GELab: GUI Exploration Lab. One of the best GUI agent solutions in the galaxy, built by the StepFun-GELab team and powered by Step’s research capabilities.</description>
       <pubDate>Mon, 01 Dec 2025 02:41:28 GMT</pubDate>
       <guid isPermaLink="false">stepfun-ai/gelab-zero</guid>
-    </item>
-    <item>
-      <title>pguso/rag-from-scratch</title>
-      <link>https://github.com/pguso/rag-from-scratch</link>
-      <description>Demystify RAG by building it from scratch. Local LLMs, no black boxes - real understanding of embeddings, vector search, retrieval, and context-augmented generation.</description>
-      <pubDate>Sun, 30 Nov 2025 13:00:25 GMT</pubDate>
-      <guid isPermaLink="false">pguso/rag-from-scratch</guid>
-    </item>
-    <item>
-      <title>gavrielc/Nano-PDF</title>
-      <link>https://github.com/gavrielc/Nano-PDF</link>
-      <description>Edit PDF files with Nano Banana</description>
-      <pubDate>Sun, 30 Nov 2025 02:32:16 GMT</pubDate>
-      <guid isPermaLink="false">gavrielc/Nano-PDF</guid>
-    </item>
-    <item>
-      <title>Gururagavendra/gmail-cleaner</title>
-      <link>https://github.com/Gururagavendra/gmail-cleaner</link>
-      <description>web based GUI to cleanup gmail delete, mark as read, unsubsribe from uncessary things u dont like</description>
-      <pubDate>Sun, 30 Nov 2025 02:32:16 GMT</pubDate>
-      <guid isPermaLink="false">Gururagavendra/gmail-cleaner</guid>
-    </item>
-    <item>
-      <title>coleam00/remote-agentic-coding-system</title>
-      <link>https://github.com/coleam00/remote-agentic-coding-system</link>
-      <description>Remote Coding Agent for the Dynamous Agentic Coding Course and special Black Friday livestream. Connect Claude Code or Codex to Slack, Telegram, GitHub, etc.</description>
-      <pubDate>Sun, 30 Nov 2025 02:32:16 GMT</pubDate>
-      <guid isPermaLink="false">coleam00/remote-agentic-coding-system</guid>
-    </item>
-    <item>
-      <title>Rohithgilla12/data-peek</title>
-      <link>https://github.com/Rohithgilla12/data-peek</link>
-      <description>A minimal, fast, lightweight database client desktop application. Built for developers who want to quickly peek at their data without the bloat.</description>
-      <pubDate>Sat, 29 Nov 2025 13:00:33 GMT</pubDate>
-      <guid isPermaLink="false">Rohithgilla12/data-peek</guid>
-    </item>
-    <item>
-      <title>NullPxl/banrays</title>
-      <link>https://github.com/NullPxl/banrays</link>
-      <description>Glasses to detect smart-glasses that have cameras. Ray-BANNED</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">NullPxl/banrays</guid>
-    </item>
-    <item>
-      <title>Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</title>
-      <link>https://github.com/Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</link>
-      <description>Hong Kong Fire (Tai Po, 11/26): A major blaze swept through Wang Fuk Court</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</guid>
-    </item>
-    <item>
-      <title>adysec/FuckACE</title>
-      <link>https://github.com/adysec/FuckACE</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">adysec/FuckACE</guid>
-    </item>
-    <item>
-      <title>CodeOne45/vex-tui</title>
-      <link>https://github.com/CodeOne45/vex-tui</link>
-      <description>A beautiful, fast, and feature-rich terminal-based Excel and CSV viewer built with Go.</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">CodeOne45/vex-tui</guid>
     </item>
   </channel>
 </rss>
