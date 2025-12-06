@@ -5,8 +5,57 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 13:06:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 13:01:10 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>NVIDIA/TileGym</title>
+      <link>https://github.com/NVIDIA/TileGym</link>
+      <description>Helpful kernel tutorials and examples for tile-based GPU programming</description>
+      <pubDate>Sat, 06 Dec 2025 13:01:10 GMT</pubDate>
+      <guid isPermaLink="false">NVIDIA/TileGym</guid>
+    </item>
+    <item>
+      <title>Alibaba-Quark/LiveAvatar</title>
+      <link>https://github.com/Alibaba-Quark/LiveAvatar</link>
+      <description>Implementation of &quot;Live Avatar: Streaming Real-time Audio-Driven Avatar Generation with Infinite Length&quot;</description>
+      <pubDate>Sat, 06 Dec 2025 13:01:10 GMT</pubDate>
+      <guid isPermaLink="false">Alibaba-Quark/LiveAvatar</guid>
+    </item>
+    <item>
+      <title>crowmd/GoogleMapAIagent</title>
+      <link>https://github.com/crowmd/GoogleMapAIagent</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">crowmd/GoogleMapAIagent</guid>
+    </item>
+    <item>
+      <title>lachlan2k/React2Shell-CVE-2025-55182-original-poc</title>
+      <link>https://github.com/lachlan2k/React2Shell-CVE-2025-55182-original-poc</link>
+      <description>Original Proof-of-Concept&apos;s for React2Shell CVE-2025-55182</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">lachlan2k/React2Shell-CVE-2025-55182-original-poc</guid>
+    </item>
+    <item>
+      <title>guhcostan/mac-cleaner-cli</title>
+      <link>https://github.com/guhcostan/mac-cleaner-cli</link>
+      <description>(no description)</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">guhcostan/mac-cleaner-cli</guid>
+    </item>
+    <item>
+      <title>YouMind-OpenLab/awesome-nano-banana-pro-prompts</title>
+      <link>https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts</link>
+      <description>🍌 500+ selected Nano Banana Pro prompts with images, multilingual support, and instant gallery preview. Open-source prompt engineering library</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">YouMind-OpenLab/awesome-nano-banana-pro-prompts</guid>
+    </item>
+    <item>
+      <title>mrknow001/RSC_Detector</title>
+      <link>https://github.com/mrknow001/RSC_Detector</link>
+      <description>Supports RSC fingerprinting and exploitation of the React component vulnerability CVE-2025-55182.</description>
+      <pubDate>Sat, 06 Dec 2025 02:16:14 GMT</pubDate>
+      <guid isPermaLink="false">mrknow001/RSC_Detector</guid>
+    </item>
     <item>
       <title>NVIDIA/cutile-python</title>
       <link>https://github.com/NVIDIA/cutile-python</link>
@@ -202,41 +251,6 @@
       <description>Remote Coding Agent for the Dynamous Agentic Coding Course and special Black Friday livestream. Connect Claude Code or Codex to Slack, Telegram, GitHub, etc.</description>
       <pubDate>Sun, 30 Nov 2025 02:32:16 GMT</pubDate>
       <guid isPermaLink="false">coleam00/remote-agentic-coding-system</guid>
-    </item>
-    <item>
-      <title>Rohithgilla12/data-peek</title>
-      <link>https://github.com/Rohithgilla12/data-peek</link>
-      <description>A minimal, fast, lightweight database client desktop application. Built for developers who want to quickly peek at their data without the bloat.</description>
-      <pubDate>Sat, 29 Nov 2025 13:00:33 GMT</pubDate>
-      <guid isPermaLink="false">Rohithgilla12/data-peek</guid>
-    </item>
-    <item>
-      <title>NullPxl/banrays</title>
-      <link>https://github.com/NullPxl/banrays</link>
-      <description>Glasses to detect smart-glasses that have cameras. Ray-BANNED</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">NullPxl/banrays</guid>
-    </item>
-    <item>
-      <title>Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</title>
-      <link>https://github.com/Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</link>
-      <description>Hong Kong Fire (Tai Po, 11/26): A major blaze swept through Wang Fuk Court</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</guid>
-    </item>
-    <item>
-      <title>adysec/FuckACE</title>
-      <link>https://github.com/adysec/FuckACE</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">adysec/FuckACE</guid>
-    </item>
-    <item>
-      <title>CodeOne45/vex-tui</title>
-      <link>https://github.com/CodeOne45/vex-tui</link>
-      <description>A beautiful, fast, and feature-rich terminal-based Excel and CSV viewer built with Go.</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">CodeOne45/vex-tui</guid>
     </item>
   </channel>
 </rss>
