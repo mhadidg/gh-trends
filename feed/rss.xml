@@ -5,238 +5,294 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 13:06:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 02:33:06 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
     <item>
-      <title>NVIDIA/cutile-python</title>
-      <link>https://github.com/NVIDIA/cutile-python</link>
-      <description>cuTile is a programming model for writing parallel kernels for NVIDIA GPUs</description>
-      <pubDate>Fri, 05 Dec 2025 13:06:13 GMT</pubDate>
-      <guid isPermaLink="false">NVIDIA/cutile-python</guid>
+      <title>3dg1luk43/ha_washdata</title>
+      <link>https://github.com/3dg1luk43/ha_washdata</link>
+      <description>Home Assistant integration to detect washer cycles from smart plug power, match programs, and estimate time remaining</description>
+      <pubDate>Sun, 21 Dec 2025 13:02:31 GMT</pubDate>
+      <guid isPermaLink="false">3dg1luk43/ha_washdata</guid>
     </item>
     <item>
-      <title>matzehuels/stacktower</title>
-      <link>https://github.com/matzehuels/stacktower</link>
-      <description>CLI tool that renders package dependencies as physical tower structures. Supports PyPI, npm, and crates.io with optimal crossing minimization.</description>
-      <pubDate>Fri, 05 Dec 2025 13:06:13 GMT</pubDate>
-      <guid isPermaLink="false">matzehuels/stacktower</guid>
+      <title>ertugrulcetin/immersa</title>
+      <link>https://github.com/ertugrulcetin/immersa</link>
+      <description>Open Source Web-based 3D Presentation Tool</description>
+      <pubDate>Sun, 21 Dec 2025 02:33:34 GMT</pubDate>
+      <guid isPermaLink="false">ertugrulcetin/immersa</guid>
     </item>
     <item>
-      <title>assetnote/react2shell-scanner</title>
-      <link>https://github.com/assetnote/react2shell-scanner</link>
-      <description>High Fidelity Detection Mechanism for RSC/Next.js RCE (CVE-2025-55182 &amp; CVE-2025-66478)</description>
-      <pubDate>Fri, 05 Dec 2025 13:06:13 GMT</pubDate>
-      <guid isPermaLink="false">assetnote/react2shell-scanner</guid>
-    </item>
-    <item>
-      <title>TanStack/ai</title>
-      <link>https://github.com/TanStack/ai</link>
-      <description>🤖 SDK that enhances your applications with AI capabilities</description>
-      <pubDate>Fri, 05 Dec 2025 02:23:03 GMT</pubDate>
-      <guid isPermaLink="false">TanStack/ai</guid>
-    </item>
-    <item>
-      <title>ejpir/CVE-2025-55182-research</title>
-      <link>https://github.com/ejpir/CVE-2025-55182-research</link>
-      <description>CVE-2025-55182 POC</description>
-      <pubDate>Fri, 05 Dec 2025 02:23:03 GMT</pubDate>
-      <guid isPermaLink="false">ejpir/CVE-2025-55182-research</guid>
-    </item>
-    <item>
-      <title>msanft/CVE-2025-55182</title>
-      <link>https://github.com/msanft/CVE-2025-55182</link>
-      <description>Explanation and full RCE PoC for CVE-2025-55182</description>
-      <pubDate>Fri, 05 Dec 2025 02:23:03 GMT</pubDate>
-      <guid isPermaLink="false">msanft/CVE-2025-55182</guid>
-    </item>
-    <item>
-      <title>pshenok/server-survival</title>
-      <link>https://github.com/pshenok/server-survival</link>
-      <description>Tower defense game that teaches cloud architecture. Build infrastructure, survive traffic, learn scaling.</description>
-      <pubDate>Fri, 05 Dec 2025 02:23:03 GMT</pubDate>
-      <guid isPermaLink="false">pshenok/server-survival</guid>
-    </item>
-    <item>
-      <title>ryanssenn/torchless</title>
-      <link>https://github.com/ryanssenn/torchless</link>
-      <description>High-speed LLM inference in C/C++</description>
-      <pubDate>Fri, 05 Dec 2025 02:23:03 GMT</pubDate>
-      <guid isPermaLink="false">ryanssenn/torchless</guid>
-    </item>
-    <item>
-      <title>norish-recipes/norish</title>
-      <link>https://github.com/norish-recipes/norish</link>
-      <description>Norish - A realtime, self-hosted recipe app for families &amp; friends</description>
-      <pubDate>Fri, 05 Dec 2025 02:23:03 GMT</pubDate>
-      <guid isPermaLink="false">norish-recipes/norish</guid>
-    </item>
-    <item>
-      <title>ejpir/CVE-2025-55182-poc</title>
-      <link>https://github.com/ejpir/CVE-2025-55182-poc</link>
-      <description>CVE-2025-55182 POC</description>
-      <pubDate>Thu, 04 Dec 2025 02:22:42 GMT</pubDate>
-      <guid isPermaLink="false">ejpir/CVE-2025-55182-poc</guid>
-    </item>
-    <item>
-      <title>antonmedv/gitmal</title>
-      <link>https://github.com/antonmedv/gitmal</link>
-      <description>A static page generator for repos</description>
-      <pubDate>Thu, 04 Dec 2025 02:22:42 GMT</pubDate>
-      <guid isPermaLink="false">antonmedv/gitmal</guid>
-    </item>
-    <item>
-      <title>MemoriLabs/Memori</title>
-      <link>https://github.com/MemoriLabs/Memori</link>
-      <description>Open-Source Memory Engine for LLMs, AI Agents &amp; Multi-Agent Systems</description>
-      <pubDate>Thu, 04 Dec 2025 02:22:42 GMT</pubDate>
-      <guid isPermaLink="false">MemoriLabs/Memori</guid>
-    </item>
-    <item>
-      <title>microsoft/fara</title>
-      <link>https://github.com/microsoft/fara</link>
+      <title>mmarinovic/tailwindsql</title>
+      <link>https://github.com/mmarinovic/tailwindsql</link>
       <description>(no description)</description>
-      <pubDate>Wed, 03 Dec 2025 13:09:31 GMT</pubDate>
-      <guid isPermaLink="false">microsoft/fara</guid>
+      <pubDate>Sun, 21 Dec 2025 02:33:34 GMT</pubDate>
+      <guid isPermaLink="false">mmarinovic/tailwindsql</guid>
     </item>
     <item>
-      <title>Facepunch/sbox-public</title>
-      <link>https://github.com/Facepunch/sbox-public</link>
-      <description>s&amp;box is a modern game engine, built on Valve&apos;s Source 2 and the latest .NET technology, it provides a modern intuitive editor for creating games</description>
-      <pubDate>Wed, 03 Dec 2025 13:09:31 GMT</pubDate>
-      <guid isPermaLink="false">Facepunch/sbox-public</guid>
+      <title>Lulzx/tinypdf</title>
+      <link>https://github.com/Lulzx/tinypdf</link>
+      <description>Minimal PDF creation library. &lt;400 LOC, zero dependencies, makes real PDFs.</description>
+      <pubDate>Sat, 20 Dec 2025 11:32:55 GMT</pubDate>
+      <guid isPermaLink="false">Lulzx/tinypdf</guid>
     </item>
     <item>
-      <title>nextlevelbuilder/ui-ux-pro-max-skill</title>
-      <link>https://github.com/nextlevelbuilder/ui-ux-pro-max-skill</link>
-      <description>An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms</description>
-      <pubDate>Wed, 03 Dec 2025 13:09:31 GMT</pubDate>
-      <guid isPermaLink="false">nextlevelbuilder/ui-ux-pro-max-skill</guid>
+      <title>QwenLM/Qwen-Image-Layered</title>
+      <link>https://github.com/QwenLM/Qwen-Image-Layered</link>
+      <description>Qwen-Image-Layered: Layered Decomposition for Inherent Editablity</description>
+      <pubDate>Sat, 20 Dec 2025 11:32:55 GMT</pubDate>
+      <guid isPermaLink="false">QwenLM/Qwen-Image-Layered</guid>
     </item>
     <item>
-      <title>basecamp/fizzy</title>
-      <link>https://github.com/basecamp/fizzy</link>
+      <title>moasq/production-saas-starter</title>
+      <link>https://github.com/moasq/production-saas-starter</link>
+      <description>Production-ready B2B SaaS Starter Kit (Go + Next.js). Modular Monolith. Hexagonal Arch.</description>
+      <pubDate>Sat, 20 Dec 2025 11:32:55 GMT</pubDate>
+      <guid isPermaLink="false">moasq/production-saas-starter</guid>
+    </item>
+    <item>
+      <title>NVIDIA/cuda-tile</title>
+      <link>https://github.com/NVIDIA/cuda-tile</link>
+      <description>CUDA Tile IR is an MLIR-based intermediate representation and compiler infrastructure for CUDA kernel optimization, focusing on tile-based computation patterns and optimizations targeting NVIDIA tensor core units.</description>
+      <pubDate>Sat, 20 Dec 2025 11:32:55 GMT</pubDate>
+      <guid isPermaLink="false">NVIDIA/cuda-tile</guid>
+    </item>
+    <item>
+      <title>RhysSullivan/epstein-files-browser</title>
+      <link>https://github.com/RhysSullivan/epstein-files-browser</link>
       <description>(no description)</description>
-      <pubDate>Wed, 03 Dec 2025 02:22:00 GMT</pubDate>
-      <guid isPermaLink="false">basecamp/fizzy</guid>
+      <pubDate>Sat, 20 Dec 2025 11:32:55 GMT</pubDate>
+      <guid isPermaLink="false">RhysSullivan/epstein-files-browser</guid>
     </item>
     <item>
-      <title>EveryInc/compound-engineering-plugin</title>
-      <link>https://github.com/EveryInc/compound-engineering-plugin</link>
-      <description>Official Claude Code compound engineering plugin</description>
-      <pubDate>Wed, 03 Dec 2025 02:22:00 GMT</pubDate>
-      <guid isPermaLink="false">EveryInc/compound-engineering-plugin</guid>
+      <title>sebastienros/comptime</title>
+      <link>https://github.com/sebastienros/comptime</link>
+      <description>Comptime brings meta-programming capabilities to C#, enabling compile-time code generation and evaluation.</description>
+      <pubDate>Sat, 20 Dec 2025 11:32:55 GMT</pubDate>
+      <guid isPermaLink="false">sebastienros/comptime</guid>
     </item>
     <item>
-      <title>LeslieLeung/glean</title>
-      <link>https://github.com/LeslieLeung/glean</link>
-      <description>A self-hosted RSS reader and personal knowledge management tool.</description>
-      <pubDate>Wed, 03 Dec 2025 02:22:00 GMT</pubDate>
-      <guid isPermaLink="false">LeslieLeung/glean</guid>
-    </item>
-    <item>
-      <title>coder/ghostty-web</title>
-      <link>https://github.com/coder/ghostty-web</link>
-      <description>Ghostty for the web with xterm.js API compatibility</description>
-      <pubDate>Wed, 03 Dec 2025 02:22:00 GMT</pubDate>
-      <guid isPermaLink="false">coder/ghostty-web</guid>
-    </item>
-    <item>
-      <title>langwatch/better-agents</title>
-      <link>https://github.com/langwatch/better-agents</link>
-      <description>Standards for building agents, better</description>
-      <pubDate>Wed, 03 Dec 2025 02:22:00 GMT</pubDate>
-      <guid isPermaLink="false">langwatch/better-agents</guid>
-    </item>
-    <item>
-      <title>amazon-far/holosoma</title>
-      <link>https://github.com/amazon-far/holosoma</link>
+      <title>MineDojo/NitroGen</title>
+      <link>https://github.com/MineDojo/NitroGen</link>
       <description>(no description)</description>
-      <pubDate>Tue, 02 Dec 2025 13:09:22 GMT</pubDate>
-      <guid isPermaLink="false">amazon-far/holosoma</guid>
+      <pubDate>Sat, 20 Dec 2025 11:32:55 GMT</pubDate>
+      <guid isPermaLink="false">MineDojo/NitroGen</guid>
     </item>
     <item>
-      <title>vllm-project/vllm-omni</title>
-      <link>https://github.com/vllm-project/vllm-omni</link>
-      <description>A framework for efficient model inference with omni-modality models</description>
-      <pubDate>Tue, 02 Dec 2025 13:09:22 GMT</pubDate>
-      <guid isPermaLink="false">vllm-project/vllm-omni</guid>
-    </item>
-    <item>
-      <title>TelegramMessenger/cocoon</title>
-      <link>https://github.com/TelegramMessenger/cocoon</link>
-      <description>cocoon</description>
-      <pubDate>Mon, 01 Dec 2025 02:41:28 GMT</pubDate>
-      <guid isPermaLink="false">TelegramMessenger/cocoon</guid>
-    </item>
-    <item>
-      <title>stepfun-ai/gelab-zero</title>
-      <link>https://github.com/stepfun-ai/gelab-zero</link>
-      <description>GELab: GUI Exploration Lab. One of the best GUI agent solutions in the galaxy, built by the StepFun-GELab team and powered by Step’s research capabilities.</description>
-      <pubDate>Mon, 01 Dec 2025 02:41:28 GMT</pubDate>
-      <guid isPermaLink="false">stepfun-ai/gelab-zero</guid>
-    </item>
-    <item>
-      <title>pguso/rag-from-scratch</title>
-      <link>https://github.com/pguso/rag-from-scratch</link>
-      <description>Demystify RAG by building it from scratch. Local LLMs, no black boxes - real understanding of embeddings, vector search, retrieval, and context-augmented generation.</description>
-      <pubDate>Sun, 30 Nov 2025 13:00:25 GMT</pubDate>
-      <guid isPermaLink="false">pguso/rag-from-scratch</guid>
-    </item>
-    <item>
-      <title>gavrielc/Nano-PDF</title>
-      <link>https://github.com/gavrielc/Nano-PDF</link>
-      <description>Edit PDF files with Nano Banana</description>
-      <pubDate>Sun, 30 Nov 2025 02:32:16 GMT</pubDate>
-      <guid isPermaLink="false">gavrielc/Nano-PDF</guid>
-    </item>
-    <item>
-      <title>Gururagavendra/gmail-cleaner</title>
-      <link>https://github.com/Gururagavendra/gmail-cleaner</link>
-      <description>web based GUI to cleanup gmail delete, mark as read, unsubsribe from uncessary things u dont like</description>
-      <pubDate>Sun, 30 Nov 2025 02:32:16 GMT</pubDate>
-      <guid isPermaLink="false">Gururagavendra/gmail-cleaner</guid>
-    </item>
-    <item>
-      <title>coleam00/remote-agentic-coding-system</title>
-      <link>https://github.com/coleam00/remote-agentic-coding-system</link>
-      <description>Remote Coding Agent for the Dynamous Agentic Coding Course and special Black Friday livestream. Connect Claude Code or Codex to Slack, Telegram, GitHub, etc.</description>
-      <pubDate>Sun, 30 Nov 2025 02:32:16 GMT</pubDate>
-      <guid isPermaLink="false">coleam00/remote-agentic-coding-system</guid>
-    </item>
-    <item>
-      <title>Rohithgilla12/data-peek</title>
-      <link>https://github.com/Rohithgilla12/data-peek</link>
-      <description>A minimal, fast, lightweight database client desktop application. Built for developers who want to quickly peek at their data without the bloat.</description>
-      <pubDate>Sat, 29 Nov 2025 13:00:33 GMT</pubDate>
-      <guid isPermaLink="false">Rohithgilla12/data-peek</guid>
-    </item>
-    <item>
-      <title>NullPxl/banrays</title>
-      <link>https://github.com/NullPxl/banrays</link>
-      <description>Glasses to detect smart-glasses that have cameras. Ray-BANNED</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">NullPxl/banrays</guid>
-    </item>
-    <item>
-      <title>Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</title>
-      <link>https://github.com/Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</link>
-      <description>Hong Kong Fire (Tai Po, 11/26): A major blaze swept through Wang Fuk Court</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">Hong-Kong-Emergency-Coordination-Hub/Hong-Kong-Fire-Documentary</guid>
-    </item>
-    <item>
-      <title>adysec/FuckACE</title>
-      <link>https://github.com/adysec/FuckACE</link>
+      <title>2025Emma/vibe-coding-cn</title>
+      <link>https://github.com/2025Emma/vibe-coding-cn</link>
       <description>(no description)</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">adysec/FuckACE</guid>
+      <pubDate>Fri, 19 Dec 2025 13:07:13 GMT</pubDate>
+      <guid isPermaLink="false">2025Emma/vibe-coding-cn</guid>
     </item>
     <item>
-      <title>CodeOne45/vex-tui</title>
-      <link>https://github.com/CodeOne45/vex-tui</link>
-      <description>A beautiful, fast, and feature-rich terminal-based Excel and CSV viewer built with Go.</description>
-      <pubDate>Sat, 29 Nov 2025 02:16:44 GMT</pubDate>
-      <guid isPermaLink="false">CodeOne45/vex-tui</guid>
+      <title>ekzhang/jax-js</title>
+      <link>https://github.com/ekzhang/jax-js</link>
+      <description>JAX in JavaScript – an ML library for the web, running on WebGPU &amp; Wasm</description>
+      <pubDate>Fri, 19 Dec 2025 13:07:13 GMT</pubDate>
+      <guid isPermaLink="false">ekzhang/jax-js</guid>
+    </item>
+    <item>
+      <title>agentskills/agentskills</title>
+      <link>https://github.com/agentskills/agentskills</link>
+      <description>Specification and documentation for Agent Skills</description>
+      <pubDate>Fri, 19 Dec 2025 02:26:13 GMT</pubDate>
+      <guid isPermaLink="false">agentskills/agentskills</guid>
+    </item>
+    <item>
+      <title>DGoettlich/history-llms</title>
+      <link>https://github.com/DGoettlich/history-llms</link>
+      <description>Information hub for our project training the largest possible historical LLMs.</description>
+      <pubDate>Fri, 19 Dec 2025 02:26:13 GMT</pubDate>
+      <guid isPermaLink="false">DGoettlich/history-llms</guid>
+    </item>
+    <item>
+      <title>batrachianai/toad</title>
+      <link>https://github.com/batrachianai/toad</link>
+      <description>A unified interface for AI in your terminal.</description>
+      <pubDate>Fri, 19 Dec 2025 02:26:13 GMT</pubDate>
+      <guid isPermaLink="false">batrachianai/toad</guid>
+    </item>
+    <item>
+      <title>Dao-AILab/sonic-moe</title>
+      <link>https://github.com/Dao-AILab/sonic-moe</link>
+      <description>Accelerating MoE with IO and Tile-aware Optimizations</description>
+      <pubDate>Thu, 18 Dec 2025 13:09:06 GMT</pubDate>
+      <guid isPermaLink="false">Dao-AILab/sonic-moe</guid>
+    </item>
+    <item>
+      <title>Piebald-AI/claude-code-system-prompts</title>
+      <link>https://github.com/Piebald-AI/claude-code-system-prompts</link>
+      <description>All parts of Claude Code&apos;s system prompt, 16 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.</description>
+      <pubDate>Thu, 18 Dec 2025 13:09:06 GMT</pubDate>
+      <guid isPermaLink="false">Piebald-AI/claude-code-system-prompts</guid>
+    </item>
+    <item>
+      <title>agentsmd/agents.md</title>
+      <link>https://github.com/agentsmd/agents.md</link>
+      <description>AGENTS.md — a simple, open format for guiding coding agents</description>
+      <pubDate>Thu, 18 Dec 2025 02:23:10 GMT</pubDate>
+      <guid isPermaLink="false">agentsmd/agents.md</guid>
+    </item>
+    <item>
+      <title>sgl-project/mini-sglang</title>
+      <link>https://github.com/sgl-project/mini-sglang</link>
+      <description>(no description)</description>
+      <pubDate>Thu, 18 Dec 2025 02:23:10 GMT</pubDate>
+      <guid isPermaLink="false">sgl-project/mini-sglang</guid>
+    </item>
+    <item>
+      <title>google/mcp</title>
+      <link>https://github.com/google/mcp</link>
+      <description>Google 💚 MCP</description>
+      <pubDate>Thu, 18 Dec 2025 02:23:10 GMT</pubDate>
+      <guid isPermaLink="false">google/mcp</guid>
+    </item>
+    <item>
+      <title>Maxteabag/sqlit</title>
+      <link>https://github.com/Maxteabag/sqlit</link>
+      <description>A user friendly TUI for SQL databases. Written in python. Supports SQL server, Mysql, PostreSQL and SQLite, Turso and more.</description>
+      <pubDate>Thu, 18 Dec 2025 02:23:10 GMT</pubDate>
+      <guid isPermaLink="false">Maxteabag/sqlit</guid>
+    </item>
+    <item>
+      <title>Tencent-Hunyuan/HY-WorldPlay</title>
+      <link>https://github.com/Tencent-Hunyuan/HY-WorldPlay</link>
+      <description>WorldPlay: Interactive World Modeling with Real-Time Latency and Geometric Consistency</description>
+      <pubDate>Wed, 17 Dec 2025 13:11:15 GMT</pubDate>
+      <guid isPermaLink="false">Tencent-Hunyuan/HY-WorldPlay</guid>
+    </item>
+    <item>
+      <title>GuDaStudio/skills</title>
+      <link>https://github.com/GuDaStudio/skills</link>
+      <description>This repository contains a collection of Agent Skills developed by GudaStudio, enabling seamless collaboration between Claude and other AI models and tools.</description>
+      <pubDate>Wed, 17 Dec 2025 13:11:15 GMT</pubDate>
+      <guid isPermaLink="false">GuDaStudio/skills</guid>
+    </item>
+    <item>
+      <title>XiaomiMiMo/MiMo-V2-Flash</title>
+      <link>https://github.com/XiaomiMiMo/MiMo-V2-Flash</link>
+      <description>MiMo-V2-Flash: Efficient Reasoning, Coding, and Agentic Foundation Model</description>
+      <pubDate>Wed, 17 Dec 2025 13:11:15 GMT</pubDate>
+      <guid isPermaLink="false">XiaomiMiMo/MiMo-V2-Flash</guid>
+    </item>
+    <item>
+      <title>fcoury/tsql</title>
+      <link>https://github.com/fcoury/tsql</link>
+      <description>🐘 tsql — A modern PostgreSQL manager TUI</description>
+      <pubDate>Wed, 17 Dec 2025 13:11:15 GMT</pubDate>
+      <guid isPermaLink="false">fcoury/tsql</guid>
+    </item>
+    <item>
+      <title>KeygraphHQ/shannon</title>
+      <link>https://github.com/KeygraphHQ/shannon</link>
+      <description>Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.</description>
+      <pubDate>Wed, 17 Dec 2025 13:11:15 GMT</pubDate>
+      <guid isPermaLink="false">KeygraphHQ/shannon</guid>
+    </item>
+    <item>
+      <title>code-yeongyu/oh-my-opencode</title>
+      <link>https://github.com/code-yeongyu/oh-my-opencode</link>
+      <description>ASYNC SUBAGENTS (YES LIKE CLAUDE CODE) · Curated agents with proper models · Crafted tools like LSP/AST included · Curated MCPs · Claude Code Compatible Layer — Steroids for your OpenCode. The Best LLM Agent Experience is Here. OmO (Pronounced as Oh-Mo)</description>
+      <pubDate>Wed, 17 Dec 2025 13:11:15 GMT</pubDate>
+      <guid isPermaLink="false">code-yeongyu/oh-my-opencode</guid>
+    </item>
+    <item>
+      <title>hyperbrowserai/hyperbooklm</title>
+      <link>https://github.com/hyperbrowserai/hyperbooklm</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 17 Dec 2025 13:11:15 GMT</pubDate>
+      <guid isPermaLink="false">hyperbrowserai/hyperbooklm</guid>
+    </item>
+    <item>
+      <title>facebookresearch/sam-audio</title>
+      <link>https://github.com/facebookresearch/sam-audio</link>
+      <description>The repository provides code for running inference with the Meta Segment Anything Audio Model (SAM-Audio), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.</description>
+      <pubDate>Wed, 17 Dec 2025 02:22:34 GMT</pubDate>
+      <guid isPermaLink="false">facebookresearch/sam-audio</guid>
+    </item>
+    <item>
+      <title>microsoft/TRELLIS.2</title>
+      <link>https://github.com/microsoft/TRELLIS.2</link>
+      <description>Native and Compact Structured Latents for 3D Generation</description>
+      <pubDate>Wed, 17 Dec 2025 02:22:34 GMT</pubDate>
+      <guid isPermaLink="false">microsoft/TRELLIS.2</guid>
+    </item>
+    <item>
+      <title>gaearon/rscexplorer</title>
+      <link>https://github.com/gaearon/rscexplorer</link>
+      <description>A tool for people curious about the React Server Components protocol</description>
+      <pubDate>Wed, 17 Dec 2025 02:22:34 GMT</pubDate>
+      <guid isPermaLink="false">gaearon/rscexplorer</guid>
+    </item>
+    <item>
+      <title>taetaehoho/poly-kalshi-arb</title>
+      <link>https://github.com/taetaehoho/poly-kalshi-arb</link>
+      <description>(no description)</description>
+      <pubDate>Wed, 17 Dec 2025 02:22:34 GMT</pubDate>
+      <guid isPermaLink="false">taetaehoho/poly-kalshi-arb</guid>
+    </item>
+    <item>
+      <title>apple/ml-sharp</title>
+      <link>https://github.com/apple/ml-sharp</link>
+      <description>Sharp Monocular View Synthesis in Less Than a Second</description>
+      <pubDate>Wed, 17 Dec 2025 02:22:34 GMT</pubDate>
+      <guid isPermaLink="false">apple/ml-sharp</guid>
+    </item>
+    <item>
+      <title>zai-org/Open-AutoGLM</title>
+      <link>https://github.com/zai-org/Open-AutoGLM</link>
+      <description>An Open Phone Agent Model &amp; Framework. Unlocking the AI Phone for Everyone</description>
+      <pubDate>Tue, 16 Dec 2025 13:10:39 GMT</pubDate>
+      <guid isPermaLink="false">zai-org/Open-AutoGLM</guid>
+    </item>
+    <item>
+      <title>productdevbook/port-killer</title>
+      <link>https://github.com/productdevbook/port-killer</link>
+      <description>Native macOS menu bar app for finding and killing processes on open ports. Perfect for developers.</description>
+      <pubDate>Tue, 16 Dec 2025 13:10:39 GMT</pubDate>
+      <guid isPermaLink="false">productdevbook/port-killer</guid>
+    </item>
+    <item>
+      <title>thu-ml/TurboDiffusion</title>
+      <link>https://github.com/thu-ml/TurboDiffusion</link>
+      <description>TurboDiffusion: 100–205× Acceleration of Video Diffusion Models</description>
+      <pubDate>Tue, 16 Dec 2025 13:10:39 GMT</pubDate>
+      <guid isPermaLink="false">thu-ml/TurboDiffusion</guid>
+    </item>
+    <item>
+      <title>timescale/pg_textsearch</title>
+      <link>https://github.com/timescale/pg_textsearch</link>
+      <description>PostgreSQL extension for BM25 relevance-ranked full-text search. Postgres OSS licensed.</description>
+      <pubDate>Tue, 16 Dec 2025 13:10:39 GMT</pubDate>
+      <guid isPermaLink="false">timescale/pg_textsearch</guid>
+    </item>
+    <item>
+      <title>xmannv/xkey</title>
+      <link>https://github.com/xmannv/xkey</link>
+      <description>Vietnamese Input for macOS - Bộ gõ Tiếng Việt mã nguồn mở cho macOS</description>
+      <pubDate>Tue, 16 Dec 2025 13:10:39 GMT</pubDate>
+      <guid isPermaLink="false">xmannv/xkey</guid>
+    </item>
+    <item>
+      <title>Kruszoneq/macUSB</title>
+      <link>https://github.com/Kruszoneq/macUSB</link>
+      <description>The easiest way to create legacy macOS bootable drives on modern Macs. Revive old Intel Macs using your Apple Silicon machine - no Terminal knowledge required.</description>
+      <pubDate>Tue, 16 Dec 2025 13:10:39 GMT</pubDate>
+      <guid isPermaLink="false">Kruszoneq/macUSB</guid>
+    </item>
+    <item>
+      <title>google/A2UI</title>
+      <link>https://github.com/google/A2UI</link>
+      <description>(no description)</description>
+      <pubDate>Tue, 16 Dec 2025 02:27:11 GMT</pubDate>
+      <guid isPermaLink="false">google/A2UI</guid>
+    </item>
+    <item>
+      <title>GVCLab/PersonaLive</title>
+      <link>https://github.com/GVCLab/PersonaLive</link>
+      <description>PersonaLive! : Expressive Portrait Image Animation for Live Streaming</description>
+      <pubDate>Tue, 16 Dec 2025 02:27:11 GMT</pubDate>
+      <guid isPermaLink="false">GVCLab/PersonaLive</guid>
     </item>
   </channel>
 </rss>
