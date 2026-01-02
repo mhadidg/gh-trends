@@ -1,4 +1,4 @@
-import { HttpError, logInfo, TaggedError } from '../utils/logging';
+import { HttpError, TaggedError } from '../utils/logging';
 
 export interface ResendEmailPayload {
   subject: string;
@@ -50,8 +50,6 @@ export class ResendClient {
       if (!sendRes.ok) {
         throw new HttpError('resend', 'email sending failed', sendRes);
       }
-    } else {
-      logInfo('resend', 'draft mode; skipping publish');
     }
 
     return { id: broadcastJson.id };
