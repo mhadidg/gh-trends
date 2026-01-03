@@ -5,8 +5,113 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Jan 2026 13:06:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 02:42:28 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
+    <item>
+      <title>huseyinbabal/taws</title>
+      <link>https://github.com/huseyinbabal/taws</link>
+      <description>Terminal UI for AWS (taws) - A terminal-based AWS resource viewer and manager</description>
+      <pubDate>Mon, 05 Jan 2026 02:42:28 GMT</pubDate>
+      <guid isPermaLink="false">huseyinbabal/taws</guid>
+    </item>
+    <item>
+      <title>clawdbot/clawdbot</title>
+      <link>https://github.com/clawdbot/clawdbot</link>
+      <description>Your own personal AI assistant. Any OS. Any Platform.</description>
+      <pubDate>Mon, 05 Jan 2026 02:42:28 GMT</pubDate>
+      <guid isPermaLink="false">clawdbot/clawdbot</guid>
+    </item>
+    <item>
+      <title>numman-ali/cc-mirror</title>
+      <link>https://github.com/numman-ali/cc-mirror</link>
+      <description>Create multiple isolated Claude Code variants with custom providers (Z.ai, MiniMax, OpenRouter, LiteLLM)</description>
+      <pubDate>Mon, 05 Jan 2026 02:42:28 GMT</pubDate>
+      <guid isPermaLink="false">numman-ali/cc-mirror</guid>
+    </item>
+    <item>
+      <title>openprose/prose</title>
+      <link>https://github.com/openprose/prose</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 05 Jan 2026 02:42:28 GMT</pubDate>
+      <guid isPermaLink="false">openprose/prose</guid>
+    </item>
+    <item>
+      <title>pranshuparmar/witr</title>
+      <link>https://github.com/pranshuparmar/witr</link>
+      <description>Why is this running?</description>
+      <pubDate>Sun, 04 Jan 2026 13:04:47 GMT</pubDate>
+      <guid isPermaLink="false">pranshuparmar/witr</guid>
+    </item>
+    <item>
+      <title>jarrodwatts/claude-hud</title>
+      <link>https://github.com/jarrodwatts/claude-hud</link>
+      <description>A Claude Code plugin that shows what&apos;s happening - context usage, active tools, running agents, and todo progress</description>
+      <pubDate>Sun, 04 Jan 2026 13:04:47 GMT</pubDate>
+      <guid isPermaLink="false">jarrodwatts/claude-hud</guid>
+    </item>
+    <item>
+      <title>OthmanAdi/planning-with-files</title>
+      <link>https://github.com/OthmanAdi/planning-with-files</link>
+      <description>Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.</description>
+      <pubDate>Sun, 04 Jan 2026 13:04:47 GMT</pubDate>
+      <guid isPermaLink="false">OthmanAdi/planning-with-files</guid>
+    </item>
+    <item>
+      <title>CloudAI-X/claude-workflow-v2</title>
+      <link>https://github.com/CloudAI-X/claude-workflow-v2</link>
+      <description>Universal Claude Code workflow plugin with agents, skills, hooks, and commands</description>
+      <pubDate>Sun, 04 Jan 2026 13:04:47 GMT</pubDate>
+      <guid isPermaLink="false">CloudAI-X/claude-workflow-v2</guid>
+    </item>
+    <item>
+      <title>anomalyco/opencode</title>
+      <link>https://github.com/anomalyco/opencode</link>
+      <description>The open source coding agent.</description>
+      <pubDate>Sat, 03 Jan 2026 13:04:05 GMT</pubDate>
+      <guid isPermaLink="false">anomalyco/opencode</guid>
+    </item>
+    <item>
+      <title>rohanprasadofficial/localflare</title>
+      <link>https://github.com/rohanprasadofficial/localflare</link>
+      <description>local cloudflare</description>
+      <pubDate>Sat, 03 Jan 2026 13:04:05 GMT</pubDate>
+      <guid isPermaLink="false">rohanprasadofficial/localflare</guid>
+    </item>
+    <item>
+      <title>alexknowshtml/smaug</title>
+      <link>https://github.com/alexknowshtml/smaug</link>
+      <description>Archive your Twitter/X bookmarks to markdown. Automatically.  Like a dragon hoarding treasure, Smaug collects the valuable things you bookmark.</description>
+      <pubDate>Sat, 03 Jan 2026 02:23:56 GMT</pubDate>
+      <guid isPermaLink="false">alexknowshtml/smaug</guid>
+    </item>
+    <item>
+      <title>lklynet/hypermind</title>
+      <link>https://github.com/lklynet/hypermind</link>
+      <description>The High-Availability Solution to a Problem That Doesn&apos;t Exist.</description>
+      <pubDate>Sat, 03 Jan 2026 02:23:56 GMT</pubDate>
+      <guid isPermaLink="false">lklynet/hypermind</guid>
+    </item>
+    <item>
+      <title>MorpheApp/morphe-manager</title>
+      <link>https://github.com/MorpheApp/morphe-manager</link>
+      <description>Morphe Manager</description>
+      <pubDate>Sat, 03 Jan 2026 02:23:56 GMT</pubDate>
+      <guid isPermaLink="false">MorpheApp/morphe-manager</guid>
+    </item>
+    <item>
+      <title>HQarroum/docker-android</title>
+      <link>https://github.com/HQarroum/docker-android</link>
+      <description>🤖 A minimal and customizable Docker image running the Android emulator as a service.</description>
+      <pubDate>Sat, 03 Jan 2026 02:23:56 GMT</pubDate>
+      <guid isPermaLink="false">HQarroum/docker-android</guid>
+    </item>
+    <item>
+      <title>guillevc/yubal</title>
+      <link>https://github.com/guillevc/yubal</link>
+      <description>YouTube Music album downloader with Spotify metadata auto-tagging</description>
+      <pubDate>Sat, 03 Jan 2026 02:23:56 GMT</pubDate>
+      <guid isPermaLink="false">guillevc/yubal</guid>
+    </item>
     <item>
       <title>steveyegge/gastown</title>
       <link>https://github.com/steveyegge/gastown</link>
@@ -188,202 +293,6 @@
       <description>(no description)</description>
       <pubDate>Mon, 29 Dec 2025 13:10:28 GMT</pubDate>
       <guid isPermaLink="false">joe-desimone/mongobleed</guid>
-    </item>
-    <item>
-      <title>tobi/AudioPriorityBar</title>
-      <link>https://github.com/tobi/AudioPriorityBar</link>
-      <description>A native macOS menu bar app for managing audio device priorities</description>
-      <pubDate>Mon, 29 Dec 2025 02:38:15 GMT</pubDate>
-      <guid isPermaLink="false">tobi/AudioPriorityBar</guid>
-    </item>
-    <item>
-      <title>nguyenphutrong/quotio</title>
-      <link>https://github.com/nguyenphutrong/quotio</link>
-      <description>Stop juggling AI accounts. Quotio is a beautiful native macOS menu bar app that unifies your Claude, Gemini, OpenAI, Qwen, and Antigravity subscriptions – with real-time quota tracking and smart auto-failover for AI coding tools like Claude Code, OpenCode, and Droid.</description>
-      <pubDate>Mon, 29 Dec 2025 02:38:15 GMT</pubDate>
-      <guid isPermaLink="false">nguyenphutrong/quotio</guid>
-    </item>
-    <item>
-      <title>goforj/str</title>
-      <link>https://github.com/goforj/str</link>
-      <description>A fluent, Laravel-inspired string toolkit for Go with explicit, rune-safe helpers and predictable behavior.</description>
-      <pubDate>Mon, 29 Dec 2025 02:38:15 GMT</pubDate>
-      <guid isPermaLink="false">goforj/str</guid>
-    </item>
-    <item>
-      <title>jvdillon/netv</title>
-      <link>https://github.com/jvdillon/netv</link>
-      <description>neTV - IPTV for your Browser</description>
-      <pubDate>Mon, 29 Dec 2025 02:38:15 GMT</pubDate>
-      <guid isPermaLink="false">jvdillon/netv</guid>
-    </item>
-    <item>
-      <title>davidfowl/tally</title>
-      <link>https://github.com/davidfowl/tally</link>
-      <description>LLM-powered spending categorization. Let AI classify your bank transactions.</description>
-      <pubDate>Mon, 29 Dec 2025 02:38:15 GMT</pubDate>
-      <guid isPermaLink="false">davidfowl/tally</guid>
-    </item>
-    <item>
-      <title>DocJade/fluster_rs</title>
-      <link>https://github.com/DocJade/fluster_rs</link>
-      <description>A futuristic filesystem that&apos;s stuck in the past.</description>
-      <pubDate>Mon, 29 Dec 2025 02:38:15 GMT</pubDate>
-      <guid isPermaLink="false">DocJade/fluster_rs</guid>
-    </item>
-    <item>
-      <title>technomancer702/nodecast-tv</title>
-      <link>https://github.com/technomancer702/nodecast-tv</link>
-      <description>A self-hosted web application that lets you stream Live TV, Movies, and Series from your Xtream Codes or M3U provider directly in your browser. It&apos;s built with performance in mind and handles large libraries smoothly.</description>
-      <pubDate>Sun, 28 Dec 2025 13:04:42 GMT</pubDate>
-      <guid isPermaLink="false">technomancer702/nodecast-tv</guid>
-    </item>
-    <item>
-      <title>supermemoryai/opencode-supermemory</title>
-      <link>https://github.com/supermemoryai/opencode-supermemory</link>
-      <description>Supermemory plugin for OpenCode</description>
-      <pubDate>Sun, 28 Dec 2025 13:04:42 GMT</pubDate>
-      <guid isPermaLink="false">supermemoryai/opencode-supermemory</guid>
-    </item>
-    <item>
-      <title>kubeden/clopus-watcher</title>
-      <link>https://github.com/kubeden/clopus-watcher</link>
-      <description>An autonomous 24/7 on-call engineer in the form of a Claude Code living in a cronjob.</description>
-      <pubDate>Sun, 28 Dec 2025 13:04:42 GMT</pubDate>
-      <guid isPermaLink="false">kubeden/clopus-watcher</guid>
-    </item>
-    <item>
-      <title>RackulaLives/Rackula</title>
-      <link>https://github.com/RackulaLives/Rackula</link>
-      <description>(no description)</description>
-      <pubDate>Sun, 28 Dec 2025 13:04:42 GMT</pubDate>
-      <guid isPermaLink="false">RackulaLives/Rackula</guid>
-    </item>
-    <item>
-      <title>parcadei/Continuous-Claude-v2</title>
-      <link>https://github.com/parcadei/Continuous-Claude-v2</link>
-      <description>Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.</description>
-      <pubDate>Sun, 28 Dec 2025 02:40:15 GMT</pubDate>
-      <guid isPermaLink="false">parcadei/Continuous-Claude-v2</guid>
-    </item>
-    <item>
-      <title>0xSojalSec/PentestAgent</title>
-      <link>https://github.com/0xSojalSec/PentestAgent</link>
-      <description>All-in-one offensive security toolbox with AI agent and MCP architecture. Integrates tools like Nmap, Metasploit, FFUF, SQLMap. Enables pentesting, bug bounty hunting, threat hunting, and reporting. RAG-based responses with local knowledge base support.</description>
-      <pubDate>Sun, 28 Dec 2025 02:40:15 GMT</pubDate>
-      <guid isPermaLink="false">0xSojalSec/PentestAgent</guid>
-    </item>
-    <item>
-      <title>simonw/claude-code-transcripts</title>
-      <link>https://github.com/simonw/claude-code-transcripts</link>
-      <description>Tools for publishing transcripts for Claude Code sessions</description>
-      <pubDate>Sun, 28 Dec 2025 02:40:15 GMT</pubDate>
-      <guid isPermaLink="false">simonw/claude-code-transcripts</guid>
-    </item>
-    <item>
-      <title>DeepMyst/Mysti</title>
-      <link>https://github.com/DeepMyst/Mysti</link>
-      <description>AI coding dream team of agents for VS Code. Claude Code + openai Codex collaborate in brainstorm mode, debate solutions, and synthesize the best approach for your code.</description>
-      <pubDate>Sun, 28 Dec 2025 02:40:15 GMT</pubDate>
-      <guid isPermaLink="false">DeepMyst/Mysti</guid>
-    </item>
-    <item>
-      <title>safety-research/bloom</title>
-      <link>https://github.com/safety-research/bloom</link>
-      <description>bloom - evaluate any behavior immediately  🌸🌱</description>
-      <pubDate>Sun, 28 Dec 2025 02:40:15 GMT</pubDate>
-      <guid isPermaLink="false">safety-research/bloom</guid>
-    </item>
-    <item>
-      <title>2025Emma/vibe-coding-cn</title>
-      <link>https://github.com/2025Emma/vibe-coding-cn</link>
-      <description>(no description)</description>
-      <pubDate>Sat, 27 Dec 2025 13:03:28 GMT</pubDate>
-      <guid isPermaLink="false">2025Emma/vibe-coding-cn</guid>
-    </item>
-    <item>
-      <title>asklokesh/claudeskill-loki-mode</title>
-      <link>https://github.com/asklokesh/claudeskill-loki-mode</link>
-      <description>Multi-agent autonomous startup system for Claude Code</description>
-      <pubDate>Sat, 27 Dec 2025 13:03:28 GMT</pubDate>
-      <guid isPermaLink="false">asklokesh/claudeskill-loki-mode</guid>
-    </item>
-    <item>
-      <title>scanopy/scanopy</title>
-      <link>https://github.com/scanopy/scanopy</link>
-      <description>Clean network diagrams. One-time setup, zero upkeep.</description>
-      <pubDate>Sat, 27 Dec 2025 13:03:28 GMT</pubDate>
-      <guid isPermaLink="false">scanopy/scanopy</guid>
-    </item>
-    <item>
-      <title>pranshuparmar/witr</title>
-      <link>https://github.com/pranshuparmar/witr</link>
-      <description>Why is this running?</description>
-      <pubDate>Sat, 27 Dec 2025 02:24:41 GMT</pubDate>
-      <guid isPermaLink="false">pranshuparmar/witr</guid>
-    </item>
-    <item>
-      <title>Chevron7Locked/lidify</title>
-      <link>https://github.com/Chevron7Locked/lidify</link>
-      <description>Lidify is built for music lovers who want the convenience of streaming services without sacrificing ownership of their library. Point it at your music collection, and Lidify handles the rest: artist discovery, personalized playlists, podcast subscriptions, and seamless integration with tools you already use like Lidarr and Audiobookshelf.</description>
-      <pubDate>Sat, 27 Dec 2025 02:24:41 GMT</pubDate>
-      <guid isPermaLink="false">Chevron7Locked/lidify</guid>
-    </item>
-    <item>
-      <title>antvis/Infographic</title>
-      <link>https://github.com/antvis/Infographic</link>
-      <description>🦋 An Infographic Generation and Rendering Framework, bring words to life with AI!</description>
-      <pubDate>Sat, 27 Dec 2025 02:24:41 GMT</pubDate>
-      <guid isPermaLink="false">antvis/Infographic</guid>
-    </item>
-    <item>
-      <title>HugoSMPnet/HugoSMP-Client</title>
-      <link>https://github.com/HugoSMPnet/HugoSMP-Client</link>
-      <description>Lade dir jetzt den HugoSMP Client herunter und erhalte ein gratis Netherite Starterkit</description>
-      <pubDate>Sat, 27 Dec 2025 02:24:41 GMT</pubDate>
-      <guid isPermaLink="false">HugoSMPnet/HugoSMP-Client</guid>
-    </item>
-    <item>
-      <title>rendercv/rendercv</title>
-      <link>https://github.com/rendercv/rendercv</link>
-      <description>CV/resume generator for academics and engineers, YAML to PDF</description>
-      <pubDate>Fri, 26 Dec 2025 13:06:36 GMT</pubDate>
-      <guid isPermaLink="false">rendercv/rendercv</guid>
-    </item>
-    <item>
-      <title>agentskills/agentskills</title>
-      <link>https://github.com/agentskills/agentskills</link>
-      <description>Specification and documentation for Agent Skills</description>
-      <pubDate>Fri, 26 Dec 2025 13:06:36 GMT</pubDate>
-      <guid isPermaLink="false">agentskills/agentskills</guid>
-    </item>
-    <item>
-      <title>ClashConnectRules/Self-Configuration</title>
-      <link>https://github.com/ClashConnectRules/Self-Configuration</link>
-      <description>(no description)</description>
-      <pubDate>Fri, 26 Dec 2025 13:06:36 GMT</pubDate>
-      <guid isPermaLink="false">ClashConnectRules/Self-Configuration</guid>
-    </item>
-    <item>
-      <title>ruvnet/wifi-densepose</title>
-      <link>https://github.com/ruvnet/wifi-densepose</link>
-      <description>Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers</description>
-      <pubDate>Fri, 26 Dec 2025 13:06:36 GMT</pubDate>
-      <guid isPermaLink="false">ruvnet/wifi-densepose</guid>
-    </item>
-    <item>
-      <title>Rackarr/Rackarr</title>
-      <link>https://github.com/Rackarr/Rackarr</link>
-      <description>Visual rack layout designer for homelabbers</description>
-      <pubDate>Fri, 26 Dec 2025 13:06:36 GMT</pubDate>
-      <guid isPermaLink="false">Rackarr/Rackarr</guid>
-    </item>
-    <item>
-      <title>batrachianai/toad</title>
-      <link>https://github.com/batrachianai/toad</link>
-      <description>A unified interface for AI in your terminal.</description>
-      <pubDate>Fri, 26 Dec 2025 13:06:36 GMT</pubDate>
-      <guid isPermaLink="false">batrachianai/toad</guid>
     </item>
   </channel>
 </rss>
