@@ -5,259 +5,350 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 13:16:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 03:45:10 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
     <item>
-      <title>xaskasdf/ntransformer</title>
-      <link>https://github.com/xaskasdf/ntransformer</link>
-      <description>High-efficiency LLM inference engine in C++/CUDA. Run Llama 70B on RTX 3090.</description>
-      <pubDate>Sun, 22 Feb 2026 13:16:25 GMT</pubDate>
-      <guid isPermaLink="false">xaskasdf/ntransformer</guid>
+      <title>santifer/career-ops</title>
+      <link>https://github.com/santifer/career-ops</link>
+      <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.</description>
+      <pubDate>Mon, 06 Apr 2026 03:45:10 GMT</pubDate>
+      <guid isPermaLink="false">santifer/career-ops</guid>
     </item>
     <item>
-      <title>Leonxlnx/taste-skill</title>
-      <link>https://github.com/Leonxlnx/taste-skill</link>
+      <title>safishamsi/graphify</title>
+      <link>https://github.com/safishamsi/graphify</link>
+      <description>Claude Code skill. Drop code, papers, images, or notes into a folder and get a knowledge graph with community detection, god nodes, and honest audit trail.</description>
+      <pubDate>Mon, 06 Apr 2026 03:45:10 GMT</pubDate>
+      <guid isPermaLink="false">safishamsi/graphify</guid>
+    </item>
+    <item>
+      <title>afar1/fieldtheory-cli</title>
+      <link>https://github.com/afar1/fieldtheory-cli</link>
+      <description>Sync and locally store all of your X/Twitter bookmarks. Free and open source CLI for Mac.</description>
+      <pubDate>Sun, 05 Apr 2026 13:32:56 GMT</pubDate>
+      <guid isPermaLink="false">afar1/fieldtheory-cli</guid>
+    </item>
+    <item>
+      <title>JuliusBrussee/caveman</title>
+      <link>https://github.com/JuliusBrussee/caveman</link>
+      <description>🪨 why use many token when few token do trick — Claude Code skill that cuts 75% of tokens by talking like caveman</description>
+      <pubDate>Sun, 05 Apr 2026 13:32:56 GMT</pubDate>
+      <guid isPermaLink="false">JuliusBrussee/caveman</guid>
+    </item>
+    <item>
+      <title>addyosmani/agent-skills</title>
+      <link>https://github.com/addyosmani/agent-skills</link>
+      <description>Production-grade engineering skills for AI coding agents.</description>
+      <pubDate>Sun, 05 Apr 2026 13:32:56 GMT</pubDate>
+      <guid isPermaLink="false">addyosmani/agent-skills</guid>
+    </item>
+    <item>
+      <title>Yeachan-Heo/oh-my-codex</title>
+      <link>https://github.com/Yeachan-Heo/oh-my-codex</link>
+      <description>OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.</description>
+      <pubDate>Sun, 05 Apr 2026 03:41:52 GMT</pubDate>
+      <guid isPermaLink="false">Yeachan-Heo/oh-my-codex</guid>
+    </item>
+    <item>
+      <title>k2-fsa/OmniVoice</title>
+      <link>https://github.com/k2-fsa/OmniVoice</link>
+      <description>High-Quality Voice Cloning TTS for 600+ Languages</description>
+      <pubDate>Sun, 05 Apr 2026 03:41:52 GMT</pubDate>
+      <guid isPermaLink="false">k2-fsa/OmniVoice</guid>
+    </item>
+    <item>
+      <title>stirling-image/stirling-image</title>
+      <link>https://github.com/stirling-image/stirling-image</link>
+      <description>Stirling-PDF but for images. 30+ tools and local AI in a single Docker container - resize, compress, remove backgrounds, upscale, OCR, and more. No cloud, no telemetry. Your images never leave your machine.</description>
+      <pubDate>Sat, 04 Apr 2026 03:19:53 GMT</pubDate>
+      <guid isPermaLink="false">stirling-image/stirling-image</guid>
+    </item>
+    <item>
+      <title>0xGF/boneyard</title>
+      <link>https://github.com/0xGF/boneyard</link>
+      <description>Auto generated skeleton loading framework</description>
+      <pubDate>Sat, 04 Apr 2026 03:19:53 GMT</pubDate>
+      <guid isPermaLink="false">0xGF/boneyard</guid>
+    </item>
+    <item>
+      <title>kevinrgu/autoagent</title>
+      <link>https://github.com/kevinrgu/autoagent</link>
+      <description>autonomous harness engineering</description>
+      <pubDate>Fri, 03 Apr 2026 13:41:46 GMT</pubDate>
+      <guid isPermaLink="false">kevinrgu/autoagent</guid>
+    </item>
+    <item>
+      <title>HKUDS/OpenHarness</title>
+      <link>https://github.com/HKUDS/OpenHarness</link>
+      <description>&quot;OpenHarness: Open Agent Harness&quot;</description>
+      <pubDate>Fri, 03 Apr 2026 03:31:22 GMT</pubDate>
+      <guid isPermaLink="false">HKUDS/OpenHarness</guid>
+    </item>
+    <item>
+      <title>ultraworkers/claw-code-parity</title>
+      <link>https://github.com/ultraworkers/claw-code-parity</link>
+      <description>claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration</description>
+      <pubDate>Thu, 02 Apr 2026 14:01:02 GMT</pubDate>
+      <guid isPermaLink="false">ultraworkers/claw-code-parity</guid>
+    </item>
+    <item>
+      <title>ultraworkers/claw-code</title>
+      <link>https://github.com/ultraworkers/claw-code</link>
+      <description>The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.</description>
+      <pubDate>Thu, 02 Apr 2026 03:29:47 GMT</pubDate>
+      <guid isPermaLink="false">ultraworkers/claw-code</guid>
+    </item>
+    <item>
+      <title>ultraworkers/claw-code</title>
+      <link>https://github.com/ultraworkers/claw-code</link>
+      <description>The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.</description>
+      <pubDate>Thu, 02 Apr 2026 03:29:47 GMT</pubDate>
+      <guid isPermaLink="false">ultraworkers/claw-code</guid>
+    </item>
+    <item>
+      <title>emdash-cms/emdash</title>
+      <link>https://github.com/emdash-cms/emdash</link>
       <description>(no description)</description>
-      <pubDate>Sun, 22 Feb 2026 13:16:25 GMT</pubDate>
-      <guid isPermaLink="false">Leonxlnx/taste-skill</guid>
+      <pubDate>Thu, 02 Apr 2026 03:29:47 GMT</pubDate>
+      <guid isPermaLink="false">emdash-cms/emdash</guid>
     </item>
     <item>
-      <title>dnakov/litter</title>
-      <link>https://github.com/dnakov/litter</link>
+      <title>ultraworkers/claw-code</title>
+      <link>https://github.com/ultraworkers/claw-code</link>
+      <description>The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.</description>
+      <pubDate>Thu, 02 Apr 2026 03:29:47 GMT</pubDate>
+      <guid isPermaLink="false">ultraworkers/claw-code</guid>
+    </item>
+    <item>
+      <title>VoltAgent/awesome-design-md</title>
+      <link>https://github.com/VoltAgent/awesome-design-md</link>
+      <description>Collection of DESIGN.md files that capture design systems from popular websites. Drop one into your project and let coding agents build matching UI.</description>
+      <pubDate>Thu, 02 Apr 2026 03:29:47 GMT</pubDate>
+      <guid isPermaLink="false">VoltAgent/awesome-design-md</guid>
+    </item>
+    <item>
+      <title>dominikmartn/nothing-design-skill</title>
+      <link>https://github.com/dominikmartn/nothing-design-skill</link>
+      <description>A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial.</description>
+      <pubDate>Thu, 02 Apr 2026 03:29:47 GMT</pubDate>
+      <guid isPermaLink="false">dominikmartn/nothing-design-skill</guid>
+    </item>
+    <item>
+      <title>sanbuphy/learn-coding-agent</title>
+      <link>https://github.com/sanbuphy/learn-coding-agent</link>
+      <description>Research on Coding Agents</description>
+      <pubDate>Wed, 01 Apr 2026 14:09:52 GMT</pubDate>
+      <guid isPermaLink="false">sanbuphy/learn-coding-agent</guid>
+    </item>
+    <item>
+      <title>Kuberwastaken/claurst</title>
+      <link>https://github.com/Kuberwastaken/claurst</link>
+      <description>Your favorite Terminal Coding Agent, now in Rust &amp; a Breakdown of the Claude Code leak &amp; discoveries</description>
+      <pubDate>Wed, 01 Apr 2026 14:09:52 GMT</pubDate>
+      <guid isPermaLink="false">Kuberwastaken/claurst</guid>
+    </item>
+    <item>
+      <title>motiful/cc-gateway</title>
+      <link>https://github.com/motiful/cc-gateway</link>
+      <description>AI API identity gateway — reverse proxy that normalizes device fingerprints and telemetry for privacy-preserving API proxying</description>
+      <pubDate>Wed, 01 Apr 2026 14:09:52 GMT</pubDate>
+      <guid isPermaLink="false">motiful/cc-gateway</guid>
+    </item>
+    <item>
+      <title>codeany-ai/open-agent-sdk-typescript</title>
+      <link>https://github.com/codeany-ai/open-agent-sdk-typescript</link>
+      <description>Agent-SDK without CLI dependencies, as an alternative to claude-agent-sdk, completely open source</description>
+      <pubDate>Wed, 01 Apr 2026 14:09:52 GMT</pubDate>
+      <guid isPermaLink="false">codeany-ai/open-agent-sdk-typescript</guid>
+    </item>
+    <item>
+      <title>Gitlawb/openclaude</title>
+      <link>https://github.com/Gitlawb/openclaude</link>
+      <description>Claude Code opened to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via OpenAI-compatible API shim</description>
+      <pubDate>Wed, 01 Apr 2026 14:09:52 GMT</pubDate>
+      <guid isPermaLink="false">Gitlawb/openclaude</guid>
+    </item>
+    <item>
+      <title>Kuberwastaken/claurst</title>
+      <link>https://github.com/Kuberwastaken/claurst</link>
+      <description>Your favorite Terminal Coding Agent, now in Rust &amp; a Breakdown of the Claude Code leak &amp; discoveries</description>
+      <pubDate>Wed, 01 Apr 2026 14:09:52 GMT</pubDate>
+      <guid isPermaLink="false">Kuberwastaken/claurst</guid>
+    </item>
+    <item>
+      <title>jarmuine/claude-code</title>
+      <link>https://github.com/jarmuine/claude-code</link>
+      <description>Fork of instructkr/claude-code</description>
+      <pubDate>Wed, 01 Apr 2026 14:09:52 GMT</pubDate>
+      <guid isPermaLink="false">jarmuine/claude-code</guid>
+    </item>
+    <item>
+      <title>instructkr/claw-code</title>
+      <link>https://github.com/instructkr/claw-code</link>
+      <description>The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but make real things done. Now rewriting in Rust using oh-my-codex.</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">instructkr/claw-code</guid>
+    </item>
+    <item>
+      <title>instructkr/claw-code</title>
+      <link>https://github.com/instructkr/claw-code</link>
+      <description>The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but make real things done. Now rewriting in Rust using oh-my-codex.</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">instructkr/claw-code</guid>
+    </item>
+    <item>
+      <title>sanbuphy/claude-code-source-code</title>
+      <link>https://github.com/sanbuphy/claude-code-source-code</link>
+      <description>It will be revised soon.</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">sanbuphy/claude-code-source-code</guid>
+    </item>
+    <item>
+      <title>NanmiCoder/claude-code-haha</title>
+      <link>https://github.com/NanmiCoder/claude-code-haha</link>
+      <description>Claude Code leaked source - locally runnable version</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">NanmiCoder/claude-code-haha</guid>
+    </item>
+    <item>
+      <title>Kuberwastaken/claude-code</title>
+      <link>https://github.com/Kuberwastaken/claude-code</link>
+      <description>Claude Code in Rust &amp; a Breakdown of How it Works</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">Kuberwastaken/claude-code</guid>
+    </item>
+    <item>
+      <title>shipany-ai/open-agent-sdk</title>
+      <link>https://github.com/shipany-ai/open-agent-sdk</link>
+      <description>Agent-SDK without CLI dependencies, as an alternative to claude-agent-sdk, completely open source</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">shipany-ai/open-agent-sdk</guid>
+    </item>
+    <item>
+      <title>paoloanzn/free-code</title>
+      <link>https://github.com/paoloanzn/free-code</link>
+      <description>The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">paoloanzn/free-code</guid>
+    </item>
+    <item>
+      <title>luongnv89/claude-howto</title>
+      <link>https://github.com/luongnv89/claude-howto</link>
+      <description>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">luongnv89/claude-howto</guid>
+    </item>
+    <item>
+      <title>chatgptprojects/clear-code</title>
+      <link>https://github.com/chatgptprojects/clear-code</link>
+      <description>https://x.com/paidev</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">chatgptprojects/clear-code</guid>
+    </item>
+    <item>
+      <title>JackChen-me/open-multi-agent</title>
+      <link>https://github.com/JackChen-me/open-multi-agent</link>
+      <description>Production-grade multi-agent orchestration framework. Model-agnostic, supports team collaboration, task scheduling, and inter-agent communication.</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">JackChen-me/open-multi-agent</guid>
+    </item>
+    <item>
+      <title>oboard/claude-code-rev</title>
+      <link>https://github.com/oboard/claude-code-rev</link>
+      <description>Runnable ClaudeCode source code</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">oboard/claude-code-rev</guid>
+    </item>
+    <item>
+      <title>openedclaude/claude-reviews-claude</title>
+      <link>https://github.com/openedclaude/claude-reviews-claude</link>
+      <description>🪞 An AI reading its own source code. Claude&apos;s architectural analysis of Claude Code</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">openedclaude/claude-reviews-claude</guid>
+    </item>
+    <item>
+      <title>Leonxlnx/claude-code-system-prompts</title>
+      <link>https://github.com/Leonxlnx/claude-code-system-prompts</link>
+      <description>Research into how agentic AI coding assistants work — reconstructed prompt patterns, agent coordination, and security classification</description>
+      <pubDate>Wed, 01 Apr 2026 03:48:14 GMT</pubDate>
+      <guid isPermaLink="false">Leonxlnx/claude-code-system-prompts</guid>
+    </item>
+    <item>
+      <title>instructkr/claude-code</title>
+      <link>https://github.com/instructkr/claude-code</link>
+      <description>An independent Python feature port of Claude Code, entirely rewritting from scratch using oh-my-codex. Educational Purpose only.</description>
+      <pubDate>Tue, 31 Mar 2026 14:06:35 GMT</pubDate>
+      <guid isPermaLink="false">instructkr/claude-code</guid>
+    </item>
+    <item>
+      <title>ChinaSiro/claude-code-sourcemap</title>
+      <link>https://github.com/ChinaSiro/claude-code-sourcemap</link>
       <description>(no description)</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">dnakov/litter</guid>
+      <pubDate>Tue, 31 Mar 2026 14:06:35 GMT</pubDate>
+      <guid isPermaLink="false">ChinaSiro/claude-code-sourcemap</guid>
     </item>
     <item>
-      <title>tnm/zclaw</title>
-      <link>https://github.com/tnm/zclaw</link>
-      <description>Your personal AI assistant at all-in 888KiB (~25KB in app code). Running on an ESP32. GPIO, cron, memory, and more.</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">tnm/zclaw</guid>
+      <title>drona23/claude-token-efficient</title>
+      <link>https://github.com/drona23/claude-token-efficient</link>
+      <description>Universal CLAUDE.md - cut Claude output tokens by 63%. Drop-in. No code changes.</description>
+      <pubDate>Tue, 31 Mar 2026 14:06:35 GMT</pubDate>
+      <guid isPermaLink="false">drona23/claude-token-efficient</guid>
     </item>
     <item>
-      <title>vercel-labs/visual-json</title>
-      <link>https://github.com/vercel-labs/visual-json</link>
-      <description>The Visual JSON Editor. Schema-aware, embeddable, extensible.</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/visual-json</guid>
+      <title>ghostwright/phantom</title>
+      <link>https://github.com/ghostwright/phantom</link>
+      <description>An AI co-worker with its own computer. Self-evolving, persistent memory, MCP server, secure credential collection, email identity. Built on the Claude Agent SDK.</description>
+      <pubDate>Tue, 31 Mar 2026 14:06:35 GMT</pubDate>
+      <guid isPermaLink="false">ghostwright/phantom</guid>
     </item>
     <item>
-      <title>hamelsmu/claude-review-loop</title>
-      <link>https://github.com/hamelsmu/claude-review-loop</link>
-      <description>Claude Code plugin: automated code review loop with Codex</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">hamelsmu/claude-review-loop</guid>
+      <title>openai/codex-plugin-cc</title>
+      <link>https://github.com/openai/codex-plugin-cc</link>
+      <description>Use Codex from Claude Code to review code or delegate tasks.</description>
+      <pubDate>Tue, 31 Mar 2026 03:33:56 GMT</pubDate>
+      <guid isPermaLink="false">openai/codex-plugin-cc</guid>
     </item>
     <item>
-      <title>pinchtab/pinchtab</title>
-      <link>https://github.com/pinchtab/pinchtab</link>
-      <description>High-performance browser automation bridge and multi-instance orchestrator with advanced stealth injection and real-time dashboard.</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">pinchtab/pinchtab</guid>
-    </item>
-    <item>
-      <title>IronsideXXVI/Hacker-News</title>
-      <link>https://github.com/IronsideXXVI/Hacker-News</link>
-      <description>A native macOS client for Hacker News, built with SwiftUI</description>
-      <pubDate>Sat, 21 Feb 2026 13:14:56 GMT</pubDate>
-      <guid isPermaLink="false">IronsideXXVI/Hacker-News</guid>
-    </item>
-    <item>
-      <title>HailToDodongo/pyrite64</title>
-      <link>https://github.com/HailToDodongo/pyrite64</link>
-      <description>N64 Game-Engine and Editor using libdragon &amp; tiny3d</description>
-      <pubDate>Sat, 21 Feb 2026 13:14:56 GMT</pubDate>
-      <guid isPermaLink="false">HailToDodongo/pyrite64</guid>
-    </item>
-    <item>
-      <title>yigitkonur/cli-continues</title>
-      <link>https://github.com/yigitkonur/cli-continues</link>
-      <description>resume any AI coding session in another tool — Claude Code, Copilot, Gemini, Codex, Cursor</description>
-      <pubDate>Sat, 21 Feb 2026 13:14:56 GMT</pubDate>
-      <guid isPermaLink="false">yigitkonur/cli-continues</guid>
-    </item>
-    <item>
-      <title>ShinMegamiBoson/OpenPlanter</title>
-      <link>https://github.com/ShinMegamiBoson/OpenPlanter</link>
+      <title>TheTom/turboquant_plus</title>
+      <link>https://github.com/TheTom/turboquant_plus</link>
       <description>(no description)</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">ShinMegamiBoson/OpenPlanter</guid>
+      <pubDate>Tue, 31 Mar 2026 03:33:56 GMT</pubDate>
+      <guid isPermaLink="false">TheTom/turboquant_plus</guid>
     </item>
     <item>
-      <title>agenticnotetaking/arscontexta</title>
-      <link>https://github.com/agenticnotetaking/arscontexta</link>
-      <description>Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own.</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">agenticnotetaking/arscontexta</guid>
+      <title>dreddnafious/thereisnospoon</title>
+      <link>https://github.com/dreddnafious/thereisnospoon</link>
+      <description>A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems.</description>
+      <pubDate>Mon, 30 Mar 2026 14:06:27 GMT</pubDate>
+      <guid isPermaLink="false">dreddnafious/thereisnospoon</guid>
     </item>
     <item>
-      <title>standardagents/dmux</title>
-      <link>https://github.com/standardagents/dmux</link>
-      <description>A dev agent multiplexer for git worktrees and claude code (or other agents).</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">standardagents/dmux</guid>
+      <title>yetone/voice-input-src</title>
+      <link>https://github.com/yetone/voice-input-src</link>
+      <description>(no description)</description>
+      <pubDate>Mon, 30 Mar 2026 14:06:27 GMT</pubDate>
+      <guid isPermaLink="false">yetone/voice-input-src</guid>
     </item>
     <item>
-      <title>cpcloud/micasa</title>
-      <link>https://github.com/cpcloud/micasa</link>
-      <description>A modal TUI for tracking home projects, maintenance schedules, appliances, and vendor quotes.</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">cpcloud/micasa</guid>
+      <title>productdevbook/hucre</title>
+      <link>https://github.com/productdevbook/hucre</link>
+      <description>Zero-dependency spreadsheet engine. Read &amp; write XLSX, CSV, ODS. Pure TypeScript, works everywhere.</description>
+      <pubDate>Mon, 30 Mar 2026 14:06:27 GMT</pubDate>
+      <guid isPermaLink="false">productdevbook/hucre</guid>
     </item>
     <item>
-      <title>Conway-Research/automaton</title>
-      <link>https://github.com/Conway-Research/automaton</link>
-      <description>The first AI that can earn its own existence, replicate, and evolve — without needing a human</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">Conway-Research/automaton</guid>
+      <title>legalize-dev/legalize-es</title>
+      <link>https://github.com/legalize-dev/legalize-es</link>
+      <description>Spanish legislation as a Git repo — every law is a Markdown file, every reform a commit. 8,600+ laws.</description>
+      <pubDate>Mon, 30 Mar 2026 14:06:27 GMT</pubDate>
+      <guid isPermaLink="false">legalize-dev/legalize-es</guid>
     </item>
     <item>
-      <title>AlexsJones/llmfit</title>
-      <link>https://github.com/AlexsJones/llmfit</link>
-      <description>157 models. 30 providers. One command to find what runs on your hardware.</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">AlexsJones/llmfit</guid>
-    </item>
-    <item>
-      <title>netease-youdao/LobsterAI</title>
-      <link>https://github.com/netease-youdao/LobsterAI</link>
-      <description>Your 24/7 all-scenario AI agent that gets work done for you.</description>
-      <pubDate>Fri, 20 Feb 2026 03:15:48 GMT</pubDate>
-      <guid isPermaLink="false">netease-youdao/LobsterAI</guid>
-    </item>
-    <item>
-      <title>jamiepine/voicebox</title>
-      <link>https://github.com/jamiepine/voicebox</link>
-      <description>The open-source voice synthesis studio powered by Qwen3-TTS.</description>
-      <pubDate>Fri, 20 Feb 2026 03:15:48 GMT</pubDate>
-      <guid isPermaLink="false">jamiepine/voicebox</guid>
-    </item>
-    <item>
-      <title>nullclaw/nullclaw</title>
-      <link>https://github.com/nullclaw/nullclaw</link>
-      <description>Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig</description>
-      <pubDate>Thu, 19 Feb 2026 03:20:28 GMT</pubDate>
-      <guid isPermaLink="false">nullclaw/nullclaw</guid>
-    </item>
-    <item>
-      <title>sipeed/picoclaw</title>
-      <link>https://github.com/sipeed/picoclaw</link>
-      <description>Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity</description>
-      <pubDate>Wed, 18 Feb 2026 13:45:23 GMT</pubDate>
-      <guid isPermaLink="false">sipeed/picoclaw</guid>
-    </item>
-    <item>
-      <title>Zaneham/BarraCUDA</title>
-      <link>https://github.com/Zaneham/BarraCUDA</link>
-      <description>Open-source CUDA compiler targeting AMD GPUs (and more in the future!). Compiles .cu to GFX11 machine code.</description>
-      <pubDate>Wed, 18 Feb 2026 13:45:23 GMT</pubDate>
-      <guid isPermaLink="false">Zaneham/BarraCUDA</guid>
-    </item>
-    <item>
-      <title>millionco/react-doctor</title>
-      <link>https://github.com/millionco/react-doctor</link>
-      <description>Let coding agents diagnose and fix your React code</description>
-      <pubDate>Wed, 18 Feb 2026 03:21:31 GMT</pubDate>
-      <guid isPermaLink="false">millionco/react-doctor</guid>
-    </item>
-    <item>
-      <title>nicobailon/visual-explainer</title>
-      <link>https://github.com/nicobailon/visual-explainer</link>
-      <description>Agent skill + prompt templates that generate rich HTML pages for visual diff reviews, architecture overviews, plan audits, data tables, and project recaps</description>
-      <pubDate>Wed, 18 Feb 2026 03:21:31 GMT</pubDate>
-      <guid isPermaLink="false">nicobailon/visual-explainer</guid>
-    </item>
-    <item>
-      <title>zachlatta/freeflow</title>
-      <link>https://github.com/zachlatta/freeflow</link>
-      <description>Free and open source alternative to Wispr Flow / Superwhisper / Monologue / etc</description>
-      <pubDate>Wed, 18 Feb 2026 03:21:31 GMT</pubDate>
-      <guid isPermaLink="false">zachlatta/freeflow</guid>
-    </item>
-    <item>
-      <title>HKUDS/ClawWork</title>
-      <link>https://github.com/HKUDS/ClawWork</link>
-      <description>&quot;ClawWork: OpenClaw as Your AI Coworker - 💰 $10K earned in 7 Hours&quot;</description>
-      <pubDate>Tue, 17 Feb 2026 03:18:09 GMT</pubDate>
-      <guid isPermaLink="false">HKUDS/ClawWork</guid>
-    </item>
-    <item>
-      <title>QwenLM/Qwen3.5</title>
-      <link>https://github.com/QwenLM/Qwen3.5</link>
-      <description>Qwen3.5 is the large language model series developed by Qwen team, Alibaba Cloud.</description>
-      <pubDate>Tue, 17 Feb 2026 03:18:09 GMT</pubDate>
-      <guid isPermaLink="false">QwenLM/Qwen3.5</guid>
-    </item>
-    <item>
-      <title>fluxerapp/fluxer</title>
-      <link>https://github.com/fluxerapp/fluxer</link>
-      <description>A free and open source instant messaging and VoIP platform built for friends, groups, and communities.</description>
-      <pubDate>Tue, 17 Feb 2026 03:18:09 GMT</pubDate>
-      <guid isPermaLink="false">fluxerapp/fluxer</guid>
-    </item>
-    <item>
-      <title>vercel-labs/portless</title>
-      <link>https://github.com/vercel-labs/portless</link>
-      <description>Replace port numbers with stable, named .localhost URLs. For humans and agents.</description>
-      <pubDate>Mon, 16 Feb 2026 13:43:37 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/portless</guid>
-    </item>
-    <item>
-      <title>accomplish-ai/accomplish</title>
-      <link>https://github.com/accomplish-ai/accomplish</link>
-      <description>Accomplish™ (formerly Openwork) is the open source Al coworker that lives on your desktop</description>
-      <pubDate>Mon, 16 Feb 2026 13:43:37 GMT</pubDate>
-      <guid isPermaLink="false">accomplish-ai/accomplish</guid>
-    </item>
-    <item>
-      <title>nearai/ironclaw</title>
-      <link>https://github.com/nearai/ironclaw</link>
-      <description>IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security</description>
-      <pubDate>Mon, 16 Feb 2026 13:43:37 GMT</pubDate>
-      <guid isPermaLink="false">nearai/ironclaw</guid>
-    </item>
-    <item>
-      <title>zeroclaw-labs/zeroclaw</title>
-      <link>https://github.com/zeroclaw-labs/zeroclaw</link>
-      <description>claw done right 🦀</description>
-      <pubDate>Mon, 16 Feb 2026 03:23:32 GMT</pubDate>
-      <guid isPermaLink="false">zeroclaw-labs/zeroclaw</guid>
-    </item>
-    <item>
-      <title>zeroclaw-labs/zeroclaw</title>
-      <link>https://github.com/zeroclaw-labs/zeroclaw</link>
-      <description>claw done right 🦀</description>
-      <pubDate>Mon, 16 Feb 2026 03:23:32 GMT</pubDate>
-      <guid isPermaLink="false">zeroclaw-labs/zeroclaw</guid>
-    </item>
-    <item>
-      <title>hiaaryan/sileo</title>
-      <link>https://github.com/hiaaryan/sileo</link>
-      <description>A physics based toast notification library for react.</description>
-      <pubDate>Mon, 16 Feb 2026 03:23:32 GMT</pubDate>
-      <guid isPermaLink="false">hiaaryan/sileo</guid>
-    </item>
-    <item>
-      <title>bwya77/vscode-dark-islands</title>
-      <link>https://github.com/bwya77/vscode-dark-islands</link>
-      <description>VSCode theme based off the new Jetbrains islands theme</description>
-      <pubDate>Mon, 16 Feb 2026 03:23:32 GMT</pubDate>
-      <guid isPermaLink="false">bwya77/vscode-dark-islands</guid>
-    </item>
-    <item>
-      <title>alichherawalla/off-grid-mobile</title>
-      <link>https://github.com/alichherawalla/off-grid-mobile</link>
-      <description>The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-text, vision, text-to-image</description>
-      <pubDate>Sun, 15 Feb 2026 13:17:18 GMT</pubDate>
-      <guid isPermaLink="false">alichherawalla/off-grid-mobile</guid>
-    </item>
-    <item>
-      <title>alibaba/zvec</title>
-      <link>https://github.com/alibaba/zvec</link>
-      <description>A lightweight, lightning-fast, in-process vector database</description>
-      <pubDate>Sun, 15 Feb 2026 13:17:18 GMT</pubDate>
-      <guid isPermaLink="false">alibaba/zvec</guid>
+      <title>walkinglabs/awesome-harness-engineering</title>
+      <link>https://github.com/walkinglabs/awesome-harness-engineering</link>
+      <description>🛠️ Awesome tools &amp; guides for harness engineering.</description>
+      <pubDate>Mon, 30 Mar 2026 14:06:27 GMT</pubDate>
+      <guid isPermaLink="false">walkinglabs/awesome-harness-engineering</guid>
     </item>
   </channel>
 </rss>
