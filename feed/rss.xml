@@ -5,259 +5,245 @@
     <link>https://github.com/mhadidg/gh-trends</link>
     <description>Automatically compiled list of trending GitHub repositories</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 13:16:25 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 13:37:38 GMT</lastBuildDate>
     <generator>gh-trends-newsletter</generator>
     <item>
-      <title>xaskasdf/ntransformer</title>
-      <link>https://github.com/xaskasdf/ntransformer</link>
-      <description>High-efficiency LLM inference engine in C++/CUDA. Run Llama 70B on RTX 3090.</description>
-      <pubDate>Sun, 22 Feb 2026 13:16:25 GMT</pubDate>
-      <guid isPermaLink="false">xaskasdf/ntransformer</guid>
+      <title>aloshdenny/reverse-SynthID</title>
+      <link>https://github.com/aloshdenny/reverse-SynthID</link>
+      <description>reverse engineering Gemini&apos;s SynthID detection</description>
+      <pubDate>Sun, 12 Apr 2026 13:37:38 GMT</pubDate>
+      <guid isPermaLink="false">aloshdenny/reverse-SynthID</guid>
     </item>
     <item>
-      <title>Leonxlnx/taste-skill</title>
-      <link>https://github.com/Leonxlnx/taste-skill</link>
+      <title>MemPalace/mempalace</title>
+      <link>https://github.com/MemPalace/mempalace</link>
+      <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free.</description>
+      <pubDate>Sun, 12 Apr 2026 03:49:39 GMT</pubDate>
+      <guid isPermaLink="false">MemPalace/mempalace</guid>
+    </item>
+    <item>
+      <title>MemPalace/mempalace</title>
+      <link>https://github.com/MemPalace/mempalace</link>
+      <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free.</description>
+      <pubDate>Sun, 12 Apr 2026 03:49:39 GMT</pubDate>
+      <guid isPermaLink="false">MemPalace/mempalace</guid>
+    </item>
+    <item>
+      <title>vyfor/rattles</title>
+      <link>https://github.com/vyfor/rattles</link>
+      <description>🪇 Minimal terminal spinners for Rust</description>
+      <pubDate>Sun, 12 Apr 2026 03:49:39 GMT</pubDate>
+      <guid isPermaLink="false">vyfor/rattles</guid>
+    </item>
+    <item>
+      <title>imbue-ai/bouncer</title>
+      <link>https://github.com/imbue-ai/bouncer</link>
+      <description>Heal your social media feeds</description>
+      <pubDate>Sun, 12 Apr 2026 03:49:39 GMT</pubDate>
+      <guid isPermaLink="false">imbue-ai/bouncer</guid>
+    </item>
+    <item>
+      <title>tw93/Waza</title>
+      <link>https://github.com/tw93/Waza</link>
+      <description>🥷 Engineering habits you already know, turned into skills Claude can run.</description>
+      <pubDate>Sun, 12 Apr 2026 03:49:39 GMT</pubDate>
+      <guid isPermaLink="false">tw93/Waza</guid>
+    </item>
+    <item>
+      <title>yizhiyanhua-ai/fireworks-tech-graph</title>
+      <link>https://github.com/yizhiyanhua-ai/fireworks-tech-graph</link>
+      <description>Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.</description>
+      <pubDate>Sat, 11 Apr 2026 13:33:44 GMT</pubDate>
+      <guid isPermaLink="false">yizhiyanhua-ai/fireworks-tech-graph</guid>
+    </item>
+    <item>
+      <title>multica-ai/multica</title>
+      <link>https://github.com/multica-ai/multica</link>
+      <description>The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.</description>
+      <pubDate>Sat, 11 Apr 2026 13:33:44 GMT</pubDate>
+      <guid isPermaLink="false">multica-ai/multica</guid>
+    </item>
+    <item>
+      <title>QuipNetwork/xq-py</title>
+      <link>https://github.com/QuipNetwork/xq-py</link>
+      <description>A python implementation of the Quip Network&apos;s quantum virtual machine</description>
+      <pubDate>Sat, 11 Apr 2026 13:33:44 GMT</pubDate>
+      <guid isPermaLink="false">QuipNetwork/xq-py</guid>
+    </item>
+    <item>
+      <title>QuipNetwork/polkadot-sdk</title>
+      <link>https://github.com/QuipNetwork/polkadot-sdk</link>
+      <description>The Parity Polkadot Blockchain SDK</description>
+      <pubDate>Sat, 11 Apr 2026 13:33:44 GMT</pubDate>
+      <guid isPermaLink="false">QuipNetwork/polkadot-sdk</guid>
+    </item>
+    <item>
+      <title>QuipNetwork/quip-protocol-rs</title>
+      <link>https://github.com/QuipNetwork/quip-protocol-rs</link>
+      <description>A rust implementation of the Quip Protocol forked from Substrate</description>
+      <pubDate>Sat, 11 Apr 2026 13:33:44 GMT</pubDate>
+      <guid isPermaLink="false">QuipNetwork/quip-protocol-rs</guid>
+    </item>
+    <item>
+      <title>garrytan/gbrain</title>
+      <link>https://github.com/garrytan/gbrain</link>
+      <description>Garry&apos;s Opinionated OpenClaw/Hermes Agent Brain</description>
+      <pubDate>Sat, 11 Apr 2026 03:23:17 GMT</pubDate>
+      <guid isPermaLink="false">garrytan/gbrain</guid>
+    </item>
+    <item>
+      <title>matthartman/ghost-pepper</title>
+      <link>https://github.com/matthartman/ghost-pepper</link>
+      <description>Hold-to-talk speech-to-text for macOS. 100% local, powered by WhisperKit and local LLM cleanup. Hold Control to record, release to transcribe and paste.</description>
+      <pubDate>Sat, 11 Apr 2026 03:23:17 GMT</pubDate>
+      <guid isPermaLink="false">matthartman/ghost-pepper</guid>
+    </item>
+    <item>
+      <title>averygan/reclip</title>
+      <link>https://github.com/averygan/reclip</link>
+      <description>Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.</description>
+      <pubDate>Sat, 11 Apr 2026 03:23:17 GMT</pubDate>
+      <guid isPermaLink="false">averygan/reclip</guid>
+    </item>
+    <item>
+      <title>millionco/isolet</title>
+      <link>https://github.com/millionco/isolet</link>
+      <description>Package any component into a self-contained, isolated widget</description>
+      <pubDate>Sat, 11 Apr 2026 03:23:17 GMT</pubDate>
+      <guid isPermaLink="false">millionco/isolet</guid>
+    </item>
+    <item>
+      <title>HKUDS/OpenHarness</title>
+      <link>https://github.com/HKUDS/OpenHarness</link>
+      <description>OpenHarness: Open Agent Harness with a built-in personal agent, Ohmo!</description>
+      <pubDate>Fri, 10 Apr 2026 13:53:56 GMT</pubDate>
+      <guid isPermaLink="false">HKUDS/OpenHarness</guid>
+    </item>
+    <item>
+      <title>nashsu/llm_wiki</title>
+      <link>https://github.com/nashsu/llm_wiki</link>
+      <description>LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。</description>
+      <pubDate>Fri, 10 Apr 2026 13:53:56 GMT</pubDate>
+      <guid isPermaLink="false">nashsu/llm_wiki</guid>
+    </item>
+    <item>
+      <title>Keychron/Keychron-Keyboards-Hardware-Design</title>
+      <link>https://github.com/Keychron/Keychron-Keyboards-Hardware-Design</link>
+      <description>All the industrial design files for Keychron keyboards and mice. Includes CAD models (case, plate, stabilizer, encoder, keycap) for Q, Q Pro, Q HE, K Pro, K Max, K HE, V Max, P HE series and M1–M7 mice. 100+ models. STEP/DXF/PDF formats. This project is source-available. Commercial use is strictly prohibited.</description>
+      <pubDate>Fri, 10 Apr 2026 13:53:56 GMT</pubDate>
+      <guid isPermaLink="false">Keychron/Keychron-Keyboards-Hardware-Design</guid>
+    </item>
+    <item>
+      <title>MiniMax-AI/cli</title>
+      <link>https://github.com/MiniMax-AI/cli</link>
       <description>(no description)</description>
-      <pubDate>Sun, 22 Feb 2026 13:16:25 GMT</pubDate>
-      <guid isPermaLink="false">Leonxlnx/taste-skill</guid>
+      <pubDate>Fri, 10 Apr 2026 03:44:59 GMT</pubDate>
+      <guid isPermaLink="false">MiniMax-AI/cli</guid>
     </item>
     <item>
-      <title>dnakov/litter</title>
-      <link>https://github.com/dnakov/litter</link>
+      <title>obdev/littlesnitch-linux</title>
+      <link>https://github.com/obdev/littlesnitch-linux</link>
+      <description>Open Source components of Little Snitch for Linux</description>
+      <pubDate>Fri, 10 Apr 2026 03:44:59 GMT</pubDate>
+      <guid isPermaLink="false">obdev/littlesnitch-linux</guid>
+    </item>
+    <item>
+      <title>VoltAgent/awesome-design-md</title>
+      <link>https://github.com/VoltAgent/awesome-design-md</link>
+      <description>Collection of DESIGN.md files that capture design systems from popular websites. Drop one into your project and let coding agents build matching UI.</description>
+      <pubDate>Thu, 09 Apr 2026 14:19:00 GMT</pubDate>
+      <guid isPermaLink="false">VoltAgent/awesome-design-md</guid>
+    </item>
+    <item>
+      <title>Gitlawb/openclaude</title>
+      <link>https://github.com/Gitlawb/openclaude</link>
+      <description>Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs.</description>
+      <pubDate>Thu, 09 Apr 2026 14:19:00 GMT</pubDate>
+      <guid isPermaLink="false">Gitlawb/openclaude</guid>
+    </item>
+    <item>
+      <title>phuryn/claude-usage</title>
+      <link>https://github.com/phuryn/claude-usage</link>
+      <description>A local dashboard for tracking your Claude Code token usage, costs, and session history. Pro and Max subscribers get a progress bar. This gives you the full picture.</description>
+      <pubDate>Thu, 09 Apr 2026 03:31:58 GMT</pubDate>
+      <guid isPermaLink="false">phuryn/claude-usage</guid>
+    </item>
+    <item>
+      <title>mattmireles/gemma-tuner-multimodal</title>
+      <link>https://github.com/mattmireles/gemma-tuner-multimodal</link>
+      <description>Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders.</description>
+      <pubDate>Wed, 08 Apr 2026 14:07:25 GMT</pubDate>
+      <guid isPermaLink="false">mattmireles/gemma-tuner-multimodal</guid>
+    </item>
+    <item>
+      <title>farzaa/clicky</title>
+      <link>https://github.com/farzaa/clicky</link>
       <description>(no description)</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">dnakov/litter</guid>
+      <pubDate>Wed, 08 Apr 2026 03:37:07 GMT</pubDate>
+      <guid isPermaLink="false">farzaa/clicky</guid>
     </item>
     <item>
-      <title>tnm/zclaw</title>
-      <link>https://github.com/tnm/zclaw</link>
-      <description>Your personal AI assistant at all-in 888KiB (~25KB in app code). Running on an ESP32. GPIO, cron, memory, and more.</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">tnm/zclaw</guid>
+      <title>LaurieWired/tailslayer</title>
+      <link>https://github.com/LaurieWired/tailslayer</link>
+      <description>Library for reducing tail latency in RAM reads</description>
+      <pubDate>Wed, 08 Apr 2026 03:37:07 GMT</pubDate>
+      <guid isPermaLink="false">LaurieWired/tailslayer</guid>
     </item>
     <item>
-      <title>vercel-labs/visual-json</title>
-      <link>https://github.com/vercel-labs/visual-json</link>
-      <description>The Visual JSON Editor. Schema-aware, embeddable, extensible.</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/visual-json</guid>
+      <title>Arthur-Ficial/apfel</title>
+      <link>https://github.com/Arthur-Ficial/apfel</link>
+      <description>Apple Intelligence from the command line. On-device LLM via FoundationModels framework. No API keys, no cloud, no dependencies.</description>
+      <pubDate>Wed, 08 Apr 2026 03:37:07 GMT</pubDate>
+      <guid isPermaLink="false">Arthur-Ficial/apfel</guid>
     </item>
     <item>
-      <title>hamelsmu/claude-review-loop</title>
-      <link>https://github.com/hamelsmu/claude-review-loop</link>
-      <description>Claude Code plugin: automated code review loop with Codex</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">hamelsmu/claude-review-loop</guid>
+      <title>aaif-goose/goose</title>
+      <link>https://github.com/aaif-goose/goose</link>
+      <description>an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
+      <pubDate>Tue, 07 Apr 2026 14:06:06 GMT</pubDate>
+      <guid isPermaLink="false">aaif-goose/goose</guid>
     </item>
     <item>
-      <title>pinchtab/pinchtab</title>
-      <link>https://github.com/pinchtab/pinchtab</link>
-      <description>High-performance browser automation bridge and multi-instance orchestrator with advanced stealth injection and real-time dashboard.</description>
-      <pubDate>Sun, 22 Feb 2026 03:20:27 GMT</pubDate>
-      <guid isPermaLink="false">pinchtab/pinchtab</guid>
-    </item>
-    <item>
-      <title>IronsideXXVI/Hacker-News</title>
-      <link>https://github.com/IronsideXXVI/Hacker-News</link>
-      <description>A native macOS client for Hacker News, built with SwiftUI</description>
-      <pubDate>Sat, 21 Feb 2026 13:14:56 GMT</pubDate>
-      <guid isPermaLink="false">IronsideXXVI/Hacker-News</guid>
-    </item>
-    <item>
-      <title>HailToDodongo/pyrite64</title>
-      <link>https://github.com/HailToDodongo/pyrite64</link>
-      <description>N64 Game-Engine and Editor using libdragon &amp; tiny3d</description>
-      <pubDate>Sat, 21 Feb 2026 13:14:56 GMT</pubDate>
-      <guid isPermaLink="false">HailToDodongo/pyrite64</guid>
-    </item>
-    <item>
-      <title>yigitkonur/cli-continues</title>
-      <link>https://github.com/yigitkonur/cli-continues</link>
-      <description>resume any AI coding session in another tool — Claude Code, Copilot, Gemini, Codex, Cursor</description>
-      <pubDate>Sat, 21 Feb 2026 13:14:56 GMT</pubDate>
-      <guid isPermaLink="false">yigitkonur/cli-continues</guid>
-    </item>
-    <item>
-      <title>ShinMegamiBoson/OpenPlanter</title>
-      <link>https://github.com/ShinMegamiBoson/OpenPlanter</link>
+      <title>GitFrog1111/badclaude</title>
+      <link>https://github.com/GitFrog1111/badclaude</link>
       <description>(no description)</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">ShinMegamiBoson/OpenPlanter</guid>
+      <pubDate>Tue, 07 Apr 2026 14:06:06 GMT</pubDate>
+      <guid isPermaLink="false">GitFrog1111/badclaude</guid>
     </item>
     <item>
-      <title>agenticnotetaking/arscontexta</title>
-      <link>https://github.com/agenticnotetaking/arscontexta</link>
-      <description>Claude Code plugin that generates individualized knowledge systems from conversation. You describe how you think and work, have a conversation and get a complete second brain as markdown files you own.</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">agenticnotetaking/arscontexta</guid>
+      <title>milla-jovovich/mempalace</title>
+      <link>https://github.com/milla-jovovich/mempalace</link>
+      <description>The highest-scoring AI memory system ever benchmarked. And it&apos;s free.</description>
+      <pubDate>Tue, 07 Apr 2026 03:35:01 GMT</pubDate>
+      <guid isPermaLink="false">milla-jovovich/mempalace</guid>
     </item>
     <item>
-      <title>standardagents/dmux</title>
-      <link>https://github.com/standardagents/dmux</link>
-      <description>A dev agent multiplexer for git worktrees and claude code (or other agents).</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">standardagents/dmux</guid>
+      <title>arman-bd/guppylm</title>
+      <link>https://github.com/arman-bd/guppylm</link>
+      <description>A ~9M parameter LLM that talks like a small fish.</description>
+      <pubDate>Mon, 06 Apr 2026 13:50:13 GMT</pubDate>
+      <guid isPermaLink="false">arman-bd/guppylm</guid>
     </item>
     <item>
-      <title>cpcloud/micasa</title>
-      <link>https://github.com/cpcloud/micasa</link>
-      <description>A modal TUI for tracking home projects, maintenance schedules, appliances, and vendor quotes.</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">cpcloud/micasa</guid>
+      <title>fikrikarim/parlor</title>
+      <link>https://github.com/fikrikarim/parlor</link>
+      <description>On-device, real-time multimodal AI. Have natural voice and vision conversations with an AI that runs entirely on your machine. Powered by Gemma 4 E2B and Kokoro.</description>
+      <pubDate>Mon, 06 Apr 2026 13:50:13 GMT</pubDate>
+      <guid isPermaLink="false">fikrikarim/parlor</guid>
     </item>
     <item>
-      <title>Conway-Research/automaton</title>
-      <link>https://github.com/Conway-Research/automaton</link>
-      <description>The first AI that can earn its own existence, replicate, and evolve — without needing a human</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">Conway-Research/automaton</guid>
+      <title>santifer/career-ops</title>
+      <link>https://github.com/santifer/career-ops</link>
+      <description>AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.</description>
+      <pubDate>Mon, 06 Apr 2026 03:45:10 GMT</pubDate>
+      <guid isPermaLink="false">santifer/career-ops</guid>
     </item>
     <item>
-      <title>AlexsJones/llmfit</title>
-      <link>https://github.com/AlexsJones/llmfit</link>
-      <description>157 models. 30 providers. One command to find what runs on your hardware.</description>
-      <pubDate>Fri, 20 Feb 2026 13:37:53 GMT</pubDate>
-      <guid isPermaLink="false">AlexsJones/llmfit</guid>
-    </item>
-    <item>
-      <title>netease-youdao/LobsterAI</title>
-      <link>https://github.com/netease-youdao/LobsterAI</link>
-      <description>Your 24/7 all-scenario AI agent that gets work done for you.</description>
-      <pubDate>Fri, 20 Feb 2026 03:15:48 GMT</pubDate>
-      <guid isPermaLink="false">netease-youdao/LobsterAI</guid>
-    </item>
-    <item>
-      <title>jamiepine/voicebox</title>
-      <link>https://github.com/jamiepine/voicebox</link>
-      <description>The open-source voice synthesis studio powered by Qwen3-TTS.</description>
-      <pubDate>Fri, 20 Feb 2026 03:15:48 GMT</pubDate>
-      <guid isPermaLink="false">jamiepine/voicebox</guid>
-    </item>
-    <item>
-      <title>nullclaw/nullclaw</title>
-      <link>https://github.com/nullclaw/nullclaw</link>
-      <description>Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig</description>
-      <pubDate>Thu, 19 Feb 2026 03:20:28 GMT</pubDate>
-      <guid isPermaLink="false">nullclaw/nullclaw</guid>
-    </item>
-    <item>
-      <title>sipeed/picoclaw</title>
-      <link>https://github.com/sipeed/picoclaw</link>
-      <description>Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity</description>
-      <pubDate>Wed, 18 Feb 2026 13:45:23 GMT</pubDate>
-      <guid isPermaLink="false">sipeed/picoclaw</guid>
-    </item>
-    <item>
-      <title>Zaneham/BarraCUDA</title>
-      <link>https://github.com/Zaneham/BarraCUDA</link>
-      <description>Open-source CUDA compiler targeting AMD GPUs (and more in the future!). Compiles .cu to GFX11 machine code.</description>
-      <pubDate>Wed, 18 Feb 2026 13:45:23 GMT</pubDate>
-      <guid isPermaLink="false">Zaneham/BarraCUDA</guid>
-    </item>
-    <item>
-      <title>millionco/react-doctor</title>
-      <link>https://github.com/millionco/react-doctor</link>
-      <description>Let coding agents diagnose and fix your React code</description>
-      <pubDate>Wed, 18 Feb 2026 03:21:31 GMT</pubDate>
-      <guid isPermaLink="false">millionco/react-doctor</guid>
-    </item>
-    <item>
-      <title>nicobailon/visual-explainer</title>
-      <link>https://github.com/nicobailon/visual-explainer</link>
-      <description>Agent skill + prompt templates that generate rich HTML pages for visual diff reviews, architecture overviews, plan audits, data tables, and project recaps</description>
-      <pubDate>Wed, 18 Feb 2026 03:21:31 GMT</pubDate>
-      <guid isPermaLink="false">nicobailon/visual-explainer</guid>
-    </item>
-    <item>
-      <title>zachlatta/freeflow</title>
-      <link>https://github.com/zachlatta/freeflow</link>
-      <description>Free and open source alternative to Wispr Flow / Superwhisper / Monologue / etc</description>
-      <pubDate>Wed, 18 Feb 2026 03:21:31 GMT</pubDate>
-      <guid isPermaLink="false">zachlatta/freeflow</guid>
-    </item>
-    <item>
-      <title>HKUDS/ClawWork</title>
-      <link>https://github.com/HKUDS/ClawWork</link>
-      <description>&quot;ClawWork: OpenClaw as Your AI Coworker - 💰 $10K earned in 7 Hours&quot;</description>
-      <pubDate>Tue, 17 Feb 2026 03:18:09 GMT</pubDate>
-      <guid isPermaLink="false">HKUDS/ClawWork</guid>
-    </item>
-    <item>
-      <title>QwenLM/Qwen3.5</title>
-      <link>https://github.com/QwenLM/Qwen3.5</link>
-      <description>Qwen3.5 is the large language model series developed by Qwen team, Alibaba Cloud.</description>
-      <pubDate>Tue, 17 Feb 2026 03:18:09 GMT</pubDate>
-      <guid isPermaLink="false">QwenLM/Qwen3.5</guid>
-    </item>
-    <item>
-      <title>fluxerapp/fluxer</title>
-      <link>https://github.com/fluxerapp/fluxer</link>
-      <description>A free and open source instant messaging and VoIP platform built for friends, groups, and communities.</description>
-      <pubDate>Tue, 17 Feb 2026 03:18:09 GMT</pubDate>
-      <guid isPermaLink="false">fluxerapp/fluxer</guid>
-    </item>
-    <item>
-      <title>vercel-labs/portless</title>
-      <link>https://github.com/vercel-labs/portless</link>
-      <description>Replace port numbers with stable, named .localhost URLs. For humans and agents.</description>
-      <pubDate>Mon, 16 Feb 2026 13:43:37 GMT</pubDate>
-      <guid isPermaLink="false">vercel-labs/portless</guid>
-    </item>
-    <item>
-      <title>accomplish-ai/accomplish</title>
-      <link>https://github.com/accomplish-ai/accomplish</link>
-      <description>Accomplish™ (formerly Openwork) is the open source Al coworker that lives on your desktop</description>
-      <pubDate>Mon, 16 Feb 2026 13:43:37 GMT</pubDate>
-      <guid isPermaLink="false">accomplish-ai/accomplish</guid>
-    </item>
-    <item>
-      <title>nearai/ironclaw</title>
-      <link>https://github.com/nearai/ironclaw</link>
-      <description>IronClaw is OpenClaw inspired implementation in Rust focused on privacy and security</description>
-      <pubDate>Mon, 16 Feb 2026 13:43:37 GMT</pubDate>
-      <guid isPermaLink="false">nearai/ironclaw</guid>
-    </item>
-    <item>
-      <title>zeroclaw-labs/zeroclaw</title>
-      <link>https://github.com/zeroclaw-labs/zeroclaw</link>
-      <description>claw done right 🦀</description>
-      <pubDate>Mon, 16 Feb 2026 03:23:32 GMT</pubDate>
-      <guid isPermaLink="false">zeroclaw-labs/zeroclaw</guid>
-    </item>
-    <item>
-      <title>zeroclaw-labs/zeroclaw</title>
-      <link>https://github.com/zeroclaw-labs/zeroclaw</link>
-      <description>claw done right 🦀</description>
-      <pubDate>Mon, 16 Feb 2026 03:23:32 GMT</pubDate>
-      <guid isPermaLink="false">zeroclaw-labs/zeroclaw</guid>
-    </item>
-    <item>
-      <title>hiaaryan/sileo</title>
-      <link>https://github.com/hiaaryan/sileo</link>
-      <description>A physics based toast notification library for react.</description>
-      <pubDate>Mon, 16 Feb 2026 03:23:32 GMT</pubDate>
-      <guid isPermaLink="false">hiaaryan/sileo</guid>
-    </item>
-    <item>
-      <title>bwya77/vscode-dark-islands</title>
-      <link>https://github.com/bwya77/vscode-dark-islands</link>
-      <description>VSCode theme based off the new Jetbrains islands theme</description>
-      <pubDate>Mon, 16 Feb 2026 03:23:32 GMT</pubDate>
-      <guid isPermaLink="false">bwya77/vscode-dark-islands</guid>
-    </item>
-    <item>
-      <title>alichherawalla/off-grid-mobile</title>
-      <link>https://github.com/alichherawalla/off-grid-mobile</link>
-      <description>The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-text, vision, text-to-image</description>
-      <pubDate>Sun, 15 Feb 2026 13:17:18 GMT</pubDate>
-      <guid isPermaLink="false">alichherawalla/off-grid-mobile</guid>
-    </item>
-    <item>
-      <title>alibaba/zvec</title>
-      <link>https://github.com/alibaba/zvec</link>
-      <description>A lightweight, lightning-fast, in-process vector database</description>
-      <pubDate>Sun, 15 Feb 2026 13:17:18 GMT</pubDate>
-      <guid isPermaLink="false">alibaba/zvec</guid>
+      <title>safishamsi/graphify</title>
+      <link>https://github.com/safishamsi/graphify</link>
+      <description>Claude Code skill. Drop code, papers, images, or notes into a folder and get a knowledge graph with community detection, god nodes, and honest audit trail.</description>
+      <pubDate>Mon, 06 Apr 2026 03:45:10 GMT</pubDate>
+      <guid isPermaLink="false">safishamsi/graphify</guid>
     </item>
   </channel>
 </rss>
