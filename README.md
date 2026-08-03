@@ -1,3 +1,8 @@
+> [!CAUTION]
+> As of June 30, 2026, [GitHub restricted] to stars data. My app uses the [ClickHouse GitHub Events Dataset] to figure
+> out trending repos, and it's no longer reporting star events to run the newsletter. I'm working on another approach
+that may or may not work - don't unsubscribe yet.
+
 <div align="center">
 
 # Github trends
@@ -14,8 +19,8 @@ Weekly newsletter featuring *fresh* trending Github projects. The top 20 picks *
 
 ![Email newsletter example](.github/assets/email-newsletter.png)
 
-I wrote about my motive in a [blog post](https://hadid.dev/posts/github-trends/). If you're curious
-about the technical details, the post covers that too.
+I wrote about my motive in a [blog post](https://hadid.dev/posts/github-trends/). If you're curious about the technical
+details, the post covers that too.
 
 ## How to subscribe
 
@@ -91,6 +96,9 @@ Once configured, newsletter emails can be delivered through *Resend* or *Buttond
 enough for personal or team-wide use.
 
 You will need to setup secrets (via env vars, see `.env.example`) to send emails. Those should be configured as
-*Secrets* under the forked repo: 
+*Secrets* under the forked repo:
 
 *Settings* > *Secrets and variables* > *Actions*.
+
+[GitHub restricted]: https://github.blog/changelog/2026-06-30-upcoming-access-restrictions-to-public-api-endpoints-and-ui-views/
+[ClickHouse GitHub Events Dataset]: https://clickhouse.com/demos/explore-github-with-clickhouse-powered-real-time-analytics
